@@ -2,6 +2,8 @@
 
 English · [简体中文](README.zh-CN.md)
 
+[Changelog: 1.2.0 and 1.2.1](CHANGELOG.md)
+
 An interactive, beginner-friendly guide to laptop CPUs and integrated-graphics gaming. Start with the work you want to do, then explore what the hardware contributes.
 
 **[English website](https://cpu-field-guide-sanghai.songngao764.chatgpt.site/?lang=en)** · **[中文在线版](https://cpu-field-guide-sanghai.songngao764.chatgpt.site/?lang=zh)**
@@ -24,6 +26,7 @@ The interface, translations, and interactions work offline. Links to vendor spec
 - Three real thin-and-light laptops introduce the difference between a laptop name and its CPU model.
 - **24 representative CPUs and 30 laptop configuration examples**, with direct manufacturer sources and an example-only filter.
 - Four practical configuration checks replace the former whole-laptop lab and quiz.
+- An interactive Intel, AMD, Apple, and Qualcomm naming guide, with 45 examples, 33 suffix/marker entries, and a shortcut for the current CPU. It separates naming systems and explains their exceptions.
 
 ## Read the numbers correctly
 
@@ -47,6 +50,9 @@ Platform incompatibility and CPUs with no integrated GPU are shown as such. The 
 | `catalogue/estimate-anchors.json` | Additional measurement anchors and estimate reasoning |
 | `catalogue/notebook-examples.json` | Bilingual laptop examples, exact configurations, official sources, and introductory explanations |
 | `scripts/build-notebooks.mjs` | Validates the laptop examples and generates their browser data |
+| `catalogue/naming-rules.json` | Bilingual naming rules, exceptions, representative examples, suffixes, and official sources |
+| `dist/naming.js` | Current-model name breakdown and interactive naming interface |
+| `scripts/build-naming.mjs` | Validates naming content and generates the browser data |
 
 After editing translations, run:
 
@@ -58,10 +64,12 @@ The browser does not require Node.js. The maintenance scripts use Node.js.
 
 After editing laptop examples, run `node scripts/build-notebooks.mjs`.
 
+After editing naming rules, run `node scripts/build-naming.mjs`. Naming validation covers all 261 catalog entries, the 45 examples and their 220 selectable parts, both languages, keyboard navigation, and five viewport widths. Model-name clues are not hardware performance tests.
+
 Validation covers every CPU/task combination, language switching, game/estimate interactions, all 30 laptop examples, introductory links, configuration filtering, and desktop/mobile layouts. Website checks do not validate hardware performance.
 
 ## Android app
 
-[Download Android 1.1.0](https://github.com/Sanghai-L/laptop-performance-map/releases/download/v1.1.0/Laptop-Performance-Map-1.1.0.apk) · [Release and checksums](https://github.com/Sanghai-L/laptop-performance-map/releases/tag/v1.1.0)
+[Download Android 1.2.1](https://github.com/Sanghai-L/laptop-performance-map/releases/download/v1.2.1/Laptop-Performance-Map-1.2.1.apk) · [Release and checksums](https://github.com/Sanghai-L/laptop-performance-map/releases/tag/v1.2.1)
 
 Android 8.0 or later. The Chinese and English guide works offline; source links need a connection. The Android source is in the GitHub repository's `android-app/` directory. Package, signature, and offline webpage checks passed; installation and startup on an Android device or emulator have not been tested.

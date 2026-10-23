@@ -1,9 +1,10 @@
 {
-  "version": "1.1.0",
+  "version": "1.2.1",
+  "version_code": 4,
   "application_id": "app.laptopmap.offline",
-  "apk": "Laptop-Performance-Map-1.1.0.apk",
-  "bytes": 161135,
-  "sha256": "ec9bad2f07db04b65fce23aee30eba9baf68b76205ddbf220bab7a28ff212c51",
+  "apk": "Laptop-Performance-Map-1.2.1.apk",
+  "bytes": 185850,
+  "sha256": "f42589c89f237ecabfec7bc4bb4672d188f6e9e6e47b7d113c53a7e99afde559",
   "minimum_android": "8.0 (API 26)",
   "target_sdk": 36,
   "permissions": [],
@@ -16,11 +17,12 @@
     "All bundled website asset SHA256 hashes match source snapshot"
   ],
   "signature": "Verifies\nVerified using v1 scheme (JAR signing): false\nVerified using v2 scheme (APK Signature Scheme v2): true\nVerified using v3 scheme (APK Signature Scheme v3): true\nVerified using v3.1 scheme (APK Signature Scheme v3.1): false\nVerified using v4 scheme (APK Signature Scheme v4): false\nVerified for SourceStamp: false\nNumber of signers: 1\nSigner #1 certificate DN: CN=Laptop Performance Map, O=Offline Application, C=CN\nSigner #1 certificate SHA-256 digest: 2d3f4760633f3cd55497680f19c91a496f4f1f47341faef89d51c64fb1107ad4\nSigner #1 certificate SHA-1 digest: 1acb9222978cb257416a8ac2385a8b3d42f6996c\nSigner #1 certificate MD5 digest: b1842980bf9673486a2a430c3ec7f7bf\nSigner #1 key algorithm: RSA\nSigner #1 key size (bits): 3072\nSigner #1 public key SHA-256 digest: a3bf9a6d2a99c1adb667e0e7beb9b4e0c1749578d73c10ef68977c618a3e6f05\nSigner #1 public key SHA-1 digest: d367737922bb96e75313cfff103ec9931ee2aefc\nSigner #1 public key MD5 digest: fc4b7501ffd3d2e9d0527b5c7e086cd3\n",
+  "same_signing_certificate_as_1_1_0": true,
   "assets": [
     {
       "path": "app.js",
-      "bytes": 12556,
-      "sha256": "2df2e75a0ea90d3d2576c8e89a43bcb6e148f9e88db610475e74337141c6b410"
+      "bytes": 12776,
+      "sha256": "15705592b5cbb69e779e8b51ada306054b5894f8943e9524cf317658206270dd"
     },
     {
       "path": "benchmarks.js",
@@ -29,13 +31,13 @@
     },
     {
       "path": "catalog.js",
-      "bytes": 265017,
-      "sha256": "784ed5eb74ecd18ae1931d94f95326a2dfe2022a1236450638ab0893eb9b100c"
+      "bytes": 254814,
+      "sha256": "cae527d35deef30ac5a22e160827ddf962cdfbe864524ec2c299b52ff0ad29ea"
     },
     {
       "path": "data.js",
-      "bytes": 15575,
-      "sha256": "5b21ad68180ccc142316ca85a6295ab578f3797890363c9ade5c74b8432a89b3"
+      "bytes": 15254,
+      "sha256": "f15e6e6e7329b1b0611f4b89eb0e70fc63ac22234d99372f53c4575c1403ede5"
     },
     {
       "path": "estimates.js",
@@ -54,73 +56,171 @@
     },
     {
       "path": "igpu.js",
-      "bytes": 17524,
-      "sha256": "9e793e41080e030f94a0e69d9ed9f9b7eb639b97bd9b8dfbd791bc76d13ea630"
+      "bytes": 17477,
+      "sha256": "4eb9b838a104ae9195347c6d9628141212b16e7fb758874c332e4d13e6e9ea28"
     },
     {
       "path": "index.html",
-      "bytes": 12434,
-      "sha256": "d47346a578c560f40c1075b27dc07e4c7bfc3ef01b29e7a9128b1e72f2cd3ed2"
+      "bytes": 15102,
+      "sha256": "5635814cc5b5f5fd0e52ea59ba530580a4377579db55146bf153b8b7af9f9eca"
     },
     {
       "path": "locales/en.js",
-      "bytes": 143594,
-      "sha256": "c9bee3d5e335c2088d38ff7a543409a6d1d25623cfe52bb342aedfc244167833"
+      "bytes": 159924,
+      "sha256": "c4954a402c85e7515529076e4ff946de5076c2fd8a103069690fecd1d6d254cc"
+    },
+    {
+      "path": "naming-data.js",
+      "bytes": 32559,
+      "sha256": "6c7960ab71e04bbb0e9b34759db84f662ef48e46c38d16f21f0f0d8838a743b5"
+    },
+    {
+      "path": "naming.js",
+      "bytes": 23300,
+      "sha256": "06d857ae9790e557684c9e4b2aefc58a1d5f823deddedef27ae815e27976852c"
     },
     {
       "path": "notebooks-data.js",
-      "bytes": 19809,
-      "sha256": "7457d24eff3393e3508fb78ca9899605242d8323e04cea99505669effcd75a7e"
+      "bytes": 19058,
+      "sha256": "56cec3178ebf2fdc2af110757dde3076ebba378d9338f6c444d93badb38a4ef8"
     },
     {
       "path": "notebooks.js",
-      "bytes": 4359,
-      "sha256": "ad765daadeb76437227f1c9edbb382735527b26165588bcec1c6663f214d3bb7"
+      "bytes": 4368,
+      "sha256": "a01afc20206f437c0b4f41697cfaa9d178f2caac34c52696498e4b7dddfe539b"
     },
     {
       "path": "styles.css",
-      "bytes": 48543,
-      "sha256": "cfc602e89649ab287274a4966dc696a7fe3ac8723729e966ca9eb07b1235993c"
+      "bytes": 58341,
+      "sha256": "7b569293be4e35556f1f81d5fa67b3fb71326943f309ceb725c549f6740f2af3"
     },
     {
       "path": "tasks.js",
-      "bytes": 22884,
-      "sha256": "d8d3582bafd05e9c30dec21a82ada0e436bceeb008c7fab45b61b2d495bd450d"
+      "bytes": 22089,
+      "sha256": "0ef164e4965cf07780aa9b9ba23a75696ce524d2306f7d90c0e85a63145983e4"
     }
   ],
   "browser_reports": [
     {
-      "language": "zh",
+      "scope": "CPU naming and responsive layout",
+      "status": "passed",
+      "checked_at": "2026-10-23T15:36:06.117Z",
       "checks": [
-        "Default page initializes without external dependencies",
-        "783 CPU/task combinations rendered with matching labels and selection states",
-        "Chinese brand search, empty result, and cross-category selection",
-        "Brand and family filters, reset, integrated-GPU name search",
-        "20 iGPU boundary cases; verified B390 65–85/49–68, Wukong37, Valorant149/P1 111.6, Genshin scale0.6; 610M aggregate distinguished",
-        "Four contrasting CPU workload explanations, 256V 16GB vs 258V 32GB, and eight real notebook source records",
-        "2920 valid estimate/settings combinations across 52 GPU profiles; no missing compatible game; 212 genuine platform/no-iGPU boundaries",
-        "388 measured120.1 preferred, estimated90–150 labelled, quality changes, measured return, old gaps filled, indie title selection and recoverable Mac gate",
-        "Three distinct introductory laptops open the correct CPU; 24 CPUs show 30 matching official notebook configurations; example filtering/reset and stale-content clearing passed; four configuration checks replace lab/quiz",
-        "Keyboard arrow navigation for category tabs",
-        "Model/category/task link restores selection",
-        "Invalid query values fall back safely",
-        "No horizontal page overflow at 1440, 1024, 768, 375 and 320 pixels"
+        "261 current CPUs recognized and rendered in each language; 45 examples and every token tested; key naming exceptions, official links, current-CPU integration, keyboard access, and five widths passed"
       ],
-      "status": "passed"
+      "languages": [
+        {
+          "language": "zh",
+          "models": 261,
+          "examples": 45,
+          "tokens": 220,
+          "untranslated": []
+        },
+        {
+          "language": "en",
+          "models": 261,
+          "examples": 45,
+          "tokens": 220,
+          "untranslated": []
+        }
+      ],
+      "viewports": [
+        {
+          "language": "zh",
+          "width": 1440,
+          "rule": 14,
+          "table": 14
+        },
+        {
+          "language": "zh",
+          "width": 1024,
+          "rule": 14,
+          "table": 14
+        },
+        {
+          "language": "zh",
+          "width": 768,
+          "rule": 14,
+          "table": 14
+        },
+        {
+          "language": "zh",
+          "width": 375,
+          "rule": 14,
+          "table": 14
+        },
+        {
+          "language": "zh",
+          "width": 320,
+          "rule": 14,
+          "table": 14
+        },
+        {
+          "language": "en",
+          "width": 1440,
+          "rule": 14,
+          "table": 14
+        },
+        {
+          "language": "en",
+          "width": 1024,
+          "rule": 14,
+          "table": 14
+        },
+        {
+          "language": "en",
+          "width": 768,
+          "rule": 14,
+          "table": 14
+        },
+        {
+          "language": "en",
+          "width": 375,
+          "rule": 14,
+          "table": 14
+        },
+        {
+          "language": "en",
+          "width": 320,
+          "rule": 14,
+          "table": 14
+        }
+      ]
     },
     {
-      "language": "en",
+      "scope": "English guide and workload interactions",
+      "status": "passed",
+      "checked_at": "2026-10-23T15:36:07.651Z",
       "checks": [
         "783 English CPU/task combinations and all GPU families/games/estimate explanations rendered",
         "Three English introductory examples, 30 English notebook configurations, and four practical configuration checks",
         "Language buttons preserve CPU and task in the URL"
       ],
-      "status": "passed"
+      "viewports": [
+        {
+          "width": 1440,
+          "scrollWidth": 1425
+        },
+        {
+          "width": 1024,
+          "scrollWidth": 1009
+        },
+        {
+          "width": 768,
+          "scrollWidth": 753
+        },
+        {
+          "width": 375,
+          "scrollWidth": 375
+        },
+        {
+          "width": 320,
+          "scrollWidth": 320
+        }
+      ],
+      "untranslatedCount": 0
     }
   ],
-  "introductory_laptops": 3,
-  "cpu_examples": 24,
-  "notebook_configurations": 30,
   "android_runtime_verified": false,
-  "runtime_note": "No physical Android device or emulator was used; browser content QA is recorded separately."
+  "runtime_note": "No Android device or emulator was used. Installation, startup, and upgrade behavior remain untested."
 }

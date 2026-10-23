@@ -45,13 +45,13 @@
     if(lo<30)return '有样本平均不足 30 FPS，不能按稳定 30 帧来期待。';
     if(hi<60)return '处于可游玩的帧率区间；若目标为稳定 60 FPS，需要降低设置，并检查低帧。';
     if(lo<60)return '样本跨过 60 FPS 门槛，整机设置会影响能否保持 60 帧。';
-    if(lo>=120)return '有高帧率参考价值；平均帧高于 120，不保证团战低帧或全程 144 帧。';
-    return '具备 60 FPS 级别的平均表现参考；平均值不能保证战斗中每一帧都高于 60。';
+    if(lo>=120)return '平均超过 120 FPS；团战可能掉帧，也不代表全程达到 144 FPS。';
+    return '平均达到 60 FPS 级别；战斗等复杂场景仍可能掉帧。';
   }
   function sampleDetails(g){return `<details class="benchmark-evidence"><summary>查看 ${g.samples.length} 条样本与测试条件 <span>＋</span></summary>${g.samples.map(r=>`<div class="benchmark-sample"><strong>${esc(r.machine||'Notebookcheck 测评数据库聚合')}</strong><p>${esc(r.cpu||'未提取具体 CPU')} · ${r.observedRange?`观察约 ${r.observedRange.map(number).join('–')} FPS`:`平均 ${number(r.fpsavg)} FPS`}${r.fpslow?` · ${esc(r.fpslow.type)} ${number(r.fpslow.value)} FPS`:''}</p><dl><div><dt>内存</dt><dd>${esc(r.memory||'此条记录未提取，不能视为统一配置')}</dd></div><div><dt>功耗</dt><dd>${esc(r.power||'未提取独立功耗条件')}</dd></div><div><dt>渲染</dt><dd>${esc(r.upscaling||'未公开')} · 插帧：${esc(r.frameGeneration||'未公开')}</dd></div><div><dt>版本 / 驱动</dt><dd>${esc(r.gameVersion||'未提取补丁')} / ${esc(r.driver||'未提取驱动')}</dd></div></dl>${r.notes?.length?`<p class="sample-note">${esc(r.notes.join(' '))}</p>`:''}<a href="${esc(r.sourceURL)}" target="_blank" rel="noopener noreferrer">原始测试 ↗</a></div>`).join('')}</details>`;}
   function unavailable(m){
     if(m.graphics==='none')return ['需要独立显卡','这颗处理器本身没有核显。','不能组成“仅靠这颗 CPU 的集显”运行游戏的配置。请查看整机另配显卡的型号、显存和功耗。'];
-    if(state.game==='valorant'&&m.arm)return ['官方不支持 Arm','这款游戏先卡在运行平台。','Riot 的 PC 要求明确不支持 Arm。Apple 芯片与骁龙均为 Arm，不能用 GPU 强弱绕过反作弊与平台要求。'];
+    if(state.game==='valorant'&&m.arm)return ['官方不支持 Arm','需要先确认平台支持。','Riot 的 PC 要求明确不支持 Arm。Apple 芯片与骁龙均为 Arm，不能用 GPU 强弱绕过反作弊与平台要求。'];
     if(state.game==='genshin'&&m.arm==='mac')return ['官方 PC 要求未列 macOS','不能把 Windows 核显成绩套给 Mac。','官方列出的 PC 本地客户端平台是 Windows。转译、移动版与云游戏不属于相同测试，本站不把它们合并成核显 FPS。'];
     if(state.game==='aaa'&&state.aaa==='wukong'&&m.arm==='mac')return ['官方未列 macOS 本地版本','先确认运行方案，不能凭 GPU 性能承诺启动。','Steam 当前列出 Windows 平台。转译的兼容性和性能差异很大，因此这里保留平台提示；可切换查看有原生 Mac 版的赛博朋克 2077。'];
     if(state.game==='aaa'&&state.aaa==='cyberpunk'&&/A18/.test(m.name))return ['未达到官方 Mac 配置要求','官方 Mac 版要求 M1 或更新 M 系列与至少 16 GB 内存。','A18 Pro 不在这份官方最低配置范围内；不把其他 M 系列的成绩套给它。'];

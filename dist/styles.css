@@ -76,6 +76,53 @@
 
 .language-switch{display:flex;gap:3px;border:1px solid #d0dac8;border-radius:30px;padding:3px;flex-shrink:0;background:#f6f8f1}
 
+/* A full name is read within its vendor's naming system. */
+.site-header nav{gap:24px}
+.profile-naming-link{font-size:11px;text-decoration:underline;text-underline-offset:4px;margin:-4px 0 8px;padding:0;color:var(--green);text-align:left}
+.naming-section{padding-top:46px;padding-bottom:45px}
+.naming-section .section-heading{margin-bottom:18px}
+.naming-intro{font-size:12px;color:#718066;line-height:1.9;margin-bottom:21px}
+.naming-intro strong{font-weight:600;color:#4a653a;margin-right:9px}
+.naming-shell{background:#fff;border:1px solid var(--line);border-radius:19px;overflow:hidden}
+.naming-brands{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));border-bottom:1px solid var(--line);background:#f0f3eb;padding:6px;gap:6px}
+.naming-brands button{padding:12px 9px;border:1px solid transparent;border-radius:9px;background:transparent;font-size:14px;font-weight:600;color:#7b8771}
+.naming-brands button.selected{background:white;border-color:#c8d7b8;color:#294d31;box-shadow:0 2px 5px #26412505}
+.naming-panel{padding:25px 29px 21px}
+.naming-toolbar{display:flex;gap:24px;justify-content:space-between;align-items:flex-end;margin-bottom:24px}
+.naming-toolbar>label{display:flex;flex-direction:column;gap:7px;font-size:10px;color:#7a866f;min-width:0;max-width:58%;flex:1}
+.naming-toolbar select{border:1px solid #d7e0ce;border-radius:7px;background:#f9fbf5;padding:9px 31px 9px 12px;font-size:12px;width:100%;color:#49613b;text-overflow:ellipsis}
+.naming-toolbar>button{font-size:10px;text-align:right;max-width:40%;overflow-wrap:anywhere;line-height:1.8}
+.naming-example-heading{display:flex;align-items:baseline;gap:13px;flex-wrap:wrap}
+.naming-example-heading>p{font-size:10px;line-height:1.7;color:#7a886d;flex-basis:100%}
+.naming-example-heading h3{font-size:22px;font-weight:600;letter-spacing:-.4px;overflow-wrap:anywhere}
+.naming-example-heading>span{font-size:10px;color:#7e8c70;margin-left:auto}
+.naming-tokens{display:flex;gap:9px;flex-wrap:wrap;margin:18px 0 13px;align-items:stretch}
+.naming-token{display:flex;flex-direction:column;align-items:flex-start;justify-content:center;gap:8px;background:#f4f6f0;border:1px solid #e0e6d7;border-radius:10px;padding:13px 17px;min-width:83px;max-width:100%;text-align:left}
+.naming-token strong{font-size:25px;font-weight:600;line-height:1.3;letter-spacing:-.4px;overflow-wrap:anywhere}
+.naming-token small{font-size:9px;color:#7b886e;line-height:1.6}
+.naming-token:nth-child(3n+2){background:#f2eef8;border-color:#e4dfee}.naming-token:nth-child(3n){background:#f7f1e5;border-color:#e9dfcb}
+.naming-token.selected{box-shadow:inset 0 0 0 1px #70914d;border-color:#70914d;background:#e9f1dc;color:#3b5c2c}
+.naming-part-detail{background:#edf3e4;border:1px solid #dce7cf;border-radius:11px;padding:20px 22px;display:grid;grid-template-columns:minmax(55px,max-content) minmax(0,1fr);gap:22px;align-items:start;min-height:118px}
+.naming-detail-token{font-size:24px;font-weight:600;color:#52743d;line-height:1.35;max-width:240px;overflow-wrap:anywhere}
+.naming-part-detail h4{font-size:12px;font-weight:600;color:#455f36;margin:0 0 7px}
+.naming-part-detail p{font-size:12px;color:#66775a;line-height:1.95}
+.naming-specs{display:flex;gap:20px;align-items:center;justify-content:space-between;padding:15px 3px 19px;line-height:1.85}
+.naming-specs b{font-size:10px;color:#7f8b74;font-weight:400}.naming-specs p{font-size:11px;color:#5c7050;margin-top:3px}.naming-specs a{font-size:10px;white-space:nowrap;color:var(--green);text-decoration:underline;text-underline-offset:3px}
+.naming-reference{border-top:1px solid #e5ebdc}
+.naming-reference>summary{cursor:pointer;list-style:none;display:flex;gap:20px;justify-content:space-between;padding:15px 3px;font-size:12px;font-weight:600;color:#5b6c4f}
+.naming-reference>summary::-webkit-details-marker{display:none}.naming-reference>summary>span:last-child{font-size:17px;color:#879579;line-height:1.2}.naming-reference[open]>summary>span:last-child{transform:rotate(45deg)}
+.naming-reference>p{font-size:11px;color:#7b8870;line-height:1.95;margin:0 3px 15px}
+.naming-rules{display:grid;grid-template-columns:1fr 1fr;gap:22px 30px;padding:3px 3px 24px}
+.naming-rules h4{font-size:12px;font-weight:600;margin:0 0 8px;color:#526745;line-height:1.65}.naming-rules p{font-size:11px;color:#7a856f;line-height:1.95}
+.naming-table{width:100%;border-collapse:collapse;table-layout:fixed;margin-bottom:22px;font-size:11px;text-align:left;line-height:1.9}
+.naming-table th,.naming-table td{padding:12px 13px;vertical-align:top;border-bottom:1px solid #e6ebdf;overflow-wrap:anywhere}
+.naming-table thead th{font-size:10px;font-weight:500;color:#7b886f;background:#f3f6ed}.naming-table th:first-child{width:16%}.naming-table th:nth-child(2){width:38%}.naming-table tbody th{font-size:12px;font-weight:600;color:#536b42}.naming-table td{color:#7c8671}.naming-table td b{font-weight:500;color:#5b7050}.naming-table td small{display:block;color:#8a947f;font-size:10px;margin-top:5px}
+.naming-sources{display:grid;grid-template-columns:1fr 1fr;gap:9px 24px;margin:1px 3px 17px;font-size:10px;color:#6b7f5c;line-height:1.8}
+.naming-sources a{text-decoration:underline;text-underline-offset:3px;overflow-wrap:anywhere}
+@media(max-width:1200px){.site-header nav{gap:18px;font-size:11px}}
+@media(max-width:760px){.naming-panel{padding:22px}.naming-rules{gap:20px}.naming-example-heading h3{font-size:20px}.naming-detail-token{max-width:160px}}
+@media(max-width:600px){.naming-section{padding-top:27px;padding-bottom:22px}.naming-intro{font-size:11px}.naming-intro strong{display:block}.naming-panel{padding:17px 15px}.naming-brands{padding:5px;gap:3px}.naming-brands button{padding:10px 4px;font-size:11px}.naming-toolbar{display:block;margin-bottom:19px}.naming-toolbar>label{max-width:100%;font-size:10px}.naming-toolbar select{font-size:11px;padding:9px 26px 9px 9px}.naming-toolbar>button{max-width:100%;text-align:left;margin-top:12px;font-size:10px}.naming-example-heading h3{font-size:19px}.naming-example-heading>span{margin-left:0;flex-basis:100%;font-size:9px}.naming-example-heading{gap:7px}.naming-tokens{gap:7px;margin:14px 0 12px}.naming-token{padding:10px 12px;min-width:70px;gap:5px}.naming-token strong{font-size:22px}.naming-token small{font-size:8px}.naming-part-detail{grid-template-columns:1fr;gap:10px;padding:17px 16px;min-height:0}.naming-detail-token{font-size:22px;max-width:100%}.naming-part-detail h4{font-size:12px}.naming-part-detail p{font-size:11px}.naming-specs{align-items:flex-start;gap:12px;padding:13px 0 17px}.naming-specs a{font-size:9px}.naming-specs p{font-size:10px}.naming-specs b{font-size:9px}.naming-reference>summary{font-size:11px;gap:12px}.naming-rules{grid-template-columns:1fr;gap:18px}.naming-rules h4{font-size:12px}.naming-rules p{font-size:11px}.naming-table,.naming-table tbody,.naming-table tr,.naming-table th,.naming-table td{display:block;width:100%}.naming-table thead{display:none}.naming-table tr{border:1px solid #e1e8d7;border-radius:9px;margin-bottom:10px;overflow:hidden}.naming-table tbody th{width:100%;background:#f2f6e9;padding:9px 12px;border:0}.naming-table td{font-size:11px;border:0;padding:10px 12px}.naming-table td:before{content:attr(data-label);display:block;font-size:9px;color:#91a080;margin-bottom:4px}.naming-table td+td{padding-top:0}.naming-sources{grid-template-columns:1fr;gap:8px}.profile-naming-link{font-size:10px}}
+
 /* Real laptops introduce the distinction between a notebook and its CPU. */
 .starter{padding-top:46px;padding-bottom:32px}
 .starter-heading{display:flex;justify-content:space-between;align-items:flex-end;gap:32px;margin-bottom:27px}
@@ -141,3 +188,44 @@ html[lang=en] .specs dd,html[lang=en] .task-facts dd{overflow-wrap:anywhere}
 html[lang=en] .game-card strong{line-height:1.5}
 @media(max-width:1100px){.site-header nav{display:none}.site-header .header-cta{margin-left:auto}}
 @media(max-width:600px){.language-switch{margin-left:auto;padding:2px}.language-switch button{padding:5px 8px;font-size:10px}html[lang=en] .brand{font-size:clamp(13px,3.8vw,16px);gap:5px;min-width:0}html[lang=en] .brand small{font-size:5px;letter-spacing:.2px}html[lang=en] .category strong{font-size:12px}html[lang=en] .category small{font-size:8px}html[lang=en] .hero-note{gap:5px;font-size:7px;flex-wrap:wrap}html[lang=en] .profile-title h3{font-size:22px}html[lang=en] .igpu-heading h4{font-size:16px}html[lang=en] .fps-number{font-size:40px}html[lang=en] .benchmark-game-label select{font-size:11px}html[lang=en] .estimate-topline{flex-wrap:wrap}html[lang=en] .estimate-topline>span{flex:1 1 130px}html[lang=en] .task-extra{overflow-wrap:anywhere}html[lang=en] .specs>div:last-child{grid-template-columns:1fr}html[lang=en] .task-heading{align-items:flex-start}html[lang=en] .task-heading h4{max-width:200px}}
+
+/* Naming references remain visible and readable at every screen size. */
+.naming-panel{padding:28px 32px}
+.naming-intro{font-size:14px;color:#596b4d}
+.naming-part-detail h4{font-size:14px}
+.naming-part-detail p{font-size:14px;line-height:1.85;color:#506346}
+.naming-guide{margin:22px 0 0;border:1px solid #dce4d3;border-radius:12px;padding:0 24px;background:#fcfdf9}
+.naming-guide>summary{padding:22px 0;font-size:18px;color:#344b2e;align-items:center}
+.naming-guide>summary>span:last-child{font-size:23px}
+.naming-guide>p{margin:0 0 23px;font-size:14px;color:#596b4e;line-height:1.85}
+.naming-rules{gap:26px 36px;padding:0 0 28px}
+.naming-rules article{border-left:3px solid #d6e1c7;padding-left:16px;min-width:0}
+.naming-rules h4{font-size:16px;line-height:1.6;margin-bottom:10px;color:#3d5632}
+.naming-rules p{font-size:14px;line-height:1.9;color:#526347}
+.naming-table{font-size:14px;line-height:1.85;margin-bottom:24px}
+.naming-table th,.naming-table td{padding:17px 18px}
+.naming-table thead th{font-size:12px;color:#596c4c}
+.naming-table th:first-child{width:15%}
+.naming-table th:nth-child(2){width:40%}
+.naming-table tbody th{font-size:17px;color:#3e5b30}
+.naming-table td{color:#536449}
+.naming-table td b{font-weight:600;color:#3f5734}
+.naming-table td small{font-size:12px;color:#6a795f;margin-top:6px}
+.naming-source-details{margin-top:24px}
+@media(max-width:760px){.naming-panel{padding:22px}.naming-guide{padding:0 20px}.naming-rules{grid-template-columns:1fr;gap:23px}}
+@media(max-width:600px){
+  .naming-panel{padding:18px 12px}.naming-intro{font-size:13px}
+  .naming-part-detail p{font-size:13px}.naming-part-detail h4{font-size:14px}
+  .naming-guide{padding:0 14px;margin-top:18px}
+  .naming-guide>summary{padding:19px 0;font-size:16px;gap:12px}
+  .naming-guide>p{font-size:13px;margin-bottom:21px}
+  .naming-rules{padding-bottom:23px;gap:24px}
+  .naming-rules article{padding-left:12px}
+  .naming-rules h4{font-size:15px}.naming-rules p{font-size:14px;line-height:1.85}
+  .naming-table{margin-bottom:18px}
+  .naming-table tr{margin-bottom:14px}
+  .naming-table tbody th:first-child{font-size:18px;padding:12px 14px;width:100%}
+  .naming-table td{font-size:14px;padding:12px 14px}
+  .naming-table td small{font-size:12px}
+  .naming-table td:before{font-size:11px;color:#657653;margin-bottom:6px}
+}

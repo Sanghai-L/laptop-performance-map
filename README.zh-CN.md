@@ -2,6 +2,8 @@
 
 [English](README.md) · 简体中文
 
+[更新说明：1.2.0 与 1.2.1](CHANGELOG.zh-CN.md)
+
 面向没有笔记本参数基础的读者，用交互说明 CPU 能完成什么工作，以及只用集成显卡时的游戏体验。
 
 - [中文在线版](https://cpu-field-guide-sanghai.songngao764.chatgpt.site/?lang=zh)
@@ -23,6 +25,7 @@
 - 开头用三台真实轻薄本，区分整机型号与 CPU 型号，并连接到对应的用途与集显讲解。
 - 24 个代表 CPU、30 条整机配置示例，附官方来源；可筛选只看附有机型示例的 CPU。
 - 原整机实验室与测验改为四条实用配置核对步骤。
+- Intel、AMD、Apple、高通四品牌的交互命名说明：45 个示例、33 项后缀或标记，并可直接拆解当前 CPU，明确不同体系的适用范围与例外。
 
 ## 数字的含义
 
@@ -42,15 +45,20 @@
 - `catalogue/estimate-ranges.json` / `estimate-anchors.json`：估算参考区间和校准依据。
 - `catalogue/notebook-examples.json`：中英文整机示例、确切配置、官方来源与开场讲解。
 - `scripts/build-notebooks.mjs`：校验整机示例并生成浏览器数据。
+- `catalogue/naming-rules.json`：中英文命名规则、例外、示例、后缀表与官方来源。
+- `dist/naming.js`：当前型号拆解与交互界面。
+- `scripts/build-naming.mjs`：校验命名资料并生成浏览器数据。
 
 修改翻译后，运行 `node scripts/build-locales.mjs`。无需构建即可打开网页。
 
 修改整机示例后，运行 `node scripts/build-notebooks.mjs`。
 
+修改命名规则后，运行 `node scripts/build-naming.mjs`。命名检查覆盖 261 个目录型号、45 个示例中的 220 个可点击片段、中英文、键盘操作及五种屏幕宽度。名字提供定位线索，不能代替硬件性能测试。
+
 验证涵盖所有 CPU / 任务组合、中英切换、游戏和估算、30 条整机配置、引入机型跳转与筛选，以及桌面与手机布局。网页验证不等于硬件性能测试。
 
 ## Android 离线版
 
-[下载 Android 1.1.0](https://github.com/Sanghai-L/laptop-performance-map/releases/download/v1.1.0/Laptop-Performance-Map-1.1.0.apk) · [版本与校验文件](https://github.com/Sanghai-L/laptop-performance-map/releases/tag/v1.1.0)
+[下载 Android 1.2.1](https://github.com/Sanghai-L/laptop-performance-map/releases/download/v1.2.1/Laptop-Performance-Map-1.2.1.apk) · [版本与校验文件](https://github.com/Sanghai-L/laptop-performance-map/releases/tag/v1.2.1)
 
 支持 Android 8.0 及以上，中英文指南可离线查看，来源链接需要联网。Android 源码位于 GitHub 仓库的 `android-app/` 目录。包格式、签名和离线网页检查已通过，尚未进行 Android 真机或模拟器安装与启动验证。

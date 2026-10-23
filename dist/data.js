@@ -3,9 +3,9 @@
 window.CPU_GUIDE = {
   checked: '2026-10-22',
   categories: {
-    thin: { title: '轻薄本', description: '把重量、便携与移动使用放在前面。日常办公并不需要最高档 CPU；想做创作，也要留意长时间负载时的散热和内存。', focus: '看能效，也看软件适配', defaultModel: '258v' },
-    versatile: { title: '全能本', description: '“全能本”没有统一硬件标准。它通常在便携与性能之间取舍，可有集显或独显；适合用具体的创作、编程任务理解能力。', focus: '看持续计算与图形搭配', defaultModel: '255h' },
-    gaming: { title: '游戏本', description: '一般用更大的散热和独立显卡承接游戏、渲染等重负载。CPU 负责逻辑与调度；大型游戏的画质和帧率还要重点看 GPU。', focus: 'CPU、独显与散热一起看', defaultModel: '275hx' }
+    thin: { title: '轻薄本', description: '侧重便携和续航，适合办公、学习和移动使用。长时间编译、剪辑时，还要看散热和内存。', focus: '看能效，也看软件适配', defaultModel: '258v' },
+    versatile: { title: '全能本', description: '兼顾便携和性能，可用于编程、剪辑等任务。“全能本”没有统一标准，需核对是否配有独显。', focus: '看持续计算与图形搭配', defaultModel: '255h' },
+    gaming: { title: '游戏本', description: '通常配有独显和较强散热，适合游戏、渲染等高负载。游戏帧率和画质需结合显卡判断。', focus: 'CPU、独显与散热一起看', defaultModel: '275hx' }
   },
   tasks: [
     { id: 'office', label: '办公网课', icon: '▤' },
@@ -19,7 +19,7 @@ window.CPU_GUIDE = {
   models: [
     {
       id: '258v', brand: 'Intel', family: 'Core Ultra 200V', name: 'Core Ultra 7 258V', short: 'Ultra 7 258V', categories: ['thin'], platform: 'x86 / Windows',
-      role: '移动办公与轻创作', summary: '偏重移动能效的一类处理器。可以写文档、做演示、编程、修照片，也能借助集成显卡处理轻量图形任务；长时间全核重活要看整机散热。',
+      role: '移动办公与轻创作', summary: '侧重便携与续航，可用于办公、编程、修图和轻量剪辑。Arc 140V 可运行部分游戏，大型编译和持续渲染较耗时。',
       cores: '8 核 / 8 线程', coreNote: '4 性能核 + 4 低功耗能效核', gpu: 'Intel Arc 140V', power: '17 W 基础功耗', powerNote: '最大睿频功耗 37 W', npu: '47 TOPS', level: 'mobile', graphics: 'capable',
       examples: '写论文、浏览网页与开会；学习编程；修照片和短视频剪辑。任务变复杂后，内存和软件加速很关键。',
       limits: '8 核不表示只能做轻任务，也不能保证长时间渲染的速度。官方列出的最大内存为 32 GB，仍需核对整机内存配置。',
@@ -27,7 +27,7 @@ window.CPU_GUIDE = {
     },
     {
       id: '358h', brand: 'Intel', family: 'Core Ultra Series 3', name: 'Core Ultra X7 358H', short: 'Ultra X7 358H', categories: ['thin', 'versatile'], platform: 'x86 / Windows',
-      role: '创作与集显图形任务', summary: '把多核 CPU 与 Arc B390 集成显卡放在同一平台。可以承担开发、剪辑和一些游戏；图形能力来自 GPU 部分，不能只看“X7”三个字符。',
+      role: '创作与集显图形任务', summary: '多核 CPU 搭配 Arc B390 集显，可用于开发、剪辑和集显游戏。长时间高负载表现取决于整机散热和功耗。',
       cores: '16 核 / 16 线程', coreNote: '4 性能核 + 8 能效核 + 4 低功耗能效核', gpu: 'Intel Arc B390', power: '25 W 基础功耗', powerNote: '最大睿频功耗 80 W', npu: '50 TOPS', level: 'balanced', graphics: 'capable',
       examples: '同时运行开发工具与浏览器；修图、剪辑；在合适设置下运行部分 3D 游戏。',
       limits: '16 个核心并非同一种核心。薄机身和更大机身的持续表现会不同；集显仍共享系统内存与整机功耗。',
@@ -35,7 +35,7 @@ window.CPU_GUIDE = {
     },
     {
       id: '225h', brand: 'Intel', family: 'Core Ultra 200H', name: 'Core Ultra 5 225H', short: 'Ultra 5 225H', categories: ['thin', 'versatile'], platform: 'x86 / Windows',
-      role: '日常工作与多线程任务', summary: '“Ultra 5”不等于只能办公。它有多种核心协同工作，可以做开发、修图、视频剪辑；持续重任务仍受散热和功耗设置影响。',
+      role: '日常工作与多线程任务', summary: '可用于编程、修图和视频剪辑。14 核包含不同核型，长时间多核任务的表现还取决于散热和功耗设置。',
       cores: '14 核 / 14 线程', coreNote: '4 性能核 + 8 能效核 + 2 低功耗能效核', gpu: 'Intel Arc 130T', power: '28 W 基础功耗', powerNote: '最大睿频功耗 115 W', npu: '13 TOPS', level: 'balanced', graphics: 'capable',
       examples: '写代码和编译课程项目；照片处理；视频剪切、字幕与常见转码。',
       limits: '不能把最大睿频功耗当作电脑持续能给的功耗。Arc 品牌有内存配置条件，集显表现也受内存带宽影响。',
@@ -43,7 +43,7 @@ window.CPU_GUIDE = {
     },
     {
       id: '255h', brand: 'Intel', family: 'Core Ultra 200H', name: 'Core Ultra 7 255H', short: 'Ultra 7 255H', categories: ['versatile', 'gaming'], platform: 'x86 / Windows',
-      role: '开发、创作与多任务', summary: '适合用来理解 H 系列的工作方式：CPU 可以承担编译、创作和游戏逻辑，集显负责基础图形，搭配独显的整机还能承接更重的图形任务。',
+      role: '开发、创作与多任务', summary: '可用于编译、剪辑和多任务。Arc 140T 提供集成图形，配有独显的机型还能处理更重的图形任务。',
       cores: '16 核 / 16 线程', coreNote: '6 性能核 + 8 能效核 + 2 低功耗能效核', gpu: 'Intel Arc 140T', power: '28 W 基础功耗', powerNote: '持续功耗由整机决定', npu: '13 TOPS', level: 'balanced', graphics: 'capable',
       examples: '项目开发与并行编译；图像处理与视频导出；配合合适显卡处理游戏和三维工作。',
       limits: '255H、255HX、258V 是不同型号。视频导出不只靠 CPU；核显、独显和媒体引擎是否被软件调用也很关键。',
@@ -52,7 +52,7 @@ window.CPU_GUIDE = {
     },
     {
       id: '275hx', brand: 'Intel', family: 'Core Ultra 200HX', name: 'Core Ultra 9 275HX', short: 'Ultra 9 275HX', categories: ['gaming'], platform: 'x86 / Windows',
-      role: '持续重计算与游戏协作', summary: '面向能提供较高供电与散热能力的整机。可以承接大型编译、CPU 渲染和游戏逻辑；附带集显并不是大型游戏高画质的主要算力来源。',
+      role: '持续重计算与游戏协作', summary: '适合大型编译和 CPU 渲染，需要较强供电与散热。游戏画质和帧率主要看整机搭载的独显。',
       cores: '24 核 / 24 线程', coreNote: '8 性能核 + 16 能效核', gpu: 'Intel Graphics', power: '55 W 基础功耗', powerNote: '最大睿频功耗 160 W', npu: '13 TOPS', level: 'heavy', graphics: 'basic',
       examples: '可并行的大项目编译、CPU 渲染、密集计算；与独显协作运行游戏和创作软件。',
       limits: '核心很多不代表每个应用都会更快。高画质游戏仍要看独显与显存；脱离电源或切换安静模式时表现会改变。',
@@ -60,7 +60,7 @@ window.CPU_GUIDE = {
     },
     {
       id: '450', brand: 'AMD', family: 'Ryzen AI 400', name: 'Ryzen AI 7 450', short: 'Ryzen AI 7 450', categories: ['thin', 'versatile'], platform: 'x86 / Windows',
-      role: '日常多任务与轻创作', summary: '8 核 16 线程的 CPU 可以处理办公、开发和创作，Radeon 860M 处理图形，NPU 处理已适配的 AI 功能。名称里的 AI 不会让所有软件自动变快。',
+      role: '日常多任务与轻创作', summary: '8 核 16 线程，可用于办公、开发和剪辑。Radeon 860M 处理图形，NPU 加速需要应用支持。',
       cores: '8 核 / 16 线程', coreNote: '4 个 Zen 5 + 4 个 Zen 5c 核心', gpu: 'Radeon 860M', power: '15–54 W cTDP', powerNote: '默认 TDP 28 W', npu: '50 TOPS', level: 'balanced', graphics: 'capable',
       examples: '多窗口办公、编程学习与开发；照片处理和短视频；支持该 NPU 的本地 AI 效果。',
       limits: '同样的型号可以用不同功耗运行。AI 7 450 与桌面型号 450G 不是同一个产品，查看资料时要认准笔记本完整型号。',
@@ -68,7 +68,7 @@ window.CPU_GUIDE = {
     },
     {
       id: '370', brand: 'AMD', family: 'Ryzen AI 300', name: 'Ryzen AI 9 HX 370', short: 'Ryzen AI 9 HX 370', categories: ['thin', 'versatile', 'gaming'], platform: 'x86 / Windows',
-      role: '多核创作与集显图形任务', summary: '12 核 CPU、Radeon 890M 集显和独立 NPU 共同工作。可以处理开发、剪辑与多任务；名称中的 HX 不能直接套用传统高功耗 HX 的理解。',
+      role: '多核创作与集显图形任务', summary: '12 核 CPU 搭配 Radeon 890M，适合开发、剪辑、多任务和集显游戏。它属于 Ryzen AI 系列，功耗定位与传统 HX 不同。',
       cores: '12 核 / 24 线程', coreNote: '4 个 Zen 5 + 8 个 Zen 5c 核心', gpu: 'Radeon 890M', power: '15–54 W cTDP', powerNote: '默认 TDP 28 W', npu: '50 TOPS', level: 'balanced', graphics: 'capable',
       examples: '并行编译与多任务；图像、视频处理；在合适设置下运行部分游戏。',
       limits: '和 9955HX 的功耗定位、集显规格不同。集显性能受内存与功耗影响；复杂图形项目仍要核对 GPU 需求。',
@@ -76,7 +76,7 @@ window.CPU_GUIDE = {
     },
     {
       id: '8845hs', brand: 'AMD', family: 'Ryzen 8000', name: 'Ryzen 7 8845HS', short: 'Ryzen 7 8845HS', categories: ['versatile', 'gaming'], platform: 'x86 / Windows',
-      role: '开发、创作与游戏配合', summary: '这一代的 8 核 16 线程 CPU 仍可以承担办公、编译、剪辑与游戏逻辑。型号更新并不意味着旧代产品突然不能完成原来的任务。',
+      role: '开发、创作与游戏配合', summary: '8 核 16 线程，可用于办公、编译和剪辑。集成 Radeon 780M，游戏表现需结合画质、内存和整机功耗判断。',
       cores: '8 核 / 16 线程', coreNote: 'Zen 4 架构', gpu: 'Radeon 780M', power: '35–54 W cTDP', powerNote: '默认 TDP 45 W', npu: '16 TOPS', level: 'balanced', graphics: 'capable',
       examples: '课程与工作项目开发；修图、视频编辑；集显轻量游戏，或与独显配合处理更重的图形。',
       limits: '不能只用“8”开头判断架构或速度。软件适配、内存与散热同样需要核对，较新的 NPU 功能也未必全部适用。',
@@ -84,7 +84,7 @@ window.CPU_GUIDE = {
     },
     {
       id: '9955hx', brand: 'AMD', family: 'Ryzen 9000 HX', name: 'Ryzen 9 9955HX', short: 'Ryzen 9 9955HX', categories: ['gaming'], platform: 'x86 / Windows',
-      role: '大型并行任务与独显平台', summary: '16 核 32 线程，能够承担可并行的 CPU 重负载。它的 Radeon 610M 主要用于显示与轻量图形；强 CPU 不等于强集显。',
+      role: '大型并行任务与独显平台', summary: '16 核 32 线程，适合并行编译和 CPU 渲染。Radeon 610M 主要用于显示和轻量图形，游戏需结合独显判断。',
       cores: '16 核 / 32 线程', coreNote: 'Zen 5 架构', gpu: 'Radeon 610M', power: '55–75 W cTDP', powerNote: '默认 TDP 55 W', npu: null, level: 'heavy', graphics: 'basic',
       examples: 'CPU 渲染、并行编译、较重的多任务；与合适独显配合运行大型游戏或图形软件。',
       limits: 'Radeon 610M 不是面向大型游戏高画质的集显。没有独立 NPU 也能使用云端 AI，支持的软件还可在 CPU 或 GPU 上运行 AI。',

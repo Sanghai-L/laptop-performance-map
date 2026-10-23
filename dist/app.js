@@ -64,9 +64,11 @@
     $('#cpu-profile').innerHTML = `<div class="profile-meta"><span class="profile-tag">${escape(m.family)}</span><span>${escape(m.platform)}</span><a href="${m.source}" target="_blank" rel="noopener noreferrer" style="margin-left:auto;text-decoration:underline;text-underline-offset:3px">官方规格 ↗</a></div>
       <div class="profile-title"><div><span class="profile-brand">${escape(m.brand.toUpperCase())}${m.variant ? ' / ' + escape(m.variant) : ' / PROCESSOR'}</span><h3 id="cpu-name">${escape(m.name)}</h3></div><span class="profile-symbol" aria-hidden="true">✳</span></div>
       <p class="profile-summary">${escape(m.summary)}</p>
-      <dl class="specs"><div><dt>CPU · 处理计算</dt><dd>${escape(m.cores)}<small>${escape(m.coreNote)}</small></dd></div><div><dt>集成 GPU · 处理画面</dt><dd>${escape(m.gpu)}<small>${m.graphics==='none'?'需要整机另配显卡':'集显游戏体验见下方 ↓'}</small></dd></div><div><dt>功耗规格 · 不是跑分</dt><dd>${escape(m.power)}<small>${escape(m.powerNote)}</small></dd></div></dl>
-      <p class="profile-footnote">核心数量不可跨架构直接排位；以上为芯片规格，不承诺具体电脑的速度或续航。</p>`;
+      <button class="profile-naming-link text-button" data-naming-model="${escape(m.id)}">这个型号怎么读？ ↗</button>
+      <dl class="specs"><div><dt>CPU 核心</dt><dd>${escape(m.cores)}<small>${escape(m.coreNote)}</small></dd></div><div><dt>集成显卡</dt><dd>${escape(m.gpu)}<small>${m.graphics==='none'?'需要整机另配显卡':'集显游戏体验见下方 ↓'}</small></dd></div><div><dt>功耗规格</dt><dd>${escape(m.power)}<small>${escape(m.powerNote)}</small></dd></div></dl>
+      <p class="profile-footnote">同一 CPU 的实际速度和续航，还取决于整机散热、功耗和电池。</p>`;
     localize($('#cpu-profile'));
+    window.CPU_NAMING.setCurrent(m);
     window.CPU_NOTEBOOKS.renderExamples(m);
     renderTask();
     window.CPU_GAMES.update(m);
@@ -75,7 +77,7 @@
     $('#task-list').innerHTML = D.tasks.map(t => `<button class="task-button ${t.id === state.task ? 'selected' : ''}" data-task="${t.id}" aria-pressed="${t.id === state.task}"><span aria-hidden="true">${t.icon}</span>${t.label}</button>`).join('');
     const r = window.CPU_TASKS.explain(model(), state.task);
     $('#task-result').className = `task-result ${r.kind}`;
-    $('#task-result').innerHTML = `<div class="result-label">${D.tasks.find(t => t.id === state.task).label} / 用途解读</div><h5>${escape(r.title)}</h5><p>${escape(r.body)}</p><dl class="task-facts">${r.facts.map(f=>`<div><dt>${escape(f.label)}</dt><dd>${escape(f.text)}</dd></div>`).join('')}</dl><div class="task-extra"><b>实际怎么用</b><span>${escape(r.check)}</span></div>`;
+    $('#task-result').innerHTML = `<div class="result-label">${D.tasks.find(t => t.id === state.task).label} / 用途解读</div><h5>${escape(r.title)}</h5><p>${escape(r.body)}</p><dl class="task-facts">${r.facts.map(f=>`<div><dt>${escape(f.label)}</dt><dd>${escape(f.text)}</dd></div>`).join('')}</dl><div class="task-extra"><b>使用建议</b><span>${escape(r.check)}</span></div>`;
     localize($('#task-list'));localize($('#task-result'));
   }
   function chooseCategory(category, focus = false) {
@@ -128,7 +130,7 @@
   $('#share-model').addEventListener('click', async () => {
     if (location.protocol === 'file:') { toast('本地文件无法生成公开链接；在在线页面可复制当前讲解链接。'); return; }
     const url = new URL(location.href); url.hash = 'explore';
-    try { await navigator.clipboard.writeText(url.href); toast('已复制当前型号与任务的链接。页面访问权限保持不变。'); }
+    try { await navigator.clipboard.writeText(url.href); toast('链接已复制。'); }
     catch { toast('浏览器未允许复制。可直接复制地址栏中的链接。'); }
   });
 
@@ -147,5 +149,5 @@
   $('#source-list').className = 'source-list';
   $('#source-list').innerHTML = D.models.map(m => `<div><a href="${m.source}" target="_blank" rel="noopener noreferrer">${escape(m.name)}${m.variant ? ' / '+escape(m.variant) : ''} ↗</a></div>`).join('') + '<div><a href="https://support.microsoft.com/en-us/windows/experience/platform-variants/windows-arm-based-pcs-faq" target="_blank" rel="noopener noreferrer">微软 · Windows Arm 兼容性说明 ↗</a></div>';
   $('#catalog-scope').textContent=`已收录 ${D.models.length} 项型号 / 配置：${['Intel','AMD','Apple','Qualcomm'].map(b=>b+' '+D.models.filter(m=>m.brand===b).length+' 项').join('，')}。按系列覆盖主流与近代机型，部分旧款仍可见于销售渠道；不是逐店实时库存。资料核对：${D.checked}。`;
-  renderFilters(); renderCategory(); renderModels(); renderProfile(); window.CPU_NOTEBOOKS.init(); updateURL();localize();
+  renderFilters(); renderCategory(); renderModels(); renderProfile(); window.CPU_NOTEBOOKS.init(); window.CPU_NAMING.init(); updateURL();localize();
 })();

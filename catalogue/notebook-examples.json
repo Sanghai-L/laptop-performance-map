@@ -617,20 +617,20 @@
         "en": "CPU for computation; Arc 140V for graphics."
       },
       "concept": {
-        "zh": "处理器里，也有负责画面的队友。",
-        "en": "A processor can include its own graphics."
+        "zh": "258V：办公、编程与轻量剪辑",
+        "en": "258V: office work, coding, and light editing"
       },
       "explanation": {
-        "zh": "整台电脑叫灵耀 14 Air / Zenbook S14，里面这颗 CPU 叫 Core Ultra 7 258V。Arc 140V 是同一平台里的集成显卡，游戏画面主要由它处理。",
-        "en": "The laptop is the Zenbook S14. Its CPU is the Core Ultra 7 258V. Arc 140V is the integrated GPU on the same platform, handling the rendered game graphics."
+        "zh": "灵耀 14 Air / Zenbook S14 搭载 Core Ultra 7 258V，集成显卡为 Arc 140V。CPU 负责程序计算，集显主要负责游戏画面。",
+        "en": "The Zenbook S14 uses a Core Ultra 7 258V with Arc 140V graphics. The CPU runs calculations; the integrated GPU handles most game rendering."
       },
       "ability": {
-        "zh": "写论文、开会、学习编程、修照片和轻量剪辑。没有独显，也能在合适设置下玩部分游戏；具体体验继续看集显 FPS。",
-        "en": "Write papers, join calls, learn programming, edit photos, and handle light video edits. Some games are possible with suitable settings; open the integrated-GPU FPS section for specifics."
+        "zh": "论文、会议、编程学习、修图和轻量剪辑。部分游戏可用集显运行，具体画质和帧率见下方。",
+        "en": "Papers, calls, programming courses, photo editing, and light video work. See the gaming section for supported settings and FPS."
       },
       "boundary": {
-        "zh": "8 核 8 线程可以做重任务，但大型全量编译和长时间 CPU 渲染通常更需要等待。这一配置的 32 GB 封装内存不能后加。",
-        "en": "Its 8 cores and 8 threads can run heavy work, but large full builds and long CPU renders usually need more waiting. This CPU has 32 GB of on-package memory that cannot be expanded."
+        "zh": "8 核 8 线程，大型全量编译和长时间 CPU 渲染耗时较长。32 GB 封装内存无法升级。",
+        "en": "Its 8 cores and 8 threads take longer on large full builds and sustained CPU renders. The 32 GB of on-package memory cannot be upgraded."
       }
     },
     {
@@ -645,20 +645,20 @@
         "en": "Assess the 12-core CPU and Radeon 890M separately."
       },
       "concept": {
-        "zh": "CPU 的强项和集显的强项，分开理解。",
-        "en": "Separate CPU work from graphics work."
+        "zh": "HX 370：多任务、编译与集显游戏",
+        "en": "HX 370: multitasking, builds, and integrated gaming"
       },
       "explanation": {
-        "zh": "这台 S16 的 CPU 是 Ryzen AI 9 HX 370，集显是 Radeon 890M。编译、渲染看 CPU 的计算资源，游戏还要看 890M，而不能只看到名字里的“9”。",
-        "en": "This S16 uses a Ryzen AI 9 HX 370 CPU with Radeon 890M integrated graphics. Builds and CPU renders use its compute resources; gaming also depends on the 890M, beyond the “9” in the name."
+        "zh": "Zenbook S16 搭载 Ryzen AI 9 HX 370 和 Radeon 890M。12 核 CPU 用于编译和 CPU 渲染，890M 负责图形任务。",
+        "en": "The Zenbook S16 pairs a Ryzen AI 9 HX 370 with Radeon 890M. Its 12-core CPU handles builds and CPU rendering; the 890M handles graphics."
       },
       "ability": {
-        "zh": "开发工具与多个程序并开、并行编译、照片处理和视频剪辑。890M 也能承担轻游戏，以及降低画质后的部分大型游戏。",
-        "en": "Run development tools alongside other apps, compile in parallel, edit photos, and work on video. The 890M can also handle lighter games and some demanding games at reduced settings."
+        "zh": "多程序并开、并行编译、修图和视频剪辑。890M 可运行轻量游戏，部分大型游戏需要降低画质。",
+        "en": "Multiple apps, parallel builds, photo work, and video editing. The 890M supports lighter games and some demanding titles at lower settings."
       },
       "boundary": {
-        "zh": "游戏分辨率、画质和内存带宽都会影响帧率；持续编译或导出还要看这台薄机身的散热。这里的用途讲解不能替代同款整机测试。",
-        "en": "Resolution, quality settings, and memory bandwidth affect FPS. Long builds and exports also depend on cooling in this thin chassis. These capability explanations do not replace tests of the actual laptop."
+        "zh": "游戏帧率受画质和内存带宽影响；长时间编译、导出还受薄机身散热限制。",
+        "en": "Game FPS depends on quality settings and memory bandwidth. Cooling in the thin chassis also limits sustained builds and exports."
       }
     },
     {
@@ -673,20 +673,20 @@
         "en": "This example uses the 10-core CPU / 8-core GPU option."
       },
       "concept": {
-        "zh": "先确认软件，再理解这颗芯片。",
-        "en": "Start with the software you need."
+        "zh": "M4：macOS 开发与日常剪辑",
+        "en": "M4: macOS development and everyday editing"
       },
       "explanation": {
-        "zh": "MacBook Air 是电脑型号，M4 是其中的芯片。CPU、GPU 和媒体引擎共同完成工作；剪辑受支持的视频格式时，媒体引擎也能帮忙。",
-        "en": "MacBook Air is the laptop model; M4 is the chip inside. Its CPU, GPU, and media engine work together. The media engine can help with supported video formats."
+        "zh": "这台 MacBook Air 使用 M4，配置为 10 核 CPU、8 核 GPU。剪辑受支持的视频格式时，可调用媒体引擎加速。",
+        "en": "This MacBook Air has an M4 with a 10-core CPU and 8-core GPU. Its media engine accelerates supported video formats."
       },
       "ability": {
-        "zh": "macOS 办公、网页开发、照片处理和日常视频剪辑。使用已适配 Apple 芯片的软件时，可调用相应的计算与媒体加速。",
-        "en": "Office work on macOS, web development, photo processing, and everyday video editing. Apps adapted for Apple silicon can use its supported compute and media acceleration."
+        "zh": "macOS 办公、网页开发、修图和日常视频剪辑。已适配的软件可使用芯片的计算与媒体加速。",
+        "en": "Office work, web development, photo editing, and everyday video projects on macOS. Compatible apps can use the chip’s compute and media acceleration."
       },
       "boundary": {
-        "zh": "学校或工作所需的 Windows 专用软件、插件和游戏，要先逐项确认支持。长时间编译、渲染和复杂视频导出，也要看 Air 的持续表现。",
-        "en": "Check Windows-only tools, plug-ins, and games required by your school or work individually. For long builds, renders, and complex video exports, check the Air’s sustained performance."
+        "zh": "先确认所需软件、插件和游戏支持 macOS。长时间编译、渲染和导出需查看 Air 的持续性能测试。",
+        "en": "Check macOS support for your software, plug-ins, and games. For long builds, renders, and exports, consult sustained-performance tests of the Air."
       }
     }
   ]

@@ -1,0 +1,1268 @@
+{
+  "checked": "2026-10-23",
+  "brands": {
+    "Intel": {
+      "overview": {
+        "zh": "先区分 Core i、Core、Core Ultra 和 N 系列，再看代数、编号与后缀。",
+        "en": "Start with the family: Core i, Core, Core Ultra, or N-series. Then read its generation, SKU, and suffix."
+      },
+      "rules": [
+        {
+          "title": {
+            "zh": "Core i 看代数，新 Core 看 Series",
+            "en": "Core i generations and new Core Series"
+          },
+          "body": {
+            "zh": "i7-13620H 和 i7-1355U 的前两位 13 都表示第 13 代。Core 7 150U 的 1 表示 Series 1。名称去掉 i，不一定代表换了新架构。",
+            "en": "The 13 in i7-13620H and i7-1355U means 13th generation. The 1 in Core 7 150U means Series 1. Dropping i does not necessarily mean a new architecture."
+          }
+        },
+        {
+          "title": {
+            "zh": "同一 Series 也有不同架构",
+            "en": "One Series can contain different architectures"
+          },
+          "body": {
+            "zh": "Ultra Series 2 中，225H / 275HX 使用 Arrow Lake，258V 使用 Lunar Lake。比较时要保留完整编号和后缀。",
+            "en": "Within Ultra Series 2, 225H / 275HX use Arrow Lake; 258V uses Lunar Lake. Compare the full number and suffix."
+          }
+        },
+        {
+          "title": {
+            "zh": "X、N 和无后缀型号",
+            "en": "X, N, and models without a suffix"
+          },
+          "body": {
+            "zh": "X7 / X9 是 Ultra Series 3 档位；无 X 的 338H 也有 Arc B370。N355 属于 N 系列。Core 7 350 没有后缀，仍是移动处理器。",
+            "en": "X7 / X9 are Ultra Series 3 tiers; the 338H without X also has Arc B370. N355 belongs to the N-series. Core 7 350 is a mobile processor despite having no suffix."
+          }
+        },
+        {
+          "title": {
+            "zh": "H 不固定功耗，HX 不保证集显更强",
+            "en": "Suffixes do not fix power or graphics"
+          },
+          "body": {
+            "zh": "H 型号的基础功耗可为 25、28 或 45 W，需按型号查规格。非 Ultra 的 Core Series 3 也有 NPU；AI 功能还需应用支持。",
+            "en": "H models can have base power ratings of 25, 28, or 45 W; check the exact SKU. Non-Ultra Core Series 3 also includes NPUs, and AI features still need app support."
+          }
+        }
+      ],
+      "markHeading": {
+        "zh": "后缀与标记",
+        "en": "Suffixes and labels"
+      },
+      "marks": [
+        {
+          "code": "U",
+          "meaning": {
+            "zh": "注重移动能效",
+            "en": "Mobile power efficiency"
+          },
+          "scope": {
+            "zh": "部分传统 Core i、新 Core 和 Ultra 移动型号。",
+            "en": "Some traditional Core i, new Core, and Ultra mobile models."
+          },
+          "limit": {
+            "zh": "不等于固定 15 W，也不保证整机续航。",
+            "en": "Not a fixed 15 W rating or a battery-life guarantee."
+          }
+        },
+        {
+          "code": "H",
+          "meaning": {
+            "zh": "高性能移动产品类别",
+            "en": "High-performance mobile category"
+          },
+          "scope": {
+            "zh": "Core i / Core / Core Ultra 多个分支。",
+            "en": "Multiple Core i / Core / Core Ultra branches."
+          },
+          "limit": {
+            "zh": "13620H 基础功耗 45 W、155H 为 28 W、358H 为 25 W；同字母不等于同瓦数。",
+            "en": "Base power is 45 W for 13620H, 28 W for 155H, and 25 W for 358H; the letter is not a fixed wattage."
+          }
+        },
+        {
+          "code": "HX",
+          "meaning": {
+            "zh": "更高性能移动平台；官方列为解锁类别",
+            "en": "Higher-performance mobile platform; listed as unlocked"
+          },
+          "scope": {
+            "zh": "部分 Core i / Core Ultra。",
+            "en": "Selected Core i / Core Ultra models."
+          },
+          "limit": {
+            "zh": "供电、散热和可调设置仍由整机决定；也不是必须配独显的含义。",
+            "en": "Laptop power, cooling, and exposed tuning controls still matter; it does not mean an integrated GPU is absent."
+          }
+        },
+        {
+          "code": "V",
+          "meaning": {
+            "zh": "Lunar Lake 分支",
+            "en": "Lunar Lake branch"
+          },
+          "scope": {
+            "zh": "Core Ultra Series 2 的 200V。",
+            "en": "Core Ultra Series 2 200V."
+          },
+          "limit": {
+            "zh": "按特定分支读，不能排成 V＜U＜H 的通用性能阶梯。",
+            "en": "Specific to this branch, not a universal V < U < H performance ladder."
+          }
+        },
+        {
+          "code": "P",
+          "meaning": {
+            "zh": "为轻薄本优化性能",
+            "en": "Performance optimized for thin-and-light laptops"
+          },
+          "scope": {
+            "zh": "如第 12 / 13 代 Core i 的 P 系列。",
+            "en": "For example, 12th / 13th-generation Core i P models."
+          },
+          "limit": {
+            "zh": "不是 P 核数量，也不是 Professional。",
+            "en": "Not a P-core count or Professional branding."
+          }
+        },
+        {
+          "code": "HK",
+          "meaning": {
+            "zh": "高性能移动、解锁",
+            "en": "High-performance mobile, unlocked"
+          },
+          "scope": {
+            "zh": "传统 Core i 的部分移动型号。",
+            "en": "Some traditional Core i mobile models."
+          },
+          "limit": {
+            "zh": "能否调节仍看电脑厂商开放的设置。",
+            "en": "Available tuning still depends on the laptop manufacturer."
+          }
+        },
+        {
+          "code": "Y",
+          "meaning": {
+            "zh": "旧款极低功耗移动类别",
+            "en": "Older extremely low-power mobile category"
+          },
+          "scope": {
+            "zh": "旧 Core i / Core m 的部分型号。",
+            "en": "Some older Core i / Core m models."
+          },
+          "limit": {
+            "zh": "与今天的 V、U 是不同年代的命名。",
+            "en": "A different-era naming branch from current V / U."
+          }
+        },
+        {
+          "code": "G1 / G4 / G7",
+          "meaning": {
+            "zh": "旧款集显等级",
+            "en": "Older integrated-graphics level"
+          },
+          "scope": {
+            "zh": "部分第 10 / 11 代 Core 移动型号。",
+            "en": "Some 10th / 11th-generation Core mobile models."
+          },
+          "limit": {
+            "zh": "G7 不是第 7 代；同为 G7，具体 GPU 规模仍可能不同。",
+            "en": "G7 is not generation 7, and the exact GPU configuration can still differ."
+          }
+        },
+        {
+          "code": "HQ / G",
+          "meaning": {
+            "zh": "更早的特定移动分支",
+            "en": "Specific older mobile branches"
+          },
+          "scope": {
+            "zh": "HQ：移动高性能四核；单独 G：封装内含独立图形芯片。",
+            "en": "HQ: high-performance mobile quad-core; standalone G: discrete graphics in the package."
+          },
+          "limit": {
+            "zh": "单独 G 与 G7 含义不同。",
+            "en": "G on its own differs from G7."
+          }
+        },
+        {
+          "code": "X7 / X9",
+          "meaning": {
+            "zh": "Ultra Series 3 档位",
+            "en": "Ultra Series 3 tiers"
+          },
+          "scope": {
+            "zh": "X 是档位的一部分，位于三位型号数字前。",
+            "en": "X is part of the tier, before the three-digit model number."
+          },
+          "limit": {
+            "zh": "不能套用旧型号尾缀 X / XE 的解锁含义。",
+            "en": "Do not apply the unlocked meaning of the older X / XE suffix."
+          }
+        },
+        {
+          "code": "",
+          "meaning": {
+            "zh": "正式名称可以没有字母",
+            "en": "The official name may have no letter suffix"
+          },
+          "scope": {
+            "zh": "如 Core 7 350、Ultra 7 355。",
+            "en": "For example, Core 7 350 and Ultra 7 355."
+          },
+          "limit": {
+            "zh": "无后缀也可能是移动处理器，按完整型号查规格。",
+            "en": "A model without a suffix can still be mobile. Check its full specifications."
+          }
+        },
+        {
+          "code": "Plus",
+          "meaning": {
+            "zh": "同一 Series 内的增强 / 更新型号标记",
+            "en": "Enhanced / updated model within the same Series"
+          },
+          "scope": {
+            "zh": "如 Core Ultra 7 270HX Plus 仍是 Ultra Series 2。",
+            "en": "Core Ultra 7 270HX Plus remains Ultra Series 2."
+          },
+          "limit": {
+            "zh": "不是固定核心增量或加速百分比，查资料时保留完整名称。",
+            "en": "Not a fixed core-count increase or speedup percentage; retain the complete name."
+          }
+        }
+      ],
+      "sources": [
+        {
+          "title": {
+            "zh": "Intel 命名总览",
+            "en": "Intel Processor Names, Numbers and Generation List"
+          },
+          "url": "https://www.intel.com/content/www/us/en/processors/processor-numbers.html"
+        },
+        {
+          "title": {
+            "zh": "传统 Core i 代数",
+            "en": "How to Find the Generation of Intel Core Processors"
+          },
+          "url": "https://www.intel.com/content/www/us/en/support/articles/000032203/processors/intel-core-processors.html"
+        },
+        {
+          "title": {
+            "zh": "新 Core Series 编号",
+            "en": "Intel Core Processors (Series) Names and Numbers"
+          },
+          "url": "https://www.intel.com/content/www/us/en/support/articles/000100149/processors/intel-core-processors.html"
+        },
+        {
+          "title": {
+            "zh": "Core Ultra Series 编号",
+            "en": "Intel Core Ultra Processors Names and Numbers"
+          },
+          "url": "https://www.intel.com/content/www/us/en/support/articles/000097596/processors/intel-core-ultra-processors.html"
+        },
+        {
+          "title": {
+            "zh": "Intel 字母后缀",
+            "en": "What Do the Letters Mean in Intel Processor Names?"
+          },
+          "url": "https://www.intel.com/content/www/us/en/support/articles/000058567/processors/intel-core-processors.html"
+        },
+        {
+          "title": {
+            "zh": "258V 官方规格",
+            "en": "Core Ultra 7 258V specifications"
+          },
+          "url": "https://www.intel.com/content/www/us/en/products/sku/240957/intel-core-ultra-7-processor-258v-12m-cache-up-to-4-80-ghz/specifications.html"
+        },
+        {
+          "title": {
+            "zh": "256V 官方规格",
+            "en": "Core Ultra 7 256V specifications"
+          },
+          "url": "https://www.intel.com/content/www/us/en/products/sku/240954/intel-core-ultra-7-processor-256v-12m-cache-up-to-4-80-ghz/specifications.html"
+        },
+        {
+          "title": {
+            "zh": "X7 358H 官方规格",
+            "en": "Core Ultra X7 358H specifications"
+          },
+          "url": "https://www.intel.com/content/www/us/en/products/sku/245527/intel-core-ultra-x7-processor-358h-18m-cache-up-to-4-80-ghz/specifications.html"
+        },
+        {
+          "title": {
+            "zh": "N355 官方规格",
+            "en": "Core 3 N355 specifications"
+          },
+          "url": "https://www.intel.com/content/www/us/en/products/sku/241639/intel-core-3-processor-n355-6m-cache-up-to-3-90-ghz/specifications.html"
+        },
+        {
+          "title": {
+            "zh": "Core Series 3 与 NPU",
+            "en": "Intel launches Core Series 3"
+          },
+          "url": "https://www.intel.com/content/www/us/en/newsroom/news/client-computing/intel-launches-intel-core-series-3-processors-changing-the-game-for-everyday-computing.html"
+        },
+        {
+          "title": {
+            "zh": "270HX Plus 官方规格",
+            "en": "Core Ultra 7 270HX Plus specifications"
+          },
+          "url": "https://www.intel.com/content/www/us/en/products/sku/245961/intel-core-ultra-7-processor-270hx-plus-30m-cache-up-to-5-30-ghz/specifications.html"
+        }
+      ]
+    },
+    "AMD": {
+      "overview": {
+        "zh": "Ryzen 四位数、三位数、Ryzen AI 和 AI Max 使用不同规则。",
+        "en": "Four-digit Ryzen, three-digit Ryzen, Ryzen AI, and AI Max use different rules."
+      },
+      "rules": [
+        {
+          "title": {
+            "zh": "7000 / 8000：看第三位识别架构",
+            "en": "7000 / 8000: the third digit identifies architecture"
+          },
+          "body": {
+            "zh": "7520U 是 Zen 2，7730U 是 Zen 3，7735HS 是 Zen 3+，7840HS / 8845HS 是 Zen 4。首位 7 指 2023 产品组合；7520U 实际在 2022 年发布。",
+            "en": "7520U is Zen 2; 7730U is Zen 3; 7735HS is Zen 3+; 7840HS / 8845HS are Zen 4. A leading 7 identifies the 2023 portfolio, although 7520U launched in 2022."
+          }
+        },
+        {
+          "title": {
+            "zh": "其他系列不能套这张表",
+            "en": "Other families use different schemes"
+          },
+          "body": {
+            "zh": "6000、三位数 Ryzen 100 / 200 / 400、Ryzen AI 和 Max 需分别查询。Ryzen 7 250 的 5、Ryzen AI 7 450 的 4，都不是架构编号。",
+            "en": "Look up 6000, three-digit Ryzen 100 / 200 / 400, Ryzen AI, and Max separately. Neither the 5 in Ryzen 7 250 nor the 4 in Ryzen AI 7 450 identifies its architecture."
+          }
+        },
+        {
+          "title": {
+            "zh": "HX 370 与 9955HX 定位不同",
+            "en": "HX 370 and 9955HX have different power ranges"
+          },
+          "body": {
+            "zh": "Ryzen AI 9 HX 370 默认 28 W，可配置 15–54 W；Ryzen 9 9955HX 默认 55 W，可配置 55–75 W。比较 HX 时需带上完整系列名。",
+            "en": "Ryzen AI 9 HX 370 defaults to 28 W with a 15–54 W configurable range. Ryzen 9 9955HX defaults to 55 W with a 55–75 W range. Keep the family name when comparing HX models."
+          }
+        },
+        {
+          "title": {
+            "zh": "AI、Max+、PRO 与 3D",
+            "en": "AI, Max+, PRO, and 3D"
+          },
+          "body": {
+            "zh": "AI 是产品线；Max+ 395 / 392 / 388 分别有 16 / 12 / 8 核。PRO 表示商用功能，3D 表示特定型号配有 3D V-Cache。",
+            "en": "AI names a product line. Max+ 395 / 392 / 388 have 16 / 12 / 8 CPU cores. PRO identifies business features; 3D marks selected models with 3D V-Cache."
+          }
+        }
+      ],
+      "markHeading": {
+        "zh": "后缀与标记",
+        "en": "Suffixes and labels"
+      },
+      "marks": [
+        {
+          "code": "U",
+          "meaning": {
+            "zh": "偏移动能效的定位",
+            "en": "Mobile-efficiency positioning"
+          },
+          "scope": {
+            "zh": "传统 Ryzen U 等型号。",
+            "en": "Traditional Ryzen U models and related branches."
+          },
+          "limit": {
+            "zh": "不锁定统一瓦数，也不保证比所有 HS 慢。",
+            "en": "No universal wattage or guarantee of being slower than every HS chip."
+          }
+        },
+        {
+          "code": "HS",
+          "meaning": {
+            "zh": "强调薄型高性能整机的定位",
+            "en": "Positioning for thinner high-performance laptops"
+          },
+          "scope": {
+            "zh": "多代传统 Ryzen 移动型号。",
+            "en": "Several generations of traditional Ryzen mobile chips."
+          },
+          "limit": {
+            "zh": "不是固定 35 W；例如 8840HS 官方默认 28 W。",
+            "en": "Not a fixed 35 W; for example, the official default for 8840HS is 28 W."
+          }
+        },
+        {
+          "code": "H",
+          "meaning": {
+            "zh": "高性能移动类别",
+            "en": "High-performance mobile category"
+          },
+          "scope": {
+            "zh": "部分传统 Ryzen，包含中国地区型号。",
+            "en": "Some traditional Ryzen chips, including regional China models."
+          },
+          "limit": {
+            "zh": "7840H 与 7840HS 都有 35–54 W 规格范围，不能硬排 H＞HS。",
+            "en": "7840H and 7840HS both list a 35–54 W range; H > HS is not a universal rule."
+          }
+        },
+        {
+          "code": "HX",
+          "meaning": {
+            "zh": "必须结合家族识别的标记",
+            "en": "A marker whose meaning depends on the family"
+          },
+          "scope": {
+            "zh": "传统 Ryzen HX，与 Ryzen AI 名称中的 HX。",
+            "en": "Traditional Ryzen HX and HX within Ryzen AI names."
+          },
+          "limit": {
+            "zh": "9955HX 与 AI HX 370 的功耗定位不同；字母不是固定性能分数。",
+            "en": "9955HX and AI HX 370 have different power positioning; the letters are not a performance score."
+          }
+        },
+        {
+          "code": "3D",
+          "meaning": {
+            "zh": "特定型号的 3D V-Cache 标记",
+            "en": "3D V-Cache marker on specific models"
+          },
+          "scope": {
+            "zh": "如 Ryzen 9 9955HX3D。",
+            "en": "For example, Ryzen 9 9955HX3D."
+          },
+          "limit": {
+            "zh": "主要收益需看具体游戏；渲染等任务不一定加速。",
+            "en": "Benefits depend on the game; tasks such as rendering may not improve."
+          }
+        },
+        {
+          "code": "PRO",
+          "meaning": {
+            "zh": "商用安全、管理与平台支持",
+            "en": "Business security, manageability, and platform support"
+          },
+          "scope": {
+            "zh": "Ryzen PRO、Ryzen AI PRO 等商用系列。",
+            "en": "Business lines such as Ryzen PRO and Ryzen AI PRO."
+          },
+          "limit": {
+            "zh": "重点是商用功能，不是额外的性能等级。",
+            "en": "This identifies business features rather than an extra performance tier."
+          }
+        },
+        {
+          "code": "Max / Max+",
+          "meaning": {
+            "zh": "较大规模的 AI Max 产品分支",
+            "en": "AI Max product branches with larger resources"
+          },
+          "scope": {
+            "zh": "Ryzen AI Max 产品线，不能逐字猜 CPU / GPU 规模。",
+            "en": "The Ryzen AI Max line; do not infer exact CPU / GPU scale from the words."
+          },
+          "limit": {
+            "zh": "Max+ 也有不同 CPU 核心配置；完整型号和内存更重要。",
+            "en": "Max+ includes different CPU core configurations; the exact model and memory still matter."
+          }
+        },
+        {
+          "code": "C / e",
+          "meaning": {
+            "zh": "较早方案里的特定移动分支",
+            "en": "Specific mobile branches in an earlier scheme"
+          },
+          "scope": {
+            "zh": "原始命名表中，C 面向 Chromebook，e 为低功耗、无风扇方向的变体。",
+            "en": "The original naming chart uses C for Chromebook and e for lower-power, fanless variants."
+          },
+          "limit": {
+            "zh": "属于旧命名规则，实际配置按型号查询。",
+            "en": "These are older naming rules. Look up the exact configuration."
+          }
+        },
+        {
+          "code": "",
+          "meaning": {
+            "zh": "新系列也会省略传统后缀",
+            "en": "Some newer families omit traditional suffixes"
+          },
+          "scope": {
+            "zh": "如 Ryzen 7 170 / 250，Ryzen AI Max+ 395。",
+            "en": "For example, Ryzen 7 170 / 250 and Ryzen AI Max+ 395."
+          },
+          "limit": {
+            "zh": "没有 H / HX 不等于低功耗，也不表示没有集显。",
+            "en": "Missing H / HX does not establish low power or the absence of integrated graphics."
+          }
+        }
+      ],
+      "sources": [
+        {
+          "title": {
+            "zh": "7520U：Zen 2 与上市日期",
+            "en": "AMD Ryzen 5 7520U specifications"
+          },
+          "url": "https://www.amd.com/en/products/processors/laptop/ryzen/7000-series/amd-ryzen-5-7520u.html"
+        },
+        {
+          "title": {
+            "zh": "7730U：Zen 3",
+            "en": "AMD Ryzen 7 7730U specifications"
+          },
+          "url": "https://www.amd.com/en/products/processors/laptop/ryzen/7000-series/amd-ryzen-7-7730u.html"
+        },
+        {
+          "title": {
+            "zh": "7735HS：Zen 3+",
+            "en": "AMD Ryzen 7 7735HS specifications"
+          },
+          "url": "https://www.amd.com/en/products/processors/laptop/ryzen/7000-series/amd-ryzen-7-7735hs.html"
+        },
+        {
+          "title": {
+            "zh": "8845HS：Zen 4",
+            "en": "AMD Ryzen 7 8845HS specifications"
+          },
+          "url": "https://www.amd.com/en/products/processors/laptop/ryzen/8000-series/amd-ryzen-7-8845hs.html"
+        },
+        {
+          "title": {
+            "zh": "7840H 官方规格",
+            "en": "AMD Ryzen 7 7840H specifications"
+          },
+          "url": "https://www.amd.com/zh-cn/products/processors/laptop/ryzen/7000-series/amd-ryzen-7-7840h.html"
+        },
+        {
+          "title": {
+            "zh": "8040 系列官方规格表",
+            "en": "AMD Ryzen 8040 Series launch"
+          },
+          "url": "https://ir.amd.com/news-events/press-releases/detail/1172/amd-extends-mobile-pc-leadership-with-amd-ryzen-8040-series-processors-and-makes-ryzen-ai-software-widely-available-advancing-the-ai-pc-era"
+        },
+        {
+          "title": {
+            "zh": "AI HX 370 官方规格",
+            "en": "AMD Ryzen AI 9 HX 370 specifications"
+          },
+          "url": "https://www.amd.com/en/products/processors/laptop/ryzen/ai-300-series/amd-ryzen-ai-9-hx-370.html"
+        },
+        {
+          "title": {
+            "zh": "9955HX 官方规格",
+            "en": "AMD Ryzen 9 9955HX specifications"
+          },
+          "url": "https://www.amd.com/en/products/processors/laptop/ryzen/9000-series/amd-ryzen-9-9955hx.html"
+        },
+        {
+          "title": {
+            "zh": "9955HX3D 与 3D V-Cache",
+            "en": "AMD Ryzen 9 9955HX3D specifications"
+          },
+          "url": "https://www.amd.com/en/products/processors/laptop/ryzen/9000-series/amd-ryzen-9-9955hx3d.html"
+        },
+        {
+          "title": {
+            "zh": "AI 7 450 官方规格",
+            "en": "AMD Ryzen AI 7 450 specifications"
+          },
+          "url": "https://www.amd.com/en/products/processors/laptop/ryzen/ai-400-series/amd-ryzen-ai-7-450.html"
+        },
+        {
+          "title": {
+            "zh": "AI 400 与 Max+ 新型号",
+            "en": "AMD CES 2026 AI portfolio announcement"
+          },
+          "url": "https://newsroom.amd.com/news/amd-expands-ai-leadership-across-client-graphics/"
+        },
+        {
+          "title": {
+            "zh": "Ryzen 7 250 官方规格",
+            "en": "AMD Ryzen 7 250 specifications"
+          },
+          "url": "https://www.amd.com/en/products/processors/laptop/ryzen/200-series/amd-ryzen-7-250.html"
+        },
+        {
+          "title": {
+            "zh": "AMD PRO 商用技术",
+            "en": "AMD PRO Technologies"
+          },
+          "url": "https://www.amd.com/en/products/processors/technologies/pro-technologies.html"
+        }
+      ]
+    },
+    "Apple": {
+      "overview": {
+        "zh": "MacBook Air / Pro 是整机系列；M4、M4 Pro 等是芯片型号。芯片名之后，还需核对 CPU / GPU 核心配置。",
+        "en": "MacBook Air / Pro are laptop families; M4 and M4 Pro are chip names. Check the CPU / GPU configuration as well."
+      },
+      "rules": [
+        {
+          "title": {
+            "zh": "数字表示代际，Pro / Max 表示芯片分支",
+            "en": "Generation numbers and chip variants"
+          },
+          "body": {
+            "zh": "M1–M5 是代际；基础 M、Pro、Max 的配置规模不同。跨代比较 M4 Pro 与 M5 时，需要结合具体任务。",
+            "en": "M1–M5 identify generations. Base M, Pro, and Max have different configurations. Compare chips such as M4 Pro and M5 using your actual workload."
+          }
+        },
+        {
+          "title": {
+            "zh": "同名芯片可能有多种核心配置",
+            "en": "One chip name can cover several configurations"
+          },
+          "body": {
+            "zh": "M4 Pro 有 12 核 CPU / 16 核 GPU、14 核 CPU / 20 核 GPU 两种配置。M5 Pro 和 M5 Max 都可为 18 核 CPU，Max 的主要增配不一定在 CPU。",
+            "en": "M4 Pro has 12-core CPU / 16-core GPU and 14-core CPU / 20-core GPU configurations. Both M5 Pro and M5 Max can have 18 CPU cores; Max does not necessarily add CPU cores."
+          }
+        },
+        {
+          "title": {
+            "zh": "MacBook Pro 不一定搭载 Pro 芯片",
+            "en": "A MacBook Pro can use a base M chip"
+          },
+          "body": {
+            "zh": "MacBook Pro 也可搭载基础 M 芯片。Ultra 用于桌面 Mac，不是 MacBook 的可选芯片档位。",
+            "en": "A MacBook Pro may use a base M chip. Ultra is used in desktop Macs, not as a MacBook chip option."
+          }
+        },
+        {
+          "title": {
+            "zh": "A 系列与 M 系列分开看",
+            "en": "A-series and M-series are separate families"
+          },
+          "body": {
+            "zh": "MacBook Neo 使用 A18 Pro，A 与 M 的编号不能直接比较。各代核心类型也有变化，具体组成需查规格。",
+            "en": "MacBook Neo uses A18 Pro. A- and M-series numbers are not directly comparable. Core types also vary by generation; check the specifications."
+          }
+        }
+      ],
+      "markHeading": {
+        "zh": "后缀与标记",
+        "en": "Suffixes and labels"
+      },
+      "marks": [
+        {
+          "code": "M1–M5",
+          "meaning": {
+            "zh": "M 家族代际",
+            "en": "M-family generations"
+          },
+          "scope": {
+            "zh": "Apple M 芯片名的一部分。",
+            "en": "Part of the Apple M chip name."
+          },
+          "limit": {
+            "zh": "性能需结合芯片分支和实际配置比较。",
+            "en": "Compare performance using the chip variant and configuration."
+          }
+        },
+        {
+          "code": "Pro",
+          "meaning": {
+            "zh": "M 家族中的芯片分支",
+            "en": "A chip variant within the M family"
+          },
+          "scope": {
+            "zh": "如 M4 Pro / M5 Pro；A18 Pro 的 Pro 则属于 A 家族。",
+            "en": "For example, M4 Pro / M5 Pro; Pro in A18 Pro belongs to the A family."
+          },
+          "limit": {
+            "zh": "不要与 MacBook Pro 整机名称混淆。",
+            "en": "Do not confuse it with the MacBook Pro laptop name."
+          }
+        },
+        {
+          "code": "Max",
+          "meaning": {
+            "zh": "不同资源配置的 M 芯片分支",
+            "en": "M chip variants with different resources"
+          },
+          "scope": {
+            "zh": "通常具有更大 GPU / 内存能力，实际规格按代和型号查。",
+            "en": "Typically offers larger GPU / memory resources; check each generation and model."
+          },
+          "limit": {
+            "zh": "不保证比同代 Pro 拥有更多 CPU 核心。",
+            "en": "Does not guarantee more CPU cores than the same-generation Pro."
+          }
+        },
+        {
+          "code": "Ultra",
+          "meaning": {
+            "zh": "桌面 Mac 的更大规模芯片分支",
+            "en": "Larger chip variants used in desktop Macs"
+          },
+          "scope": {
+            "zh": "如 Mac Studio 的官方配置。",
+            "en": "For example, official Mac Studio configurations."
+          },
+          "limit": {
+            "zh": "不要把它列成 MacBook 可选芯片；也不保证每代都有全部后缀。",
+            "en": "Not a MacBook chip option; not every generation necessarily offers every suffix."
+          }
+        },
+        {
+          "code": "CPU / GPU",
+          "meaning": {
+            "zh": "两类不同的核心数量",
+            "en": "Core counts for different processing units"
+          },
+          "scope": {
+            "zh": "如 14 核 CPU + 20 核 GPU；另核对统一内存。",
+            "en": "For example, 14 CPU cores plus 20 GPU cores; check unified memory separately."
+          },
+          "limit": {
+            "zh": "两类核心分别计数；GPU 核心数也不能直接跨品牌比较。",
+            "en": "Count the two types separately. GPU core counts are not directly comparable across vendors."
+          }
+        },
+        {
+          "code": "Air / Pro",
+          "meaning": {
+            "zh": "整台笔记本的系列名称",
+            "en": "Names of whole laptop families"
+          },
+          "scope": {
+            "zh": "MacBook Air / MacBook Pro。",
+            "en": "MacBook Air / MacBook Pro."
+          },
+          "limit": {
+            "zh": "整机上的 Pro 不保证芯片也有 Pro 后缀。",
+            "en": "Pro in the laptop name does not guarantee a Pro chip suffix."
+          }
+        }
+      ],
+      "sources": [
+        {
+          "title": {
+            "zh": "M1 Air 技术规格",
+            "en": "Apple: MacBook Air (M1, 2020) technical specifications"
+          },
+          "url": "https://support.apple.com/en-us/111883"
+        },
+        {
+          "title": {
+            "zh": "M4 Air 技术规格",
+            "en": "Apple: MacBook Air (13-inch, M4, 2025) technical specifications"
+          },
+          "url": "https://support.apple.com/en-ie/122209"
+        },
+        {
+          "title": {
+            "zh": "M4 Pro / Max 配置",
+            "en": "Apple: MacBook Pro (14-inch, M4 Pro or M4 Max, 2024) technical specifications"
+          },
+          "url": "https://support.apple.com/en-us/121553"
+        },
+        {
+          "title": {
+            "zh": "MacBook Pro 当前规格",
+            "en": "Apple: MacBook Pro technical specifications (M5 / M5 Pro / M5 Max)"
+          },
+          "url": "https://www.apple.com/macbook-pro/specs/"
+        },
+        {
+          "title": {
+            "zh": "M5 Pro / Max 与核心设计",
+            "en": "Apple: M5 Pro and M5 Max announcement, 2026-03-03"
+          },
+          "url": "https://www.apple.com/newsroom/2026/03/apple-debuts-m5-pro-and-m5-max-to-supercharge-the-most-demanding-pro-workflows/"
+        },
+        {
+          "title": {
+            "zh": "MacBook Neo / A18 Pro 规格",
+            "en": "Apple: MacBook Neo technical specifications (A18 Pro)"
+          },
+          "url": "https://www.apple.com/macbook-neo/specs/"
+        },
+        {
+          "title": {
+            "zh": "Mac Studio / Ultra 规格",
+            "en": "Apple: Mac Studio technical specifications (M5 Max / M5 Ultra)"
+          },
+          "url": "https://www.apple.com/mac-studio/specs/"
+        }
+      ]
+    },
+    "Qualcomm": {
+      "overview": {
+        "zh": "先看 Snapdragon X / X2 和 Plus / Elite 等系列名，再用完整料号确认配置，例如 X1E-78-100。",
+        "en": "Read the Snapdragon X / X2 and Plus / Elite family names, then check the full part number, such as X1E-78-100."
+      },
+      "rules": [
+        {
+          "title": {
+            "zh": "系列名之外，还要看料号",
+            "en": "Check the part number as well as the family"
+          },
+          "body": {
+            "zh": "同叫 Snapdragon X Elite，频率和 GPU 可能不同。X2E 前缀还同时用于 Elite 和 Elite Extreme。",
+            "en": "Snapdragon X Elite models can differ in clock speeds and GPU. The X2E prefix covers both Elite and Elite Extreme."
+          }
+        },
+        {
+          "title": {
+            "zh": "X1 / X2 表示代际，中间数字区分型号",
+            "en": "X1 / X2 identify generation; middle digits identify the SKU"
+          },
+          "body": {
+            "zh": "X1P-42-100 有 8 核，X2P-42-100 有 6 核。跨代相同的 42 不代表相同配置。",
+            "en": "X1P-42-100 has 8 CPU cores; X2P-42-100 has 6. The same 42 across generations does not mean the same configuration."
+          }
+        },
+        {
+          "title": {
+            "zh": "Oryon、Adreno、Hexagon 分别是什么",
+            "en": "Oryon, Adreno, and Hexagon"
+          },
+          "body": {
+            "zh": "Oryon 是 CPU，Adreno 是 GPU，Hexagon 是 NPU。查游戏表现时，需核对 Adreno 的完整型号和频率。",
+            "en": "Oryon is the CPU, Adreno the GPU, and Hexagon the NPU. For gaming, check the exact Adreno model and clock speed."
+          }
+        },
+        {
+          "title": {
+            "zh": "末尾 100 / 101 也要保留",
+            "en": "Keep the 100 / 101 ending"
+          },
+          "body": {
+            "zh": "X1-26-100 与 X1-26-101 的 GPU 有差别。末段是料号的一部分，没有公开的通用功耗或内存解码规则。",
+            "en": "X1-26-100 and X1-26-101 have different GPUs. The ending is part of the identifier; there is no public universal rule for decoding it into power or memory."
+          }
+        }
+      ],
+      "markHeading": {
+        "zh": "后缀与标记",
+        "en": "Suffixes and labels"
+      },
+      "marks": [
+        {
+          "code": "X / X2",
+          "meaning": {
+            "zh": "PC 平台家族",
+            "en": "PC platform families"
+          },
+          "scope": {
+            "zh": "产品名中的 Snapdragon X / X2。",
+            "en": "Snapdragon X / X2 in product names."
+          },
+          "limit": {
+            "zh": "不要套手机 Snapdragon 8 系列的规则。",
+            "en": "Do not apply the phone Snapdragon 8 numbering scheme."
+          }
+        },
+        {
+          "code": "X1 / X2",
+          "meaning": {
+            "zh": "料号中的平台代际线索",
+            "en": "Platform-generation clue in the part number"
+          },
+          "scope": {
+            "zh": "如 X1E-78-100、X2E-88-100。",
+            "en": "For example, X1E-78-100 and X2E-88-100."
+          },
+          "limit": {
+            "zh": "同一代还有多种 CPU / GPU 配置。",
+            "en": "Each generation contains several CPU / GPU configurations."
+          }
+        },
+        {
+          "code": "E",
+          "meaning": {
+            "zh": "Elite 家族",
+            "en": "Elite family"
+          },
+          "scope": {
+            "zh": "第一代 X1E；第二代 X2E 还涵盖 Elite Extreme。",
+            "en": "First-generation X1E; second-generation X2E also covers Elite Extreme."
+          },
+          "limit": {
+            "zh": "单凭 E 不能得知完整产品档位、频率或 GPU。",
+            "en": "E alone does not identify the full tier, clocks, or GPU."
+          }
+        },
+        {
+          "code": "P",
+          "meaning": {
+            "zh": "Plus 分支",
+            "en": "Plus branch"
+          },
+          "scope": {
+            "zh": "X1P / X2P。",
+            "en": "X1P / X2P."
+          },
+          "limit": {
+            "zh": "Plus 名称不固定为 8 核或 10 核。",
+            "en": "Plus does not fix the chip at 8 or 10 cores."
+          }
+        },
+        {
+          "code": "78 / 42 / 88",
+          "meaning": {
+            "zh": "具体 SKU 编号",
+            "en": "Specific SKU identifiers"
+          },
+          "scope": {
+            "zh": "需要连同 X1 / X2 和 E / P 查询。",
+            "en": "Look up with X1 / X2 and E / P."
+          },
+          "limit": {
+            "zh": "只用于区分型号，跨代不能按数字大小排性能。",
+            "en": "These distinguish SKUs, not performance across generations."
+          }
+        },
+        {
+          "code": "100 / 101",
+          "meaning": {
+            "zh": "完整配置料号的一部分",
+            "en": "Part of the complete configuration code"
+          },
+          "scope": {
+            "zh": "查表时保留整个 X1E-78-100 等料号。",
+            "en": "Keep the whole code, such as X1E-78-100, for lookup."
+          },
+          "limit": {
+            "zh": "没有把末段每一位通用换算成内存、功耗或 FPS 的公开规则。",
+            "en": "No general public digit rule maps this ending to memory, power, or FPS."
+          }
+        }
+      ],
+      "sources": [
+        {
+          "title": {
+            "zh": "Snapdragon X 官方命名说明",
+            "en": "Qualcomm: introducing the Snapdragon X Series naming convention"
+          },
+          "url": "https://www.qualcomm.com/news/onq/2023/10/introducing-our-next-gen-intelligent-pc-platforms-the-snapdragon-x-series"
+        },
+        {
+          "title": {
+            "zh": "Snapdragon X / X Plus 规格表",
+            "en": "Qualcomm: Snapdragon X Plus and current Snapdragon X comparison table"
+          },
+          "url": "https://www.qualcomm.com/laptops/products/snapdragon-x-plus"
+        },
+        {
+          "title": {
+            "zh": "X Elite 产品简报",
+            "en": "Qualcomm: Snapdragon X Elite Product Brief, Rev C"
+          },
+          "url": "https://www.qualcomm.com/content/dam/qcomm-martech/dm-assets/documents/Product-Brief-Snapdragon-X-Elite.pdf"
+        },
+        {
+          "title": {
+            "zh": "X Plus 产品简报",
+            "en": "Qualcomm: Snapdragon X Plus 8-core Product Brief, Rev C"
+          },
+          "url": "https://www.qualcomm.com/content/dam/qcomm-martech/dm-assets/images/company/news-media/media-center/press-kits/ifa-2024/documents/SnapdragonXPlus8-coreProductBrief.pdf"
+        },
+        {
+          "title": {
+            "zh": "X2 Elite / Extreme 产品简报",
+            "en": "Qualcomm: Snapdragon X2 Elite Product Brief, Rev C (7 SKUs)"
+          },
+          "url": "https://www.qualcomm.com/content/dam/qcomm-martech/dm-assets/documents/Snapdragon-X2-Elite-Product-Brief.pdf"
+        },
+        {
+          "title": {
+            "zh": "X2 Plus 产品简报",
+            "en": "Qualcomm: Snapdragon X2 Plus Product Brief, Rev B"
+          },
+          "url": "https://www.qualcomm.com/content/dam/qcomm-martech/dm-assets/documents/Snapdragon-X2-Plus-Product-Brief.pdf"
+        }
+      ]
+    }
+  },
+  "schemes": {
+    "intel-legacy": {
+      "zh": "传统 Core i：代数 + SKU + 移动后缀",
+      "en": "Traditional Core i: generation + SKU + mobile suffix"
+    },
+    "intel-core": {
+      "zh": "新 Core：家族 + 档位 + Series + SKU",
+      "en": "New Core: family + tier + Series + SKU"
+    },
+    "intel-ultra": {
+      "zh": "Core Ultra：家族 + 档位 + Series + SKU + 可选后缀",
+      "en": "Core Ultra: family + tier + Series + SKU + optional suffix"
+    },
+    "intel-n": {
+      "zh": "Intel Processor N / Core N：先认 N 分支",
+      "en": "Intel Processor N / Core N: identify the N branch first"
+    },
+    "amd-7000": {
+      "zh": "Ryzen 7000 / 8000 移动四位命名",
+      "en": "Ryzen 7000 / 8000 four-digit mobile naming"
+    },
+    "amd-hx": {
+      "zh": "传统 Ryzen 高性能 HX 型号",
+      "en": "Traditional Ryzen high-performance HX models"
+    },
+    "amd-older": {
+      "zh": "较早的 Ryzen 5000 / 6000 家族",
+      "en": "Earlier Ryzen 5000 / 6000 families"
+    },
+    "amd-ai": {
+      "zh": "Ryzen AI：家族 + 档位 + 可选 HX + 三位型号",
+      "en": "Ryzen AI: family + tier + optional HX + three-digit SKU"
+    },
+    "amd-max": {
+      "zh": "Ryzen AI Max / Max+：整体系列标签 + 型号",
+      "en": "Ryzen AI Max / Max+: complete family label + SKU"
+    },
+    "amd-short": {
+      "zh": "Ryzen 三位短编号：按具体系列查规格",
+      "en": "Three-digit Ryzen: look up the exact family"
+    },
+    "apple-m": {
+      "zh": "Apple M：家族 + 代际 + 可选芯片分支",
+      "en": "Apple M: family + generation + optional chip variant"
+    },
+    "apple-a": {
+      "zh": "Apple A：与 M 不同的芯片家族",
+      "en": "Apple A: a chip family separate from M"
+    },
+    "qualcomm-x": {
+      "zh": "Snapdragon X / X2：产品名 + 完整料号",
+      "en": "Snapdragon X / X2: product name + complete part number"
+    },
+    "lookup": {
+      "zh": "该名称需要按官方完整型号查询",
+      "en": "Look up this full model name in official specifications"
+    }
+  },
+  "examples": [
+    {
+      "id": "example-258v",
+      "brand": "Intel",
+      "modelId": "258v"
+    },
+    {
+      "id": "example-358h",
+      "brand": "Intel",
+      "modelId": "358h"
+    },
+    {
+      "id": "example-intel-155h",
+      "brand": "Intel",
+      "modelId": "intel-155h"
+    },
+    {
+      "id": "example-225h",
+      "brand": "Intel",
+      "modelId": "225h"
+    },
+    {
+      "id": "example-275hx",
+      "brand": "Intel",
+      "modelId": "275hx"
+    },
+    {
+      "id": "example-intel-270hx-plus",
+      "brand": "Intel",
+      "modelId": "intel-270hx-plus"
+    },
+    {
+      "id": "example-intel-150u",
+      "brand": "Intel",
+      "modelId": "intel-150u"
+    },
+    {
+      "id": "example-intel-220h",
+      "brand": "Intel",
+      "modelId": "intel-220h"
+    },
+    {
+      "id": "example-intel-350",
+      "brand": "Intel",
+      "modelId": "intel-350"
+    },
+    {
+      "id": "example-intel-355",
+      "brand": "Intel",
+      "modelId": "intel-355"
+    },
+    {
+      "id": "example-intel-i7-13620h",
+      "brand": "Intel",
+      "modelId": "intel-i7-13620h"
+    },
+    {
+      "id": "example-intel-i7-1355u",
+      "brand": "Intel",
+      "modelId": "intel-i7-1355u"
+    },
+    {
+      "id": "example-intel-i9-14900hx",
+      "brand": "Intel",
+      "modelId": "intel-i9-14900hx"
+    },
+    {
+      "id": "example-intel-n150",
+      "brand": "Intel",
+      "modelId": "intel-n150"
+    },
+    {
+      "id": "example-intel-n355",
+      "brand": "Intel",
+      "modelId": "intel-n355"
+    },
+    {
+      "id": "example-intel-i3-n305",
+      "brand": "Intel",
+      "modelId": "intel-i3-n305"
+    },
+    {
+      "id": "example-8845hs",
+      "brand": "AMD",
+      "modelId": "8845hs"
+    },
+    {
+      "id": "example-amd-7520u",
+      "brand": "AMD",
+      "modelId": "amd-7520u"
+    },
+    {
+      "id": "example-amd-7730u",
+      "brand": "AMD",
+      "modelId": "amd-7730u"
+    },
+    {
+      "id": "example-amd-7735hs",
+      "brand": "AMD",
+      "modelId": "amd-7735hs"
+    },
+    {
+      "id": "example-amd-7840hs",
+      "brand": "AMD",
+      "modelId": "amd-7840hs"
+    },
+    {
+      "id": "example-370",
+      "brand": "AMD",
+      "modelId": "370"
+    },
+    {
+      "id": "example-amd-ryzen-ai-7-350",
+      "brand": "AMD",
+      "modelId": "amd-ryzen-ai-7-350"
+    },
+    {
+      "id": "example-450",
+      "brand": "AMD",
+      "modelId": "450"
+    },
+    {
+      "id": "example-amd-ryzen-ai-max-395",
+      "brand": "AMD",
+      "modelId": "amd-ryzen-ai-max-395"
+    },
+    {
+      "id": "example-amd-ryzen-ai-max-388",
+      "brand": "AMD",
+      "modelId": "amd-ryzen-ai-max-388"
+    },
+    {
+      "id": "example-9955hx",
+      "brand": "AMD",
+      "modelId": "9955hx"
+    },
+    {
+      "id": "example-amd-ryzen-9-9955hx3d",
+      "brand": "AMD",
+      "modelId": "amd-ryzen-9-9955hx3d"
+    },
+    {
+      "id": "example-amd-ryzen-7-250",
+      "brand": "AMD",
+      "modelId": "amd-ryzen-7-250"
+    },
+    {
+      "id": "example-apple-m4-10-8",
+      "brand": "Apple",
+      "modelId": "apple-m4-10-8"
+    },
+    {
+      "id": "example-apple-m4-pro-14-20",
+      "brand": "Apple",
+      "modelId": "apple-m4-pro-14-20"
+    },
+    {
+      "id": "example-m5",
+      "brand": "Apple",
+      "modelId": "m5"
+    },
+    {
+      "id": "example-m5pro",
+      "brand": "Apple",
+      "modelId": "m5pro"
+    },
+    {
+      "id": "example-apple-m5-max-18-40",
+      "brand": "Apple",
+      "modelId": "apple-m5-max-18-40"
+    },
+    {
+      "id": "example-apple-a18-pro-6-5",
+      "brand": "Apple",
+      "modelId": "apple-a18-pro-6-5"
+    },
+    {
+      "id": "example-qualcomm-x1e-78-100",
+      "brand": "Qualcomm",
+      "modelId": "qualcomm-x1e-78-100"
+    },
+    {
+      "id": "example-qualcomm-x1p-42-100",
+      "brand": "Qualcomm",
+      "modelId": "qualcomm-x1p-42-100"
+    },
+    {
+      "id": "example-qualcomm-x1-26-101",
+      "brand": "Qualcomm",
+      "modelId": "qualcomm-x1-26-101"
+    },
+    {
+      "id": "example-x2",
+      "brand": "Qualcomm",
+      "modelId": "x2"
+    },
+    {
+      "id": "example-qualcomm-x2e-96-100",
+      "brand": "Qualcomm",
+      "modelId": "qualcomm-x2e-96-100"
+    },
+    {
+      "id": "example-qualcomm-x2p-42-100",
+      "brand": "Qualcomm",
+      "modelId": "qualcomm-x2p-42-100"
+    },
+    {
+      "id": "legacy-1165g7",
+      "brand": "Intel",
+      "name": "Core i7-1165G7"
+    },
+    {
+      "id": "legacy-1035g1",
+      "brand": "Intel",
+      "name": "Core i5-1035G1"
+    },
+    {
+      "id": "legacy-6800h",
+      "brand": "AMD",
+      "name": "Ryzen 7 6800H"
+    },
+    {
+      "id": "legacy-pro-7840u",
+      "brand": "AMD",
+      "name": "Ryzen 7 PRO 7840U"
+    }
+  ]
+}
