@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#f7f8f4">
+  <meta name="description" content="笔记本性能地图：按轻薄本、全能本、游戏本查询处理器，了解 CPU 的用途，以及无独显时无畏契约、原神、3A 和 Steam 独立游戏的体验。">
+  <title>笔记本性能地图 — CPU 与集显，从用途看懂</title>
+  <link rel="icon" href="icon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+  <script src="locales/en.js" defer></script>
+  <script src="i18n.js" defer></script>
+  <script src="data.js" defer></script>
+  <script src="catalog.js" defer></script>
+  <script src="tasks.js" defer></script>
+  <script src="benchmarks.js" defer></script>
+  <script src="estimates.js" defer></script>
+  <script src="igpu.js" defer></script>
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <a class="skip" href="#explore">跳到 CPU 探索器</a>
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="笔记本性能地图，回到顶部"><span class="brand-icon" aria-hidden="true">✳</span><span><b>笔记本性能地图</b><small>A MAP OF LAPTOP PERFORMANCE</small></span></a>
+    <nav aria-label="主导航"><a href="#explore">认识 CPU</a><a href="#igpu">集显游戏</a><a href="#lab" class="nav-lab">整机实验室</a><a href="#learn">入门小课堂</a></nav>
+    <div class="language-switch" role="group" aria-label="Language / 语言" data-no-translate><button type="button" data-language="zh" aria-pressed="true" class="selected">中文</button><button type="button" data-language="en" aria-pressed="false">EN</button></div>
+    <a class="header-cta" href="#explore">开始探索 <span aria-hidden="true">↗</span></a>
+  </header>
+  <main id="top">
+    <section class="hero wrap" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="live-dot"></span> 给第一次认真看电脑参数的你</p>
+        <h1 id="hero-title">先想做什么，<br><span>再看 CPU 能做什么。</span></h1>
+        <p class="hero-description">办公、剪视频，还是打一局游戏？<br>把看不懂的型号，变成听得懂的用途。</p>
+        <a class="primary" href="#explore">从电脑类型开始 <span aria-hidden="true">↓</span></a>
+        <p class="hero-note"><span>3 类笔记本</span><i></i><span id="catalog-count">处理器型号库</span><i></i><span>4 类游戏体验</span></p>
+      </div>
+      <div class="hero-visual" aria-label="CPU 处理运算，GPU 处理画面，内存保存正在使用的资料，三者共同完成任务。">
+        <div class="visual-grid" aria-hidden="true"></div>
+        <div class="visual-caption">一台电脑，是一群队友。</div>
+        <svg class="circuit" viewBox="0 0 560 390" fill="none" aria-hidden="true"><path d="M280 80V34H444V98M280 216V317H100V263M360 155H475V280H389M202 155H105V100" stroke="currentColor" stroke-width="2"/><circle cx="105" cy="100" r="5" fill="currentColor"/><circle cx="389" cy="280" r="5" fill="currentColor"/><path d="M280 80V34H444V98" stroke="#3d8b68" stroke-width="3" stroke-dasharray="8 12" class="circuit-flow"/></svg>
+        <div class="chip-main"><div class="chip-pins" aria-hidden="true"></div><div class="chip-face"><span>运算与调度</span><strong>CPU</strong><small>负责把事情算明白</small></div></div>
+        <div class="satellite gpu"><span class="mini-glyph" aria-hidden="true">▧</span><div><strong>GPU</strong><small>把画面画出来</small></div></div>
+        <div class="satellite ram"><span class="mini-glyph" aria-hidden="true">▤</span><div><strong>内存</strong><small>放下手头的工作</small></div></div>
+        <div class="visual-note"><span aria-hidden="true">↳</span> CPU 很重要，但它不是全部。</div>
+      </div>
+    </section>
+    <div class="intro-strip wrap"><span class="strip-icon" aria-hidden="true">↳</span><p><strong>先记住这一句：</strong>CPU 决定一部分运算能力；电脑实际好不好用，还要看软件、显卡、内存和散热。</p><a href="#lab">动手试试看 <span aria-hidden="true">↗</span></a></div>
+
+    <section class="explore wrap section" id="explore" aria-labelledby="explore-title">
+      <div class="section-heading"><div><p class="eyebrow muted">01 / 从使用方式出发</p><h2 id="explore-title">你想了解哪一类笔记本？</h2></div><p>类型是整机的取舍，<br>不是 CPU 的性能等级。</p></div>
+      <div class="category-tabs" role="tablist" aria-label="笔记本类型">
+        <button class="category active" role="tab" id="tab-thin" aria-controls="category-panel" aria-selected="true" data-category="thin"><span class="laptop-icon thin" aria-hidden="true"></span><span><strong>轻薄本</strong><small>随身走，日常用</small></span><span class="tab-arrow" aria-hidden="true">↗</span></button>
+        <button class="category" role="tab" id="tab-versatile" aria-controls="category-panel" aria-selected="false" tabindex="-1" data-category="versatile"><span class="laptop-icon versatile" aria-hidden="true"></span><span><strong>全能本</strong><small>能移动，也能创作</small></span><span class="tab-arrow" aria-hidden="true">↗</span></button>
+        <button class="category" role="tab" id="tab-gaming" aria-controls="category-panel" aria-selected="false" tabindex="-1" data-category="gaming"><span class="laptop-icon gaming" aria-hidden="true"></span><span><strong>游戏本</strong><small>重负载，重协作</small></span><span class="tab-arrow" aria-hidden="true">↗</span></button>
+      </div>
+      <div id="category-panel" role="tabpanel" aria-labelledby="tab-thin">
+        <div class="category-context"><p id="category-description"></p><span id="category-focus"></span></div>
+        <div class="explorer-shell">
+          <aside class="model-sidebar" aria-label="CPU 型号选择">
+            <div class="sidebar-heading"><h3>查找处理器</h3><span id="model-count"></span></div>
+            <label class="search-field"><span aria-hidden="true">⌕</span><input id="model-search" type="search" placeholder="完整型号、品牌或核显名称" aria-label="搜索全部处理器型号与核显" autocomplete="off"></label>
+            <div class="catalog-filters"><label>品牌<select id="brand-filter" aria-label="筛选处理器品牌"><option value="all">全部品牌</option></select></label><label>系列<select id="family-filter" aria-label="筛选处理器系列"><option value="all">全部系列</option></select></label></div>
+            <div class="catalog-tools"><span id="search-hint">按整机类型浏览，也可搜索全部型号</span><button id="reset-filters" class="text-button">重置</button></div>
+            <div id="model-list" class="model-list"></div>
+          </aside>
+          <article class="cpu-panel" id="cpu-panel" aria-labelledby="cpu-name">
+            <div id="cpu-profile"></div>
+            <div class="task-area"><div class="task-heading"><h4>这颗 CPU 的任务取舍</h4><span>点选任务 ↓</span></div><p class="task-intro">重点看会拉开差别的工作：项目变大后，哪些资源能帮忙，哪些会先成为限制？</p><div id="task-list" class="task-list" role="group" aria-label="选择任务"></div><div id="task-result" class="task-result" aria-live="polite" aria-atomic="true"></div></div>
+            <section id="igpu" class="igpu-section" aria-labelledby="igpu-title"><div class="igpu-heading"><div><p class="eyebrow muted">没有独显的电脑，单独看这里</p><h4 id="igpu-title">这颗集成显卡，玩起来怎么样？</h4></div><span aria-hidden="true">⌁</span></div><div id="igpu-content"></div></section>
+            <div class="cpu-footer"><span>任务解读基于规格；游戏数字区分公开测试与性能估算。</span><button class="text-button" id="share-model">复制当前讲解链接 ↗</button></div>
+          </article>
+        </div>
+      </div>
+      <p class="scope-note" id="catalog-scope">覆盖 Intel、AMD、Apple 与 Qualcomm 的主流和近代笔记本处理器。同一颗 CPU 可以出现在不同类型的电脑中。资料核对：2026-10-23。</p>
+    </section>
+
+    <section class="lab-section" id="lab" aria-labelledby="lab-title"><div class="wrap">
+      <div class="section-heading"><div><p class="eyebrow muted">02 / 整机实验室</p><h2 id="lab-title">同一颗 CPU，换个搭档会怎样？</h2></div><p>移动开关，理解谁在影响体验。<br>这是原理演示，不是跑分预测。</p></div>
+      <div class="lab-layout">
+        <div class="lab-controls"><p class="lab-fixed"><span class="live-dot"></span> 假设：同一颗主流 x86 笔记本 CPU</p>
+          <label class="field-label" for="lab-work">你正在做什么？</label><select id="lab-work"><option value="office">写文档，同时开网页和视频会议</option><option value="render">持续进行 CPU 渲染 / 大项目编译</option><option value="game">运行高画质大型 3D 游戏</option></select>
+          <fieldset><legend>内存 <span>同时能放多少东西</span></legend><div class="segmented" id="memory-options"><button data-memory="8" aria-pressed="false">8 GB</button><button data-memory="16" aria-pressed="true" class="selected">16 GB</button><button data-memory="32" aria-pressed="false">32 GB</button></div></fieldset>
+          <fieldset><legend>散热与供电 <span>重任务能跑多久</span></legend><div class="segmented" id="cooling-options"><button data-cooling="limited" aria-pressed="true" class="selected">受限 / 安静模式</button><button data-cooling="ample" aria-pressed="false">充足 / 性能模式</button></div></fieldset>
+          <fieldset><legend>图形部分 <span>谁负责画画面</span></legend><div class="segmented" id="graphics-options"><button data-graphics="integrated" aria-pressed="true" class="selected">只用集成显卡</button><button data-graphics="dedicated" aria-pressed="false">另有独立显卡</button></div></fieldset>
+        </div>
+        <div class="lab-output"><div class="team-diagram" aria-hidden="true"><div class="team-node cpu-node"><small>计算</small><b>CPU</b></div><span>+</span><div class="team-node" id="memory-node"><small>工作台</small><b>16 GB</b></div><span>+</span><div class="team-node" id="gpu-node"><small>画面</small><b>集显</b></div></div><div id="lab-result" aria-live="polite" aria-atomic="true"></div></div>
+      </div>
+    </div></section>
+
+    <section class="wrap section learn-section" id="learn" aria-labelledby="learn-title">
+      <div class="section-heading"><div><p class="eyebrow muted">03 / 只学够用的知识</p><h2 id="learn-title">参数可以少记，误区要先避开。</h2></div><p>展开一个问题，<br>用半分钟搞懂一个概念。</p></div>
+      <div class="learn-grid"><div class="glossary">
+        <details><summary>写文档、开会、用云端 AI，需要多强 CPU？<span>+</span></summary><div>这些是大多数型号都能承担的共通用途，所以不在每颗 CPU 下重复一遍。<strong>基础文档、网页和会议先看内存够不够、软件是否适配</strong>；超大表格、复杂公式、多路会议和大量后台程序则另看负载。云端 AI 的主要计算在服务器上，不能因为 CPU 没有 NPU 就判断不能使用。</div></details>
+        <details open><summary>“i7 / Ultra 7 / 锐龙 7”一定比“5”快吗？<span>+</span></summary><div>这些数字主要表达同一产品家族内的档位。跨代、跨系列、跨功耗比较时，不能直接排序。先看<strong>完整型号、代际、系列和具体电脑的实测</strong>。老款高档位不一定胜过新款主流档位；Core、Core Ultra 和旧 Core i 也不能混为一套编号。</div></details>
+        <details><summary>U、V、H、HS、HX 到底是什么意思？<span>+</span></summary><div>它们是厂商在特定系列里的定位线索：Intel 的 U 常偏节能，200V 偏移动能效，H 常兼顾性能，HX 常面向高功耗整机；AMD 的传统 HS / HX 也有各自定位。<strong>这些不是通用性能等级。</strong>例如 Ryzen AI 9 HX 370 的 cTDP 是 15–54 W，Ryzen 9 9955HX 是 55–75 W；同样出现 HX，定位仍不同。<a href="#sources">查看官方规格来源 ↗</a></div></details>
+        <details><summary>核心、线程、单核、多核，怎么理解？<span>+</span></summary><div>核心像参与工作的成员；线程是系统安排工作的执行通道，<strong>线程数不等于完整核心数</strong>。单核能力影响一些交互、游戏主线程和串行计算；多核能力帮助可并行的编译、渲染等任务。部分 CPU 混合不同种类的核心，不能只比数量。GHz 也不是跨架构的统一速度单位。</div></details>
+        <details><summary>CPU 强，游戏就一定流畅吗？<span>+</span></summary><div>CPU 处理游戏逻辑、物理和绘制指令，GPU 负责把画面渲染出来。电竞高帧率可能更受 CPU 影响；提高分辨率、画质和光追后，GPU 往往更关键。<strong>显卡型号、显存、功耗、内存和散热</strong>都影响帧率。集显也能玩部分游戏，但不能只靠 CPU 名字承诺帧数。</div></details>
+        <details><summary>“AI CPU”能直接跑所有 AI 吗？<span>+</span></summary><div>NPU 是处理部分 AI 运算的专用单元，需要应用和模型适配。TOPS 表示特定计算条件下的理论吞吐，不是通用速度。<strong>浏览器里的云端 AI 主要在服务器计算</strong>；本地大模型、生图则常受显存或统一内存容量、GPU 与软件后端影响。NPU 强不等于 CPU、游戏或所有 AI 都更快。</div></details>
+        <details><summary>为什么同一 CPU，在两台电脑里表现不同？<span>+</span></summary><div>厂商可以设置不同的功耗、风扇和性能模式。短时间加速与半小时持续负载不是同一回事。内存容量与带宽、是否插电也会改变结果。官方 TDP / 基础功耗不是整机耗电，更不能直接换算成续航。<strong>长任务看持续性能，移动办公看整机续航测试。</strong></div></details>
+        <details><summary>Apple、骁龙与 Intel / AMD，差别先看哪里？<span>+</span></summary><div>先看你需要的软件与系统。Apple M 系列主要运行 macOS；骁龙笔记本运行 Windows on Arm。很多应用已有原生版本或能转译运行，但特定专业软件、插件、外设驱动和游戏反作弊仍需逐项确认。<strong>能打开软件、全部功能可用、运行得好，是三件事。</strong><a href="https://support.microsoft.com/en-us/windows/experience/platform-variants/windows-arm-based-pcs-faq" target="_blank" rel="noopener noreferrer">微软：Windows on Arm 常见问题 ↗</a></div></details>
+      </div><aside class="quiz-box" aria-labelledby="quiz-title"><div class="quiz-decoration" aria-hidden="true">?</div><p class="eyebrow">小测一下 · 不用背参数</p><h3 id="quiz-title">你已经会看了吗？</h3><div id="quiz-content"></div></aside></div>
+    </section>
+
+    <section class="wrap takeaways"><p class="eyebrow">下次看参数时，按这个顺序想</p><h2>任务 → 软件 → 完整型号 → 整机表现</h2><p>先确认能做你的事，再理解做这件事时，谁最重要。</p><a href="#explore" class="text-button">带着一个任务，再看一颗 CPU ↑</a></section>
+    <section class="wrap sources-section" id="sources"><details><summary><span>资料来源与覆盖范围 <small>官方规格与公开测试 · 2026-10-23 核对</small></span><span>+</span></summary><p id="coverage-description">以常见零售及主流商务笔记本为范围，兼顾仍可见的旧代产品。型号库收录不代表每个地区、每家商店当日有库存；不使用未经统计的市场覆盖百分比。Apple 的不同 CPU / GPU 配置、骁龙的不同料号分别列出。</p><p>任务解读基于厂商规格，按核心、架构、功耗定位与图形条件说明取舍，不编造编译或导出秒数。游戏帧率引用原始测评，区分单机平均、跨机器平均范围、数据库聚合和游戏过程观察；每项可展开测试条件及原文。本站未亲测硬件。缺测试时，按核显架构、图形规模与整机条件给出明确标注的性能估算，并列出锚点来源；估算是典型平均 FPS 的宽参考，不是统计置信区间。</p><p><a href="https://helpx.adobe.com/premiere/desktop/get-started/technical-requirements/adobe-premiere-pro-technical-requirements.html" target="_blank" rel="noopener noreferrer">Adobe · Premiere 硬件与内存要求 ↗</a> · <a href="https://learn.microsoft.com/en-us/visualstudio/releases/2022/system-requirements" target="_blank" rel="noopener noreferrer">Microsoft · Visual Studio 系统要求 ↗</a> · <a href="https://www.blender.org/download/requirements/" target="_blank" rel="noopener noreferrer">Blender · 系统要求 ↗</a></p><div id="source-list"></div><p>Intel 基础功耗与 AMD cTDP 的定义不同，不可作为统一跑分；Apple 与 Qualcomm 未在所引规格中提供可直接对比的同口径 CPU 功耗。规格、软件适配与整机配置会变化。</p></details></section>
+  </main>
+  <footer class="wrap site-footer"><a href="#top" class="footer-brand">✳ 笔记本性能地图</a><span>把参数翻译成日常。<br class="mobile-break">CPU、集成显卡，以及你想做的事。</span><a href="#top">回到顶部 ↑</a></footer>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <noscript><div class="noscript">请启用 JavaScript 以使用型号、任务与实验室交互。上方小课堂和基本说明仍可阅读。</div></noscript>
+</body>
+</html>

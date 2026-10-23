@@ -1,0 +1,1566 @@
+{
+  "version": 4,
+  "accessedDate": "2026-10-23",
+  "purpose": "Measured primary-review anchors plus explicitly reasoned estimates; no FPS-calculator sources used.",
+  "important": "Direct Ryzen AI Max+388 / Radeon8060S notebook sample now verified in Notebookcheck ProArtPX13 review:32GB LPDDR5x8000,70W performance profile. Other游戏/settings intervals remain editorial estimates, not claimed measurements.",
+  "records": [
+    {
+      "sourceURL": "https://www.notebookcheck.net/Asus-ROG-Flow-Z13-GZ302EA-Convertible-Review-AMD-s-Strix-Halo-GPU-is-neck-and-neck-with-the-RTX-4070-Laptop.963266.0.html",
+      "supportType": "measured",
+      "gpu": "Radeon8060S",
+      "cpu": "Ryzen AI Max+395",
+      "machine": "Asus ROG Flow Z13 GZ302EA-RU073W",
+      "game": "Cyberpunk2077",
+      "resolution": "1920x1080",
+      "preset": "Low",
+      "fpsavg": 124.8,
+      "fpslow": null,
+      "memory": "32GB; memory speed not reverified here",
+      "power": "Turbo mode. Review TDP/TGP limits 86/70/60 W; do not read as GPU-only power",
+      "driver": null,
+      "gameVersion": null,
+      "upscaling": "FSR off",
+      "frameGeneration": "off",
+      "testDate": "2025-02-17 (review; updated2025-02-24)",
+      "accessedDate": "2026-10-23",
+      "notes": []
+    },
+    {
+      "sourceURL": "https://www.notebookcheck.net/Asus-ROG-Flow-Z13-GZ302EA-Convertible-Review-AMD-s-Strix-Halo-GPU-is-neck-and-neck-with-the-RTX-4070-Laptop.963266.0.html",
+      "supportType": "measured",
+      "gpu": "Radeon8060S",
+      "cpu": "Ryzen AI Max+395",
+      "machine": "Asus ROG Flow Z13 GZ302EA-RU073W",
+      "game": "Cyberpunk2077",
+      "resolution": "1920x1080",
+      "preset": "Medium",
+      "fpsavg": 105.3,
+      "fpslow": null,
+      "memory": "32GB; memory speed not reverified here",
+      "power": "Turbo mode. Review TDP/TGP limits 86/70/60 W; do not read as GPU-only power",
+      "driver": null,
+      "gameVersion": null,
+      "upscaling": "FSR off",
+      "frameGeneration": "off",
+      "testDate": "2025-02-17 (review; updated2025-02-24)",
+      "accessedDate": "2026-10-23",
+      "notes": []
+    },
+    {
+      "sourceURL": "https://www.notebookcheck.net/Asus-ROG-Flow-Z13-GZ302EA-Convertible-Review-AMD-s-Strix-Halo-GPU-is-neck-and-neck-with-the-RTX-4070-Laptop.963266.0.html",
+      "supportType": "measured",
+      "gpu": "Radeon8060S",
+      "cpu": "Ryzen AI Max+395",
+      "machine": "Asus ROG Flow Z13 GZ302EA-RU073W",
+      "game": "Cyberpunk2077",
+      "resolution": "1920x1080",
+      "preset": "High",
+      "fpsavg": 85,
+      "fpslow": null,
+      "memory": "32GB; memory speed not reverified here",
+      "power": "Turbo mode. Review TDP/TGP limits 86/70/60 W; do not read as GPU-only power",
+      "driver": null,
+      "gameVersion": null,
+      "upscaling": "FSR off",
+      "frameGeneration": "off",
+      "testDate": "2025-02-17 (review; updated2025-02-24)",
+      "accessedDate": "2026-10-23",
+      "notes": []
+    },
+    {
+      "sourceURL": "https://www.notebookcheck.net/Asus-ROG-Flow-Z13-GZ302EA-Convertible-Review-AMD-s-Strix-Halo-GPU-is-neck-and-neck-with-the-RTX-4070-Laptop.963266.0.html",
+      "supportType": "measured",
+      "gpu": "Radeon8060S",
+      "cpu": "Ryzen AI Max+395",
+      "machine": "Asus ROG Flow Z13 GZ302EA-RU073W",
+      "game": "Cyberpunk2077",
+      "resolution": "1920x1080",
+      "preset": "Ultra",
+      "fpsavg": 75.6,
+      "fpslow": null,
+      "memory": "32GB; memory speed not reverified here",
+      "power": "Turbo mode. Review TDP/TGP limits 86/70/60 W; do not read as GPU-only power",
+      "driver": null,
+      "gameVersion": null,
+      "upscaling": "FSR off",
+      "frameGeneration": "off",
+      "testDate": "2025-02-17 (review; updated2025-02-24)",
+      "accessedDate": "2026-10-23",
+      "notes": []
+    },
+    {
+      "sourceURL": "https://www.notebookcheck.net/Asus-ROG-Flow-Z13-GZ302EA-Convertible-Review-AMD-s-Strix-Halo-GPU-is-neck-and-neck-with-the-RTX-4070-Laptop.963266.0.html",
+      "supportType": "measured",
+      "gpu": "Radeon8060S",
+      "cpu": "Ryzen AI Max+395",
+      "machine": "Asus ROG Flow Z13 GZ302EA-RU073W",
+      "game": "Cyberpunk2077",
+      "resolution": "2560x1440",
+      "preset": "Ultra",
+      "fpsavg": 46.4,
+      "fpslow": null,
+      "memory": "32GB; memory speed not reverified here",
+      "power": "Turbo mode. Review TDP/TGP limits 86/70/60 W; do not read as GPU-only power",
+      "driver": null,
+      "gameVersion": null,
+      "upscaling": "FSR off",
+      "frameGeneration": "off",
+      "testDate": "2025-02-17 (review; updated2025-02-24)",
+      "accessedDate": "2026-10-23",
+      "notes": []
+    },
+    {
+      "sourceURL": "https://www.notebookcheck.net/Asus-ROG-Flow-Z13-GZ302EA-Convertible-Review-AMD-s-Strix-Halo-GPU-is-neck-and-neck-with-the-RTX-4070-Laptop.963266.0.html",
+      "supportType": "measured",
+      "gpu": "Radeon8060S",
+      "cpu": "Ryzen AI Max+395",
+      "machine": "Asus ROG Flow Z13 GZ302EA-RU073W",
+      "game": "Cyberpunk2077",
+      "resolution": "2560x1440",
+      "preset": "Ultra",
+      "fpsavg": 64.5,
+      "fpslow": null,
+      "memory": "32GB; memory speed not reverified here",
+      "power": "Turbo mode. Review TDP/TGP limits 86/70/60 W; do not read as GPU-only power",
+      "driver": null,
+      "gameVersion": null,
+      "upscaling": "FSR3 on (exact mode not explicit in paragraph)",
+      "frameGeneration": "off",
+      "testDate": "2025-02-17 (review; updated2025-02-24)",
+      "accessedDate": "2026-10-23",
+      "notes": [
+        "Upscaled rendered FPS; keep separate from native."
+      ]
+    },
+    {
+      "sourceURL": "https://www.notebookcheck.net/Asus-ROG-Flow-Z13-GZ302EA-Convertible-Review-AMD-s-Strix-Halo-GPU-is-neck-and-neck-with-the-RTX-4070-Laptop.963266.0.html",
+      "supportType": "measured",
+      "gpu": "Radeon8060S",
+      "cpu": "Ryzen AI Max+395",
+      "machine": "Asus ROG Flow Z13 GZ302EA-RU073W",
+      "game": "Cyberpunk2077",
+      "resolution": "2560x1440",
+      "preset": "Ultra",
+      "fpsavg": 109.7,
+      "fpslow": null,
+      "memory": "32GB; memory speed not reverified here",
+      "power": "Turbo mode. Review TDP/TGP limits 86/70/60 W; do not read as GPU-only power",
+      "driver": null,
+      "gameVersion": null,
+      "upscaling": "FSR3 on",
+      "frameGeneration": "FSR3 FG on",
+      "testDate": "2025-02-17 (review; updated2025-02-24)",
+      "accessedDate": "2026-10-23",
+      "notes": [
+        "Displayed/generated frame rate. Not equivalent responsiveness to109.7 real renderedFPS."
+      ]
+    },
+    {
+      "sourceURL": "https://www.notebookcheck.net/Asus-ROG-Flow-Z13-GZ302EA-Convertible-Review-AMD-s-Strix-Halo-GPU-is-neck-and-neck-with-the-RTX-4070-Laptop.963266.0.html",
+      "supportType": "measured",
+      "gpu": "Radeon8060S",
+      "cpu": "Ryzen AI Max+395",
+      "machine": "Asus ROG Flow Z13 GZ302EA-RU073W",
+      "game": "Black Myth: Wukong",
+      "resolution": "1920x1080",
+      "preset": "Cinematic",
+      "fpsavg": 27,
+      "fpslow": null,
+      "memory": "32GB; memory speed not reverified here",
+      "power": "Turbo mode. Review TDP/TGP limits 86/70/60 W; do not read as GPU-only power",
+      "driver": null,
+      "gameVersion": null,
+      "upscaling": "TSR100% native",
+      "frameGeneration": "off",
+      "testDate": "2025-02-17 (review; updated2025-02-24)",
+      "accessedDate": "2026-10-23",
+      "notes": []
+    },
+    {
+      "sourceURL": "https://www.notebookcheck.net/Asus-ROG-Flow-Z13-GZ302EA-Convertible-Review-AMD-s-Strix-Halo-GPU-is-neck-and-neck-with-the-RTX-4070-Laptop.963266.0.html",
+      "supportType": "measured",
+      "gpu": "Radeon8060S",
+      "cpu": "Ryzen AI Max+395",
+      "machine": "Asus ROG Flow Z13 GZ302EA-RU073W",
+      "game": "Black Myth: Wukong",
+      "resolution": "2560x1440",
+      "preset": "Cinematic",
+      "fpsavg": 20,
+      "fpslow": null,
+      "memory": "32GB; memory speed not reverified here",
+      "power": "Turbo mode. Review TDP/TGP limits 86/70/60 W; do not read as GPU-only power",
+      "driver": null,
+      "gameVersion": null,
+      "upscaling": "TSR100% native",
+      "frameGeneration": "off",
+      "testDate": "2025-02-17 (review; updated2025-02-24)",
+      "accessedDate": "2026-10-23",
+      "notes": []
+    },
+    {
+      "sourceURL": "https://www.notebookcheck.net/Arc-B390-vs-Radeon-8060S-Two-very-different-GPUs-for-the-same-14-inch-screen-size.1213164.0.html",
+      "supportType": "measured",
+      "gpu": "Radeon8060S",
+      "cpu": "Ryzen AI Max+PRO395",
+      "machine": "HP ZBook Ultra G1a14",
+      "game": "Cyberpunk2077",
+      "resolution": "1920x1080",
+      "preset": "Low",
+      "fpsavg": 135.4,
+      "fpslow": {
+        "type": "1%low/P1",
+        "value": 92.7
+      },
+      "memory": null,
+      "power": null,
+      "driver": null,
+      "gameVersion": null,
+      "upscaling": "FSR off",
+      "frameGeneration": "off",
+      "testDate": null,
+      "accessedDate": "2026-10-23",
+      "notes": [
+        "Specific notebook; configuration metadata not extracted in this pass."
+      ]
+    },
+    {
+      "sourceURL": "https://www.notebookcheck.net/Arc-B390-vs-Radeon-8060S-Two-very-different-GPUs-for-the-same-14-inch-screen-size.1213164.0.html",
+      "supportType": "measured",
+      "gpu": "Radeon8060S",
+      "cpu": "Ryzen AI Max+PRO395",
+      "machine": "HP ZBook Ultra G1a14",
+      "game": "Cyberpunk2077",
+      "resolution": "1920x1080",
+      "preset": "Medium",
+      "fpsavg": 111.5,
+      "fpslow": {
+        "type": "1%low/P1",
+        "value": 81.8
+      },
+      "memory": null,
+      "power": null,
+      "driver": null,
+      "gameVersion": null,
+      "upscaling": "FSR off",
+      "frameGeneration": "off",
+      "testDate": null,
+      "accessedDate": "2026-10-23",
+      "notes": [
+        "Specific notebook; configuration metadata not extracted in this pass."
+      ]
+    },
+    {
+      "sourceURL": "https://www.notebookcheck.net/Arc-B390-vs-Radeon-8060S-Two-very-different-GPUs-for-the-same-14-inch-screen-size.1213164.0.html",
+      "supportType": "measured",
+      "gpu": "Radeon8060S",
+      "cpu": "Ryzen AI Max+PRO395",
+      "machine": "HP ZBook Ultra G1a14",
+      "game": "Cyberpunk2077",
+      "resolution": "1920x1080",
+      "preset": "High",
+      "fpsavg": 90.2,
+      "fpslow": {
+        "type": "1%low/P1",
+        "value": 69
+      },
+      "memory": null,
+      "power": null,
+      "driver": null,
+      "gameVersion": null,
+      "upscaling": "FSR off",
+      "frameGeneration": "off",
+      "testDate": null,
+      "accessedDate": "2026-10-23",
+      "notes": [
+        "Specific notebook; configuration metadata not extracted in this pass."
+      ]
+    },
+    {
+      "sourceURL": "https://www.notebookcheck.net/Arc-B390-vs-Radeon-8060S-Two-very-different-GPUs-for-the-same-14-inch-screen-size.1213164.0.html",
+      "supportType": "measured",
+      "gpu": "Radeon8060S",
+      "cpu": "Ryzen AI Max+PRO395",
+      "machine": "HP ZBook Ultra G1a14",
+      "game": "Cyberpunk2077",
+      "resolution": "1920x1080",
+      "preset": "Ultra",
+      "fpsavg": 80.7,
+      "fpslow": {
+        "type": "1%low/P1",
+        "value": 60.6
+      },
+      "memory": null,
+      "power": null,
+      "driver": null,
+      "gameVersion": null,
+      "upscaling": "FSR off",
+      "frameGeneration": "off",
+      "testDate": null,
+      "accessedDate": "2026-10-23",
+      "notes": [
+        "Specific notebook; configuration metadata not extracted in this pass."
+      ]
+    },
+    {
+      "sourceURL": "https://www.notebookcheck.net/Arc-B390-vs-Radeon-8060S-Two-very-different-GPUs-for-the-same-14-inch-screen-size.1213164.0.html",
+      "supportType": "measured",
+      "gpu": "Radeon8060S",
+      "cpu": "Ryzen AI Max+PRO395",
+      "machine": "HP ZBook Ultra G1a14",
+      "game": "Black Myth: Wukong",
+      "resolution": "1920x1080",
+      "preset": "Low",
+      "fpsavg": 81,
+      "fpslow": {
+        "type": "minimum",
+        "value": 46
+      },
+      "memory": null,
+      "power": null,
+      "driver": null,
+      "gameVersion": null,
+      "upscaling": "TSR100% native",
+      "frameGeneration": "off",
+      "testDate": null,
+      "accessedDate": "2026-10-23",
+      "notes": [
+        "Specific notebook; configuration metadata not extracted in this pass."
+      ]
+    },
+    {
+      "sourceURL": "https://www.notebookcheck.net/Arc-B390-vs-Radeon-8060S-Two-very-different-GPUs-for-the-same-14-inch-screen-size.1213164.0.html",
+      "supportType": "measured",
+      "gpu": "Radeon8060S",
+      "cpu": "Ryzen AI Max+PRO395",
+      "machine": "HP ZBook Ultra G1a14",
+      "game": "Black Myth: Wukong",
+      "resolution": "1920x1080",
+      "preset": "Medium",
+      "fpsavg": 62,
+      "fpslow": {
+        "type": "minimum",
+        "value": 19
+      },
+      "memory": null,
+      "power": null,
+      "driver": null,
+      "gameVersion": null,
+      "upscaling": "TSR100% native",
+      "frameGeneration": "off",
+      "testDate": null,
+      "accessedDate": "2026-10-23",
+      "notes": [
+        "Specific notebook; configuration metadata not extracted in this pass."
+      ]
+    },
+    {
+      "sourceURL": "https://www.notebookcheck.net/Arc-B390-vs-Radeon-8060S-Two-very-different-GPUs-for-the-same-14-inch-screen-size.1213164.0.html",
+      "supportType": "measured",
+      "gpu": "Radeon8060S",
+      "cpu": "Ryzen AI Max+PRO395",
+      "machine": "HP ZBook Ultra G1a14",
+      "game": "Black Myth: Wukong",
+      "resolution": "1920x1080",
+      "preset": "High",
+      "fpsavg": 46,
+      "fpslow": {
+        "type": "minimum",
+        "value": 15
+      },
+      "memory": null,
+      "power": null,
+      "driver": null,
+      "gameVersion": null,
+      "upscaling": "TSR100% native",
+      "frameGeneration": "off",
+      "testDate": null,
+      "accessedDate": "2026-10-23",
+      "notes": [
+        "Specific notebook; configuration metadata not extracted in this pass."
+      ]
+    },
+    {
+      "sourceURL": "https://www.notebookcheck.net/Arc-B390-vs-Radeon-8060S-Two-very-different-GPUs-for-the-same-14-inch-screen-size.1213164.0.html",
+      "supportType": "measured",
+      "gpu": "Radeon8060S",
+      "cpu": "Ryzen AI Max+PRO395",
+      "machine": "HP ZBook Ultra G1a14",
+      "game": "Black Myth: Wukong",
+      "resolution": "1920x1080",
+      "preset": "Cinematic",
+      "fpsavg": 25,
+      "fpslow": {
+        "type": "minimum",
+        "value": 21
+      },
+      "memory": null,
+      "power": null,
+      "driver": null,
+      "gameVersion": null,
+      "upscaling": "TSR100% native",
+      "frameGeneration": "off",
+      "testDate": null,
+      "accessedDate": "2026-10-23",
+      "notes": [
+        "Specific notebook; configuration metadata not extracted in this pass."
+      ]
+    },
+    {
+      "sourceURL": "https://thehikaku.net/pc/other/Ryzen-AI-MAX-392.html",
+      "supportType": "measured",
+      "gpu": "Radeon8060S",
+      "cpu": "Ryzen AI Max+392",
+      "machine": "Asus TUF Gaming A14(2026)FA401EA",
+      "game": "Valorant",
+      "resolution": "1920x1200",
+      "preset": "High",
+      "fpsavg": 349,
+      "fpslow": null,
+      "memory": null,
+      "power": "Turbo mode. CPU-only Prime95 observed90–100W; not confirmed gaming package power",
+      "driver": null,
+      "gameVersion": null,
+      "upscaling": "not explicitly specified; no upscaling reported",
+      "frameGeneration": "off",
+      "testDate": "2026-02-03 (page update)",
+      "accessedDate": "2026-10-23",
+      "notes": [
+        "Practice mode, not five-versus-five real-match average. FPS cannot transfer unchanged to real combat."
+      ]
+    },
+    {
+      "sourceURL": "https://thehikaku.net/pc/other/Ryzen-AI-MAX-392.html",
+      "supportType": "measured",
+      "gpu": "Radeon8060S",
+      "cpu": "Ryzen AI Max+392",
+      "machine": "Asus TUF Gaming A14(2026)FA401EA",
+      "game": "Valorant",
+      "resolution": "2560x1600",
+      "preset": "High",
+      "fpsavg": 307,
+      "fpslow": null,
+      "memory": null,
+      "power": "Turbo mode. CPU-only Prime95 observed90–100W; not confirmed gaming package power",
+      "driver": null,
+      "gameVersion": null,
+      "upscaling": "not explicitly specified; no upscaling reported",
+      "frameGeneration": "off",
+      "testDate": "2026-02-03 (page update)",
+      "accessedDate": "2026-10-23",
+      "notes": [
+        "Practice mode, not five-versus-five real-match average. FPS cannot transfer unchanged to real combat."
+      ]
+    },
+    {
+      "sourceURL": "https://thehikaku.net/pc/other/Ryzen-AI-MAX-392.html",
+      "supportType": "measured",
+      "gpu": "Radeon8060S",
+      "cpu": "Ryzen AI Max+392",
+      "machine": "Asus TUF Gaming A14(2026)FA401EA",
+      "game": "Genshin Impact",
+      "resolution": "2560x1600",
+      "preset": "High",
+      "fpsavg": 60,
+      "fpslow": null,
+      "memory": null,
+      "power": "Turbo mode. CPU-only Prime95 observed90–100W; not confirmed gaming package power",
+      "driver": null,
+      "gameVersion": null,
+      "upscaling": "render-scale setting not explicitly stated in text",
+      "frameGeneration": "off",
+      "testDate": "2026-02-03 (page update)",
+      "accessedDate": "2026-10-23",
+      "notes": [
+        "Reached60FPS cap; exact benchmark route/render-scale not stated. Sufficient for cautious expectation, not universal60FPS lock guarantee."
+      ]
+    },
+    {
+      "sourceURL": "https://www.notebookcheck.net/AMD-Radeon-8050S-Benchmarks-and-Specs.942048.0.html",
+      "supportType": "measured",
+      "gpu": "Radeon8050S",
+      "cpu": "Ryzen AI MaxPRO390",
+      "machine": "HP ZBook Ultra G1a A3ZQ0ET",
+      "game": "Cyberpunk2077",
+      "resolution": "1920x1080",
+      "preset": "Low",
+      "fpsavg": 111.1,
+      "fpslow": {
+        "type": "1%low/P1",
+        "value": 78.4
+      },
+      "memory": "32GB",
+      "power": null,
+      "driver": null,
+      "gameVersion": "2.21",
+      "upscaling": "FSR off",
+      "frameGeneration": "off",
+      "testDate": null,
+      "accessedDate": "2026-10-23",
+      "notes": []
+    },
+    {
+      "sourceURL": "https://www.notebookcheck.net/AMD-Radeon-8050S-Benchmarks-and-Specs.942048.0.html",
+      "supportType": "measured",
+      "gpu": "Radeon8050S",
+      "cpu": "Ryzen AI MaxPRO390",
+      "machine": "HP ZBook Ultra G1a A3ZQ0ET",
+      "game": "Cyberpunk2077",
+      "resolution": "1920x1080",
+      "preset": "Ultra",
+      "fpsavg": 63.1,
+      "fpslow": {
+        "type": "1%low/P1",
+        "value": 45.1
+      },
+      "memory": "32GB",
+      "power": null,
+      "driver": null,
+      "gameVersion": "2.21",
+      "upscaling": "FSR off",
+      "frameGeneration": "off",
+      "testDate": null,
+      "accessedDate": "2026-10-23",
+      "notes": []
+    },
+    {
+      "sourceURL": "https://www.notebookcheck.net/AMD-Radeon-8040S-Benchmarks-and-Specs.942047.0.html",
+      "supportType": "measured",
+      "gpu": "Radeon8040S",
+      "cpu": "Ryzen AI MaxPRO380",
+      "machine": "HP ZBook Ultra G1a14 B30FBES",
+      "game": "Cyberpunk2077",
+      "resolution": "1920x1080",
+      "preset": "Low",
+      "fpsavg": 60.6,
+      "fpslow": {
+        "type": "minimum",
+        "value": 50
+      },
+      "memory": "16GB",
+      "power": "CPU/APU PL1 70W, PL2 81W per database",
+      "driver": null,
+      "gameVersion": null,
+      "upscaling": "FSR off",
+      "frameGeneration": "off",
+      "testDate": null,
+      "accessedDate": "2026-10-23",
+      "notes": []
+    },
+    {
+      "sourceURL": "https://www.notebookcheck.net/AMD-Radeon-8040S-Benchmarks-and-Specs.942047.0.html",
+      "supportType": "measured",
+      "gpu": "Radeon8040S",
+      "cpu": "Ryzen AI MaxPRO380",
+      "machine": "HP ZBook Ultra G1a14 B30FBES",
+      "game": "Cyberpunk2077",
+      "resolution": "1920x1080",
+      "preset": "Medium",
+      "fpsavg": 46,
+      "fpslow": {
+        "type": "minimum",
+        "value": 40
+      },
+      "memory": "16GB",
+      "power": "CPU/APU PL1 70W, PL2 81W per database",
+      "driver": null,
+      "gameVersion": null,
+      "upscaling": "FSR off",
+      "frameGeneration": "off",
+      "testDate": null,
+      "accessedDate": "2026-10-23",
+      "notes": []
+    },
+    {
+      "sourceURL": "https://www.notebookcheck.net/AMD-Radeon-8040S-Benchmarks-and-Specs.942047.0.html",
+      "supportType": "measured",
+      "gpu": "Radeon8040S",
+      "cpu": "Ryzen AI MaxPRO380",
+      "machine": "HP ZBook Ultra G1a14 B30FBES",
+      "game": "Cyberpunk2077",
+      "resolution": "1920x1080",
+      "preset": "High",
+      "fpsavg": 36,
+      "fpslow": {
+        "type": "minimum",
+        "value": 31
+      },
+      "memory": "16GB",
+      "power": "CPU/APU PL1 70W, PL2 81W per database",
+      "driver": null,
+      "gameVersion": null,
+      "upscaling": "FSR off",
+      "frameGeneration": "off",
+      "testDate": null,
+      "accessedDate": "2026-10-23",
+      "notes": []
+    },
+    {
+      "sourceURL": "https://www.notebookcheck.net/AMD-Radeon-8040S-Benchmarks-and-Specs.942047.0.html",
+      "supportType": "measured",
+      "gpu": "Radeon8040S",
+      "cpu": "Ryzen AI MaxPRO380",
+      "machine": "HP ZBook Ultra G1a14 B30FBES",
+      "game": "Cyberpunk2077",
+      "resolution": "1920x1080",
+      "preset": "Ultra",
+      "fpsavg": 33.2,
+      "fpslow": {
+        "type": "minimum",
+        "value": 28
+      },
+      "memory": "16GB",
+      "power": "CPU/APU PL1 70W, PL2 81W per database",
+      "driver": null,
+      "gameVersion": null,
+      "upscaling": "FSR off",
+      "frameGeneration": "off",
+      "testDate": null,
+      "accessedDate": "2026-10-23",
+      "notes": []
+    },
+    {
+      "sourceURL": "https://www.notebookcheck.net/AMD-Strix-Halo-with-32-GB-RAM-for-1899-Asus-ProArt-PX13-2026-Convertible-Review.1352377.0.html",
+      "title": "Notebookcheck: Asus ProArt PX13 2026 / Ryzen AI MAX+388 review",
+      "supportType": "measured",
+      "gpu": "Radeon8060S",
+      "cpu": "Ryzen AI Max+388",
+      "machine": "Asus ProArt PX13 HN7306EA Ryzen AI MAX+388",
+      "game": "Cyberpunk2077",
+      "resolution": "1920x1080",
+      "fpslow": null,
+      "memory": "32GB LPDDR5x-8000",
+      "driver": "Adrenalin25.20.32.06",
+      "gameVersion": null,
+      "upscaling": "FSR off/native",
+      "frameGeneration": "off",
+      "testDate": "2026-07-28(publication)",
+      "accessedDate": "2026-10-23",
+      "notes": [
+        "Direct sample of user-selected388CPU; not an estimate based on395."
+      ],
+      "preset": "Low",
+      "fpsavg": 120.1,
+      "power": "Performance mode,PL1/PL2=70/85W"
+    },
+    {
+      "sourceURL": "https://www.notebookcheck.net/AMD-Strix-Halo-with-32-GB-RAM-for-1899-Asus-ProArt-PX13-2026-Convertible-Review.1352377.0.html",
+      "title": "Notebookcheck: Asus ProArt PX13 2026 / Ryzen AI MAX+388 review",
+      "supportType": "measured",
+      "gpu": "Radeon8060S",
+      "cpu": "Ryzen AI Max+388",
+      "machine": "Asus ProArt PX13 HN7306EA Ryzen AI MAX+388",
+      "game": "Cyberpunk2077",
+      "resolution": "1920x1080",
+      "fpslow": null,
+      "memory": "32GB LPDDR5x-8000",
+      "driver": "Adrenalin25.20.32.06",
+      "gameVersion": null,
+      "upscaling": "FSR off/native",
+      "frameGeneration": "off",
+      "testDate": "2026-07-28(publication)",
+      "accessedDate": "2026-10-23",
+      "notes": [
+        "Direct sample of user-selected388CPU; not an estimate based on395."
+      ],
+      "preset": "Medium",
+      "fpsavg": 96.9,
+      "power": "Performance mode,PL1/PL2=70/85W"
+    },
+    {
+      "sourceURL": "https://www.notebookcheck.net/AMD-Strix-Halo-with-32-GB-RAM-for-1899-Asus-ProArt-PX13-2026-Convertible-Review.1352377.0.html",
+      "title": "Notebookcheck: Asus ProArt PX13 2026 / Ryzen AI MAX+388 review",
+      "supportType": "measured",
+      "gpu": "Radeon8060S",
+      "cpu": "Ryzen AI Max+388",
+      "machine": "Asus ProArt PX13 HN7306EA Ryzen AI MAX+388",
+      "game": "Cyberpunk2077",
+      "resolution": "1920x1080",
+      "fpslow": null,
+      "memory": "32GB LPDDR5x-8000",
+      "driver": "Adrenalin25.20.32.06",
+      "gameVersion": null,
+      "upscaling": "FSR off/native",
+      "frameGeneration": "off",
+      "testDate": "2026-07-28(publication)",
+      "accessedDate": "2026-10-23",
+      "notes": [
+        "Direct sample of user-selected388CPU; not an estimate based on395."
+      ],
+      "preset": "High",
+      "fpsavg": 77.9,
+      "power": "Performance mode,PL1/PL2=70/85W"
+    },
+    {
+      "sourceURL": "https://www.notebookcheck.net/AMD-Strix-Halo-with-32-GB-RAM-for-1899-Asus-ProArt-PX13-2026-Convertible-Review.1352377.0.html",
+      "title": "Notebookcheck: Asus ProArt PX13 2026 / Ryzen AI MAX+388 review",
+      "supportType": "measured",
+      "gpu": "Radeon8060S",
+      "cpu": "Ryzen AI Max+388",
+      "machine": "Asus ProArt PX13 HN7306EA Ryzen AI MAX+388",
+      "game": "Cyberpunk2077",
+      "resolution": "1920x1080",
+      "fpslow": null,
+      "memory": "32GB LPDDR5x-8000",
+      "driver": "Adrenalin25.20.32.06",
+      "gameVersion": null,
+      "upscaling": "FSR off/native",
+      "frameGeneration": "off",
+      "testDate": "2026-07-28(publication)",
+      "accessedDate": "2026-10-23",
+      "notes": [
+        "Direct sample of user-selected388CPU; not an estimate based on395."
+      ],
+      "preset": "Ultra",
+      "fpsavg": 68.9,
+      "power": "Performance mode,PL1/PL2=70/85W"
+    },
+    {
+      "sourceURL": "https://www.notebookcheck.net/AMD-Strix-Halo-with-32-GB-RAM-for-1899-Asus-ProArt-PX13-2026-Convertible-Review.1352377.0.html",
+      "title": "Notebookcheck: Asus ProArt PX13 2026 / Ryzen AI MAX+388 review",
+      "supportType": "measured",
+      "gpu": "Radeon8060S",
+      "cpu": "Ryzen AI Max+388",
+      "machine": "Asus ProArt PX13 HN7306EA Ryzen AI MAX+388",
+      "game": "Cyberpunk2077",
+      "resolution": "1920x1080",
+      "fpslow": null,
+      "memory": "32GB LPDDR5x-8000",
+      "driver": "Adrenalin25.20.32.06",
+      "gameVersion": null,
+      "upscaling": "FSR off/native",
+      "frameGeneration": "off",
+      "testDate": "2026-07-28(publication)",
+      "accessedDate": "2026-10-23",
+      "notes": [
+        "Direct sample of user-selected388CPU; not an estimate based on395."
+      ],
+      "preset": "Ultra",
+      "fpsavg": 48.2,
+      "power": "Silent mode,PL1/PL2=40/50W",
+      "recordType": "controlled-power"
+    },
+    {
+      "sourceURL": "https://www.notebookcheck.net/AMD-Strix-Halo-with-32-GB-RAM-for-1899-Asus-ProArt-PX13-2026-Convertible-Review.1352377.0.html",
+      "title": "Notebookcheck: Asus ProArt PX13 2026 / Ryzen AI MAX+388 review",
+      "supportType": "measured",
+      "gpu": "Radeon8060S",
+      "cpu": "Ryzen AI Max+388",
+      "machine": "Asus ProArt PX13 HN7306EA Ryzen AI MAX+388",
+      "game": "Cyberpunk2077",
+      "resolution": "1920x1080",
+      "fpslow": null,
+      "memory": "32GB LPDDR5x-8000",
+      "driver": "Adrenalin25.20.32.06",
+      "gameVersion": null,
+      "upscaling": "FSR off/native",
+      "frameGeneration": "off",
+      "testDate": "2026-07-28(publication)",
+      "accessedDate": "2026-10-23",
+      "notes": [
+        "Direct sample of user-selected388CPU; not an estimate based on395."
+      ],
+      "preset": "Ultra",
+      "fpsavg": 53.7,
+      "power": "Standard mode,PL1/PL2=55/65W",
+      "recordType": "controlled-power"
+    }
+  ],
+  "synthetic": [
+    {
+      "sourceURL": "https://www.notebookcheck.net/Asus-ROG-Flow-Z13-GZ302EA-Convertible-Review-AMD-s-Strix-Halo-GPU-is-neck-and-neck-with-the-RTX-4070-Laptop.963266.0.html",
+      "gpu": "Radeon8060S",
+      "machine": "ROG FlowZ13/395",
+      "test": "3DMark TimeSpy Graphics",
+      "valuesByMode": {
+        "Quiet": 6026,
+        "Performance": 8524,
+        "Turbo": 10224,
+        "Manual": 10787
+      },
+      "notes": "Substantial sameGPU power-mode variation. Do not multiply every gameFPS by these ratios."
+    },
+    {
+      "sourceURL": "https://www.notebookcheck.net/AMD-Radeon-8050S-Benchmarks-and-Specs.942048.0.html",
+      "gpu": "Radeon8050S",
+      "machine": "HP ZBookUltra390",
+      "test": "3DMark TimeSpy Graphics",
+      "score": 8898,
+      "notes": "Database also has engineering-sample10106; exclude engineering sample for laptop claim."
+    },
+    {
+      "sourceURL": "https://www.notebookcheck.net/AMD-Radeon-8040S-Benchmarks-and-Specs.942047.0.html",
+      "gpu": "Radeon8040S",
+      "machine": "HP ZBookUltra380",
+      "test": "3DMark TimeSpy Graphics",
+      "score": 4033,
+      "notes": "Specific16GB notebook; not every8040S."
+    },
+    {
+      "sourceURL": "https://www.notebookcheck.net/AMD-Strix-Halo-with-32-GB-RAM-for-1899-Asus-ProArt-PX13-2026-Convertible-Review.1352377.0.html",
+      "gpu": "Radeon8060S",
+      "cpu": "Ryzen AI Max+388",
+      "machine": "Asus ProArt PX13 HN7306EA Ryzen AI MAX+388",
+      "test": "3DMark TimeSpy Graphics",
+      "valuesByMode": {
+        "Silent": 6279,
+        "Standard": 8435,
+        "Performance": 9801
+      },
+      "powerByMode": {
+        "Silent": "PL1/PL2=40/50W",
+        "Standard": "55/65W",
+        "Performance": "70/85W"
+      },
+      "notes": "These are measured mode differences on exact388laptop; compare only as broad power envelope."
+    }
+  ],
+  "estimates": [
+    {
+      "gpu": "Radeon8060S",
+      "game": "Cyberpunk2077",
+      "resolution": "1920x1080",
+      "preset": "Low",
+      "fpsRange": [
+        80,
+        140
+      ],
+      "supportType": "estimated",
+      "label": "本站估算",
+      "confidence": "medium",
+      "upscaling": "off/native",
+      "frameGeneration": "off",
+      "assumptions": "Windowsx86, plugged into AC, performance mode, drivers healthy,32GB or more fast properly configured shared RAM; Halo package roughly45–90W; exclude severe throttling.",
+      "basis": "Direct388 ProArtPX13 @70W:1080pLow120.1/Medium96.9/High77.9/Ultra68.9; same388Ultra40W48.2/55W53.7/70W68.9. Other8060S395laptops provide adjacent configuration anchors. Interval intentionally widens for notebookpower/memory/cooling, no fixed FPS multiplier.",
+      "sourceURLs": [
+        "https://www.notebookcheck.net/AMD-Strix-Halo-with-32-GB-RAM-for-1899-Asus-ProArt-PX13-2026-Convertible-Review.1352377.0.html",
+        "https://www.notebookcheck.net/Arc-B390-vs-Radeon-8060S-Two-very-different-GPUs-for-the-same-14-inch-screen-size.1213164.0.html",
+        "https://www.notebookcheck.net/Asus-ROG-Flow-Z13-GZ302EA-Convertible-Review-AMD-s-Strix-Halo-GPU-is-neck-and-neck-with-the-RTX-4070-Laptop.963266.0.html"
+      ],
+      "notes": [
+        "Planning interval of likely averageFPS, not measured min/max, not confidence interval, not1%low; actual scenes may fall below."
+      ],
+      "targetCPU": "Ryzen AI Max+388 (estimated across notebooks unless direct record displayed)"
+    },
+    {
+      "gpu": "Radeon8060S",
+      "game": "Cyberpunk2077",
+      "resolution": "1920x1080",
+      "preset": "Medium",
+      "fpsRange": [
+        65,
+        120
+      ],
+      "supportType": "estimated",
+      "label": "本站估算",
+      "confidence": "medium",
+      "upscaling": "off/native",
+      "frameGeneration": "off",
+      "assumptions": "Windowsx86, plugged into AC, performance mode, drivers healthy,32GB or more fast properly configured shared RAM; Halo package roughly45–90W; exclude severe throttling.",
+      "basis": "Direct388 ProArtPX13 @70W:1080pLow120.1/Medium96.9/High77.9/Ultra68.9; same388Ultra40W48.2/55W53.7/70W68.9. Other8060S395laptops provide adjacent configuration anchors. Interval intentionally widens for notebookpower/memory/cooling, no fixed FPS multiplier.",
+      "sourceURLs": [
+        "https://www.notebookcheck.net/AMD-Strix-Halo-with-32-GB-RAM-for-1899-Asus-ProArt-PX13-2026-Convertible-Review.1352377.0.html",
+        "https://www.notebookcheck.net/Arc-B390-vs-Radeon-8060S-Two-very-different-GPUs-for-the-same-14-inch-screen-size.1213164.0.html",
+        "https://www.notebookcheck.net/Asus-ROG-Flow-Z13-GZ302EA-Convertible-Review-AMD-s-Strix-Halo-GPU-is-neck-and-neck-with-the-RTX-4070-Laptop.963266.0.html"
+      ],
+      "notes": [
+        "Planning interval of likely averageFPS, not measured min/max, not confidence interval, not1%low; actual scenes may fall below."
+      ],
+      "targetCPU": "Ryzen AI Max+388 (estimated across notebooks unless direct record displayed)"
+    },
+    {
+      "gpu": "Radeon8060S",
+      "game": "Cyberpunk2077",
+      "resolution": "1920x1080",
+      "preset": "High",
+      "fpsRange": [
+        55,
+        100
+      ],
+      "supportType": "estimated",
+      "label": "本站估算",
+      "confidence": "medium",
+      "upscaling": "off/native",
+      "frameGeneration": "off",
+      "assumptions": "Windowsx86, plugged into AC, performance mode, drivers healthy,32GB or more fast properly configured shared RAM; Halo package roughly45–90W; exclude severe throttling.",
+      "basis": "Direct388 ProArtPX13 @70W:1080pLow120.1/Medium96.9/High77.9/Ultra68.9; same388Ultra40W48.2/55W53.7/70W68.9. Other8060S395laptops provide adjacent configuration anchors. Interval intentionally widens for notebookpower/memory/cooling, no fixed FPS multiplier.",
+      "sourceURLs": [
+        "https://www.notebookcheck.net/AMD-Strix-Halo-with-32-GB-RAM-for-1899-Asus-ProArt-PX13-2026-Convertible-Review.1352377.0.html",
+        "https://www.notebookcheck.net/Arc-B390-vs-Radeon-8060S-Two-very-different-GPUs-for-the-same-14-inch-screen-size.1213164.0.html",
+        "https://www.notebookcheck.net/Asus-ROG-Flow-Z13-GZ302EA-Convertible-Review-AMD-s-Strix-Halo-GPU-is-neck-and-neck-with-the-RTX-4070-Laptop.963266.0.html"
+      ],
+      "notes": [
+        "Planning interval of likely averageFPS, not measured min/max, not confidence interval, not1%low; actual scenes may fall below."
+      ],
+      "targetCPU": "Ryzen AI Max+388 (estimated across notebooks unless direct record displayed)"
+    },
+    {
+      "gpu": "Radeon8060S",
+      "game": "Cyberpunk2077",
+      "resolution": "1920x1080",
+      "preset": "Ultra",
+      "fpsRange": [
+        45,
+        85
+      ],
+      "supportType": "estimated",
+      "label": "本站估算",
+      "confidence": "medium",
+      "upscaling": "off/native",
+      "frameGeneration": "off",
+      "assumptions": "Windowsx86, plugged into AC, performance mode, drivers healthy,32GB or more fast properly configured shared RAM; Halo package roughly45–90W; exclude severe throttling.",
+      "basis": "Direct388 ProArtPX13 @70W:1080pLow120.1/Medium96.9/High77.9/Ultra68.9; same388Ultra40W48.2/55W53.7/70W68.9. Other8060S395laptops provide adjacent configuration anchors. Interval intentionally widens for notebookpower/memory/cooling, no fixed FPS multiplier.",
+      "sourceURLs": [
+        "https://www.notebookcheck.net/AMD-Strix-Halo-with-32-GB-RAM-for-1899-Asus-ProArt-PX13-2026-Convertible-Review.1352377.0.html",
+        "https://www.notebookcheck.net/Arc-B390-vs-Radeon-8060S-Two-very-different-GPUs-for-the-same-14-inch-screen-size.1213164.0.html",
+        "https://www.notebookcheck.net/Asus-ROG-Flow-Z13-GZ302EA-Convertible-Review-AMD-s-Strix-Halo-GPU-is-neck-and-neck-with-the-RTX-4070-Laptop.963266.0.html"
+      ],
+      "notes": [
+        "Planning interval of likely averageFPS, not measured min/max, not confidence interval, not1%low; actual scenes may fall below."
+      ],
+      "targetCPU": "Ryzen AI Max+388 (estimated across notebooks unless direct record displayed)"
+    },
+    {
+      "gpu": "Radeon8060S",
+      "game": "Black Myth: Wukong",
+      "resolution": "1920x1080",
+      "preset": "Low",
+      "fpsRange": [
+        55,
+        95
+      ],
+      "supportType": "estimated",
+      "label": "本站估算",
+      "confidence": "medium",
+      "upscaling": "off/native",
+      "frameGeneration": "off",
+      "assumptions": "Windowsx86, plugged into AC, performance mode, drivers healthy,32GB or more fast properly configured shared RAM; Halo package roughly45–90W; exclude severe throttling.",
+      "basis": "SameGPU HP395 measured81/62/46/25 FPS; Flow395 cinematic27. Lower edge allows power/chassis differences. TSR100%,fullRT off.",
+      "sourceURLs": [
+        "https://www.notebookcheck.net/Arc-B390-vs-Radeon-8060S-Two-very-different-GPUs-for-the-same-14-inch-screen-size.1213164.0.html",
+        "https://www.notebookcheck.net/Asus-ROG-Flow-Z13-GZ302EA-Convertible-Review-AMD-s-Strix-Halo-GPU-is-neck-and-neck-with-the-RTX-4070-Laptop.963266.0.html"
+      ],
+      "notes": [
+        "Planning interval of likely averageFPS, not measured min/max, not confidence interval, not1%low; actual scenes may fall below."
+      ],
+      "targetCPU": "Ryzen AI Max+388 (estimated across notebooks unless direct record displayed)"
+    },
+    {
+      "gpu": "Radeon8060S",
+      "game": "Black Myth: Wukong",
+      "resolution": "1920x1080",
+      "preset": "Medium",
+      "fpsRange": [
+        40,
+        75
+      ],
+      "supportType": "estimated",
+      "label": "本站估算",
+      "confidence": "medium",
+      "upscaling": "off/native",
+      "frameGeneration": "off",
+      "assumptions": "Windowsx86, plugged into AC, performance mode, drivers healthy,32GB or more fast properly configured shared RAM; Halo package roughly45–90W; exclude severe throttling.",
+      "basis": "SameGPU HP395 measured81/62/46/25 FPS; Flow395 cinematic27. Lower edge allows power/chassis differences. TSR100%,fullRT off.",
+      "sourceURLs": [
+        "https://www.notebookcheck.net/Arc-B390-vs-Radeon-8060S-Two-very-different-GPUs-for-the-same-14-inch-screen-size.1213164.0.html",
+        "https://www.notebookcheck.net/Asus-ROG-Flow-Z13-GZ302EA-Convertible-Review-AMD-s-Strix-Halo-GPU-is-neck-and-neck-with-the-RTX-4070-Laptop.963266.0.html"
+      ],
+      "notes": [
+        "Planning interval of likely averageFPS, not measured min/max, not confidence interval, not1%low; actual scenes may fall below."
+      ],
+      "targetCPU": "Ryzen AI Max+388 (estimated across notebooks unless direct record displayed)"
+    },
+    {
+      "gpu": "Radeon8060S",
+      "game": "Black Myth: Wukong",
+      "resolution": "1920x1080",
+      "preset": "High",
+      "fpsRange": [
+        30,
+        55
+      ],
+      "supportType": "estimated",
+      "label": "本站估算",
+      "confidence": "medium",
+      "upscaling": "off/native",
+      "frameGeneration": "off",
+      "assumptions": "Windowsx86, plugged into AC, performance mode, drivers healthy,32GB or more fast properly configured shared RAM; Halo package roughly45–90W; exclude severe throttling.",
+      "basis": "SameGPU HP395 measured81/62/46/25 FPS; Flow395 cinematic27. Lower edge allows power/chassis differences. TSR100%,fullRT off.",
+      "sourceURLs": [
+        "https://www.notebookcheck.net/Arc-B390-vs-Radeon-8060S-Two-very-different-GPUs-for-the-same-14-inch-screen-size.1213164.0.html",
+        "https://www.notebookcheck.net/Asus-ROG-Flow-Z13-GZ302EA-Convertible-Review-AMD-s-Strix-Halo-GPU-is-neck-and-neck-with-the-RTX-4070-Laptop.963266.0.html"
+      ],
+      "notes": [
+        "Planning interval of likely averageFPS, not measured min/max, not confidence interval, not1%low; actual scenes may fall below."
+      ],
+      "targetCPU": "Ryzen AI Max+388 (estimated across notebooks unless direct record displayed)"
+    },
+    {
+      "gpu": "Radeon8060S",
+      "game": "Black Myth: Wukong",
+      "resolution": "1920x1080",
+      "preset": "Cinematic",
+      "fpsRange": [
+        18,
+        32
+      ],
+      "supportType": "estimated",
+      "label": "本站估算",
+      "confidence": "medium",
+      "upscaling": "off/native",
+      "frameGeneration": "off",
+      "assumptions": "Windowsx86, plugged into AC, performance mode, drivers healthy,32GB or more fast properly configured shared RAM; Halo package roughly45–90W; exclude severe throttling.",
+      "basis": "SameGPU HP395 measured81/62/46/25 FPS; Flow395 cinematic27. Lower edge allows power/chassis differences. TSR100%,fullRT off.",
+      "sourceURLs": [
+        "https://www.notebookcheck.net/Arc-B390-vs-Radeon-8060S-Two-very-different-GPUs-for-the-same-14-inch-screen-size.1213164.0.html",
+        "https://www.notebookcheck.net/Asus-ROG-Flow-Z13-GZ302EA-Convertible-Review-AMD-s-Strix-Halo-GPU-is-neck-and-neck-with-the-RTX-4070-Laptop.963266.0.html"
+      ],
+      "notes": [
+        "Planning interval of likely averageFPS, not measured min/max, not confidence interval, not1%low; actual scenes may fall below."
+      ],
+      "targetCPU": "Ryzen AI Max+388 (estimated across notebooks unless direct record displayed)"
+    },
+    {
+      "gpu": "Radeon8060S",
+      "game": "Valorant",
+      "resolution": "1920x1080",
+      "preset": "High",
+      "fpsRange": [
+        180,
+        360
+      ],
+      "supportType": "estimated",
+      "label": "本站估算",
+      "confidence": "low-medium",
+      "upscaling": "off/native",
+      "frameGeneration": "off",
+      "assumptions": "Windowsx86, plugged into AC, performance mode, drivers healthy,32GB or more fast properly configured shared RAM; Halo package roughly45–90W; exclude severe throttling.",
+      "basis": "SameGPU TUF392 practice mode1920x1200high349FPS (395 comparison467); conservatively reduce for real5v5 and 388CPUandnotebookconfigurationdifferences. This is a reasoned estimate, not conversion of practiceFPS.",
+      "sourceURLs": [
+        "https://thehikaku.net/pc/other/Ryzen-AI-MAX-392.html"
+      ],
+      "notes": [
+        "Planning interval of likely averageFPS, not measured min/max, not confidence interval, not1%low; actual scenes may fall below."
+      ],
+      "targetCPU": "Ryzen AI Max+388 (estimated across notebooks unless direct record displayed)"
+    },
+    {
+      "gpu": "Radeon8060S",
+      "game": "Genshin Impact",
+      "resolution": "1920x1080",
+      "preset": "High,render scale1.0;60FPScap",
+      "fpsRange": [
+        50,
+        60
+      ],
+      "supportType": "estimated",
+      "label": "本站估算",
+      "confidence": "medium-low",
+      "upscaling": "off/native",
+      "frameGeneration": "off",
+      "assumptions": "Windowsx86, plugged into AC, performance mode, drivers healthy,32GB or more fast properly configured shared RAM; Halo package roughly45–90W; exclude severe throttling.",
+      "basis": "SameGPU TUF392 original review reports2560x1600High60cap; exact render scale and route absent. Downscaled1080p expectation rounded conservatively; busycombat/shader work may stutter.",
+      "sourceURLs": [
+        "https://thehikaku.net/pc/other/Ryzen-AI-MAX-392.html"
+      ],
+      "notes": [
+        "Planning interval of likely averageFPS, not measured min/max, not confidence interval, not1%low; actual scenes may fall below."
+      ],
+      "targetCPU": "Ryzen AI Max+388 (estimated across notebooks unless direct record displayed)"
+    },
+    {
+      "gpu": "Radeon8050S",
+      "game": "Cyberpunk2077",
+      "resolution": "1920x1080",
+      "preset": "Low",
+      "fpsRange": [
+        75,
+        125
+      ],
+      "supportType": "estimated",
+      "label": "本站估算",
+      "confidence": "medium forLow/Ultra;low forMiddle",
+      "upscaling": "off/native",
+      "frameGeneration": "off",
+      "assumptions": "Windowsx86, plugged into AC, performance mode, drivers healthy,32GB or more fast properly configured shared RAM; Halo package roughly45–90W; exclude severe throttling.",
+      "basis": "Direct8050SlaptopLow111.1/Ultra63.1,2.21. Middle presets bounded by8060Slaptop relative positions and8050Sgraphics throughput; not a claimed measuredMedium/High.",
+      "sourceURLs": [
+        "https://www.notebookcheck.net/AMD-Radeon-8050S-Benchmarks-and-Specs.942048.0.html",
+        "https://www.notebookcheck.net/Arc-B390-vs-Radeon-8060S-Two-very-different-GPUs-for-the-same-14-inch-screen-size.1213164.0.html",
+        "https://www.notebookcheck.net/Asus-ROG-Flow-Z13-GZ302EA-Convertible-Review-AMD-s-Strix-Halo-GPU-is-neck-and-neck-with-the-RTX-4070-Laptop.963266.0.html"
+      ],
+      "notes": [
+        "Planning interval of likely averageFPS, not measured min/max, not confidence interval, not1%low; actual scenes may fall below."
+      ]
+    },
+    {
+      "gpu": "Radeon8050S",
+      "game": "Cyberpunk2077",
+      "resolution": "1920x1080",
+      "preset": "Medium",
+      "fpsRange": [
+        60,
+        100
+      ],
+      "supportType": "estimated",
+      "label": "本站估算",
+      "confidence": "medium forLow/Ultra;low forMiddle",
+      "upscaling": "off/native",
+      "frameGeneration": "off",
+      "assumptions": "Windowsx86, plugged into AC, performance mode, drivers healthy,32GB or more fast properly configured shared RAM; Halo package roughly45–90W; exclude severe throttling.",
+      "basis": "Direct8050SlaptopLow111.1/Ultra63.1,2.21. Middle presets bounded by8060Slaptop relative positions and8050Sgraphics throughput; not a claimed measuredMedium/High.",
+      "sourceURLs": [
+        "https://www.notebookcheck.net/AMD-Radeon-8050S-Benchmarks-and-Specs.942048.0.html",
+        "https://www.notebookcheck.net/Arc-B390-vs-Radeon-8060S-Two-very-different-GPUs-for-the-same-14-inch-screen-size.1213164.0.html",
+        "https://www.notebookcheck.net/Asus-ROG-Flow-Z13-GZ302EA-Convertible-Review-AMD-s-Strix-Halo-GPU-is-neck-and-neck-with-the-RTX-4070-Laptop.963266.0.html"
+      ],
+      "notes": [
+        "Planning interval of likely averageFPS, not measured min/max, not confidence interval, not1%low; actual scenes may fall below."
+      ]
+    },
+    {
+      "gpu": "Radeon8050S",
+      "game": "Cyberpunk2077",
+      "resolution": "1920x1080",
+      "preset": "High",
+      "fpsRange": [
+        45,
+        85
+      ],
+      "supportType": "estimated",
+      "label": "本站估算",
+      "confidence": "medium forLow/Ultra;low forMiddle",
+      "upscaling": "off/native",
+      "frameGeneration": "off",
+      "assumptions": "Windowsx86, plugged into AC, performance mode, drivers healthy,32GB or more fast properly configured shared RAM; Halo package roughly45–90W; exclude severe throttling.",
+      "basis": "Direct8050SlaptopLow111.1/Ultra63.1,2.21. Middle presets bounded by8060Slaptop relative positions and8050Sgraphics throughput; not a claimed measuredMedium/High.",
+      "sourceURLs": [
+        "https://www.notebookcheck.net/AMD-Radeon-8050S-Benchmarks-and-Specs.942048.0.html",
+        "https://www.notebookcheck.net/Arc-B390-vs-Radeon-8060S-Two-very-different-GPUs-for-the-same-14-inch-screen-size.1213164.0.html",
+        "https://www.notebookcheck.net/Asus-ROG-Flow-Z13-GZ302EA-Convertible-Review-AMD-s-Strix-Halo-GPU-is-neck-and-neck-with-the-RTX-4070-Laptop.963266.0.html"
+      ],
+      "notes": [
+        "Planning interval of likely averageFPS, not measured min/max, not confidence interval, not1%low; actual scenes may fall below."
+      ]
+    },
+    {
+      "gpu": "Radeon8050S",
+      "game": "Cyberpunk2077",
+      "resolution": "1920x1080",
+      "preset": "Ultra",
+      "fpsRange": [
+        40,
+        70
+      ],
+      "supportType": "estimated",
+      "label": "本站估算",
+      "confidence": "medium forLow/Ultra;low forMiddle",
+      "upscaling": "off/native",
+      "frameGeneration": "off",
+      "assumptions": "Windowsx86, plugged into AC, performance mode, drivers healthy,32GB or more fast properly configured shared RAM; Halo package roughly45–90W; exclude severe throttling.",
+      "basis": "Direct8050SlaptopLow111.1/Ultra63.1,2.21. Middle presets bounded by8060Slaptop relative positions and8050Sgraphics throughput; not a claimed measuredMedium/High.",
+      "sourceURLs": [
+        "https://www.notebookcheck.net/AMD-Radeon-8050S-Benchmarks-and-Specs.942048.0.html",
+        "https://www.notebookcheck.net/Arc-B390-vs-Radeon-8060S-Two-very-different-GPUs-for-the-same-14-inch-screen-size.1213164.0.html",
+        "https://www.notebookcheck.net/Asus-ROG-Flow-Z13-GZ302EA-Convertible-Review-AMD-s-Strix-Halo-GPU-is-neck-and-neck-with-the-RTX-4070-Laptop.963266.0.html"
+      ],
+      "notes": [
+        "Planning interval of likely averageFPS, not measured min/max, not confidence interval, not1%low; actual scenes may fall below."
+      ]
+    },
+    {
+      "gpu": "Radeon8050S",
+      "game": "Black Myth: Wukong",
+      "resolution": "1920x1080",
+      "preset": "Low",
+      "fpsRange": [
+        45,
+        85
+      ],
+      "supportType": "estimated",
+      "label": "本站估算",
+      "confidence": "low",
+      "upscaling": "off/native",
+      "frameGeneration": "off",
+      "assumptions": "Windowsx86, plugged into AC, performance mode, drivers healthy,32GB or more fast properly configured shared RAM; Halo package roughly45–90W; exclude severe throttling.",
+      "basis": "No8050SdirectWukongsamplefound;8040S4033/8050S8898/8060S10224TimeSpy provides ordering only. Start below8060SHP81/62/46/25 allowing workload-dependentGPU/power variation; no universal0.87FPS multiplier.",
+      "sourceURLs": [
+        "https://www.notebookcheck.net/AMD-Radeon-8050S-Benchmarks-and-Specs.942048.0.html",
+        "https://www.notebookcheck.net/Arc-B390-vs-Radeon-8060S-Two-very-different-GPUs-for-the-same-14-inch-screen-size.1213164.0.html",
+        "https://www.notebookcheck.net/Asus-ROG-Flow-Z13-GZ302EA-Convertible-Review-AMD-s-Strix-Halo-GPU-is-neck-and-neck-with-the-RTX-4070-Laptop.963266.0.html"
+      ],
+      "notes": [
+        "Planning interval of likely averageFPS, not measured min/max, not confidence interval, not1%low; actual scenes may fall below."
+      ]
+    },
+    {
+      "gpu": "Radeon8050S",
+      "game": "Black Myth: Wukong",
+      "resolution": "1920x1080",
+      "preset": "Medium",
+      "fpsRange": [
+        30,
+        65
+      ],
+      "supportType": "estimated",
+      "label": "本站估算",
+      "confidence": "low",
+      "upscaling": "off/native",
+      "frameGeneration": "off",
+      "assumptions": "Windowsx86, plugged into AC, performance mode, drivers healthy,32GB or more fast properly configured shared RAM; Halo package roughly45–90W; exclude severe throttling.",
+      "basis": "No8050SdirectWukongsamplefound;8040S4033/8050S8898/8060S10224TimeSpy provides ordering only. Start below8060SHP81/62/46/25 allowing workload-dependentGPU/power variation; no universal0.87FPS multiplier.",
+      "sourceURLs": [
+        "https://www.notebookcheck.net/AMD-Radeon-8050S-Benchmarks-and-Specs.942048.0.html",
+        "https://www.notebookcheck.net/Arc-B390-vs-Radeon-8060S-Two-very-different-GPUs-for-the-same-14-inch-screen-size.1213164.0.html",
+        "https://www.notebookcheck.net/Asus-ROG-Flow-Z13-GZ302EA-Convertible-Review-AMD-s-Strix-Halo-GPU-is-neck-and-neck-with-the-RTX-4070-Laptop.963266.0.html"
+      ],
+      "notes": [
+        "Planning interval of likely averageFPS, not measured min/max, not confidence interval, not1%low; actual scenes may fall below."
+      ]
+    },
+    {
+      "gpu": "Radeon8050S",
+      "game": "Black Myth: Wukong",
+      "resolution": "1920x1080",
+      "preset": "High",
+      "fpsRange": [
+        25,
+        48
+      ],
+      "supportType": "estimated",
+      "label": "本站估算",
+      "confidence": "low",
+      "upscaling": "off/native",
+      "frameGeneration": "off",
+      "assumptions": "Windowsx86, plugged into AC, performance mode, drivers healthy,32GB or more fast properly configured shared RAM; Halo package roughly45–90W; exclude severe throttling.",
+      "basis": "No8050SdirectWukongsamplefound;8040S4033/8050S8898/8060S10224TimeSpy provides ordering only. Start below8060SHP81/62/46/25 allowing workload-dependentGPU/power variation; no universal0.87FPS multiplier.",
+      "sourceURLs": [
+        "https://www.notebookcheck.net/AMD-Radeon-8050S-Benchmarks-and-Specs.942048.0.html",
+        "https://www.notebookcheck.net/Arc-B390-vs-Radeon-8060S-Two-very-different-GPUs-for-the-same-14-inch-screen-size.1213164.0.html",
+        "https://www.notebookcheck.net/Asus-ROG-Flow-Z13-GZ302EA-Convertible-Review-AMD-s-Strix-Halo-GPU-is-neck-and-neck-with-the-RTX-4070-Laptop.963266.0.html"
+      ],
+      "notes": [
+        "Planning interval of likely averageFPS, not measured min/max, not confidence interval, not1%low; actual scenes may fall below."
+      ]
+    },
+    {
+      "gpu": "Radeon8050S",
+      "game": "Black Myth: Wukong",
+      "resolution": "1920x1080",
+      "preset": "Cinematic",
+      "fpsRange": [
+        14,
+        28
+      ],
+      "supportType": "estimated",
+      "label": "本站估算",
+      "confidence": "low",
+      "upscaling": "off/native",
+      "frameGeneration": "off",
+      "assumptions": "Windowsx86, plugged into AC, performance mode, drivers healthy,32GB or more fast properly configured shared RAM; Halo package roughly45–90W; exclude severe throttling.",
+      "basis": "No8050SdirectWukongsamplefound;8040S4033/8050S8898/8060S10224TimeSpy provides ordering only. Start below8060SHP81/62/46/25 allowing workload-dependentGPU/power variation; no universal0.87FPS multiplier.",
+      "sourceURLs": [
+        "https://www.notebookcheck.net/AMD-Radeon-8050S-Benchmarks-and-Specs.942048.0.html",
+        "https://www.notebookcheck.net/Arc-B390-vs-Radeon-8060S-Two-very-different-GPUs-for-the-same-14-inch-screen-size.1213164.0.html",
+        "https://www.notebookcheck.net/Asus-ROG-Flow-Z13-GZ302EA-Convertible-Review-AMD-s-Strix-Halo-GPU-is-neck-and-neck-with-the-RTX-4070-Laptop.963266.0.html"
+      ],
+      "notes": [
+        "Planning interval of likely averageFPS, not measured min/max, not confidence interval, not1%low; actual scenes may fall below."
+      ]
+    },
+    {
+      "gpu": "Radeon8050S",
+      "game": "Valorant",
+      "resolution": "1920x1080",
+      "preset": "High",
+      "fpsRange": [
+        160,
+        320
+      ],
+      "supportType": "estimated",
+      "label": "本站估算",
+      "confidence": "low",
+      "upscaling": "off/native",
+      "frameGeneration": "off",
+      "assumptions": "Windowsx86, plugged into AC, performance mode, drivers healthy,32GB or more fast properly configured shared RAM; Halo package roughly45–90W; exclude severe throttling.",
+      "basis": "SamearchitectureZen5CPUand32CUvs8060S40CU; CPUlimitedtitle. Nearby8060Spractice349andconservativeactualcombat envelope; not measured8050SValorant.",
+      "sourceURLs": [
+        "https://thehikaku.net/pc/other/Ryzen-AI-MAX-392.html",
+        "https://www.notebookcheck.net/AMD-Radeon-8050S-Benchmarks-and-Specs.942048.0.html"
+      ],
+      "notes": [
+        "Planning interval of likely averageFPS, not measured min/max, not confidence interval, not1%low; actual scenes may fall below."
+      ]
+    },
+    {
+      "gpu": "Radeon8050S",
+      "game": "Genshin Impact",
+      "resolution": "1920x1080",
+      "preset": "High,render scale1.0;60FPScap",
+      "fpsRange": [
+        45,
+        60
+      ],
+      "supportType": "estimated",
+      "label": "本站估算",
+      "confidence": "low",
+      "upscaling": "off/native",
+      "frameGeneration": "off",
+      "assumptions": "Windowsx86, plugged into AC, performance mode, drivers healthy,32GB or more fast properly configured shared RAM; Halo package roughly45–90W; exclude severe throttling.",
+      "basis": "Nearby8060S1600pHigh60cap sample,8050S32CU and lower gaming performance; maintain wide45–60expectedaverage, no claim verified60lock.",
+      "sourceURLs": [
+        "https://thehikaku.net/pc/other/Ryzen-AI-MAX-392.html",
+        "https://www.notebookcheck.net/AMD-Radeon-8050S-Benchmarks-and-Specs.942048.0.html"
+      ],
+      "notes": [
+        "Planning interval of likely averageFPS, not measured min/max, not confidence interval, not1%low; actual scenes may fall below."
+      ]
+    },
+    {
+      "gpu": "Radeon8040S",
+      "game": "Cyberpunk2077",
+      "resolution": "1920x1080",
+      "preset": "Low",
+      "fpsRange": [
+        40,
+        70
+      ],
+      "supportType": "estimated",
+      "label": "本站估算",
+      "confidence": "medium",
+      "upscaling": "off/native",
+      "frameGeneration": "off",
+      "assumptions": "Windowsx86, plugged into AC, performance mode, drivers healthy,32GB or more fast properly configured shared RAM; Halo package roughly45–90W; exclude severe throttling.",
+      "basis": "Specific16GBHP380laptop60.6/46/36/33.2; widen for packagepower/RAM/CPU variation; sameGPUconversion applies only configuration-comparabledevices.",
+      "sourceURLs": [
+        "https://www.notebookcheck.net/AMD-Radeon-8040S-Benchmarks-and-Specs.942047.0.html"
+      ],
+      "notes": [
+        "Planning interval of likely averageFPS, not measured min/max, not confidence interval, not1%low; actual scenes may fall below."
+      ]
+    },
+    {
+      "gpu": "Radeon8040S",
+      "game": "Cyberpunk2077",
+      "resolution": "1920x1080",
+      "preset": "Medium",
+      "fpsRange": [
+        30,
+        55
+      ],
+      "supportType": "estimated",
+      "label": "本站估算",
+      "confidence": "medium",
+      "upscaling": "off/native",
+      "frameGeneration": "off",
+      "assumptions": "Windowsx86, plugged into AC, performance mode, drivers healthy,32GB or more fast properly configured shared RAM; Halo package roughly45–90W; exclude severe throttling.",
+      "basis": "Specific16GBHP380laptop60.6/46/36/33.2; widen for packagepower/RAM/CPU variation; sameGPUconversion applies only configuration-comparabledevices.",
+      "sourceURLs": [
+        "https://www.notebookcheck.net/AMD-Radeon-8040S-Benchmarks-and-Specs.942047.0.html"
+      ],
+      "notes": [
+        "Planning interval of likely averageFPS, not measured min/max, not confidence interval, not1%low; actual scenes may fall below."
+      ]
+    },
+    {
+      "gpu": "Radeon8040S",
+      "game": "Cyberpunk2077",
+      "resolution": "1920x1080",
+      "preset": "High",
+      "fpsRange": [
+        25,
+        45
+      ],
+      "supportType": "estimated",
+      "label": "本站估算",
+      "confidence": "medium",
+      "upscaling": "off/native",
+      "frameGeneration": "off",
+      "assumptions": "Windowsx86, plugged into AC, performance mode, drivers healthy,32GB or more fast properly configured shared RAM; Halo package roughly45–90W; exclude severe throttling.",
+      "basis": "Specific16GBHP380laptop60.6/46/36/33.2; widen for packagepower/RAM/CPU variation; sameGPUconversion applies only configuration-comparabledevices.",
+      "sourceURLs": [
+        "https://www.notebookcheck.net/AMD-Radeon-8040S-Benchmarks-and-Specs.942047.0.html"
+      ],
+      "notes": [
+        "Planning interval of likely averageFPS, not measured min/max, not confidence interval, not1%low; actual scenes may fall below."
+      ]
+    },
+    {
+      "gpu": "Radeon8040S",
+      "game": "Cyberpunk2077",
+      "resolution": "1920x1080",
+      "preset": "Ultra",
+      "fpsRange": [
+        20,
+        40
+      ],
+      "supportType": "estimated",
+      "label": "本站估算",
+      "confidence": "medium",
+      "upscaling": "off/native",
+      "frameGeneration": "off",
+      "assumptions": "Windowsx86, plugged into AC, performance mode, drivers healthy,32GB or more fast properly configured shared RAM; Halo package roughly45–90W; exclude severe throttling.",
+      "basis": "Specific16GBHP380laptop60.6/46/36/33.2; widen for packagepower/RAM/CPU variation; sameGPUconversion applies only configuration-comparabledevices.",
+      "sourceURLs": [
+        "https://www.notebookcheck.net/AMD-Radeon-8040S-Benchmarks-and-Specs.942047.0.html"
+      ],
+      "notes": [
+        "Planning interval of likely averageFPS, not measured min/max, not confidence interval, not1%low; actual scenes may fall below."
+      ]
+    },
+    {
+      "gpu": "Radeon8040S",
+      "game": "Black Myth: Wukong",
+      "resolution": "1920x1080",
+      "preset": "Low",
+      "fpsRange": [
+        25,
+        50
+      ],
+      "supportType": "estimated",
+      "label": "本站估算",
+      "confidence": "low",
+      "upscaling": "off/native",
+      "frameGeneration": "off",
+      "assumptions": "Windowsx86, plugged into AC, performance mode, drivers healthy,32GB or more fast properly configured shared RAM; Halo package roughly45–90W; exclude severe throttling.",
+      "basis": "No8040SdirectWukongsamplefound.16CUandTimeSpy4033 suggests below8050S/8060S; widen relative to8060SHP81/62/46/25 andavoidexactratio. Appropriate only broadentry-level expectation.",
+      "sourceURLs": [
+        "https://www.notebookcheck.net/AMD-Radeon-8040S-Benchmarks-and-Specs.942047.0.html",
+        "https://www.notebookcheck.net/Arc-B390-vs-Radeon-8060S-Two-very-different-GPUs-for-the-same-14-inch-screen-size.1213164.0.html",
+        "https://www.notebookcheck.net/Asus-ROG-Flow-Z13-GZ302EA-Convertible-Review-AMD-s-Strix-Halo-GPU-is-neck-and-neck-with-the-RTX-4070-Laptop.963266.0.html"
+      ],
+      "notes": [
+        "Planning interval of likely averageFPS, not measured min/max, not confidence interval, not1%low; actual scenes may fall below."
+      ]
+    },
+    {
+      "gpu": "Radeon8040S",
+      "game": "Black Myth: Wukong",
+      "resolution": "1920x1080",
+      "preset": "Medium",
+      "fpsRange": [
+        18,
+        38
+      ],
+      "supportType": "estimated",
+      "label": "本站估算",
+      "confidence": "low",
+      "upscaling": "off/native",
+      "frameGeneration": "off",
+      "assumptions": "Windowsx86, plugged into AC, performance mode, drivers healthy,32GB or more fast properly configured shared RAM; Halo package roughly45–90W; exclude severe throttling.",
+      "basis": "No8040SdirectWukongsamplefound.16CUandTimeSpy4033 suggests below8050S/8060S; widen relative to8060SHP81/62/46/25 andavoidexactratio. Appropriate only broadentry-level expectation.",
+      "sourceURLs": [
+        "https://www.notebookcheck.net/AMD-Radeon-8040S-Benchmarks-and-Specs.942047.0.html",
+        "https://www.notebookcheck.net/Arc-B390-vs-Radeon-8060S-Two-very-different-GPUs-for-the-same-14-inch-screen-size.1213164.0.html",
+        "https://www.notebookcheck.net/Asus-ROG-Flow-Z13-GZ302EA-Convertible-Review-AMD-s-Strix-Halo-GPU-is-neck-and-neck-with-the-RTX-4070-Laptop.963266.0.html"
+      ],
+      "notes": [
+        "Planning interval of likely averageFPS, not measured min/max, not confidence interval, not1%low; actual scenes may fall below."
+      ]
+    },
+    {
+      "gpu": "Radeon8040S",
+      "game": "Black Myth: Wukong",
+      "resolution": "1920x1080",
+      "preset": "High",
+      "fpsRange": [
+        14,
+        28
+      ],
+      "supportType": "estimated",
+      "label": "本站估算",
+      "confidence": "low",
+      "upscaling": "off/native",
+      "frameGeneration": "off",
+      "assumptions": "Windowsx86, plugged into AC, performance mode, drivers healthy,32GB or more fast properly configured shared RAM; Halo package roughly45–90W; exclude severe throttling.",
+      "basis": "No8040SdirectWukongsamplefound.16CUandTimeSpy4033 suggests below8050S/8060S; widen relative to8060SHP81/62/46/25 andavoidexactratio. Appropriate only broadentry-level expectation.",
+      "sourceURLs": [
+        "https://www.notebookcheck.net/AMD-Radeon-8040S-Benchmarks-and-Specs.942047.0.html",
+        "https://www.notebookcheck.net/Arc-B390-vs-Radeon-8060S-Two-very-different-GPUs-for-the-same-14-inch-screen-size.1213164.0.html",
+        "https://www.notebookcheck.net/Asus-ROG-Flow-Z13-GZ302EA-Convertible-Review-AMD-s-Strix-Halo-GPU-is-neck-and-neck-with-the-RTX-4070-Laptop.963266.0.html"
+      ],
+      "notes": [
+        "Planning interval of likely averageFPS, not measured min/max, not confidence interval, not1%low; actual scenes may fall below."
+      ]
+    },
+    {
+      "gpu": "Radeon8040S",
+      "game": "Black Myth: Wukong",
+      "resolution": "1920x1080",
+      "preset": "Cinematic",
+      "fpsRange": [
+        8,
+        18
+      ],
+      "supportType": "estimated",
+      "label": "本站估算",
+      "confidence": "low",
+      "upscaling": "off/native",
+      "frameGeneration": "off",
+      "assumptions": "Windowsx86, plugged into AC, performance mode, drivers healthy,32GB or more fast properly configured shared RAM; Halo package roughly45–90W; exclude severe throttling.",
+      "basis": "No8040SdirectWukongsamplefound.16CUandTimeSpy4033 suggests below8050S/8060S; widen relative to8060SHP81/62/46/25 andavoidexactratio. Appropriate only broadentry-level expectation.",
+      "sourceURLs": [
+        "https://www.notebookcheck.net/AMD-Radeon-8040S-Benchmarks-and-Specs.942047.0.html",
+        "https://www.notebookcheck.net/Arc-B390-vs-Radeon-8060S-Two-very-different-GPUs-for-the-same-14-inch-screen-size.1213164.0.html",
+        "https://www.notebookcheck.net/Asus-ROG-Flow-Z13-GZ302EA-Convertible-Review-AMD-s-Strix-Halo-GPU-is-neck-and-neck-with-the-RTX-4070-Laptop.963266.0.html"
+      ],
+      "notes": [
+        "Planning interval of likely averageFPS, not measured min/max, not confidence interval, not1%low; actual scenes may fall below."
+      ]
+    },
+    {
+      "gpu": "Radeon8040S",
+      "game": "Valorant",
+      "resolution": "1920x1080",
+      "preset": "High",
+      "fpsRange": [
+        100,
+        220
+      ],
+      "supportType": "estimated",
+      "label": "本站估算",
+      "confidence": "low",
+      "upscaling": "off/native",
+      "frameGeneration": "off",
+      "assumptions": "Windowsx86, plugged into AC, performance mode, drivers healthy,32GB or more fast properly configured shared RAM; Halo package roughly45–90W; exclude severe throttling.",
+      "basis": "No8040SValorantbenchmark. NearbyB390149FPShigh and780M103FPShigh records,8040Sbetterbandwidth butdependsCPU/memory; allow wideCPUboundrange.",
+      "sourceURLs": [
+        "https://www.notebookcheck.net/AMD-Radeon-8040S-Benchmarks-and-Specs.942047.0.html",
+        "https://thehikaku.net/pc/other/Ryzen-AI-MAX-392.html"
+      ],
+      "notes": [
+        "Planning interval of likely averageFPS, not measured min/max, not confidence interval, not1%low; actual scenes may fall below."
+      ]
+    },
+    {
+      "gpu": "Radeon8040S",
+      "game": "Genshin Impact",
+      "resolution": "1920x1080",
+      "preset": "Medium,render scale1.0;60FPScap",
+      "fpsRange": [
+        35,
+        60
+      ],
+      "supportType": "estimated",
+      "label": "本站估算",
+      "confidence": "low",
+      "upscaling": "off/native",
+      "frameGeneration": "off",
+      "assumptions": "Windowsx86, plugged into AC, performance mode, drivers healthy,32GB or more fast properly configured shared RAM; Halo package roughly45–90W; exclude severe throttling.",
+      "basis": "Extrapolated capability from8040S2077Low60.6/Medium46and8060SGenshin1600pHigh60cap; differentgame no directlymeasuredtransfer. Deliberatelywide, ensuremarkedestimation.",
+      "sourceURLs": [
+        "https://www.notebookcheck.net/AMD-Radeon-8040S-Benchmarks-and-Specs.942047.0.html",
+        "https://thehikaku.net/pc/other/Ryzen-AI-MAX-392.html"
+      ],
+      "notes": [
+        "Planning interval of likely averageFPS, not measured min/max, not confidence interval, not1%low; actual scenes may fall below."
+      ]
+    }
+  ],
+  "methodNotes": [
+    "Measured anchors and editorial estimates are separate data structures and visibly separate labels.",
+    "Only apply the estimate interval under the stated game/resolution/preset and power/memory assumptions.",
+    "Do not mechanically scale displayed FPS when resolution/memory buttons change. Use curated settings-specific intervals or ask user to select one.",
+    "Valorantpractice is easier than realcombat; Genshin60is capped and rendering-scale/routearemissing.",
+    "Hades/HollowKnight/Stardew no directHaloFPSsamplefound; may set60FPSasplaytargetwith estimatedbadgebutdonotclaimmeasurement."
+  ]
+}
