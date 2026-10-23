@@ -75,6 +75,61 @@
 @media(max-width:600px){.estimate-topline>span{max-width:none;flex:1}.estimate-topline>.text-button{flex-shrink:0}}
 
 .language-switch{display:flex;gap:3px;border:1px solid #d0dac8;border-radius:30px;padding:3px;flex-shrink:0;background:#f6f8f1}
+
+/* Real laptops introduce the distinction between a notebook and its CPU. */
+.starter{padding-top:46px;padding-bottom:32px}
+.starter-heading{display:flex;justify-content:space-between;align-items:flex-end;gap:32px;margin-bottom:27px}
+.starter-heading h1{font-size:43px;line-height:1.3;margin-top:13px;letter-spacing:-1.5px}
+.starter-heading>p{font-size:13px;line-height:1.9;color:var(--muted);max-width:360px;margin-bottom:6px}
+.starter-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:15px}
+.starter-card{display:flex;flex-direction:column;align-items:stretch;position:relative;text-align:left;background:#fff;border:1px solid var(--line);border-radius:17px;padding:18px 21px 19px;min-width:0;transition:border-color .2s,background .2s,box-shadow .2s}
+.starter-card.selected{border-color:#759459;background:#f0f5e8;box-shadow:inset 0 0 0 1px #759459}
+.starter-card-top{display:flex;align-items:center;gap:9px;font-size:10px;color:var(--muted)}
+.starter-card-top>span:last-child{margin-left:auto;font-size:16px;color:#74925d}
+.case-counter{font-size:10px;font-weight:600;letter-spacing:1px;color:#7b8d6a}
+.notebook-sketch{width:152px;height:87px;align-self:center;display:block;position:relative;margin:13px 0 17px}
+.sketch-screen{position:absolute;left:12px;right:12px;top:0;height:78px;border:3px solid #82907c;border-radius:6px;background:var(--case-color);box-shadow:0 2px 0 #c2cabb;overflow:hidden}
+.sketch-screen:before{content:"";position:absolute;inset:7px;border:1px solid #fff9;border-radius:3px}
+.sketch-screen i{position:absolute;left:22px;height:3px;background:#7b8d7c66;border-radius:3px;top:22px;width:35px}
+.sketch-screen i:nth-child(2){top:30px;width:57px}.sketch-screen i:nth-child(3){top:38px;width:43px}
+.sketch-screen>span{position:absolute;right:12px;bottom:7px;font-size:9px;letter-spacing:1px;color:#516451}
+.sketch-base{position:absolute;left:0;right:0;bottom:0;height:8px;border:1px solid #889580;background:#d4ddce;border-radius:1px 1px 9px 9px}
+.starter-laptop{font-size:14px;line-height:1.5;font-weight:600;min-height:42px;overflow-wrap:anywhere}
+.starter-cpu-label{font-size:9px;color:var(--muted);margin-top:9px}
+.starter-cpu{font-size:15px;line-height:1.5;font-weight:600;letter-spacing:-.3px}
+.starter-caption{font-size:11px;color:var(--muted);line-height:1.8;margin-top:8px}
+.starter-detail{display:grid;grid-template-columns:.92fr 1.5fr;gap:38px;padding:25px 27px;margin-top:14px;border:1px solid #d6e1c8;border-radius:15px;background:#edf2e5;min-width:0}
+.starter-concept h2{font-size:21px;font-weight:600;line-height:1.5;letter-spacing:-.4px;margin:7px 0 9px}
+.starter-concept>p:not(.eyebrow){font-size:12px;line-height:1.9;color:#617057}
+.starter-concept>a{display:inline-block;font-size:10px;color:var(--green);text-decoration:underline;text-underline-offset:3px;margin-top:12px}
+.starter-use{display:grid;grid-template-columns:1fr 1fr;gap:19px 23px;min-width:0}
+.starter-use h3{font-size:11px;font-weight:600;margin-bottom:7px}
+.starter-use p{font-size:11px;color:#65715d;line-height:1.9}
+.starter-actions{grid-column:1/-1;display:flex;align-items:center;gap:22px;flex-wrap:wrap}
+.starter-actions .primary{font-size:11px;padding:10px 16px}.starter-actions .text-button{font-size:11px}
+.starter-bottom{display:flex;align-items:center;justify-content:space-between;gap:20px;margin-top:15px}
+.starter-bottom>p{font-size:10px;color:#7c8775;max-width:780px}.starter-bottom>a{white-space:nowrap;font-size:11px}
+.example-filter{display:flex;align-items:flex-start;gap:7px;margin:11px 3px 4px;font-size:10px;color:#52694a;cursor:pointer}
+.example-filter input{margin:3px 0 0;accent-color:#476e3e;flex-shrink:0}
+.notebook-examples{border:1px solid #e1e6d9;border-radius:11px;background:#fafbf7;padding:15px 16px;margin:21px 0}
+.notebook-examples-heading{display:flex;gap:15px;justify-content:space-between;align-items:center;margin-bottom:10px}
+.notebook-examples-heading h4{font-size:12px;font-weight:600}.notebook-examples-heading>span{font-size:9px;color:#829077}
+.notebook-example+.notebook-example{border-top:1px solid #e6ebde;padding-top:12px;margin-top:12px}
+.notebook-example-title{display:flex;align-items:baseline;justify-content:space-between;gap:16px}
+.notebook-example-title>strong{font-size:12px;line-height:1.6;font-weight:600;overflow-wrap:anywhere}
+.notebook-example-title>a{font-size:10px;color:var(--green);white-space:nowrap;text-decoration:underline;text-underline-offset:3px}
+.notebook-example p{font-size:11px;color:#65715d;line-height:1.85;margin-top:5px}.notebook-example small{font-size:9px;color:#87907e;display:block;margin-top:4px}
+.notebook-example-note{font-size:9px;color:#87907e;margin-top:12px;padding-top:10px;border-top:1px solid #e6ebde;line-height:1.8}
+.config-section{padding-top:48px}.config-grid{display:grid;grid-template-columns:1fr 1fr;gap:13px;align-items:start}
+.config-grid>details{border:1px solid var(--line);border-radius:12px;background:#fff;overflow:hidden}
+.config-grid summary{display:flex;align-items:center;gap:12px;list-style:none;cursor:pointer;padding:18px 21px;font-size:14px;font-weight:600}
+.config-grid summary::-webkit-details-marker{display:none}.config-number{font-size:11px;color:#7f936d;font-weight:400}.config-plus{margin-left:auto;color:#81916f;font-size:18px;font-weight:400}
+.config-grid details[open] .config-plus{transform:rotate(45deg)}
+.config-grid details>div{padding:0 21px 20px 48px;font-size:12px;color:#697461;line-height:1.95}
+.config-grid p+p{margin-top:10px}.config-grid strong{font-weight:600;color:#475d3e}
+.config-grid details a{font-size:10px;color:var(--green);display:inline-block;margin-top:12px;text-decoration:underline;text-underline-offset:3px}
+@media(max-width:900px){.starter-heading{gap:22px}.starter-heading h1{font-size:35px}.starter-heading>p{font-size:11px;max-width:260px}.starter-card{padding:15px}.starter-laptop{font-size:12px;min-height:38px}.starter-cpu{font-size:13px}.starter-card-top{font-size:9px}.starter-detail{grid-template-columns:1fr;gap:20px;padding:23px}.starter-concept{max-width:660px}.starter-use{gap:18px 25px}}
+@media(max-width:600px){.starter{padding-top:26px;padding-bottom:14px}.starter-heading{display:block;margin-bottom:20px}.starter-heading h1{font-size:32px;letter-spacing:-1px}.starter-heading .eyebrow{font-size:9px;letter-spacing:.7px}.starter-heading>p{font-size:11px;max-width:none;margin-top:15px}.starter-heading>p br{display:none}.starter-grid{grid-template-columns:1fr;gap:9px}.starter-card{display:grid;grid-template-columns:72px minmax(0,1fr);column-gap:12px;row-gap:2px;padding:12px 15px}.starter-card-top{grid-column:1/-1;margin-bottom:3px}.notebook-sketch{grid-column:1;grid-row:2/5;width:72px;height:47px;margin:0}.sketch-screen{left:6px;right:6px;height:42px;border-width:2px;border-radius:4px}.sketch-screen:before{inset:4px}.sketch-screen i{left:10px;top:12px;width:20px;height:2px}.sketch-screen i:nth-child(2){top:17px;width:28px}.sketch-screen i:nth-child(3){top:22px;width:22px}.sketch-screen>span{font-size:5px;right:6px;bottom:4px}.sketch-base{height:5px}.starter-laptop{grid-column:2;font-size:12px;min-height:0}.starter-cpu-label{display:none}.starter-cpu{grid-column:2;font-size:12px}.starter-caption{display:none}.starter-detail{margin-top:10px;padding:19px;gap:18px}.starter-concept h2{font-size:19px}.starter-concept>p:not(.eyebrow){font-size:11px}.starter-use{grid-template-columns:1fr;gap:15px}.starter-use h3{margin-bottom:4px}.starter-actions{gap:17px}.starter-bottom{display:block;margin-top:13px}.starter-bottom>p{font-size:9px}.starter-bottom>a{display:inline-block;margin-top:10px}.notebook-examples{padding:13px}.notebook-examples-heading{gap:8px;align-items:flex-start}.notebook-examples-heading h4{font-size:11px}.notebook-examples-heading>span{font-size:8px;white-space:nowrap}.notebook-example-title{display:block}.notebook-example-title>a{display:inline-block;font-size:9px;margin-top:3px}.notebook-example-title strong{font-size:11px;display:block}.notebook-example p{font-size:10px}.config-section{padding-top:30px}.config-grid{grid-template-columns:1fr;gap:10px}.config-grid summary{padding:16px;font-size:13px}.config-grid details>div{padding:0 17px 17px 40px;font-size:11px}html[lang=en] .starter-heading h1{font-size:32px}html[lang=en] .starter-cpu{font-size:11px}html[lang=en] .starter-laptop{font-size:11px}html[lang=en] .starter-card-top{font-size:8px}}
 .language-switch button{padding:5px 10px;font-size:11px;border-radius:22px;background:transparent;color:#6b795d;white-space:nowrap;line-height:1.5}
 .language-switch button.selected{background:#294332;color:#fff}
 html[lang=en] .brand{font-size:19px;letter-spacing:-.6px}

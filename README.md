@@ -6,12 +6,6 @@ An interactive, beginner-friendly guide to laptop CPUs and integrated-graphics g
 
 **[English website](https://cpu-field-guide-sanghai.songngao764.chatgpt.site/?lang=en)** · **[中文在线版](https://cpu-field-guide-sanghai.songngao764.chatgpt.site/?lang=zh)**
 
-## Android app
-
-[Download the Android APK](https://github.com/Sanghai-L/laptop-performance-map/releases/download/v1.0.0/Laptop-Performance-Map-1.0.0.apk) · [Release and checksums](https://github.com/Sanghai-L/laptop-performance-map/releases/tag/v1.0.0)
-
-Android 8.0 or later. The Chinese and English guide works offline; source links need a connection. [Android source and build instructions](android-app/README.md). Package, signature, and offline webpage checks passed; installation and startup on an Android device or emulator have not been tested.
-
 ## Open it
 
 Download or clone this repository and open **`dist/index.html`** in a browser. No installation, build step, account, or server is required.
@@ -27,7 +21,9 @@ The interface, translations, and interactions work offline. Links to vendor spec
 - Workload explanations for programming/compilation, video editing, and CPU rendering, with hardware-specific resources and limits.
 - Integrated-graphics references for **Valorant, Genshin Impact, Cyberpunk 2077, Black Myth: Wukong, Stardew Valley, and the original Hades**.
 - Published measurements in green; explicitly labelled performance estimates in yellow when measurements are missing.
-- A whole-laptop lab, introductory explanations, and an interactive quiz.
+- Three real thin-and-light laptops introduce the difference between a laptop name and its CPU model.
+- **24 representative CPUs and 30 laptop configuration examples**, with direct manufacturer sources and an example-only filter.
+- Four practical configuration checks replace the former whole-laptop lab and quiz.
 
 ## Read the numbers correctly
 
@@ -49,6 +45,8 @@ Platform incompatibility and CPUs with no integrated GPU are shown as such. The 
 | `catalogue/gaming-evidence.json` | Published gaming measurements and conditions |
 | `catalogue/estimate-ranges.json` | GPU profiles, broad ranges, and model mapping |
 | `catalogue/estimate-anchors.json` | Additional measurement anchors and estimate reasoning |
+| `catalogue/notebook-examples.json` | Bilingual laptop examples, exact configurations, official sources, and introductory explanations |
+| `scripts/build-notebooks.mjs` | Validates the laptop examples and generates their browser data |
 
 After editing translations, run:
 
@@ -58,4 +56,12 @@ node scripts/build-locales.mjs
 
 The browser does not require Node.js. The maintenance scripts use Node.js.
 
-Validation covers every CPU/task combination, language switching, game/estimate interactions, all 36 laptop-lab states, and desktop/mobile layouts. Website checks do not validate hardware performance.
+After editing laptop examples, run `node scripts/build-notebooks.mjs`.
+
+Validation covers every CPU/task combination, language switching, game/estimate interactions, all 30 laptop examples, introductory links, configuration filtering, and desktop/mobile layouts. Website checks do not validate hardware performance.
+
+## Android app
+
+[Download Android 1.1.0](https://github.com/Sanghai-L/laptop-performance-map/releases/download/v1.1.0/Laptop-Performance-Map-1.1.0.apk) · [Release and checksums](https://github.com/Sanghai-L/laptop-performance-map/releases/tag/v1.1.0)
+
+Android 8.0 or later. The Chinese and English guide works offline; source links need a connection. The Android source is in the GitHub repository's `android-app/` directory. Package, signature, and offline webpage checks passed; installation and startup on an Android device or emulator have not been tested.

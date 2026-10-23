@@ -7,12 +7,6 @@
 - [中文在线版](https://cpu-field-guide-sanghai.songngao764.chatgpt.site/?lang=zh)
 - [English version](https://cpu-field-guide-sanghai.songngao764.chatgpt.site/?lang=en)
 
-## Android 离线版
-
-[下载 APK 安装包](https://github.com/Sanghai-L/laptop-performance-map/releases/download/v1.0.0/Laptop-Performance-Map-1.0.0.apk) · [版本与校验文件](https://github.com/Sanghai-L/laptop-performance-map/releases/tag/v1.0.0)
-
-支持 Android 8.0 及以上，中英文指南可离线查看，来源链接需要联网。[Android 源码与构建说明](android-app/README.zh-CN.md)。包格式、签名和离线网页检查已通过，尚未进行 Android 真机或模拟器安装与启动验证。
-
 ## 使用
 
 下载仓库并解压，用浏览器打开 `dist/index.html`。无需安装依赖、登录或运行服务器。页面右上角切换“中文 / EN”；当前 CPU、类型和任务会保留，语言偏好保存在本机浏览器。公开页面的分享链接包含语言选择。
@@ -26,7 +20,9 @@
 - 编译、剪辑、CPU 渲染三类任务，结合核型、功耗、内存与图形条件解释取舍。
 - 集显游戏包括无畏契约、原神、赛博朋克 2077、黑神话：悟空，以及星露谷物语和第一代哈迪斯。
 - 公开测试优先显示为绿色；缺测试时显示黄色的性能估算，附前提与依据。
-- 整机实验室、入门小课堂与交互测验。
+- 开头用三台真实轻薄本，区分整机型号与 CPU 型号，并连接到对应的用途与集显讲解。
+- 24 个代表 CPU、30 条整机配置示例，附官方来源；可筛选只看附有机型示例的 CPU。
+- 原整机实验室与测验改为四条实用配置核对步骤。
 
 ## 数字的含义
 
@@ -44,7 +40,17 @@
 - `catalogue/processor-specs.json`：处理器规格和直接来源。
 - `catalogue/gaming-evidence.json`：公开游戏测试记录。
 - `catalogue/estimate-ranges.json` / `estimate-anchors.json`：估算参考区间和校准依据。
+- `catalogue/notebook-examples.json`：中英文整机示例、确切配置、官方来源与开场讲解。
+- `scripts/build-notebooks.mjs`：校验整机示例并生成浏览器数据。
 
 修改翻译后，运行 `node scripts/build-locales.mjs`。无需构建即可打开网页。
 
-验证涵盖所有 CPU / 任务组合、中英切换、游戏和估算、36 种实验室条件，以及桌面与手机布局。网页验证不等于硬件性能测试。
+修改整机示例后，运行 `node scripts/build-notebooks.mjs`。
+
+验证涵盖所有 CPU / 任务组合、中英切换、游戏和估算、30 条整机配置、引入机型跳转与筛选，以及桌面与手机布局。网页验证不等于硬件性能测试。
+
+## Android 离线版
+
+[下载 Android 1.1.0](https://github.com/Sanghai-L/laptop-performance-map/releases/download/v1.1.0/Laptop-Performance-Map-1.1.0.apk) · [版本与校验文件](https://github.com/Sanghai-L/laptop-performance-map/releases/tag/v1.1.0)
+
+支持 Android 8.0 及以上，中英文指南可离线查看，来源链接需要联网。Android 源码位于 GitHub 仓库的 `android-app/` 目录。包格式、签名和离线网页检查已通过，尚未进行 Android 真机或模拟器安装与启动验证。

@@ -1,0 +1,693 @@
+{
+  "checked": "2026-10-23",
+  "scope": {
+    "zh": "挑选新旧常见系列的代表型号，示例用于对应整机与 CPU；不是销量排行或实时在售清单。",
+    "en": "Representative chips from common current and recent families. Examples connect a laptop to its CPU; this is not a sales ranking or live stock list."
+  },
+  "processors": [
+    {
+      "cpuId": "intel-i5-12450h",
+      "cpuName": "Core i5-12450H",
+      "laptops": [
+        {
+          "name": {
+            "zh": "Lenovo IdeaPad Slim 5i Gen 8（16 英寸，16IAH8）",
+            "en": "Lenovo IdeaPad Slim 5i Gen 8 (16-inch,16IAH8)"
+          },
+          "config": {
+            "zh": "83BG0005UK：Core i5-12450H 处理器版本。",
+            "en": "83BG0005UK: Core i5-12450H configuration."
+          },
+          "region": {
+            "zh": "爱尔兰官网，国际名称",
+            "en": "Ireland website; international name"
+          },
+          "url": "https://www.lenovo.com/ie/en/p/laptops/ideapad/ideapad-500-series/ideapad-slim-5i-gen-8-16-inch-intel/83bg0005uk"
+        },
+        {
+          "name": {
+            "zh": "Lenovo LOQ 15IRH8",
+            "en": "Lenovo LOQ 15IRH8"
+          },
+          "config": {
+            "zh": "官方规格列有 Core i5-12450H 处理器选项。",
+            "en": "The official specification lists a Core i5-12450H processor option."
+          },
+          "region": {
+            "zh": "全球 PSREF",
+            "en": "Global PSREF"
+          },
+          "url": "https://psref.lenovo.com/syspool/Sys/PDF/LOQ/LOQ_15IRH8/LOQ_15IRH8_Spec.PDF"
+        }
+      ]
+    },
+    {
+      "cpuId": "intel-i5-13420h",
+      "cpuName": "Core i5-13420H",
+      "laptops": [
+        {
+          "name": {
+            "zh": "Lenovo LOQ 15IRH8",
+            "en": "Lenovo LOQ 15IRH8"
+          },
+          "config": {
+            "zh": "82XV00J2PS：Core i5-13420H、16GB DDR5、512GB SSD、RTX 4050 6GB。",
+            "en": "82XV00J2PS: Core i5-13420H, 16 GB DDR5, 512 GB SSD, and RTX 4050 6 GB."
+          },
+          "region": {
+            "zh": "全球 PSREF，具体销售配置",
+            "en": "Global PSREF; specific SKU"
+          },
+          "url": "https://psref.lenovo.com/Detail/LOQ_15IRH8?M=82XV00J2PS",
+          "historical": true
+        }
+      ]
+    },
+    {
+      "cpuId": "intel-i7-13620h",
+      "cpuName": "Core i7-13620H",
+      "laptops": [
+        {
+          "name": {
+            "zh": "Lenovo LOQ 15IRH8",
+            "en": "Lenovo LOQ 15IRH8"
+          },
+          "config": {
+            "zh": "官方规格列有 Core i7-13620H 处理器选项；10 核、16 线程。",
+            "en": "The official specification lists a Core i7-13620H option with 10 cores and 16 threads."
+          },
+          "region": {
+            "zh": "全球 PSREF",
+            "en": "Global PSREF"
+          },
+          "url": "https://psref.lenovo.com/syspool/Sys/PDF/LOQ/LOQ_15IRH8/LOQ_15IRH8_Spec.PDF"
+        }
+      ]
+    },
+    {
+      "cpuId": "intel-i7-14650hx",
+      "cpuName": "Core i7-14650HX",
+      "laptops": [
+        {
+          "name": {
+            "zh": "Lenovo Legion 5i Gen 9（16 英寸，16IRX9）",
+            "en": "Lenovo Legion 5i Gen 9 (16-inch,16IRX9)"
+          },
+          "config": {
+            "zh": "官方规格列有 Core i7-14650HX 处理器选项；16 核、24 线程。",
+            "en": "The official specification lists a Core i7-14650HX option with 16 cores and 24 threads."
+          },
+          "region": {
+            "zh": "国际名称，全球 PSREF",
+            "en": "International name; global PSREF"
+          },
+          "url": "https://psref.lenovo.com/syspool/Sys/PDF/Legion/Legion_5_16IRX9/Legion_5_16IRX9_Spec.PDF"
+        }
+      ]
+    },
+    {
+      "cpuId": "intel-i9-14900hx",
+      "cpuName": "Core i9-14900HX",
+      "laptops": [
+        {
+          "name": {
+            "zh": "Lenovo Legion Pro 5i Gen 9（16 英寸，16IRX9）",
+            "en": "Lenovo Legion Pro 5i Gen 9 (16-inch,16IRX9)"
+          },
+          "config": {
+            "zh": "83DF00L2RK：Core i9-14900HX、32GB DDR5、1TB SSD、RTX 4060 8GB。",
+            "en": "83DF00L2RK: Core i9-14900HX, 32 GB DDR5, 1 TB SSD, and RTX 4060 8 GB."
+          },
+          "region": {
+            "zh": "国际名称，全球 PSREF，具体销售配置",
+            "en": "International name; specific PSREF SKU"
+          },
+          "url": "https://psref.lenovo.com/Detail/Legion_Pro_5_16IRX9?M=83DF00L2RK",
+          "historical": true
+        }
+      ]
+    },
+    {
+      "cpuId": "intel-125h",
+      "cpuName": "Core Ultra 5 125H",
+      "laptops": [
+        {
+          "name": {
+            "zh": "ASUS Zenbook 14 OLED（UX3405MA）",
+            "en": "ASUS Zenbook 14 OLED (UX3405MA)"
+          },
+          "config": {
+            "zh": "UX3405MA 的官方处理器选项包括 Core Ultra 5 125H。",
+            "en": "UX3405MA offers a Core Ultra 5 125H processor option."
+          },
+          "region": {
+            "zh": "中国香港官网，官方国际名称",
+            "en": "Hong Kong specification; official international name"
+          },
+          "url": "https://www.asus.com/hk/laptops/for-home/zenbook/asus-zenbook-14-oled-ux3405/techspec/"
+        }
+      ]
+    },
+    {
+      "cpuId": "intel-155h",
+      "cpuName": "Core Ultra 7 155H",
+      "laptops": [
+        {
+          "name": {
+            "zh": "ASUS Zenbook 14 OLED（UX3405MA）",
+            "en": "ASUS Zenbook 14 OLED (UX3405MA)"
+          },
+          "config": {
+            "zh": "UX3405MA 的官方处理器选项包括 Core Ultra 7 155H。",
+            "en": "UX3405MA offers a Core Ultra 7 155H processor option."
+          },
+          "region": {
+            "zh": "中国香港官网，官方国际名称",
+            "en": "Hong Kong specification; official international name"
+          },
+          "url": "https://www.asus.com/hk/laptops/for-home/zenbook/asus-zenbook-14-oled-ux3405/techspec/"
+        }
+      ]
+    },
+    {
+      "cpuId": "225h",
+      "cpuName": "Core Ultra 5 225H",
+      "laptops": [
+        {
+          "name": {
+            "zh": "ASUS Zenbook 14（UX3405CA）",
+            "en": "ASUS Zenbook 14 (UX3405CA)"
+          },
+          "config": {
+            "zh": "UX3405CA 的官方处理器选项包括 Core Ultra 5 225H。",
+            "en": "UX3405CA offers a Core Ultra 5 225H processor option."
+          },
+          "region": {
+            "zh": "中国香港官网，官方国际名称",
+            "en": "Hong Kong specification; official international name"
+          },
+          "url": "https://www.asus.com/hk/laptops/for-home/zenbook/asus-zenbook-14-oled-ux3405/techspec/"
+        }
+      ]
+    },
+    {
+      "cpuId": "255h",
+      "cpuName": "Core Ultra 7 255H",
+      "laptops": [
+        {
+          "name": {
+            "zh": "ASUS Zenbook 14（UX3405CA）",
+            "en": "ASUS Zenbook 14 (UX3405CA)"
+          },
+          "config": {
+            "zh": "UX3405CA 的官方处理器选项包括 Core Ultra 7 255H。",
+            "en": "UX3405CA offers a Core Ultra 7 255H processor option."
+          },
+          "region": {
+            "zh": "中国香港官网，官方国际名称",
+            "en": "Hong Kong specification; official international name"
+          },
+          "url": "https://www.asus.com/hk/laptops/for-home/zenbook/asus-zenbook-14-oled-ux3405/techspec/"
+        },
+        {
+          "name": {
+            "zh": "Lenovo Yoga Pro 7i Aura Edition（14 英寸，Gen 10；14IAH10）",
+            "en": "Lenovo Yoga Pro 7i Aura Edition (14-inch,Gen 10;14IAH10)"
+          },
+          "config": {
+            "zh": "官方规格列有 Core Ultra 7 255H；该平台采用 Arc 140T 集成显卡。",
+            "en": "The official specification lists a Core Ultra 7 255H option with Arc 140T integrated graphics."
+          },
+          "region": {
+            "zh": "国际名称，全球 PSREF",
+            "en": "International name; global PSREF"
+          },
+          "url": "https://psref.lenovo.com/syspool/Sys/PDF/Yoga/Yoga_Pro_7_14IAH10/Yoga_Pro_7_14IAH10_Spec.pdf"
+        }
+      ]
+    },
+    {
+      "cpuId": "258v",
+      "cpuName": "Core Ultra 7 258V",
+      "laptops": [
+        {
+          "name": {
+            "zh": "华硕灵耀 14 Air（UX5406SA）／ASUS Zenbook S14",
+            "en": "ASUS Zenbook S14 (UX5406SA)"
+          },
+          "config": {
+            "zh": "UX5406SA 提供 Core Ultra 7 258V；台湾官方规格明确标注 258V 配套 32GB 内存。大陆官方名称为华硕灵耀14 Air。",
+            "en": "UX5406SA offers Core Ultra 7 258V. The Taiwan specification lists 32 GB with this CPU. Its mainland China name is Lingyao 14 Air."
+          },
+          "region": {
+            "zh": "中国大陆名称／中国台湾官网国际名称",
+            "en": "Mainland China / Taiwan model names"
+          },
+          "url": "https://www.asus.com/tw/laptops/for-home/zenbook/asus-zenbook-s-14-ux5406/techspec/"
+        }
+      ]
+    },
+    {
+      "cpuId": "358h",
+      "cpuName": "Core Ultra X7 358H",
+      "laptops": [
+        {
+          "name": {
+            "zh": "Lenovo Yoga Slim 7i Ultra Aura Edition（14 英寸，Gen 11；14IPH11）",
+            "en": "Lenovo Yoga Slim 7i Ultra Aura Edition (14-inch,Gen 11;14IPH11)"
+          },
+          "config": {
+            "zh": "Yoga Slim 7 Ultra 14IPH11 官方规格列有 Core Ultra X7 358H，搭配 Arc B390 集成显卡。",
+            "en": "Yoga Slim 7 Ultra 14IPH11 lists Core Ultra X7 358H with Arc B390 integrated graphics. Keep “Ultra” in the laptop model name."
+          },
+          "region": {
+            "zh": "国际名称，全球 PSREF",
+            "en": "International name; global PSREF"
+          },
+          "url": "https://psref.lenovo.com/syspool/Sys/PDF/Yoga/Yoga_Slim_7_Ultra_14IPH11/Yoga_Slim_7_Ultra_14IPH11_Spec.PDF"
+        }
+      ]
+    },
+    {
+      "cpuId": "275hx",
+      "cpuName": "Core Ultra 9 275HX",
+      "laptops": [
+        {
+          "name": {
+            "zh": "Lenovo Legion Pro 7i Gen 10（16 英寸，16IAX10H）",
+            "en": "Lenovo Legion Pro 7i Gen 10 (16-inch,16IAX10H)"
+          },
+          "config": {
+            "zh": "官方规格列有 Core Ultra 9 275HX 处理器版本；24 核、24 线程。",
+            "en": "The official specification lists Core Ultra 9 275HX, with 24 cores and 24 threads."
+          },
+          "region": {
+            "zh": "国际名称，全球 PSREF",
+            "en": "International name; global PSREF"
+          },
+          "url": "https://psref.lenovo.com/syspool/Sys/PDF/Legion/Legion_Pro_7_16IAX10H/Legion_Pro_7_16IAX10H_Spec.PDF"
+        }
+      ]
+    },
+    {
+      "cpuId": "amd-7735hs",
+      "cpuName": "Ryzen 7 7735HS",
+      "laptops": [
+        {
+          "name": {
+            "zh": "Lenovo Legion 5 15ARP8",
+            "en": "Lenovo Legion 5 15ARP8"
+          },
+          "config": {
+            "zh": "2023 年机型；Ryzen 7 7735HS / GeForce RTX 4060；PSREF 现标为 Withdrawn，作为历史配置示例",
+            "en": "2023 model: Ryzen 7 7735HS with GeForce RTX 4060. PSREF marks this platform as withdrawn; a historical configuration example."
+          },
+          "region": {
+            "zh": "美国等海外配置",
+            "en": "US and other international configurations"
+          },
+          "url": "https://psref.lenovo.com/WDProduct/legion_5_15arp8?tab=spec",
+          "historical": true
+        }
+      ]
+    },
+    {
+      "cpuId": "amd-7840hs",
+      "cpuName": "Ryzen 7 7840HS",
+      "laptops": [
+        {
+          "name": {
+            "zh": "Lenovo Yoga Pro 7 14APH8",
+            "en": "Lenovo Yoga Pro 7 14APH8"
+          },
+          "config": {
+            "zh": "2023 年机型；Ryzen 7 7840HS；同系列既有核显配置也有 RTX 4050 配置，需核对具体 SKU；PSREF 现标为 Withdrawn",
+            "en": "2023 model with Ryzen 7 7840HS. The family includes both integrated-only and RTX 4050 configurations. PSREF marks it as withdrawn."
+          },
+          "region": {
+            "zh": "海外配置",
+            "en": "International configuration"
+          },
+          "url": "https://psref.lenovo.com/WDProduct/Yoga_Pro_7_14APH8",
+          "historical": true
+        }
+      ]
+    },
+    {
+      "cpuId": "8845hs",
+      "cpuName": "Ryzen 7 8845HS",
+      "laptops": [
+        {
+          "name": {
+            "zh": "Lenovo IdeaPad Pro 5 14AHP9",
+            "en": "Lenovo IdeaPad Pro 5 14AHP9"
+          },
+          "config": {
+            "zh": "2024 年机型；Ryzen 7 8845HS / Radeon 780M；系列另有 RTX 3050 配置，不能由 CPU 推断是否带独显",
+            "en": "2024 model: Ryzen 7 8845HS with Radeon 780M. The family also offers RTX 3050 configurations; the CPU alone does not identify the GPU configuration."
+          },
+          "region": {
+            "zh": "海外系列配置",
+            "en": "International family specification"
+          },
+          "url": "https://psref.lenovo.com/syspool/Sys/PDF/IdeaPad/IdeaPad_Pro_5_14AHP9/IdeaPad_Pro_5_14AHP9_Spec.pdf"
+        }
+      ]
+    },
+    {
+      "cpuId": "amd-ryzen-ai-7-350",
+      "cpuName": "Ryzen AI 7 350",
+      "laptops": [
+        {
+          "name": {
+            "zh": "ASUS Zenbook S16 UM5606KA",
+            "en": "ASUS Zenbook S16 UM5606KA"
+          },
+          "config": {
+            "zh": "Ryzen AI 7 350 版本；与 UM5606WA 的 HX 370 版本区分",
+            "en": "Ryzen AI 7 350 version. UM5606WA is a separate platform offering HX 370."
+          },
+          "region": {
+            "zh": "中国台湾规格",
+            "en": "Taiwan specification"
+          },
+          "url": "https://www.asus.com/tw/laptops/for-home/zenbook/asus-zenbook-s-16-um5606/techspec/"
+        },
+        {
+          "name": {
+            "zh": "Lenovo Yoga Slim 7 14AKP10",
+            "en": "Lenovo Yoga Slim 7 14AKP10"
+          },
+          "config": {
+            "zh": "Ryzen AI 7 350 / Radeon 860M 版本；同系列另有 AI 5 330 / AI 7 345 等配置",
+            "en": "Ryzen AI 7 350 with Radeon 860M. The family also offers AI 5 330 and AI 7 345 configurations."
+          },
+          "region": {
+            "zh": "海外系列配置",
+            "en": "International family specification"
+          },
+          "url": "https://psref.lenovo.com/Product/Yoga_Slim_7_14AKP10"
+        }
+      ]
+    },
+    {
+      "cpuId": "amd-ryzen-ai-9-365",
+      "cpuName": "Ryzen AI 9 365",
+      "laptops": [
+        {
+          "name": {
+            "zh": "Lenovo Yoga Pro 7 14ASP9",
+            "en": "Lenovo Yoga Pro 7 14ASP9"
+          },
+          "config": {
+            "zh": "SKU 83HN0027IN；Ryzen AI 9 365 / Radeon 880M / 32GB LPDDR5X-7500 / 1TB SSD",
+            "en": "83HN0027IN: Ryzen AI 9 365, Radeon 880M, 32 GB LPDDR5X-7500, and 1 TB SSD."
+          },
+          "region": {
+            "zh": "印度配置",
+            "en": "India configuration"
+          },
+          "url": "https://psref.lenovo.com/Detail/yoga_pro_7_14asp9?M=83HN0027IN"
+        },
+        {
+          "name": {
+            "zh": "ASUS Zenbook S16 UM5606WA",
+            "en": "ASUS Zenbook S16 UM5606WA"
+          },
+          "config": {
+            "zh": "Ryzen AI 9 365 选配版本；与 HX 370 版本区分",
+            "en": "Ryzen AI 9 365 processor option; distinguish it from the HX 370 version."
+          },
+          "region": {
+            "zh": "全球规格选项",
+            "en": "Global processor options"
+          },
+          "url": "https://www.asus.com/laptops/for-home/zenbook/asus-zenbook-s-16-um5606/techspec/"
+        }
+      ]
+    },
+    {
+      "cpuId": "370",
+      "cpuName": "Ryzen AI 9 HX 370",
+      "laptops": [
+        {
+          "name": {
+            "zh": "华硕 Zenbook S16（UM5606WA）",
+            "en": "ASUS Zenbook S16 UM5606WA"
+          },
+          "config": {
+            "zh": "Ryzen AI 9 HX 370 / Radeon 890M；不是 UM5606KA 的 AI 7 350 配置",
+            "en": "Ryzen AI 9 HX 370 with Radeon 890M. Match UM5606WA; UM5606KA uses a different CPU."
+          },
+          "region": {
+            "zh": "中国台湾规格",
+            "en": "Taiwan specification"
+          },
+          "url": "https://www.asus.com/tw/laptops/for-home/zenbook/asus-zenbook-s-16-um5606/techspec/"
+        }
+      ]
+    },
+    {
+      "cpuId": "amd-ryzen-ai-max-395",
+      "cpuName": "Ryzen AI Max+ 395",
+      "laptops": [
+        {
+          "name": {
+            "zh": "ASUS ROG Flow Z13 (2025) GZ302",
+            "en": "ASUS ROG Flow Z13 (2025) GZ302"
+          },
+          "config": {
+            "zh": "SKU GZ302EA-RU043X；Ryzen AI Max+ 395 / Radeon 8060S / 32GB LPDDR5X-8000 / 1TB SSD",
+            "en": "GZ302EA-RU043X: Ryzen AI Max+ 395, Radeon 8060S, 32 GB LPDDR5X-8000, and 1 TB SSD."
+          },
+          "region": {
+            "zh": "南非配置",
+            "en": "South Africa configuration"
+          },
+          "url": "https://rog.asus.com/za/laptops/rog-flow/rog-flow-z13-2025/spec/"
+        }
+      ]
+    },
+    {
+      "cpuId": "9955hx",
+      "cpuName": "Ryzen 9 9955HX",
+      "laptops": [
+        {
+          "name": {
+            "zh": "Lenovo Legion Pro 5 16AFR10",
+            "en": "Lenovo Legion Pro 5 16AFR10"
+          },
+          "config": {
+            "zh": "SKU 83F2000PIN；Ryzen 9 9955HX / GeForce RTX 5070 / 32GB DDR5-5600 / 1TB SSD",
+            "en": "83F2000PIN: Ryzen 9 9955HX, GeForce RTX 5070, 32 GB DDR5-5600, and 1 TB SSD."
+          },
+          "region": {
+            "zh": "印度配置",
+            "en": "India configuration"
+          },
+          "url": "https://psref.lenovo.com/Detail/Legion_Pro_5_16AFR10?M=83F2000PIN"
+        },
+        {
+          "name": {
+            "zh": "Lenovo Legion Pro 7 16AFR10H",
+            "en": "Lenovo Legion Pro 7 16AFR10H"
+          },
+          "config": {
+            "zh": "Ryzen 9 9955HX 版本；同系列还有 9955HX3D，不能混为同一 CPU",
+            "en": "Ryzen 9 9955HX version. The family also offers 9955HX3D, a different processor."
+          },
+          "region": {
+            "zh": "海外系列配置",
+            "en": "International family specification"
+          },
+          "url": "https://psref.lenovo.com/Product/Legion_Pro_7_16AFR10H?tab=spec"
+        }
+      ]
+    },
+    {
+      "cpuId": "apple-m4-10-8",
+      "cpuName": "Apple M4 · 10 核 CPU / 8 核 GPU",
+      "laptops": [
+        {
+          "name": {
+            "zh": "MacBook Air 13 英寸（M4，2025）",
+            "en": "MacBook Air 13-inch (M4, 2025)"
+          },
+          "config": {
+            "zh": "M4 10 核 CPU / 8 核 GPU 配置；同机型另有 10 核 GPU 版本，对应另一个 CPU 目录条目",
+            "en": "M4 with a 10-core CPU and 8-core GPU. The 10-core GPU option has a separate entry in the CPU explorer."
+          },
+          "region": {
+            "zh": "Apple 官方技术规格",
+            "en": "Official Apple technical specifications"
+          },
+          "url": "https://support.apple.com/en-us/122209"
+        }
+      ]
+    },
+    {
+      "cpuId": "apple-m4-pro-14-20",
+      "cpuName": "Apple M4 Pro · 14 核 CPU / 20 核 GPU",
+      "laptops": [
+        {
+          "name": {
+            "zh": "MacBook Pro 14 英寸（M4 Pro，2024）",
+            "en": "MacBook Pro 14-inch (M4 Pro, 2024)"
+          },
+          "config": {
+            "zh": "M4 Pro 14 核 CPU / 20 核 GPU 选配版本；不是 12 核 CPU / 16 核 GPU 的入门 M4 Pro",
+            "en": "M4 Pro option with a 14-core CPU and 20-core GPU; distinguish it from the 12-core CPU / 16-core GPU option."
+          },
+          "region": {
+            "zh": "Apple 官方技术规格",
+            "en": "Official Apple technical specifications"
+          },
+          "url": "https://support.apple.com/en-us/121553"
+        }
+      ]
+    },
+    {
+      "cpuId": "qualcomm-x1e-78-100",
+      "cpuName": "Snapdragon X Elite · X1E-78-100",
+      "laptops": [
+        {
+          "name": {
+            "zh": "ASUS Vivobook S 15 S5507",
+            "en": "ASUS Vivobook S 15 S5507"
+          },
+          "config": {
+            "zh": "SKU S5507QA-BB91-CB；X1E-78-100 / 32GB LPDDR5X-8448 / 1TB SSD；S5507QA-SB91-CB 为同 CPU 的 16GB 版本",
+            "en": "S5507QA-BB91-CB: X1E-78-100, 32 GB LPDDR5X-8448, and 1 TB SSD. S5507QA-SB91-CB offers the same CPU with 16 GB."
+          },
+          "region": {
+            "zh": "加拿大配置",
+            "en": "Canada configuration"
+          },
+          "url": "https://www.asus.com/ca-en/site/vivobook/vivobook-s-15.html"
+        }
+      ]
+    },
+    {
+      "cpuId": "qualcomm-x1p-42-100",
+      "cpuName": "Snapdragon X Plus · X1P-42-100",
+      "laptops": [
+        {
+          "name": {
+            "zh": "ASUS Vivobook S 15 S5507",
+            "en": "ASUS Vivobook S 15 S5507"
+          },
+          "config": {
+            "zh": "SKU S5507QA-DB71-CB；X1P-42-100 / 16GB LPDDR5X-8448 / 1TB SSD",
+            "en": "S5507QA-DB71-CB: X1P-42-100, 16 GB LPDDR5X-8448, and 1 TB SSD."
+          },
+          "region": {
+            "zh": "加拿大配置",
+            "en": "Canada configuration"
+          },
+          "url": "https://www.asus.com/ca-en/site/vivobook/vivobook-s-15.html"
+        },
+        {
+          "name": {
+            "zh": "Lenovo IdeaPad 5x 2-in-1 14Q8X9",
+            "en": "Lenovo IdeaPad 5x 2-in-1 14Q8X9"
+          },
+          "config": {
+            "zh": "SKU 83GH001SIX；X1P-42-100 / 16GB LPDDR5X-8448 / 1TB SSD",
+            "en": "83GH001SIX: X1P-42-100, 16 GB LPDDR5X-8448, and 1 TB SSD."
+          },
+          "region": {
+            "zh": "意大利配置",
+            "en": "Italy configuration"
+          },
+          "url": "https://psref.lenovo.com/Detail/IdeaPad_5_2_in_1_14Q8X9?M=83GH001SIX"
+        }
+      ]
+    }
+  ],
+  "intro": [
+    {
+      "cpuId": "258v",
+      "color": "#e4edc8",
+      "tag": {
+        "zh": "移动办公 / 学习",
+        "en": "MOBILE WORK / STUDY"
+      },
+      "caption": {
+        "zh": "CPU 管计算，Arc 140V 集显管画面。",
+        "en": "CPU for computation; Arc 140V for graphics."
+      },
+      "concept": {
+        "zh": "处理器里，也有负责画面的队友。",
+        "en": "A processor can include its own graphics."
+      },
+      "explanation": {
+        "zh": "整台电脑叫灵耀 14 Air / Zenbook S14，里面这颗 CPU 叫 Core Ultra 7 258V。Arc 140V 是同一平台里的集成显卡，游戏画面主要由它处理。",
+        "en": "The laptop is the Zenbook S14. Its CPU is the Core Ultra 7 258V. Arc 140V is the integrated GPU on the same platform, handling the rendered game graphics."
+      },
+      "ability": {
+        "zh": "写论文、开会、学习编程、修照片和轻量剪辑。没有独显，也能在合适设置下玩部分游戏；具体体验继续看集显 FPS。",
+        "en": "Write papers, join calls, learn programming, edit photos, and handle light video edits. Some games are possible with suitable settings; open the integrated-GPU FPS section for specifics."
+      },
+      "boundary": {
+        "zh": "8 核 8 线程可以做重任务，但大型全量编译和长时间 CPU 渲染通常更需要等待。这一配置的 32 GB 封装内存不能后加。",
+        "en": "Its 8 cores and 8 threads can run heavy work, but large full builds and long CPU renders usually need more waiting. This CPU has 32 GB of on-package memory that cannot be expanded."
+      }
+    },
+    {
+      "cpuId": "370",
+      "color": "#e4dff0",
+      "tag": {
+        "zh": "多核任务 / 集显游戏",
+        "en": "MULTICORE WORK / iGPU GAMING"
+      },
+      "caption": {
+        "zh": "12 核 CPU 与 Radeon 890M 分别看。",
+        "en": "Assess the 12-core CPU and Radeon 890M separately."
+      },
+      "concept": {
+        "zh": "CPU 的强项和集显的强项，分开理解。",
+        "en": "Separate CPU work from graphics work."
+      },
+      "explanation": {
+        "zh": "这台 S16 的 CPU 是 Ryzen AI 9 HX 370，集显是 Radeon 890M。编译、渲染看 CPU 的计算资源，游戏还要看 890M，而不能只看到名字里的“9”。",
+        "en": "This S16 uses a Ryzen AI 9 HX 370 CPU with Radeon 890M integrated graphics. Builds and CPU renders use its compute resources; gaming also depends on the 890M, beyond the “9” in the name."
+      },
+      "ability": {
+        "zh": "开发工具与多个程序并开、并行编译、照片处理和视频剪辑。890M 也能承担轻游戏，以及降低画质后的部分大型游戏。",
+        "en": "Run development tools alongside other apps, compile in parallel, edit photos, and work on video. The 890M can also handle lighter games and some demanding games at reduced settings."
+      },
+      "boundary": {
+        "zh": "游戏分辨率、画质和内存带宽都会影响帧率；持续编译或导出还要看这台薄机身的散热。这里的用途讲解不能替代同款整机测试。",
+        "en": "Resolution, quality settings, and memory bandwidth affect FPS. Long builds and exports also depend on cooling in this thin chassis. These capability explanations do not replace tests of the actual laptop."
+      }
+    },
+    {
+      "cpuId": "apple-m4-10-8",
+      "color": "#dce7ed",
+      "tag": {
+        "zh": "macOS / 日常创作",
+        "en": "macOS / EVERYDAY CREATION"
+      },
+      "caption": {
+        "zh": "本例为 10 核 CPU / 8 核 GPU 配置。",
+        "en": "This example uses the 10-core CPU / 8-core GPU option."
+      },
+      "concept": {
+        "zh": "先确认软件，再理解这颗芯片。",
+        "en": "Start with the software you need."
+      },
+      "explanation": {
+        "zh": "MacBook Air 是电脑型号，M4 是其中的芯片。CPU、GPU 和媒体引擎共同完成工作；剪辑受支持的视频格式时，媒体引擎也能帮忙。",
+        "en": "MacBook Air is the laptop model; M4 is the chip inside. Its CPU, GPU, and media engine work together. The media engine can help with supported video formats."
+      },
+      "ability": {
+        "zh": "macOS 办公、网页开发、照片处理和日常视频剪辑。使用已适配 Apple 芯片的软件时，可调用相应的计算与媒体加速。",
+        "en": "Office work on macOS, web development, photo processing, and everyday video editing. Apps adapted for Apple silicon can use its supported compute and media acceleration."
+      },
+      "boundary": {
+        "zh": "学校或工作所需的 Windows 专用软件、插件和游戏，要先逐项确认支持。长时间编译、渲染和复杂视频导出，也要看 Air 的持续表现。",
+        "en": "Check Windows-only tools, plug-ins, and games required by your school or work individually. For long builds, renders, and complex video exports, check the Air’s sustained performance."
+      }
+    }
+  ]
+}

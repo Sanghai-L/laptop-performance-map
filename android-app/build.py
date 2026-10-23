@@ -8,13 +8,15 @@ import shutil
 import subprocess
 import time
 import zipfile
+import xml.etree.ElementTree as ET
 
 ROOT = Path(__file__).resolve().parent
 SOURCE = ROOT.parent / 'dist'
+VERSION = ET.parse(ROOT / 'AndroidManifest.xml').getroot().get('{http://schemas.android.com/apk/res/android}versionName')
 BUILD = ROOT / 'build' / str(int(time.time()))
 OUTPUT = ROOT / 'output'
 EVIDENCE = ROOT / 'evidence'
-SIGNING = ROOT / '.signing'
+SIGNING = Path(os.environ.get('LAPTOP_MAP_SIGNING_DIR', ROOT / '.signing')).resolve()
 for folder in [BUILD, OUTPUT, EVIDENCE, SIGNING]: folder.mkdir(parents=True,exist_ok=True)
 config=json.loads((ROOT / '.tools/paths.json').read_text(encoding='utf-8'))
 JAVA=Path(config['java_home']) / 'bin/java.exe'
@@ -78,7 +80,7 @@ if not password_file.exists(): password_file.write_text(secrets.token_urlsafe(36
 if not key.exists():
     run([KEYTOOL,'-genkeypair','-keystore',key,'-storetype','PKCS12','-alias','laptopmap','-keyalg','RSA','-keysize','3072','-validity','10000',
          '-storepass:file',password_file,'-keypass:file',password_file,'-dname','CN=Laptop Performance Map, O=Offline Application, C=CN'])
-apk=OUTPUT/'Laptop-Performance-Map-1.0.0.apk'
+apk=OUTPUT/f'Laptop-Performance-Map-{VERSION}.apk'
 run([JAVA,'-jar',TOOLS/'lib/apksigner.jar','sign','--ks',key,'--ks-key-alias','laptopmap','--ks-pass','file:'+str(password_file),
      '--v1-signing-enabled','false','--v2-signing-enabled','true','--v3-signing-enabled','true','--v4-signing-enabled','false','--out',apk,aligned])
 signature=run([JAVA,'-jar',TOOLS/'lib/apksigner.jar','verify','--verbose','--print-certs',apk])
@@ -93,7 +95,7 @@ with zipfile.ZipFile(apk) as archive:
             raise RuntimeError('Asset mismatch: '+item['path'])
     if b'android.permission.' in permissions.encode(): raise RuntimeError('Unexpected app permissions')
 report={'status':'passed','apk':str(apk),'bytes':apk.stat().st_size,'sha256':sha(apk),'application_id':'app.laptopmap.offline',
-        'version':'1.0.0','minimum_android':'8.0 (API 26)','target_sdk':36,'permissions':[],
+        'version':VERSION,'minimum_android':'8.0 (API 26)','target_sdk':36,'permissions':[],
         'signature':signature,'assets':snapshot,'snapshot_root':str(assets),'build_dir':str(BUILD),
         'checks':['Java compiled against Android API36','D8 generated Android-compatible DEX','APK alignment verified','v2/v3 signatures verified',
                   'aapt2 manifest/resource/package checks passed','All bundled website asset SHA256 hashes match source snapshot'],

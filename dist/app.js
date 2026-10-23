@@ -6,7 +6,7 @@
   const $$ = (selector, root = document) => [...root.querySelectorAll(selector)];
   const escape = value => String(value).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
   const params = new URLSearchParams(location.search);
-  const state = { category: Object.hasOwn(D.categories, params.get('category')) ? params.get('category') : 'thin', model: '258v', task: D.tasks.some(t => t.id === params.get('task')) ? params.get('task') : 'code', search: '', brand:'all', family:'all', memory: 16, cooling: 'limited', graphics: 'integrated', work: 'office', quizIndex: 0, answers: [] };
+  const state = { category: Object.hasOwn(D.categories, params.get('category')) ? params.get('category') : 'thin', model: '258v', task: D.tasks.some(t => t.id === params.get('task')) ? params.get('task') : 'code', search: '', brand:'all', family:'all', examplesOnly: false };
   const requestedModel = D.models.find(m => m.id === params.get('cpu'));
   if (requestedModel) {
     state.model = requestedModel.id;
@@ -46,7 +46,7 @@
     const query = normalize(state.search.trim());
     const terms=state.search.trim().split(/\s+/).map(normalize).filter(Boolean);
     const global = !!query || state.brand!=='all' || state.family!=='all';
-    const list = D.models.filter(m => (global || m.categories.includes(state.category)) && (state.brand==='all'||m.brand===state.brand) && (state.family==='all'||m.family===state.family) && (!query || terms.every(term=>normalize(`${m.name} ${m.short} ${m.family} ${m.brand} ${m.gpu} ${m.variant||''} ${(m.aliases||[]).join(' ')}`).includes(term))));
+    const list = D.models.filter(m => (!state.examplesOnly || window.CPU_NOTEBOOKS.has(m.id)) && (global || m.categories.includes(state.category)) && (state.brand==='all'||m.brand===state.brand) && (state.family==='all'||m.family===state.family) && (!query || terms.every(term=>normalize(`${m.name} ${m.short} ${m.family} ${m.brand} ${m.gpu} ${m.variant||''} ${(m.aliases||[]).join(' ')}`).includes(term))));
     $('#model-count').textContent = `${list.length} 项`;
     $('#search-hint').textContent = global ? `搜索全部 ${D.models.length} 项型号 / 配置` : `当前查看${D.categories[state.category].title}中常见的系列`;
     let lastFamily='';
@@ -67,6 +67,7 @@
       <dl class="specs"><div><dt>CPU · 处理计算</dt><dd>${escape(m.cores)}<small>${escape(m.coreNote)}</small></dd></div><div><dt>集成 GPU · 处理画面</dt><dd>${escape(m.gpu)}<small>${m.graphics==='none'?'需要整机另配显卡':'集显游戏体验见下方 ↓'}</small></dd></div><div><dt>功耗规格 · 不是跑分</dt><dd>${escape(m.power)}<small>${escape(m.powerNote)}</small></dd></div></dl>
       <p class="profile-footnote">核心数量不可跨架构直接排位；以上为芯片规格，不承诺具体电脑的速度或续航。</p>`;
     localize($('#cpu-profile'));
+    window.CPU_NOTEBOOKS.renderExamples(m);
     renderTask();
     window.CPU_GAMES.update(m);
   }
@@ -81,7 +82,7 @@
     state.category = category;
     state.model = D.categories[category].defaultModel;
     state.search = '';
-    state.brand='all';state.family='all';renderFilters();
+    state.brand='all';state.family='all';state.examplesOnly=false;$('#examples-only').checked=false;renderFilters();
     $('#model-search').value = '';
     renderCategory(); renderModels(); renderProfile(); updateURL();
     if (focus) $(`#tab-${category}`).focus();
@@ -100,7 +101,8 @@
   $('#model-search').addEventListener('input', event => { state.search = event.target.value; renderModels(); });
   $('#brand-filter').addEventListener('change',event=>{state.brand=event.target.value;state.family='all';renderFilters();renderModels();});
   $('#family-filter').addEventListener('change',event=>{state.family=event.target.value;renderModels();});
-  $('#reset-filters').addEventListener('click',()=>{state.search='';state.brand='all';state.family='all';$('#model-search').value='';renderFilters();renderModels();});
+  $('#reset-filters').addEventListener('click',()=>{state.search='';state.brand='all';state.family='all';state.examplesOnly=false;$('#examples-only').checked=false;$('#model-search').value='';renderFilters();renderModels();});
+  $('#examples-only').addEventListener('change',event=>{state.examplesOnly=event.target.checked;renderModels();});
   $('#model-list').addEventListener('click', event => {
     const button = event.target.closest('[data-model]');
     if (!button) return;
@@ -130,58 +132,20 @@
     catch { toast('浏览器未允许复制。可直接复制地址栏中的链接。'); }
   });
 
-  function renderLab() {
-    $('#memory-node b').textContent = `${state.memory} GB`;
-    $('#gpu-node b').textContent = state.graphics === 'integrated' ? '集显' : '独显';
-    for (const [key, value] of [['memory', state.memory], ['cooling', state.cooling], ['graphics', state.graphics]]) $$(`[data-${key}]`).forEach(button => {
-      const active = button.dataset[key] === String(value); button.classList.toggle('selected', active); button.setAttribute('aria-pressed', String(active));
-    });
-    let title, body;
-    const points = [];
-    if (state.work === 'office') {
-      title = state.memory === 8 ? '先关注内存，而不是只盯着 CPU。' : '日常任务，几位队友一起配合。';
-      body = state.memory === 8 ? '同时运行很多网页、会议和文档时，8 GB 内存更容易紧张。若系统频繁向 SSD 换页，即使 CPU 不差也可能感觉卡顿。' : '在内存足够装下当前任务时，普通办公通常不需要把 CPU 长期跑满。内存继续增加也不会让所有操作等比例加快。';
-      points.push(state.cooling === 'limited' ? '安静模式可能限制瞬时或持续加速；轻任务中未必有明显影响。' : '更强散热通常对长负载更有意义，日常点击不会按散热能力等比提速。');
-      points.push(state.graphics === 'integrated' ? '集显通常可承担桌面和常规视频显示，也会使用系统内存。' : '多一块独显不代表文档和网页自动更快，是否调用由应用和系统决定。');
-    } else if (state.work === 'render') {
-      title = state.cooling === 'limited' ? '长时间重任务，散热会限制发挥。' : '散热足够，CPU 才更有机会持续工作。';
-      body = state.cooling === 'limited' ? 'CPU 刚开始的短时加速不代表半小时后的速度。散热或供电受限时，系统可能降低频率与功耗，延长处理时间。' : '较充足的散热和供电有助于维持持续负载下的频率，但不会增加核心数，也不能让串行软件自动变成并行软件。';
-      points.push(state.memory === 8 ? '8 GB 可能装不下复杂项目；换页会拖慢过程，严重时任务会失败。' : state.memory === 16 ? '16 GB 能否装下项目取决于规模、纹理和后台程序，不能保证所有大任务。' : '32 GB 给大项目更多空间；如果任务本来装得下，它不一定更快。');
-      points.push(state.graphics === 'dedicated' ? '这是 CPU 渲染 / 编译示例：除非软件有对应加速路径，独显不会直接加速这部分计算。' : '只用集显不妨碍受支持的 CPU 渲染或编译，但视口显示是另一类负载。');
-    } else {
-      title = state.graphics === 'integrated' ? '高画质大型游戏，先关注图形能力。' : '独显加入后，仍需看它的具体规格。';
-      body = state.graphics === 'integrated' ? 'CPU 能算游戏逻辑，不等于集显能流畅画出高画质场景。降低分辨率、画质可能减轻 GPU 压力，具体效果需按游戏实测。' : '独显可以承担图形渲染，但型号、显存与可持续 GPU 功耗差异很大。“有独显”本身还不能保证目标帧率。';
-      points.push(state.memory === 8 ? '8 GB 内存可能紧张；集显还会共享它，游戏要求需要单独核对。' : `${state.memory} GB 是容量条件之一；还需要看显存、内存带宽及游戏要求。`);
-      points.push(state.cooling === 'limited' ? 'CPU 与 GPU 往往共享散热预算，受限时可能一起降速。' : '更充分的散热可帮助维持表现；屏幕分辨率和游戏设置仍决定压力。');
-    }
-    $('#lab-result').innerHTML = `<h3>${title}</h3><p>${body}</p><ul class="lab-points">${points.map(t => `<li>${t}</li>`).join('')}</ul><p class="lab-conclusion">原理示意：这些选项不对应某款在售电脑，也不代表其内存或显卡可以后期升级。</p>`;
-    localize($('#gpu-node'));localize($('#lab-result'));
-  }
-  $('#lab-work').addEventListener('change', event => { state.work = event.target.value; renderLab(); });
-  for (const [container, key] of [['memory-options','memory'],['cooling-options','cooling'],['graphics-options','graphics']]) $(`#${container}`).addEventListener('click', event => {
-    const button = event.target.closest(`[data-${key}]`); if (!button) return;
-    state[key] = key === 'memory' ? Number(button.dataset[key]) : button.dataset[key]; renderLab();
-  });
-  function renderQuiz() {
-    const index = state.quizIndex;
-    if (index === D.quiz.length) {
-      const correct = state.answers.filter((answer, i) => answer === D.quiz[i].answer).length;
-      $('#quiz-content').innerHTML = `<p class="quiz-number">完成 · ${correct} / ${D.quiz.length} 题答对</p><p class="quiz-question">现在，把完整型号和真实任务放在一起看。</p><p class="quiz-finish">不需要记住每一个参数。知道 CPU 负责什么、其他部件影响什么，就能少受一个档位数字的误导。</p><button class="quiz-next" data-quiz-restart>再试一次 ↻</button>`;
-      localize($('#quiz-content'));return;
-    }
-    const q = D.quiz[index], answered = state.answers[index] !== undefined, choice = state.answers[index];
-    $('#quiz-content').innerHTML = `<div class="quiz-progress" aria-hidden="true">${D.quiz.map((_, i) => `<span class="${i <= index ? 'done' : ''}"></span>`).join('')}</div><p class="quiz-number">第 ${index + 1} 题 / 共 ${D.quiz.length} 题</p><p class="quiz-question">${q.question}</p><div class="quiz-options">${q.options.map((option, i) => `<button class="quiz-option ${answered && i === q.answer ? 'correct' : answered && i === choice ? 'wrong' : ''}" data-answer="${i}" ${answered ? 'disabled' : ''}><span>${String.fromCharCode(65 + i)}</span>${option}${answered && i === q.answer ? ' ✓' : ''}</button>`).join('')}</div><div class="quiz-feedback" aria-live="polite">${answered ? `<strong>${choice === q.answer ? '答对了。' : '这一题换个角度看。'}</strong> ${q.explanation}` : ''}</div>${answered ? `<button class="quiz-next" data-quiz-next>${index === D.quiz.length - 1 ? '完成小测' : '下一题'} →</button>` : ''}`;
-    localize($('#quiz-content'));
-  }
-  $('#quiz-content').addEventListener('click', event => {
-    const answer = event.target.closest('[data-answer]');
-    if (answer && state.answers[state.quizIndex] === undefined) { state.answers[state.quizIndex] = Number(answer.dataset.answer); renderQuiz(); $('[data-quiz-next]').focus({preventScroll:true}); }
-    else if (event.target.closest('[data-quiz-next]')) { state.quizIndex++; renderQuiz(); const target = $('[data-answer]') || $('[data-quiz-restart]'); if (target) target.focus({preventScroll:true}); }
-    else if (event.target.closest('[data-quiz-restart]')) { state.quizIndex = 0; state.answers = []; renderQuiz(); $('[data-answer]').focus({preventScroll:true}); }
+  document.addEventListener('click', event => {
+    const button=event.target.closest('[data-open-cpu]');
+    if(!button)return;
+    const m=D.models.find(item=>item.id===button.dataset.openCpu);
+    if(!m)return;
+    state.model=m.id;state.category=m.categories[0];state.search='';state.brand='all';state.family='all';state.examplesOnly=false;
+    $('#model-search').value='';$('#examples-only').checked=false;
+    renderFilters();renderCategory();renderModels();renderProfile();updateURL();
+    const destination=button.dataset.target==='igpu'?'#igpu':'#cpu-panel';
+    $(destination).scrollIntoView({behavior:matchMedia('(prefers-reduced-motion: reduce)').matches?'instant':'smooth',block:'start'});
+    if(destination==='#cpu-panel'){$('#cpu-name').tabIndex=-1;$('#cpu-name').focus({preventScroll:true});}
   });
   $('#source-list').className = 'source-list';
   $('#source-list').innerHTML = D.models.map(m => `<div><a href="${m.source}" target="_blank" rel="noopener noreferrer">${escape(m.name)}${m.variant ? ' / '+escape(m.variant) : ''} ↗</a></div>`).join('') + '<div><a href="https://support.microsoft.com/en-us/windows/experience/platform-variants/windows-arm-based-pcs-faq" target="_blank" rel="noopener noreferrer">微软 · Windows Arm 兼容性说明 ↗</a></div>';
-  $('#catalog-count').textContent=`${D.models.length} 项型号 / 配置`;
   $('#catalog-scope').textContent=`已收录 ${D.models.length} 项型号 / 配置：${['Intel','AMD','Apple','Qualcomm'].map(b=>b+' '+D.models.filter(m=>m.brand===b).length+' 项').join('，')}。按系列覆盖主流与近代机型，部分旧款仍可见于销售渠道；不是逐店实时库存。资料核对：${D.checked}。`;
-  renderFilters(); renderCategory(); renderModels(); renderProfile(); renderLab(); renderQuiz(); updateURL();localize();
+  renderFilters(); renderCategory(); renderModels(); renderProfile(); window.CPU_NOTEBOOKS.init(); updateURL();localize();
 })();

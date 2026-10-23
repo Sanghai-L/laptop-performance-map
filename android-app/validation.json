@@ -1,9 +1,9 @@
 {
-  "version": "1.0.0",
+  "version": "1.1.0",
   "application_id": "app.laptopmap.offline",
-  "apk": "Laptop-Performance-Map-1.0.0.apk",
-  "bytes": 152798,
-  "sha256": "85587f83eda490e8ea3de9c1a9f62752407df40aec735d478df5ee27f977519f",
+  "apk": "Laptop-Performance-Map-1.1.0.apk",
+  "bytes": 161135,
+  "sha256": "ec9bad2f07db04b65fce23aee30eba9baf68b76205ddbf220bab7a28ff212c51",
   "minimum_android": "8.0 (API 26)",
   "target_sdk": 36,
   "permissions": [],
@@ -19,8 +19,8 @@
   "assets": [
     {
       "path": "app.js",
-      "bytes": 18623,
-      "sha256": "a63ab866bfd82c2520c3f46d389d5145a8f241295931c798d9efe4fffb6ae821"
+      "bytes": 12556,
+      "sha256": "2df2e75a0ea90d3d2576c8e89a43bcb6e148f9e88db610475e74337141c6b410"
     },
     {
       "path": "benchmarks.js",
@@ -59,18 +59,28 @@
     },
     {
       "path": "index.html",
-      "bytes": 18039,
-      "sha256": "d249ad624276956b6a282b6ca387d7744b8f23be2265116b3437a41ba6afbfcb"
+      "bytes": 12434,
+      "sha256": "d47346a578c560f40c1075b27dc07e4c7bfc3ef01b29e7a9128b1e72f2cd3ed2"
     },
     {
       "path": "locales/en.js",
-      "bytes": 138716,
-      "sha256": "f9d628c8aa0a8a0311120e865204413b5612b5023f526d3a4738d88675ad399d"
+      "bytes": 143594,
+      "sha256": "c9bee3d5e335c2088d38ff7a543409a6d1d25623cfe52bb342aedfc244167833"
+    },
+    {
+      "path": "notebooks-data.js",
+      "bytes": 19809,
+      "sha256": "7457d24eff3393e3508fb78ca9899605242d8323e04cea99505669effcd75a7e"
+    },
+    {
+      "path": "notebooks.js",
+      "bytes": 4359,
+      "sha256": "ad765daadeb76437227f1c9edbb382735527b26165588bcec1c6663f214d3bb7"
     },
     {
       "path": "styles.css",
-      "bytes": 40098,
-      "sha256": "9cdcc331979e251a9a819eba435fad3f2ca94c8cad101a9e9566e656d46a241d"
+      "bytes": 48543,
+      "sha256": "cfc602e89649ab287274a4966dc696a7fe3ac8723729e966ca9eb07b1235993c"
     },
     {
       "path": "tasks.js",
@@ -78,24 +88,39 @@
       "sha256": "d8d3582bafd05e9c30dec21a82ada0e436bceeb008c7fab45b61b2d495bd450d"
     }
   ],
-  "browser_checks": [
-    "Default page initializes without external dependencies",
-    "783 CPU/task combinations rendered with matching labels and selection states",
-    "Chinese brand search, empty result, and cross-category selection",
-    "Brand and family filters, reset, integrated-GPU name search",
-    "20 iGPU boundary cases; verified B390 65–85/49–68, Wukong37, Valorant149/P1 111.6, Genshin scale0.6; 610M aggregate distinguished",
-    "Four contrasting CPU workload explanations, 256V 16GB vs 258V 32GB, and eight real notebook source records",
-    "2920 valid estimate/settings combinations across 52 GPU profiles; no missing compatible game; 212 genuine platform/no-iGPU boundaries",
-    "388 measured120.1 preferred, estimated90–150 labelled, quality changes, measured return, old gaps filled, indie title selection and recoverable Mac gate",
-    "36 whole-laptop demonstration combinations",
-    "Quiz incorrect/correct answers, final score and restart",
-    "Keyboard arrow navigation for category tabs",
-    "Model/category/task link restores selection",
-    "Invalid query values fall back safely",
-    "No horizontal page overflow at 1440, 1024, 768, 375 and 320 pixels",
-    "Packaged Chinese/English pages and core interactions run with browser networking disabled"
+  "browser_reports": [
+    {
+      "language": "zh",
+      "checks": [
+        "Default page initializes without external dependencies",
+        "783 CPU/task combinations rendered with matching labels and selection states",
+        "Chinese brand search, empty result, and cross-category selection",
+        "Brand and family filters, reset, integrated-GPU name search",
+        "20 iGPU boundary cases; verified B390 65–85/49–68, Wukong37, Valorant149/P1 111.6, Genshin scale0.6; 610M aggregate distinguished",
+        "Four contrasting CPU workload explanations, 256V 16GB vs 258V 32GB, and eight real notebook source records",
+        "2920 valid estimate/settings combinations across 52 GPU profiles; no missing compatible game; 212 genuine platform/no-iGPU boundaries",
+        "388 measured120.1 preferred, estimated90–150 labelled, quality changes, measured return, old gaps filled, indie title selection and recoverable Mac gate",
+        "Three distinct introductory laptops open the correct CPU; 24 CPUs show 30 matching official notebook configurations; example filtering/reset and stale-content clearing passed; four configuration checks replace lab/quiz",
+        "Keyboard arrow navigation for category tabs",
+        "Model/category/task link restores selection",
+        "Invalid query values fall back safely",
+        "No horizontal page overflow at 1440, 1024, 768, 375 and 320 pixels"
+      ],
+      "status": "passed"
+    },
+    {
+      "language": "en",
+      "checks": [
+        "783 English CPU/task combinations and all GPU families/games/estimate explanations rendered",
+        "Three English introductory examples, 30 English notebook configurations, and four practical configuration checks",
+        "Language buttons preserve CPU and task in the URL"
+      ],
+      "status": "passed"
+    }
   ],
-  "browser_errors": [],
+  "introductory_laptops": 3,
+  "cpu_examples": 24,
+  "notebook_configurations": 30,
   "android_runtime_verified": false,
   "runtime_note": "No physical Android device or emulator was used; browser content QA is recorded separately."
 }
