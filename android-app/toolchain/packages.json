@@ -1,0 +1,23 @@
+[
+  {
+    "size": "65878410",
+    "checksum": "2c1a80dd4d9f7d0e6dd336ec603d9b5c55a6f576",
+    "url": "platform-36_r02.zip",
+    "package": "platforms;android-36",
+    "host": null
+  },
+  {
+    "size": "58699878",
+    "checksum": "f16ccffd34de8790dede813a6c7d8e2c11a27b50",
+    "url": "build-tools_r36_windows.zip",
+    "package": "build-tools;36.0.0",
+    "host": "windows"
+  },
+  {
+    "size": "8044989",
+    "checksum": "e03e78b1d80b396f1c3358e31251cb31740e1110",
+    "url": "platform-tools_r37.0.1-win.zip",
+    "package": "platform-tools",
+    "host": "windows"
+  }
+]

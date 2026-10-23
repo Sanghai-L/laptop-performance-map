@@ -7,6 +7,12 @@
 - [中文在线版](https://cpu-field-guide-sanghai.songngao764.chatgpt.site/?lang=zh)
 - [English version](https://cpu-field-guide-sanghai.songngao764.chatgpt.site/?lang=en)
 
+## Android 离线版
+
+[下载 APK 安装包](https://github.com/Sanghai-L/laptop-performance-map/releases/download/v1.0.0/Laptop-Performance-Map-1.0.0.apk) · [版本与校验文件](https://github.com/Sanghai-L/laptop-performance-map/releases/tag/v1.0.0)
+
+支持 Android 8.0 及以上，中英文指南可离线查看，来源链接需要联网。[Android 源码与构建说明](android-app/README.zh-CN.md)。包格式、签名和离线网页检查已通过，尚未进行 Android 真机或模拟器安装与启动验证。
+
 ## 使用
 
 下载仓库并解压，用浏览器打开 `dist/index.html`。无需安装依赖、登录或运行服务器。页面右上角切换“中文 / EN”；当前 CPU、类型和任务会保留，语言偏好保存在本机浏览器。公开页面的分享链接包含语言选择。

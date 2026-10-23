@@ -1,0 +1,8 @@
+.tools/
+downloads/
+.signing/
+build/
+assets/site/
+output/
+evidence/
+__pycache__/

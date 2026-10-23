@@ -1,0 +1,101 @@
+{
+  "version": "1.0.0",
+  "application_id": "app.laptopmap.offline",
+  "apk": "Laptop-Performance-Map-1.0.0.apk",
+  "bytes": 152798,
+  "sha256": "85587f83eda490e8ea3de9c1a9f62752407df40aec735d478df5ee27f977519f",
+  "minimum_android": "8.0 (API 26)",
+  "target_sdk": 36,
+  "permissions": [],
+  "build_checks": [
+    "Java compiled against Android API36",
+    "D8 generated Android-compatible DEX",
+    "APK alignment verified",
+    "v2/v3 signatures verified",
+    "aapt2 manifest/resource/package checks passed",
+    "All bundled website asset SHA256 hashes match source snapshot"
+  ],
+  "signature": "Verifies\nVerified using v1 scheme (JAR signing): false\nVerified using v2 scheme (APK Signature Scheme v2): true\nVerified using v3 scheme (APK Signature Scheme v3): true\nVerified using v3.1 scheme (APK Signature Scheme v3.1): false\nVerified using v4 scheme (APK Signature Scheme v4): false\nVerified for SourceStamp: false\nNumber of signers: 1\nSigner #1 certificate DN: CN=Laptop Performance Map, O=Offline Application, C=CN\nSigner #1 certificate SHA-256 digest: 2d3f4760633f3cd55497680f19c91a496f4f1f47341faef89d51c64fb1107ad4\nSigner #1 certificate SHA-1 digest: 1acb9222978cb257416a8ac2385a8b3d42f6996c\nSigner #1 certificate MD5 digest: b1842980bf9673486a2a430c3ec7f7bf\nSigner #1 key algorithm: RSA\nSigner #1 key size (bits): 3072\nSigner #1 public key SHA-256 digest: a3bf9a6d2a99c1adb667e0e7beb9b4e0c1749578d73c10ef68977c618a3e6f05\nSigner #1 public key SHA-1 digest: d367737922bb96e75313cfff103ec9931ee2aefc\nSigner #1 public key MD5 digest: fc4b7501ffd3d2e9d0527b5c7e086cd3\n",
+  "assets": [
+    {
+      "path": "app.js",
+      "bytes": 18623,
+      "sha256": "a63ab866bfd82c2520c3f46d389d5145a8f241295931c798d9efe4fffb6ae821"
+    },
+    {
+      "path": "benchmarks.js",
+      "bytes": 108797,
+      "sha256": "6b3df6e3811945aae0279a7d19ac48fb2433bc87a056c73f7222ade5eace9e61"
+    },
+    {
+      "path": "catalog.js",
+      "bytes": 265017,
+      "sha256": "784ed5eb74ecd18ae1931d94f95326a2dfe2022a1236450638ab0893eb9b100c"
+    },
+    {
+      "path": "data.js",
+      "bytes": 15575,
+      "sha256": "5b21ad68180ccc142316ca85a6295ab578f3797890363c9ade5c74b8432a89b3"
+    },
+    {
+      "path": "estimates.js",
+      "bytes": 12334,
+      "sha256": "da9a07a7ce062e4e7ce74176eff5df622dd4e157f0394fe2fceab3cbc76333a0"
+    },
+    {
+      "path": "i18n.js",
+      "bytes": 4705,
+      "sha256": "3d396662d805f6111c090f7ece1bf9bea9e9a04d28046eeb176d4dc603426788"
+    },
+    {
+      "path": "icon.svg",
+      "bytes": 208,
+      "sha256": "39278ea3b4d2898f5e147853cf33130b787c21b7783b8afe32a90c6d9ab1c226"
+    },
+    {
+      "path": "igpu.js",
+      "bytes": 17524,
+      "sha256": "9e793e41080e030f94a0e69d9ed9f9b7eb639b97bd9b8dfbd791bc76d13ea630"
+    },
+    {
+      "path": "index.html",
+      "bytes": 18039,
+      "sha256": "d249ad624276956b6a282b6ca387d7744b8f23be2265116b3437a41ba6afbfcb"
+    },
+    {
+      "path": "locales/en.js",
+      "bytes": 138716,
+      "sha256": "f9d628c8aa0a8a0311120e865204413b5612b5023f526d3a4738d88675ad399d"
+    },
+    {
+      "path": "styles.css",
+      "bytes": 40098,
+      "sha256": "9cdcc331979e251a9a819eba435fad3f2ca94c8cad101a9e9566e656d46a241d"
+    },
+    {
+      "path": "tasks.js",
+      "bytes": 22884,
+      "sha256": "d8d3582bafd05e9c30dec21a82ada0e436bceeb008c7fab45b61b2d495bd450d"
+    }
+  ],
+  "browser_checks": [
+    "Default page initializes without external dependencies",
+    "783 CPU/task combinations rendered with matching labels and selection states",
+    "Chinese brand search, empty result, and cross-category selection",
+    "Brand and family filters, reset, integrated-GPU name search",
+    "20 iGPU boundary cases; verified B390 65–85/49–68, Wukong37, Valorant149/P1 111.6, Genshin scale0.6; 610M aggregate distinguished",
+    "Four contrasting CPU workload explanations, 256V 16GB vs 258V 32GB, and eight real notebook source records",
+    "2920 valid estimate/settings combinations across 52 GPU profiles; no missing compatible game; 212 genuine platform/no-iGPU boundaries",
+    "388 measured120.1 preferred, estimated90–150 labelled, quality changes, measured return, old gaps filled, indie title selection and recoverable Mac gate",
+    "36 whole-laptop demonstration combinations",
+    "Quiz incorrect/correct answers, final score and restart",
+    "Keyboard arrow navigation for category tabs",
+    "Model/category/task link restores selection",
+    "Invalid query values fall back safely",
+    "No horizontal page overflow at 1440, 1024, 768, 375 and 320 pixels",
+    "Packaged Chinese/English pages and core interactions run with browser networking disabled"
+  ],
+  "browser_errors": [],
+  "android_runtime_verified": false,
+  "runtime_note": "No physical Android device or emulator was used; browser content QA is recorded separately."
+}

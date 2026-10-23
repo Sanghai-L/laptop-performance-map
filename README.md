@@ -6,6 +6,12 @@ An interactive, beginner-friendly guide to laptop CPUs and integrated-graphics g
 
 **[English website](https://cpu-field-guide-sanghai.songngao764.chatgpt.site/?lang=en)** · **[中文在线版](https://cpu-field-guide-sanghai.songngao764.chatgpt.site/?lang=zh)**
 
+## Android app
+
+[Download the Android APK](https://github.com/Sanghai-L/laptop-performance-map/releases/download/v1.0.0/Laptop-Performance-Map-1.0.0.apk) · [Release and checksums](https://github.com/Sanghai-L/laptop-performance-map/releases/tag/v1.0.0)
+
+Android 8.0 or later. The Chinese and English guide works offline; source links need a connection. [Android source and build instructions](android-app/README.md). Package, signature, and offline webpage checks passed; installation and startup on an Android device or emulator have not been tested.
+
 ## Open it
 
 Download or clone this repository and open **`dist/index.html`** in a browser. No installation, build step, account, or server is required.
