@@ -2,7 +2,7 @@
 
 English · [简体中文](README.zh-CN.md)
 
-[Changelog: 1.2.0 and 1.2.1](CHANGELOG.md)
+[Changelog: 1.1.0–1.2.1](CHANGELOG.md)
 
 An interactive, beginner-friendly guide to laptop CPUs and integrated-graphics gaming. Start with the work you want to do, then explore what the hardware contributes.
 
