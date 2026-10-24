@@ -1,6 +1,8 @@
 'use strict';
 (() => {
   const D = window.CPU_GUIDE;
+  const P = window.CPU_PROFILES;
+  const text = value => value[window.CPU_I18N.language];
   const localize=root=>window.CPU_I18N?.apply(root);
   const $ = (selector, root = document) => root.querySelector(selector);
   const $$ = (selector, root = document) => [...root.querySelectorAll(selector)];
@@ -52,7 +54,7 @@
     let lastFamily='';
     $('#model-list').innerHTML = list.length ? list.map(m => {
       const group = lastFamily!==m.family ? `<div class="model-group-title">${escape(m.brand)} · ${escape(m.family)}</div>` : ''; lastFamily=m.family;
-      return group+`<button class="model-button ${m.id === state.model ? 'selected' : ''}" data-model="${m.id}" aria-pressed="${m.id === state.model}" aria-label="了解 ${escape(m.name)}${m.variant ? '，' + escape(m.variant) : ''}"><span class="model-logo ${m.brand.toLowerCase()}" aria-hidden="true">${({Intel:'intel',AMD:'AMD',Apple:'M',Qualcomm:'S'})[m.brand]}</span><span><strong>${escape(m.short)}</strong><small>${escape(m.variant || m.role)}</small></span><span class="model-arrow" aria-hidden="true">↗</span></button>`;
+      return group+`<button class="model-button ${m.id === state.model ? 'selected' : ''}" data-model="${m.id}" aria-pressed="${m.id === state.model}" aria-label="了解 ${escape(m.name)}${m.variant ? '，' + escape(m.variant) : ''}"><span class="model-logo ${m.brand.toLowerCase()}" aria-hidden="true">${({Intel:'intel',AMD:'AMD',Apple:'M',Qualcomm:'S'})[m.brand]}</span><span><strong>${escape(m.short)}</strong><small>${escape(m.variant || text(P.tiers[P.models[m.id].tier]))}</small></span><span class="model-arrow" aria-hidden="true">↗</span></button>`;
     }).join('') : '<p class="empty-state">没有找到匹配项。可以重置筛选，或尝试完整型号，例如“i5-13420H”“8845HS”“Arc 140V”。</p>';
     localize($('#model-count'));localize($('#search-hint'));localize($('#model-list'));
     const selected=$('.model-button.selected'),listNode=$('#model-list');
@@ -61,12 +63,19 @@
   function renderProfile() {
     localize($('#model-count'));localize($('#search-hint'));localize($('#model-list'));
     const m = model();
+    const p = P.models[m.id];
+    const r = p.release;
+    const dateText = release => !release.date ? '官方未公布' : release.precision === 'quarter' ? release.date.replace(/(\d{4})-Q(\d)/, window.CPU_I18N.language === 'en' ? '$1 Q$2' : '$1 年第 $2 季度') : release.date;
+    const dateKind = r.kind === 'series-announcement' ? '系列公布' : r.kind === 'launch' ? (r.precision === 'quarter' ? '官方上市季度' : '官方上市时间') : r.kind === 'not-disclosed' ? '日期待核实' : '芯片首次公布';
     $('#cpu-profile').innerHTML = `<div class="profile-meta"><span class="profile-tag">${escape(m.family)}</span><span>${escape(m.platform)}</span><a href="${m.source}" target="_blank" rel="noopener noreferrer" style="margin-left:auto;text-decoration:underline;text-underline-offset:3px">官方规格 ↗</a></div>
       <div class="profile-title"><div><span class="profile-brand">${escape(m.brand.toUpperCase())}${m.variant ? ' / ' + escape(m.variant) : ' / PROCESSOR'}</span><h3 id="cpu-name">${escape(m.name)}</h3></div><span class="profile-symbol" aria-hidden="true">✳</span></div>
-      <p class="profile-summary">${escape(m.summary)}</p>
+      <div class="profile-overview"><div><span>CPU 定位</span><strong class="profile-tier" data-tier="${p.tier}">${escape(text(P.tiers[p.tier]))}</strong></div><div><span>发布时间</span><a class="profile-release-date" href="${escape(r.source)}" target="_blank" rel="noopener noreferrer" data-date="${escape(r.date || '')}" data-date-kind="${r.kind}"><strong>${escape(dateText(r))}</strong><small>${dateKind} ↗</small></a></div></div>
+      <details class="profile-date-details"><summary>时间说明与来源</summary><p>${escape(text({zh:r.noteZh,en:r.noteEn}))}</p>${p.configurationRelease?`<p><b>该笔记本配置发布：</b><a href="${escape(p.configurationRelease.source)}" target="_blank" rel="noopener noreferrer">${escape(dateText(p.configurationRelease))} ↗</a> ${escape(text({zh:p.configurationRelease.noteZh,en:p.configurationRelease.noteEn}))}</p>`:''}<p class="profile-date-checked">日期核对：${escape(P.checked)}</p></details>
+      <p class="profile-summary">${escape(text(p.summary))}</p>
+      <p class="profile-comparison">${escape(text(p.difference))}</p>
       <button class="profile-naming-link text-button" data-naming-model="${escape(m.id)}">这个型号怎么读？ ↗</button>
       <dl class="specs"><div><dt>CPU 核心</dt><dd>${escape(m.cores)}<small>${escape(m.coreNote)}</small></dd></div><div><dt>集成显卡</dt><dd>${escape(m.gpu)}<small>${m.graphics==='none'?'需要整机另配显卡':'集显游戏体验见下方 ↓'}</small></dd></div><div><dt>功耗规格</dt><dd>${escape(m.power)}<small>${escape(m.powerNote)}</small></dd></div></dl>
-      <p class="profile-footnote">同一 CPU 的实际速度和续航，还取决于整机散热、功耗和电池。</p>`;
+      <p class="profile-footnote">定位主要概括持续多核计算能力；日常响应还看单核，实际速度与续航还取决于整机散热、功耗和电池。</p>`;
     localize($('#cpu-profile'));
     window.CPU_NAMING.setCurrent(m);
     window.CPU_NOTEBOOKS.renderExamples(m);

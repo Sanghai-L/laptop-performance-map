@@ -8,10 +8,17 @@
   <title>笔记本性能地图 — CPU 与集显，从用途看懂</title>
   <link rel="icon" href="icon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="theme-tech.css" id="theme-tech" media="not all">
+  <link rel="stylesheet" href="theme-controls.css">
+  <link rel="stylesheet" href="profiles.css">
+  <link rel="stylesheet" href="sections.css">
+  <script src="theme.js"></script>
+  <script src="sections.js"></script>
   <script src="locales/en.js" defer></script>
   <script src="i18n.js" defer></script>
   <script src="data.js" defer></script>
   <script src="catalog.js" defer></script>
+  <script src="profiles.js" defer></script>
   <script src="tasks.js" defer></script>
   <script src="benchmarks.js" defer></script>
   <script src="estimates.js" defer></script>
@@ -26,20 +33,26 @@
   <a class="skip" href="#explore">跳到 CPU 探索器</a>
   <header class="site-header">
     <a class="brand" href="#top" aria-label="笔记本性能地图，回到顶部"><span class="brand-icon" aria-hidden="true">✳</span><span><b>笔记本性能地图</b><small>A MAP OF LAPTOP PERFORMANCE</small></span></a>
-    <nav aria-label="主导航"><a href="#start">先看真机</a><a href="#explore">认识 CPU</a><a href="#naming">型号怎么读</a><a href="#igpu">集显游戏</a><a href="#learn">核对配置</a></nav>
-    <div class="language-switch" role="group" aria-label="Language / 语言" data-no-translate><button type="button" data-language="zh" aria-pressed="true" class="selected">中文</button><button type="button" data-language="en" aria-pressed="false">EN</button></div>
+    <nav aria-label="主导航"><a href="#start">轻薄本配置示例</a><a href="#explore">查询处理器</a><a href="#naming">CPU 命名规则</a><a href="#igpu">集显游戏表现</a><a href="#learn">核对整机配置</a></nav>
+    <div class="header-controls">
+      <label class="theme-control"><span>配色</span><select id="theme-select" aria-label="页面配色"><option value="classic">自然绿</option><option value="tech">科技蓝</option></select></label>
+      <div class="language-switch" role="group" aria-label="Language / 语言" data-no-translate><button type="button" data-language="zh" aria-pressed="true" class="selected">中文</button><button type="button" data-language="en" aria-pressed="false">EN</button></div>
+    </div>
     <a class="header-cta" href="#explore">查找 CPU <span aria-hidden="true">↗</span></a>
   </header>
   <main id="top">
-    <section class="starter wrap" id="start" aria-labelledby="hero-title">
-      <div class="starter-heading"><div><p class="eyebrow"><span class="live-dot"></span> 轻薄本配置示例</p><h1 id="hero-title">笔记本里的 CPU，<br><span>能做哪些事？</span></h1></div><p>选一台电脑，查看处理器和用途。 <br>也可以直接搜索 CPU 型号。</p></div>
+    <section class="starter wrap" id="start" aria-labelledby="starter-section-title">
+      <div class="starter-visibility-bar"><div class="starter-module-copy"><p id="starter-section-title" class="starter-module-title">轻薄本配置示例</p><span class="starter-module-count">3 台真实机型</span></div><button id="starter-toggle" class="starter-toggle" type="button" aria-expanded="true" aria-controls="starter-content" hidden><span id="starter-toggle-label">隐藏示例</span><svg aria-hidden="true" width="14" height="14" viewBox="0 0 16 16" fill="none"><path d="m4 6 4 4 4-4" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></button></div>
+      <div id="starter-content">
+      <div class="starter-heading"><div><h1 id="hero-title">笔记本里的 CPU，<br><span>能做哪些事？</span></h1></div><p>选一台电脑，查看处理器和用途。 <br>也可以直接搜索 CPU 型号。</p></div>
       <div class="starter-grid" id="intro-cards" role="tablist" aria-label="轻薄本引入示例"></div>
       <div id="intro-detail" class="starter-detail" role="tabpanel" aria-live="polite" aria-atomic="true" tabindex="0"></div>
       <div class="starter-bottom"><p>同系列电脑可能有多种配置，请核对年份、地区和完整型号。</p><a href="#explore" class="text-button">直接查找 CPU ↓</a></div>
+      </div>
     </section>
 
     <section class="explore wrap section" id="explore" aria-labelledby="explore-title">
-      <div class="section-heading"><div><p class="eyebrow muted">01 / 查询处理器</p><h2 id="explore-title">按笔记本类型查找</h2></div><p>先选类型，再选 CPU。<br>同一 CPU 可能用于多种机型。</p></div>
+      <div class="section-heading"><div><h2 id="explore-title" class="section-title"><span class="section-number">01</span><span class="section-divider" aria-hidden="true">/</span><span class="section-title-text">查询处理器</span></h2><p class="section-subtitle">按笔记本类型查找</p></div><p>先选类型，再选 CPU。<br> 同一 CPU 可能用于多种机型。</p></div>
       <div class="category-tabs" role="tablist" aria-label="笔记本类型">
         <button class="category active" role="tab" id="tab-thin" aria-controls="category-panel" aria-selected="true" data-category="thin"><span class="laptop-icon thin" aria-hidden="true"></span><span><strong>轻薄本</strong><small>便携与续航</small></span><span class="tab-arrow" aria-hidden="true">↗</span></button>
         <button class="category" role="tab" id="tab-versatile" aria-controls="category-panel" aria-selected="false" tabindex="-1" data-category="versatile"><span class="laptop-icon versatile" aria-hidden="true"></span><span><strong>全能本</strong><small>便携与性能兼顾</small></span><span class="tab-arrow" aria-hidden="true">↗</span></button>
@@ -69,7 +82,7 @@
     </section>
 
     <section class="wrap section naming-section" id="naming" aria-labelledby="naming-title">
-      <div class="section-heading"><div><p class="eyebrow muted">02 / CPU 命名规则</p><h2 id="naming-title">CPU 型号怎么读</h2></div><p>选择品牌和型号， <br>点击数字或字母查看含义。</p></div>
+      <div class="section-heading"><div><h2 id="naming-title" class="section-title"><span class="section-number">02</span><span class="section-divider" aria-hidden="true">/</span><span class="section-title-text">CPU 命名规则</span></h2><p class="section-subtitle">CPU 型号怎么读</p></div><p>选择品牌和型号， <br> 点击数字或字母查看含义。</p></div>
       <p class="naming-intro"><strong>不同系列，规则不同。</strong>型号能说明系列和定位；具体配置与性能见规格和测试。</p>
       <div class="naming-shell">
         <div class="naming-brands" id="naming-brands" role="tablist" aria-label="处理器命名品牌">
@@ -92,7 +105,7 @@
     </section>
 
     <section class="wrap section config-section" id="learn" aria-labelledby="learn-title">
-      <div class="section-heading"><div><p class="eyebrow muted">03 / 核对整机配置</p><h2 id="learn-title">还要核对这四项</h2></div><p>CPU 之外，<br>内存、显卡和软件支持也会影响使用。</p></div>
+      <div class="section-heading"><div><h2 id="learn-title" class="section-title"><span class="section-number">03</span><span class="section-divider" aria-hidden="true">/</span><span class="section-title-text">核对整机配置</span></h2><p class="section-subtitle">还要核对这四项</p></div><p>CPU 之外，<br> 内存、显卡和软件支持也会影响使用。</p></div>
       <div class="config-grid">
         <details open><summary><span class="config-number">01</span><span>完整 CPU 型号</span><span class="config-plus">+</span></summary><div><p>把型号的数字和后缀一起对上。例如 <strong>255H、255HX、258V</strong> 是三颗不同的处理器，不能只记住“Ultra 7”。</p><a href="#explore">用完整型号搜索 ↗</a></div></details>
         <details><summary><span class="config-number">02</span><span>内存与升级方式</span><span class="config-plus">+</span></summary><div><p>集显也要使用系统内存。核对当前容量、内存带宽和能否升级；例如 <strong>258V 配套 32 GB 封装内存</strong>，无法日后添加内存条。</p><p>大工程、多虚拟机、复杂剪辑会需要更多空间；文档和云端 AI 通常不会因为 CPU 档位更高就等比例加速。</p><a href="https://www.intel.com/content/www/us/en/products/sku/240957/intel-core-ultra-7-processor-258v-12m-cache-up-to-4-80-ghz/specifications.html" target="_blank" rel="noopener noreferrer">258V 官方内存规格 ↗</a></div></details>

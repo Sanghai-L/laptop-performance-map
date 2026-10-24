@@ -1,0 +1,2 @@
+# Keep release asset checksums independent of Windows checkout settings.
+dist/** text eol=lf

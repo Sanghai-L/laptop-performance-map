@@ -2,6 +2,16 @@
 
 English · [简体中文](CHANGELOG.zh-CN.md)
 
+## 1.2.2 · 2026-10-24
+
+- **Rewrote all 261 CPU profiles:** Added five workload classes, from basic office tasks to flagship heavy workloads, with practical uses and limits. Nearby-model comparisons explain CPU resources, clock speeds, power and graphics. Similar models are described as similar; higher model numbers or more GPU cores do not automatically raise the CPU class. These classes are usage guidance, not a cross-brand benchmark ranking.
+- **Added release timing and sources:** Every model/configuration has a date field that distinguishes chip announcements, family announcements and official launches. Precision follows the vendor source: date, quarter or year. Timing is established for 259 entries; Ryzen 7 449 and Ryzen 5 439 are explicitly marked undisclosed. Selected Apple entries also show the later laptop-configuration announcement.
+- **Added a hide/show control for introductory laptops:** The control stays visible when the examples are collapsed. The browser remembers the preference across reloads and language changes; the matching navigation link reveals the examples. Selected examples, CPUs, tasks and games are preserved.
+- **Corrected catalog details:** 315 is Core 5 315; Core 3 304 has 5 cores/5 threads; Core Ultra 5 332 is listed as 2 performance cores plus 4 low-power efficient cores. Existing model IDs and shared links remain valid.
+- **Updated the Android offline app to 1.2.2:** Includes all of these website changes, retains the package and signing certificate, and increments versionCode to 5.
+
+Added a remembered Natural green / Tech blue theme choice, clearer numbered headings, and navigation labels matching section titles. Updated both languages, mobile layouts and keyboard support.
+
 ## 1.2.1 · 2026-10-23
 
 Shortened the homepage, CPU descriptions, and naming guidance. Suffix and exception references now open by default, with 14px body text and improved mobile cards. Fixed split labels such as HX, completed English translations, and updated the Android offline app.
@@ -31,8 +41,8 @@ Updated Chinese and English content and the Android offline app.
 
 ## Download and validation
 
-[Download Android 1.2.1](https://github.com/Sanghai-L/laptop-performance-map/releases/download/v1.2.1/Laptop-Performance-Map-1.2.1.apk) · [Release and checksums](https://github.com/Sanghai-L/laptop-performance-map/releases/tag/v1.2.1)
+[Download Android 1.2.2](https://github.com/Sanghai-L/laptop-performance-map/releases/download/v1.2.2/Laptop-Performance-Map-1.2.2.apk) · [Release and checksums](https://github.com/Sanghai-L/laptop-performance-map/releases/tag/v1.2.2)
 
 Requires Android 8.0 or later. Both languages and interactions work offline; external references need a connection. The package name and signing certificate match previous releases.
 
-Browser checks for 1.2.1 cover 261 CPUs, 783 CPU/task combinations, 45 naming examples, 220 selectable fragments, both languages, and five viewport widths. APK checks cover compilation, resources, DEX, alignment, signatures, and bundled-webpage consistency. Android device/emulator installation, startup, and upgrades have not been tested.
+Browser checks for 1.2.2 include 522 per-entry render checks (261 entries × both languages), theme and example-visibility persistence, and layouts in two themes, both languages and six viewport widths. APK checks cover compilation, resources, DEX, alignment and v2/v3 signatures; all 23 bundled web assets match this website source. Android device/emulator installation, startup and upgrades have not been tested.

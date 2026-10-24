@@ -1,0 +1,3249 @@
+{
+  "checked": "2026-10-24",
+  "models": {
+    "intel-365": {
+      "release": {
+        "date": "2026-Q1",
+        "precision": "quarter",
+        "kind": "launch",
+        "source": "https://www.intel.com/content/www/us/en/products/details/processors/core-ultra.html",
+        "noteZh": "Intel ARK 标注的上市季度；不是某款笔记本的开售时间。",
+        "noteEn": "Launch quarter listed by Intel ARK; not the retail date of a particular laptop."
+      },
+      "maxTurboGHz": 4.8,
+      "frequencySource": "https://www.intel.com/content/www/us/en/products/details/processors/core-ultra.html",
+      "frequencyNoteZh": "最高睿频是条件允许时的单核峰值，不能直接换算为性能差距。",
+      "frequencyNoteEn": "Maximum turbo is a conditional single-core peak, not a direct measure of performance difference."
+    },
+    "intel-355": {
+      "release": {
+        "date": "2026-Q1",
+        "precision": "quarter",
+        "kind": "launch",
+        "source": "https://www.intel.com/content/www/us/en/products/details/processors/core-ultra.html",
+        "noteZh": "Intel ARK 标注的上市季度；不是某款笔记本的开售时间。",
+        "noteEn": "Launch quarter listed by Intel ARK; not the retail date of a particular laptop."
+      },
+      "maxTurboGHz": 4.7,
+      "frequencySource": "https://www.intel.com/content/www/us/en/products/details/processors/core-ultra.html",
+      "frequencyNoteZh": "最高睿频是条件允许时的单核峰值，不能直接换算为性能差距。",
+      "frequencyNoteEn": "Maximum turbo is a conditional single-core peak, not a direct measure of performance difference."
+    },
+    "intel-335": {
+      "release": {
+        "date": "2026-Q1",
+        "precision": "quarter",
+        "kind": "launch",
+        "source": "https://www.intel.com/content/www/us/en/products/details/processors/core-ultra.html",
+        "noteZh": "Intel ARK 标注的上市季度；不是某款笔记本的开售时间。",
+        "noteEn": "Launch quarter listed by Intel ARK; not the retail date of a particular laptop."
+      },
+      "maxTurboGHz": 4.6,
+      "frequencySource": "https://www.intel.com/content/www/us/en/products/details/processors/core-ultra.html",
+      "frequencyNoteZh": "最高睿频是条件允许时的单核峰值，不能直接换算为性能差距。",
+      "frequencyNoteEn": "Maximum turbo is a conditional single-core peak, not a direct measure of performance difference."
+    },
+    "intel-332": {
+      "release": {
+        "date": "2026-Q1",
+        "precision": "quarter",
+        "kind": "launch",
+        "source": "https://www.intel.com/content/www/us/en/products/details/processors/core-ultra.html",
+        "noteZh": "Intel ARK 标注的上市季度；不是某款笔记本的开售时间。",
+        "noteEn": "Launch quarter listed by Intel ARK; not the retail date of a particular laptop."
+      },
+      "maxTurboGHz": 4.4,
+      "frequencySource": "https://www.intel.com/content/www/us/en/products/details/processors/core-ultra.html",
+      "frequencyNoteZh": "最高睿频是条件允许时的单核峰值，不能直接换算为性能差距。",
+      "frequencyNoteEn": "Maximum turbo is a conditional single-core peak, not a direct measure of performance difference.",
+      "correction": {
+        "coreNote": "2 性能核 + 4 低功耗能效核",
+        "source": "https://www.intel.com/content/www/us/en/products/sku/245718/intel-core-ultra-5-processor-332-12m-cache-up-to-4-40-ghz/specifications.html",
+        "noteZh": "补充已核实的核心构成。"
+      }
+    },
+    "intel-325": {
+      "release": {
+        "date": "2026-Q1",
+        "precision": "quarter",
+        "kind": "launch",
+        "source": "https://www.intel.com/content/www/us/en/products/details/processors/core-ultra.html",
+        "noteZh": "Intel ARK 标注的上市季度；不是某款笔记本的开售时间。",
+        "noteEn": "Launch quarter listed by Intel ARK; not the retail date of a particular laptop."
+      },
+      "maxTurboGHz": 4.5,
+      "frequencySource": "https://www.intel.com/content/www/us/en/products/details/processors/core-ultra.html",
+      "frequencyNoteZh": "最高睿频是条件允许时的单核峰值，不能直接换算为性能差距。",
+      "frequencyNoteEn": "Maximum turbo is a conditional single-core peak, not a direct measure of performance difference."
+    },
+    "intel-322": {
+      "release": {
+        "date": "2026-Q1",
+        "precision": "quarter",
+        "kind": "launch",
+        "source": "https://www.intel.com/content/www/us/en/products/details/processors/core-ultra.html",
+        "noteZh": "Intel ARK 标注的上市季度；不是某款笔记本的开售时间。",
+        "noteEn": "Launch quarter listed by Intel ARK; not the retail date of a particular laptop."
+      },
+      "maxTurboGHz": 4.4,
+      "frequencySource": "https://www.intel.com/content/www/us/en/products/details/processors/core-ultra.html",
+      "frequencyNoteZh": "最高睿频是条件允许时的单核峰值，不能直接换算为性能差距。",
+      "frequencyNoteEn": "Maximum turbo is a conditional single-core peak, not a direct measure of performance difference."
+    },
+    "intel-388h": {
+      "release": {
+        "date": "2026-Q1",
+        "precision": "quarter",
+        "kind": "launch",
+        "source": "https://www.intel.com/content/www/us/en/products/details/processors/core-ultra.html",
+        "noteZh": "Intel ARK 标注的上市季度；不是某款笔记本的开售时间。",
+        "noteEn": "Launch quarter listed by Intel ARK; not the retail date of a particular laptop."
+      },
+      "maxTurboGHz": 5.1,
+      "frequencySource": "https://www.intel.com/content/www/us/en/products/details/processors/core-ultra.html",
+      "frequencyNoteZh": "最高睿频是条件允许时的单核峰值，不能直接换算为性能差距。",
+      "frequencyNoteEn": "Maximum turbo is a conditional single-core peak, not a direct measure of performance difference."
+    },
+    "intel-368h": {
+      "release": {
+        "date": "2026-Q1",
+        "precision": "quarter",
+        "kind": "launch",
+        "source": "https://www.intel.com/content/www/us/en/products/details/processors/core-ultra.html",
+        "noteZh": "Intel ARK 标注的上市季度；不是某款笔记本的开售时间。",
+        "noteEn": "Launch quarter listed by Intel ARK; not the retail date of a particular laptop."
+      },
+      "maxTurboGHz": 5.0,
+      "frequencySource": "https://www.intel.com/content/www/us/en/products/details/processors/core-ultra.html",
+      "frequencyNoteZh": "最高睿频是条件允许时的单核峰值，不能直接换算为性能差距。",
+      "frequencyNoteEn": "Maximum turbo is a conditional single-core peak, not a direct measure of performance difference."
+    },
+    "358h": {
+      "release": {
+        "date": "2026-Q1",
+        "precision": "quarter",
+        "kind": "launch",
+        "source": "https://www.intel.com/content/www/us/en/products/details/processors/core-ultra.html",
+        "noteZh": "Intel ARK 标注的上市季度；不是某款笔记本的开售时间。",
+        "noteEn": "Launch quarter listed by Intel ARK; not the retail date of a particular laptop."
+      },
+      "maxTurboGHz": 4.8,
+      "frequencySource": "https://www.intel.com/content/www/us/en/products/details/processors/core-ultra.html",
+      "frequencyNoteZh": "最高睿频是条件允许时的单核峰值，不能直接换算为性能差距。",
+      "frequencyNoteEn": "Maximum turbo is a conditional single-core peak, not a direct measure of performance difference."
+    },
+    "intel-386h": {
+      "release": {
+        "date": "2026-Q1",
+        "precision": "quarter",
+        "kind": "launch",
+        "source": "https://www.intel.com/content/www/us/en/products/details/processors/core-ultra.html",
+        "noteZh": "Intel ARK 标注的上市季度；不是某款笔记本的开售时间。",
+        "noteEn": "Launch quarter listed by Intel ARK; not the retail date of a particular laptop."
+      },
+      "maxTurboGHz": 4.9,
+      "frequencySource": "https://www.intel.com/content/www/us/en/products/details/processors/core-ultra.html",
+      "frequencyNoteZh": "最高睿频是条件允许时的单核峰值，不能直接换算为性能差距。",
+      "frequencyNoteEn": "Maximum turbo is a conditional single-core peak, not a direct measure of performance difference."
+    },
+    "intel-366h": {
+      "release": {
+        "date": "2026-Q1",
+        "precision": "quarter",
+        "kind": "launch",
+        "source": "https://www.intel.com/content/www/us/en/products/details/processors/core-ultra.html",
+        "noteZh": "Intel ARK 标注的上市季度；不是某款笔记本的开售时间。",
+        "noteEn": "Launch quarter listed by Intel ARK; not the retail date of a particular laptop."
+      },
+      "maxTurboGHz": 4.8,
+      "frequencySource": "https://www.intel.com/content/www/us/en/products/details/processors/core-ultra.html",
+      "frequencyNoteZh": "最高睿频是条件允许时的单核峰值，不能直接换算为性能差距。",
+      "frequencyNoteEn": "Maximum turbo is a conditional single-core peak, not a direct measure of performance difference."
+    },
+    "intel-356h": {
+      "release": {
+        "date": "2026-Q1",
+        "precision": "quarter",
+        "kind": "launch",
+        "source": "https://www.intel.com/content/www/us/en/products/details/processors/core-ultra.html",
+        "noteZh": "Intel ARK 标注的上市季度；不是某款笔记本的开售时间。",
+        "noteEn": "Launch quarter listed by Intel ARK; not the retail date of a particular laptop."
+      },
+      "maxTurboGHz": 4.7,
+      "frequencySource": "https://www.intel.com/content/www/us/en/products/details/processors/core-ultra.html",
+      "frequencyNoteZh": "最高睿频是条件允许时的单核峰值，不能直接换算为性能差距。",
+      "frequencyNoteEn": "Maximum turbo is a conditional single-core peak, not a direct measure of performance difference."
+    },
+    "intel-338h": {
+      "release": {
+        "date": "2026-Q1",
+        "precision": "quarter",
+        "kind": "launch",
+        "source": "https://www.intel.com/content/www/us/en/products/details/processors/core-ultra.html",
+        "noteZh": "Intel ARK 标注的上市季度；不是某款笔记本的开售时间。",
+        "noteEn": "Launch quarter listed by Intel ARK; not the retail date of a particular laptop."
+      },
+      "maxTurboGHz": 4.7,
+      "frequencySource": "https://www.intel.com/content/www/us/en/products/details/processors/core-ultra.html",
+      "frequencyNoteZh": "最高睿频是条件允许时的单核峰值，不能直接换算为性能差距。",
+      "frequencyNoteEn": "Maximum turbo is a conditional single-core peak, not a direct measure of performance difference."
+    },
+    "intel-336h": {
+      "release": {
+        "date": "2026-Q1",
+        "precision": "quarter",
+        "kind": "launch",
+        "source": "https://www.intel.com/content/www/us/en/products/details/processors/core-ultra.html",
+        "noteZh": "Intel ARK 标注的上市季度；不是某款笔记本的开售时间。",
+        "noteEn": "Launch quarter listed by Intel ARK; not the retail date of a particular laptop."
+      },
+      "maxTurboGHz": 4.6,
+      "frequencySource": "https://www.intel.com/content/www/us/en/products/details/processors/core-ultra.html",
+      "frequencyNoteZh": "最高睿频是条件允许时的单核峰值，不能直接换算为性能差距。",
+      "frequencyNoteEn": "Maximum turbo is a conditional single-core peak, not a direct measure of performance difference."
+    },
+    "intel-285h": {
+      "release": {
+        "date": "2025-Q1",
+        "precision": "quarter",
+        "kind": "launch",
+        "source": "https://www.intel.com/content/www/us/en/products/details/processors/core-ultra/series-2/products.html",
+        "noteZh": "Intel ARK 标注的上市季度；不是某款笔记本的开售时间。",
+        "noteEn": "Launch quarter listed by Intel ARK; not the retail date of a particular laptop."
+      },
+      "maxTurboGHz": 5.4,
+      "frequencySource": "https://www.intel.com/content/www/us/en/products/details/processors/core-ultra/series-2/products.html",
+      "frequencyNoteZh": "最高睿频是条件允许时的单核峰值，不能直接换算为性能差距。",
+      "frequencyNoteEn": "Maximum turbo is a conditional single-core peak, not a direct measure of performance difference."
+    },
+    "intel-265h": {
+      "release": {
+        "date": "2025-Q1",
+        "precision": "quarter",
+        "kind": "launch",
+        "source": "https://www.intel.com/content/www/us/en/products/details/processors/core-ultra/series-2/products.html",
+        "noteZh": "Intel ARK 标注的上市季度；不是某款笔记本的开售时间。",
+        "noteEn": "Launch quarter listed by Intel ARK; not the retail date of a particular laptop."
+      },
+      "maxTurboGHz": 5.3,
+      "frequencySource": "https://www.intel.com/content/www/us/en/products/details/processors/core-ultra/series-2/products.html",
+      "frequencyNoteZh": "最高睿频是条件允许时的单核峰值，不能直接换算为性能差距。",
+      "frequencyNoteEn": "Maximum turbo is a conditional single-core peak, not a direct measure of performance difference."
+    },
+    "255h": {
+      "release": {
+        "date": "2025-Q1",
+        "precision": "quarter",
+        "kind": "launch",
+        "source": "https://www.intel.com/content/www/us/en/products/details/processors/core-ultra/series-2/products.html",
+        "noteZh": "Intel ARK 标注的上市季度；不是某款笔记本的开售时间。",
+        "noteEn": "Launch quarter listed by Intel ARK; not the retail date of a particular laptop."
+      },
+      "maxTurboGHz": 5.1,
+      "frequencySource": "https://www.intel.com/content/www/us/en/products/details/processors/core-ultra/series-2/products.html",
+      "frequencyNoteZh": "最高睿频是条件允许时的单核峰值，不能直接换算为性能差距。",
+      "frequencyNoteEn": "Maximum turbo is a conditional single-core peak, not a direct measure of performance difference."
+    },
+    "intel-235h": {
+      "release": {
+        "date": "2025-Q1",
+        "precision": "quarter",
+        "kind": "launch",
+        "source": "https://www.intel.com/content/www/us/en/products/details/processors/core-ultra/series-2/products.html",
+        "noteZh": "Intel ARK 标注的上市季度；不是某款笔记本的开售时间。",
+        "noteEn": "Launch quarter listed by Intel ARK; not the retail date of a particular laptop."
+      },
+      "maxTurboGHz": 5.0,
+      "frequencySource": "https://www.intel.com/content/www/us/en/products/details/processors/core-ultra/series-2/products.html",
+      "frequencyNoteZh": "最高睿频是条件允许时的单核峰值，不能直接换算为性能差距。",
+      "frequencyNoteEn": "Maximum turbo is a conditional single-core peak, not a direct measure of performance difference."
+    },
+    "225h": {
+      "release": {
+        "date": "2025-Q1",
+        "precision": "quarter",
+        "kind": "launch",
+        "source": "https://www.intel.com/content/www/us/en/products/details/processors/core-ultra/series-2/products.html",
+        "noteZh": "Intel ARK 标注的上市季度；不是某款笔记本的开售时间。",
+        "noteEn": "Launch quarter listed by Intel ARK; not the retail date of a particular laptop."
+      },
+      "maxTurboGHz": 4.9,
+      "frequencySource": "https://www.intel.com/content/www/us/en/products/details/processors/core-ultra/series-2/products.html",
+      "frequencyNoteZh": "最高睿频是条件允许时的单核峰值，不能直接换算为性能差距。",
+      "frequencyNoteEn": "Maximum turbo is a conditional single-core peak, not a direct measure of performance difference."
+    },
+    "intel-290hx-plus": {
+      "release": {
+        "date": "2026-Q1",
+        "precision": "quarter",
+        "kind": "launch",
+        "source": "https://www.intel.com/content/www/us/en/products/details/processors/core-ultra/series-2/products.html",
+        "noteZh": "Intel ARK 标注的上市季度；不是某款笔记本的开售时间。",
+        "noteEn": "Launch quarter listed by Intel ARK; not the retail date of a particular laptop."
+      },
+      "maxTurboGHz": 5.5,
+      "frequencySource": "https://www.intel.com/content/www/us/en/products/details/processors/core-ultra/series-2/products.html",
+      "frequencyNoteZh": "最高睿频是条件允许时的单核峰值，不能直接换算为性能差距。",
+      "frequencyNoteEn": "Maximum turbo is a conditional single-core peak, not a direct measure of performance difference."
+    },
+    "intel-285hx": {
+      "release": {
+        "date": "2025-Q1",
+        "precision": "quarter",
+        "kind": "launch",
+        "source": "https://www.intel.com/content/www/us/en/products/details/processors/core-ultra/series-2/products.html",
+        "noteZh": "Intel ARK 标注的上市季度；不是某款笔记本的开售时间。",
+        "noteEn": "Launch quarter listed by Intel ARK; not the retail date of a particular laptop."
+      },
+      "maxTurboGHz": 5.5,
+      "frequencySource": "https://www.intel.com/content/www/us/en/products/details/processors/core-ultra/series-2/products.html",
+      "frequencyNoteZh": "最高睿频是条件允许时的单核峰值，不能直接换算为性能差距。",
+      "frequencyNoteEn": "Maximum turbo is a conditional single-core peak, not a direct measure of performance difference."
+    },
+    "275hx": {
+      "release": {
+        "date": "2025-Q1",
+        "precision": "quarter",
+        "kind": "launch",
+        "source": "https://www.intel.com/content/www/us/en/products/details/processors/core-ultra/series-2/products.html",
+        "noteZh": "Intel ARK 标注的上市季度；不是某款笔记本的开售时间。",
+        "noteEn": "Launch quarter listed by Intel ARK; not the retail date of a particular laptop."
+      },
+      "maxTurboGHz": 5.4,
+      "frequencySource": "https://www.intel.com/content/www/us/en/products/details/processors/core-ultra/series-2/products.html",
+      "frequencyNoteZh": "最高睿频是条件允许时的单核峰值，不能直接换算为性能差距。",
+      "frequencyNoteEn": "Maximum turbo is a conditional single-core peak, not a direct measure of performance difference."
+    },
+    "intel-270hx-plus": {
+      "release": {
+        "date": "2026-Q1",
+        "precision": "quarter",
+        "kind": "launch",
+        "source": "https://www.intel.com/content/www/us/en/products/details/processors/core-ultra/series-2/products.html",
+        "noteZh": "Intel ARK 标注的上市季度；不是某款笔记本的开售时间。",
+        "noteEn": "Launch quarter listed by Intel ARK; not the retail date of a particular laptop."
+      },
+      "maxTurboGHz": 5.3,
+      "frequencySource": "https://www.intel.com/content/www/us/en/products/details/processors/core-ultra/series-2/products.html",
+      "frequencyNoteZh": "最高睿频是条件允许时的单核峰值，不能直接换算为性能差距。",
+      "frequencyNoteEn": "Maximum turbo is a conditional single-core peak, not a direct measure of performance difference."
+    },
+    "intel-265hx": {
+      "release": {
+        "date": "2025-Q1",
+        "precision": "quarter",
+        "kind": "launch",
+        "source": "https://www.intel.com/content/www/us/en/products/details/processors/core-ultra/series-2/products.html",
+        "noteZh": "Intel ARK 标注的上市季度；不是某款笔记本的开售时间。",
+        "noteEn": "Launch quarter listed by Intel ARK; not the retail date of a particular laptop."
+      },
+      "maxTurboGHz": 5.3,
+      "frequencySource": "https://www.intel.com/content/www/us/en/products/details/processors/core-ultra/series-2/products.html",
+      "frequencyNoteZh": "最高睿频是条件允许时的单核峰值，不能直接换算为性能差距。",
+      "frequencyNoteEn": "Maximum turbo is a conditional single-core peak, not a direct measure of performance difference."
+    },
+    "intel-255hx": {
+      "release": {
+        "date": "2025-Q1",
+        "precision": "quarter",
+        "kind": "launch",
+        "source": "https://www.intel.com/content/www/us/en/products/details/processors/core-ultra/series-2/products.html",
+        "noteZh": "Intel ARK 标注的上市季度；不是某款笔记本的开售时间。",
+        "noteEn": "Launch quarter listed by Intel ARK; not the retail date of a particular laptop."
+      },
+      "maxTurboGHz": 5.2,
+      "frequencySource": "https://www.intel.com/content/www/us/en/products/details/processors/core-ultra/series-2/products.html",
+      "frequencyNoteZh": "最高睿频是条件允许时的单核峰值，不能直接换算为性能差距。",
+      "frequencyNoteEn": "Maximum turbo is a conditional single-core peak, not a direct measure of performance difference."
+    },
+    "intel-251hx": {
+      "release": {
+        "date": "2026-Q1",
+        "precision": "quarter",
+        "kind": "launch",
+        "source": "https://www.intel.com/content/www/us/en/ark/products/codename/225837/products-formerly-arrow-lake.html",
+        "noteZh": "Intel ARK 标注的上市季度；不是某款笔记本的开售时间。",
+        "noteEn": "Launch quarter listed by Intel ARK; not the retail date of a particular laptop."
+      },
+      "maxTurboGHz": 5.1,
+      "frequencySource": "https://www.intel.com/content/www/us/en/products/details/processors/core-ultra/series-2/products.html",
+      "frequencyNoteZh": "最高睿频是条件允许时的单核峰值，不能直接换算为性能差距。",
+      "frequencyNoteEn": "Maximum turbo is a conditional single-core peak, not a direct measure of performance difference."
+    },
+    "intel-245hx": {
+      "release": {
+        "date": "2025-Q1",
+        "precision": "quarter",
+        "kind": "launch",
+        "source": "https://www.intel.com/content/www/us/en/products/details/processors/core-ultra/series-2/products.html",
+        "noteZh": "Intel ARK 标注的上市季度；不是某款笔记本的开售时间。",
+        "noteEn": "Launch quarter listed by Intel ARK; not the retail date of a particular laptop."
+      },
+      "maxTurboGHz": 5.1,
+      "frequencySource": "https://www.intel.com/content/www/us/en/products/details/processors/core-ultra/series-2/products.html",
+      "frequencyNoteZh": "最高睿频是条件允许时的单核峰值，不能直接换算为性能差距。",
+      "frequencyNoteEn": "Maximum turbo is a conditional single-core peak, not a direct measure of performance difference."
+    },
+    "intel-235hx": {
+      "release": {
+        "date": "2025-Q1",
+        "precision": "quarter",
+        "kind": "launch",
+        "source": "https://www.intel.com/content/www/us/en/products/details/processors/core-ultra/series-2/products.html",
+        "noteZh": "Intel ARK 标注的上市季度；不是某款笔记本的开售时间。",
+        "noteEn": "Launch quarter listed by Intel ARK; not the retail date of a particular laptop."
+      },
+      "maxTurboGHz": 5.1,
+      "frequencySource": "https://www.intel.com/content/www/us/en/products/details/processors/core-ultra/series-2/products.html",
+      "frequencyNoteZh": "最高睿频是条件允许时的单核峰值，不能直接换算为性能差距。",
+      "frequencyNoteEn": "Maximum turbo is a conditional single-core peak, not a direct measure of performance difference."
+    },
+    "intel-265u": {
+      "release": {
+        "date": "2025-Q1",
+        "precision": "quarter",
+        "kind": "launch",
+        "source": "https://www.intel.com/content/www/us/en/products/details/processors/core-ultra/series-2/products.html",
+        "noteZh": "Intel ARK 标注的上市季度；不是某款笔记本的开售时间。",
+        "noteEn": "Launch quarter listed by Intel ARK; not the retail date of a particular laptop."
+      },
+      "maxTurboGHz": 5.3,
+      "frequencySource": "https://www.intel.com/content/www/us/en/products/details/processors/core-ultra/series-2/products.html",
+      "frequencyNoteZh": "最高睿频是条件允许时的单核峰值，不能直接换算为性能差距。",
+      "frequencyNoteEn": "Maximum turbo is a conditional single-core peak, not a direct measure of performance difference."
+    },
+    "intel-255u": {
+      "release": {
+        "date": "2025-Q1",
+        "precision": "quarter",
+        "kind": "launch",
+        "source": "https://www.intel.com/content/www/us/en/products/details/processors/core-ultra/series-2/products.html",
+        "noteZh": "Intel ARK 标注的上市季度；不是某款笔记本的开售时间。",
+        "noteEn": "Launch quarter listed by Intel ARK; not the retail date of a particular laptop."
+      },
+      "maxTurboGHz": 5.2,
+      "frequencySource": "https://www.intel.com/content/www/us/en/products/details/processors/core-ultra/series-2/products.html",
+      "frequencyNoteZh": "最高睿频是条件允许时的单核峰值，不能直接换算为性能差距。",
+      "frequencyNoteEn": "Maximum turbo is a conditional single-core peak, not a direct measure of performance difference."
+    },
+    "intel-235u": {
+      "release": {
+        "date": "2025-Q1",
+        "precision": "quarter",
+        "kind": "launch",
+        "source": "https://www.intel.com/content/www/us/en/products/details/processors/core-ultra/series-2/products.html",
+        "noteZh": "Intel ARK 标注的上市季度；不是某款笔记本的开售时间。",
+        "noteEn": "Launch quarter listed by Intel ARK; not the retail date of a particular laptop."
+      },
+      "maxTurboGHz": 4.9,
+      "frequencySource": "https://www.intel.com/content/www/us/en/products/details/processors/core-ultra/series-2/products.html",
+      "frequencyNoteZh": "最高睿频是条件允许时的单核峰值，不能直接换算为性能差距。",
+      "frequencyNoteEn": "Maximum turbo is a conditional single-core peak, not a direct measure of performance difference."
+    },
+    "intel-225u": {
+      "release": {
+        "date": "2025-Q1",
+        "precision": "quarter",
+        "kind": "launch",
+        "source": "https://www.intel.com/content/www/us/en/products/details/processors/core-ultra/series-2/products.html",
+        "noteZh": "Intel ARK 标注的上市季度；不是某款笔记本的开售时间。",
+        "noteEn": "Launch quarter listed by Intel ARK; not the retail date of a particular laptop."
+      },
+      "maxTurboGHz": 4.8,
+      "frequencySource": "https://www.intel.com/content/www/us/en/products/details/processors/core-ultra/series-2/products.html",
+      "frequencyNoteZh": "最高睿频是条件允许时的单核峰值，不能直接换算为性能差距。",
+      "frequencyNoteEn": "Maximum turbo is a conditional single-core peak, not a direct measure of performance difference."
+    },
+    "intel-288v": {
+      "release": {
+        "date": "2024-Q3",
+        "precision": "quarter",
+        "kind": "launch",
+        "source": "https://www.intel.com/content/www/us/en/ark/products/codename/213792/products-formerly-lunar-lake.html",
+        "noteZh": "Intel ARK 标注的上市季度；不是某款笔记本的开售时间。",
+        "noteEn": "Launch quarter listed by Intel ARK; not the retail date of a particular laptop."
+      },
+      "maxTurboGHz": 5.1,
+      "frequencySource": "https://www.intel.com/content/www/us/en/ark/products/codename/213792/products-formerly-lunar-lake.html",
+      "frequencyNoteZh": "最高睿频是条件允许时的单核峰值，不能直接换算为性能差距。",
+      "frequencyNoteEn": "Maximum turbo is a conditional single-core peak, not a direct measure of performance difference."
+    },
+    "intel-268v": {
+      "release": {
+        "date": "2024-Q3",
+        "precision": "quarter",
+        "kind": "launch",
+        "source": "https://www.intel.com/content/www/us/en/ark/products/codename/213792/products-formerly-lunar-lake.html",
+        "noteZh": "Intel ARK 标注的上市季度；不是某款笔记本的开售时间。",
+        "noteEn": "Launch quarter listed by Intel ARK; not the retail date of a particular laptop."
+      },
+      "maxTurboGHz": 5.0,
+      "frequencySource": "https://www.intel.com/content/www/us/en/ark/products/codename/213792/products-formerly-lunar-lake.html",
+      "frequencyNoteZh": "最高睿频是条件允许时的单核峰值，不能直接换算为性能差距。",
+      "frequencyNoteEn": "Maximum turbo is a conditional single-core peak, not a direct measure of performance difference."
+    },
+    "intel-266v": {
+      "release": {
+        "date": "2024-Q3",
+        "precision": "quarter",
+        "kind": "launch",
+        "source": "https://www.intel.com/content/www/us/en/ark/products/codename/213792/products-formerly-lunar-lake.html",
+        "noteZh": "Intel ARK 标注的上市季度；不是某款笔记本的开售时间。",
+        "noteEn": "Launch quarter listed by Intel ARK; not the retail date of a particular laptop."
+      },
+      "maxTurboGHz": 5.0,
+      "frequencySource": "https://www.intel.com/content/www/us/en/ark/products/codename/213792/products-formerly-lunar-lake.html",
+      "frequencyNoteZh": "最高睿频是条件允许时的单核峰值，不能直接换算为性能差距。",
+      "frequencyNoteEn": "Maximum turbo is a conditional single-core peak, not a direct measure of performance difference."
+    },
+    "258v": {
+      "release": {
+        "date": "2024-Q3",
+        "precision": "quarter",
+        "kind": "launch",
+        "source": "https://www.intel.com/content/www/us/en/ark/products/codename/213792/products-formerly-lunar-lake.html",
+        "noteZh": "Intel ARK 标注的上市季度；不是某款笔记本的开售时间。",
+        "noteEn": "Launch quarter listed by Intel ARK; not the retail date of a particular laptop."
+      },
+      "maxTurboGHz": 4.8,
+      "frequencySource": "https://www.intel.com/content/www/us/en/ark/products/codename/213792/products-formerly-lunar-lake.html",
+      "frequencyNoteZh": "最高睿频是条件允许时的单核峰值，不能直接换算为性能差距。",
+      "frequencyNoteEn": "Maximum turbo is a conditional single-core peak, not a direct measure of performance difference."
+    },
+    "intel-256v": {
+      "release": {
+        "date": "2024-Q3",
+        "precision": "quarter",
+        "kind": "launch",
+        "source": "https://www.intel.com/content/www/us/en/ark/products/codename/213792/products-formerly-lunar-lake.html",
+        "noteZh": "Intel ARK 标注的上市季度；不是某款笔记本的开售时间。",
+        "noteEn": "Launch quarter listed by Intel ARK; not the retail date of a particular laptop."
+      },
+      "maxTurboGHz": 4.8,
+      "frequencySource": "https://www.intel.com/content/www/us/en/ark/products/codename/213792/products-formerly-lunar-lake.html",
+      "frequencyNoteZh": "最高睿频是条件允许时的单核峰值，不能直接换算为性能差距。",
+      "frequencyNoteEn": "Maximum turbo is a conditional single-core peak, not a direct measure of performance difference."
+    },
+    "intel-238v": {
+      "release": {
+        "date": "2024-Q3",
+        "precision": "quarter",
+        "kind": "launch",
+        "source": "https://www.intel.com/content/www/us/en/ark/products/codename/213792/products-formerly-lunar-lake.html",
+        "noteZh": "Intel ARK 标注的上市季度；不是某款笔记本的开售时间。",
+        "noteEn": "Launch quarter listed by Intel ARK; not the retail date of a particular laptop."
+      },
+      "maxTurboGHz": 4.7,
+      "frequencySource": "https://www.intel.com/content/www/us/en/ark/products/codename/213792/products-formerly-lunar-lake.html",
+      "frequencyNoteZh": "最高睿频是条件允许时的单核峰值，不能直接换算为性能差距。",
+      "frequencyNoteEn": "Maximum turbo is a conditional single-core peak, not a direct measure of performance difference."
+    },
+    "intel-236v": {
+      "release": {
+        "date": "2024-Q3",
+        "precision": "quarter",
+        "kind": "launch",
+        "source": "https://www.intel.com/content/www/us/en/ark/products/codename/213792/products-formerly-lunar-lake.html",
+        "noteZh": "Intel ARK 标注的上市季度；不是某款笔记本的开售时间。",
+        "noteEn": "Launch quarter listed by Intel ARK; not the retail date of a particular laptop."
+      },
+      "maxTurboGHz": 4.7,
+      "frequencySource": "https://www.intel.com/content/www/us/en/ark/products/codename/213792/products-formerly-lunar-lake.html",
+      "frequencyNoteZh": "最高睿频是条件允许时的单核峰值，不能直接换算为性能差距。",
+      "frequencyNoteEn": "Maximum turbo is a conditional single-core peak, not a direct measure of performance difference."
+    },
+    "intel-228v": {
+      "release": {
+        "date": "2024-Q3",
+        "precision": "quarter",
+        "kind": "launch",
+        "source": "https://www.intel.com/content/www/us/en/ark/products/codename/213792/products-formerly-lunar-lake.html",
+        "noteZh": "Intel ARK 标注的上市季度；不是某款笔记本的开售时间。",
+        "noteEn": "Launch quarter listed by Intel ARK; not the retail date of a particular laptop."
+      },
+      "maxTurboGHz": 4.5,
+      "frequencySource": "https://www.intel.com/content/www/us/en/ark/products/codename/213792/products-formerly-lunar-lake.html",
+      "frequencyNoteZh": "最高睿频是条件允许时的单核峰值，不能直接换算为性能差距。",
+      "frequencyNoteEn": "Maximum turbo is a conditional single-core peak, not a direct measure of performance difference."
+    },
+    "intel-226v": {
+      "release": {
+        "date": "2024-Q3",
+        "precision": "quarter",
+        "kind": "launch",
+        "source": "https://www.intel.com/content/www/us/en/ark/products/codename/213792/products-formerly-lunar-lake.html",
+        "noteZh": "Intel ARK 标注的上市季度；不是某款笔记本的开售时间。",
+        "noteEn": "Launch quarter listed by Intel ARK; not the retail date of a particular laptop."
+      },
+      "maxTurboGHz": 4.5,
+      "frequencySource": "https://www.intel.com/content/www/us/en/ark/products/codename/213792/products-formerly-lunar-lake.html",
+      "frequencyNoteZh": "最高睿频是条件允许时的单核峰值，不能直接换算为性能差距。",
+      "frequencyNoteEn": "Maximum turbo is a conditional single-core peak, not a direct measure of performance difference."
+    },
+    "intel-360": {
+      "release": {
+        "date": "2026-Q2",
+        "precision": "quarter",
+        "kind": "launch",
+        "source": "https://www.intel.com/content/www/us/en/products/details/processors/core.html",
+        "noteZh": "Intel ARK 标注的上市季度；不是某款笔记本的开售时间。",
+        "noteEn": "Launch quarter listed by Intel ARK; not the retail date of a particular laptop."
+      },
+      "maxTurboGHz": 4.8,
+      "frequencySource": "https://www.intel.com/content/www/us/en/products/details/processors/core.html",
+      "frequencyNoteZh": "最高睿频是条件允许时的单核峰值，不能直接换算为性能差距。",
+      "frequencyNoteEn": "Maximum turbo is a conditional single-core peak, not a direct measure of performance difference."
+    },
+    "intel-350": {
+      "release": {
+        "date": "2026-Q2",
+        "precision": "quarter",
+        "kind": "launch",
+        "source": "https://www.intel.com/content/www/us/en/products/details/processors/core.html",
+        "noteZh": "Intel ARK 标注的上市季度；不是某款笔记本的开售时间。",
+        "noteEn": "Launch quarter listed by Intel ARK; not the retail date of a particular laptop."
+      },
+      "maxTurboGHz": 4.8,
+      "frequencySource": "https://www.intel.com/content/www/us/en/products/details/processors/core.html",
+      "frequencyNoteZh": "最高睿频是条件允许时的单核峰值，不能直接换算为性能差距。",
+      "frequencyNoteEn": "Maximum turbo is a conditional single-core peak, not a direct measure of performance difference."
+    },
+    "intel-330": {
+      "release": {
+        "date": "2026-Q2",
+        "precision": "quarter",
+        "kind": "launch",
+        "source": "https://www.intel.com/content/www/us/en/products/details/processors/core.html",
+        "noteZh": "Intel ARK 标注的上市季度；不是某款笔记本的开售时间。",
+        "noteEn": "Launch quarter listed by Intel ARK; not the retail date of a particular laptop."
+      },
+      "maxTurboGHz": 4.6,
+      "frequencySource": "https://www.intel.com/content/www/us/en/products/details/processors/core.html",
+      "frequencyNoteZh": "最高睿频是条件允许时的单核峰值，不能直接换算为性能差距。",
+      "frequencyNoteEn": "Maximum turbo is a conditional single-core peak, not a direct measure of performance difference."
+    },
+    "intel-320": {
+      "release": {
+        "date": "2026-Q2",
+        "precision": "quarter",
+        "kind": "launch",
+        "source": "https://www.intel.com/content/www/us/en/products/details/processors/core.html",
+        "noteZh": "Intel ARK 标注的上市季度；不是某款笔记本的开售时间。",
+        "noteEn": "Launch quarter listed by Intel ARK; not the retail date of a particular laptop."
+      },
+      "maxTurboGHz": 4.6,
+      "frequencySource": "https://www.intel.com/content/www/us/en/products/details/processors/core.html",
+      "frequencyNoteZh": "最高睿频是条件允许时的单核峰值，不能直接换算为性能差距。",
+      "frequencyNoteEn": "Maximum turbo is a conditional single-core peak, not a direct measure of performance difference."
+    },
+    "intel-315": {
+      "release": {
+        "date": "2026-Q2",
+        "precision": "quarter",
+        "kind": "launch",
+        "source": "https://www.intel.com/content/www/us/en/products/details/processors/core.html",
+        "noteZh": "Intel ARK 标注的上市季度；不是某款笔记本的开售时间。",
+        "noteEn": "Launch quarter listed by Intel ARK; not the retail date of a particular laptop."
+      },
+      "maxTurboGHz": 4.4,
+      "frequencySource": "https://www.intel.com/content/www/us/en/products/details/processors/core.html",
+      "frequencyNoteZh": "最高睿频是条件允许时的单核峰值，不能直接换算为性能差距。",
+      "frequencyNoteEn": "Maximum turbo is a conditional single-core peak, not a direct measure of performance difference.",
+      "correction": {
+        "name": "Core 5 315",
+        "short": "Core 5 315",
+        "source": "https://www.intel.com/content/www/us/en/products/sku/246127/intel-core-5-processor-315-6m-cache-up-to-4-40-ghz/specifications.html",
+        "noteZh": "官网产品名为 Core 5 315；此前目录中的 Core 3 315 不正确。"
+      }
+    },
+    "intel-304": {
+      "release": {
+        "date": "2026-Q2",
+        "precision": "quarter",
+        "kind": "launch",
+        "source": "https://www.intel.com/content/www/us/en/products/details/processors/core.html",
+        "noteZh": "Intel ARK 标注的上市季度；不是某款笔记本的开售时间。",
+        "noteEn": "Launch quarter listed by Intel ARK; not the retail date of a particular laptop."
+      },
+      "maxTurboGHz": 4.3,
+      "frequencySource": "https://www.intel.com/content/www/us/en/products/details/processors/core.html",
+      "frequencyNoteZh": "最高睿频是条件允许时的单核峰值，不能直接换算为性能差距。",
+      "frequencyNoteEn": "Maximum turbo is a conditional single-core peak, not a direct measure of performance difference.",
+      "correction": {
+        "cores": "5 核 / 5 线程",
+        "coreNote": "1 性能核 + 4 低功耗能效核",
+        "source": "https://www.intel.com/content/www/us/en/products/sku/246020/intel-core-3-processor-304-6m-cache-up-to-4-30-ghz/specifications.html",
+        "noteZh": "官网列出 5 核 5 线程，不是 5 核 6 线程。"
+      }
+    },
+    "intel-185h": {
+      "release": {
+        "date": "2023-Q4",
+        "precision": "quarter",
+        "kind": "launch",
+        "source": "https://www.intel.com/content/www/us/en/ark/products/series/236803/intel-core-ultra-processors-series-1.html",
+        "noteZh": "Intel ARK 标注的上市季度；不是某款笔记本的开售时间。",
+        "noteEn": "Launch quarter listed by Intel ARK; not the retail date of a particular laptop."
+      },
+      "maxTurboGHz": 5.1,
+      "frequencySource": "https://www.intel.com/content/www/us/en/ark/products/series/236803/intel-core-ultra-processors-series-1.html",
+      "frequencyNoteZh": "最高睿频是条件允许时的单核峰值，不能直接换算为性能差距。",
+      "frequencyNoteEn": "Maximum turbo is a conditional single-core peak, not a direct measure of performance difference.",
+      "perfCoreMaxGHz": 5.1
+    },
+    "intel-165h": {
+      "release": {
+        "date": "2023-Q4",
+        "precision": "quarter",
+        "kind": "launch",
+        "source": "https://www.intel.com/content/www/us/en/ark/products/series/236803/intel-core-ultra-processors-series-1.html",
+        "noteZh": "Intel ARK 标注的上市季度；不是某款笔记本的开售时间。",
+        "noteEn": "Launch quarter listed by Intel ARK; not the retail date of a particular laptop."
+      },
+      "maxTurboGHz": 5.0,
+      "frequencySource": "https://www.intel.com/content/www/us/en/ark/products/series/236803/intel-core-ultra-processors-series-1.html",
+      "frequencyNoteZh": "最高睿频是条件允许时的单核峰值，不能直接换算为性能差距。",
+      "frequencyNoteEn": "Maximum turbo is a conditional single-core peak, not a direct measure of performance difference.",
+      "perfCoreMaxGHz": 5.0
+    },
+    "intel-155h": {
+      "release": {
+        "date": "2023-Q4",
+        "precision": "quarter",
+        "kind": "launch",
+        "source": "https://www.intel.com/content/www/us/en/ark/products/series/236803/intel-core-ultra-processors-series-1.html",
+        "noteZh": "Intel ARK 标注的上市季度；不是某款笔记本的开售时间。",
+        "noteEn": "Launch quarter listed by Intel ARK; not the retail date of a particular laptop."
+      },
+      "maxTurboGHz": 4.8,
+      "frequencySource": "https://www.intel.com/content/www/us/en/ark/products/series/236803/intel-core-ultra-processors-series-1.html",
+      "frequencyNoteZh": "最高睿频是条件允许时的单核峰值，不能直接换算为性能差距。",
+      "frequencyNoteEn": "Maximum turbo is a conditional single-core peak, not a direct measure of performance difference.",
+      "perfCoreMaxGHz": 4.8
+    },
+    "intel-135h": {
+      "release": {
+        "date": "2023-Q4",
+        "precision": "quarter",
+        "kind": "launch",
+        "source": "https://www.intel.com/content/www/us/en/ark/products/series/236803/intel-core-ultra-processors-series-1.html",
+        "noteZh": "Intel ARK 标注的上市季度；不是某款笔记本的开售时间。",
+        "noteEn": "Launch quarter listed by Intel ARK; not the retail date of a particular laptop."
+      },
+      "maxTurboGHz": 4.6,
+      "frequencySource": "https://www.intel.com/content/www/us/en/ark/products/series/236803/intel-core-ultra-processors-series-1.html",
+      "frequencyNoteZh": "最高睿频是条件允许时的单核峰值，不能直接换算为性能差距。",
+      "frequencyNoteEn": "Maximum turbo is a conditional single-core peak, not a direct measure of performance difference.",
+      "perfCoreMaxGHz": 4.6
+    },
+    "intel-125h": {
+      "release": {
+        "date": "2023-Q4",
+        "precision": "quarter",
+        "kind": "launch",
+        "source": "https://www.intel.com/content/www/us/en/ark/products/series/236803/intel-core-ultra-processors-series-1.html",
+        "noteZh": "Intel ARK 标注的上市季度；不是某款笔记本的开售时间。",
+        "noteEn": "Launch quarter listed by Intel ARK; not the retail date of a particular laptop."
+      },
+      "maxTurboGHz": 4.5,
+      "frequencySource": "https://www.intel.com/content/www/us/en/ark/products/series/236803/intel-core-ultra-processors-series-1.html",
+      "frequencyNoteZh": "最高睿频是条件允许时的单核峰值，不能直接换算为性能差距。",
+      "frequencyNoteEn": "Maximum turbo is a conditional single-core peak, not a direct measure of performance difference.",
+      "perfCoreMaxGHz": 4.5
+    },
+    "intel-165u": {
+      "release": {
+        "date": "2023-Q4",
+        "precision": "quarter",
+        "kind": "launch",
+        "source": "https://www.intel.com/content/www/us/en/ark/products/series/236803/intel-core-ultra-processors-series-1.html",
+        "noteZh": "Intel ARK 标注的上市季度；不是某款笔记本的开售时间。",
+        "noteEn": "Launch quarter listed by Intel ARK; not the retail date of a particular laptop."
+      },
+      "maxTurboGHz": 4.9,
+      "frequencySource": "https://www.intel.com/content/www/us/en/ark/products/series/236803/intel-core-ultra-processors-series-1.html",
+      "frequencyNoteZh": "最高睿频是条件允许时的单核峰值，不能直接换算为性能差距。",
+      "frequencyNoteEn": "Maximum turbo is a conditional single-core peak, not a direct measure of performance difference.",
+      "perfCoreMaxGHz": 4.9
+    },
+    "intel-164u": {
+      "release": {
+        "date": "2023-Q4",
+        "precision": "quarter",
+        "kind": "launch",
+        "source": "https://www.intel.com/content/www/us/en/ark/products/series/236803/intel-core-ultra-processors-series-1.html",
+        "noteZh": "Intel ARK 标注的上市季度；不是某款笔记本的开售时间。",
+        "noteEn": "Launch quarter listed by Intel ARK; not the retail date of a particular laptop."
+      },
+      "maxTurboGHz": 4.8,
+      "frequencySource": "https://www.intel.com/content/www/us/en/ark/products/series/236803/intel-core-ultra-processors-series-1.html",
+      "frequencyNoteZh": "最高睿频是条件允许时的单核峰值，不能直接换算为性能差距。",
+      "frequencyNoteEn": "Maximum turbo is a conditional single-core peak, not a direct measure of performance difference.",
+      "perfCoreMaxGHz": 4.8
+    },
+    "intel-155u": {
+      "release": {
+        "date": "2023-Q4",
+        "precision": "quarter",
+        "kind": "launch",
+        "source": "https://www.intel.com/content/www/us/en/ark/products/series/236803/intel-core-ultra-processors-series-1.html",
+        "noteZh": "Intel ARK 标注的上市季度；不是某款笔记本的开售时间。",
+        "noteEn": "Launch quarter listed by Intel ARK; not the retail date of a particular laptop."
+      },
+      "maxTurboGHz": 4.8,
+      "frequencySource": "https://www.intel.com/content/www/us/en/ark/products/series/236803/intel-core-ultra-processors-series-1.html",
+      "frequencyNoteZh": "最高睿频是条件允许时的单核峰值，不能直接换算为性能差距。",
+      "frequencyNoteEn": "Maximum turbo is a conditional single-core peak, not a direct measure of performance difference.",
+      "perfCoreMaxGHz": 4.8
+    },
+    "intel-135u": {
+      "release": {
+        "date": "2023-Q4",
+        "precision": "quarter",
+        "kind": "launch",
+        "source": "https://www.intel.com/content/www/us/en/ark/products/series/236803/intel-core-ultra-processors-series-1.html",
+        "noteZh": "Intel ARK 标注的上市季度；不是某款笔记本的开售时间。",
+        "noteEn": "Launch quarter listed by Intel ARK; not the retail date of a particular laptop."
+      },
+      "maxTurboGHz": 4.4,
+      "frequencySource": "https://www.intel.com/content/www/us/en/ark/products/series/236803/intel-core-ultra-processors-series-1.html",
+      "frequencyNoteZh": "最高睿频是条件允许时的单核峰值，不能直接换算为性能差距。",
+      "frequencyNoteEn": "Maximum turbo is a conditional single-core peak, not a direct measure of performance difference.",
+      "perfCoreMaxGHz": 4.4
+    },
+    "intel-134u": {
+      "release": {
+        "date": "2023-Q4",
+        "precision": "quarter",
+        "kind": "launch",
+        "source": "https://www.intel.com/content/www/us/en/ark/products/series/236803/intel-core-ultra-processors-series-1.html",
+        "noteZh": "Intel ARK 标注的上市季度；不是某款笔记本的开售时间。",
+        "noteEn": "Launch quarter listed by Intel ARK; not the retail date of a particular laptop."
+      },
+      "maxTurboGHz": 4.4,
+      "frequencySource": "https://www.intel.com/content/www/us/en/ark/products/series/236803/intel-core-ultra-processors-series-1.html",
+      "frequencyNoteZh": "最高睿频是条件允许时的单核峰值，不能直接换算为性能差距。",
+      "frequencyNoteEn": "Maximum turbo is a conditional single-core peak, not a direct measure of performance difference.",
+      "perfCoreMaxGHz": 4.4
+    },
+    "intel-125u": {
+      "release": {
+        "date": "2023-Q4",
+        "precision": "quarter",
+        "kind": "launch",
+        "source": "https://www.intel.com/content/www/us/en/ark/products/series/236803/intel-core-ultra-processors-series-1.html",
+        "noteZh": "Intel ARK 标注的上市季度；不是某款笔记本的开售时间。",
+        "noteEn": "Launch quarter listed by Intel ARK; not the retail date of a particular laptop."
+      },
+      "maxTurboGHz": 4.3,
+      "frequencySource": "https://www.intel.com/content/www/us/en/ark/products/series/236803/intel-core-ultra-processors-series-1.html",
+      "frequencyNoteZh": "最高睿频是条件允许时的单核峰值，不能直接换算为性能差距。",
+      "frequencyNoteEn": "Maximum turbo is a conditional single-core peak, not a direct measure of performance difference.",
+      "perfCoreMaxGHz": 4.3
+    },
+    "intel-270h": {
+      "release": {
+        "date": "2024-Q4",
+        "precision": "quarter",
+        "kind": "launch",
+        "source": "https://www.intel.com/content/www/us/en/products/sku/241947/intel-core-9-processor-270h-24m-cache-up-to-5-80-ghz/specifications.html",
+        "noteZh": "Intel ARK 标注的上市季度；不是某款笔记本的开售时间。",
+        "noteEn": "Launch quarter listed by Intel ARK; not the retail date of a particular laptop."
+      },
+      "maxTurboGHz": 5.8,
+      "frequencySource": "https://www.intel.com/content/www/us/en/products/sku/241947/intel-core-9-processor-270h-24m-cache-up-to-5-80-ghz/specifications.html",
+      "frequencyNoteZh": "最高睿频是条件允许时的单核峰值，不能直接换算为性能差距。",
+      "frequencyNoteEn": "Maximum turbo is a conditional single-core peak, not a direct measure of performance difference.",
+      "perfCoreMaxGHz": 5.8
+    },
+    "intel-250h": {
+      "release": {
+        "date": "2024-Q4",
+        "precision": "quarter",
+        "kind": "launch",
+        "source": "https://www.intel.com/content/www/us/en/products/sku/241651/intel-core-7-processor-250h-24m-cache-up-to-5-40-ghz/specifications.html",
+        "noteZh": "Intel ARK 标注的上市季度；不是某款笔记本的开售时间。",
+        "noteEn": "Launch quarter listed by Intel ARK; not the retail date of a particular laptop."
+      },
+      "maxTurboGHz": 5.4,
+      "frequencySource": "https://www.intel.com/content/www/us/en/products/sku/241651/intel-core-7-processor-250h-24m-cache-up-to-5-40-ghz/specifications.html",
+      "frequencyNoteZh": "最高睿频是条件允许时的单核峰值，不能直接换算为性能差距。",
+      "frequencyNoteEn": "Maximum turbo is a conditional single-core peak, not a direct measure of performance difference.",
+      "perfCoreMaxGHz": 5.4
+    },
+    "intel-240h": {
+      "release": {
+        "date": "2024-Q4",
+        "precision": "quarter",
+        "kind": "launch",
+        "source": "https://www.intel.com/content/www/us/en/products/sku/241653/intel-core-7-processor-240h-24m-cache-up-to-5-20-ghz/specifications.html",
+        "noteZh": "Intel ARK 标注的上市季度；不是某款笔记本的开售时间。",
+        "noteEn": "Launch quarter listed by Intel ARK; not the retail date of a particular laptop."
+      },
+      "maxTurboGHz": 5.2,
+      "frequencySource": "https://www.intel.com/content/www/us/en/products/sku/241653/intel-core-7-processor-240h-24m-cache-up-to-5-20-ghz/specifications.html",
+      "frequencyNoteZh": "最高睿频是条件允许时的单核峰值，不能直接换算为性能差距。",
+      "frequencyNoteEn": "Maximum turbo is a conditional single-core peak, not a direct measure of performance difference.",
+      "perfCoreMaxGHz": 5.2
+    },
+    "intel-220h": {
+      "release": {
+        "date": "2024-Q4",
+        "precision": "quarter",
+        "kind": "launch",
+        "source": "https://www.intel.com/content/www/us/en/products/sku/241654/intel-core-5-processor-220h-18m-cache-up-to-4-90-ghz/specifications.html",
+        "noteZh": "Intel ARK 标注的上市季度；不是某款笔记本的开售时间。",
+        "noteEn": "Launch quarter listed by Intel ARK; not the retail date of a particular laptop."
+      },
+      "maxTurboGHz": 4.9,
+      "frequencySource": "https://www.intel.com/content/www/us/en/products/sku/241654/intel-core-5-processor-220h-18m-cache-up-to-4-90-ghz/specifications.html",
+      "frequencyNoteZh": "最高睿频是条件允许时的单核峰值，不能直接换算为性能差距。",
+      "frequencyNoteEn": "Maximum turbo is a conditional single-core peak, not a direct measure of performance difference."
+    },
+    "intel-210h": {
+      "release": {
+        "date": "2024-Q4",
+        "precision": "quarter",
+        "kind": "launch",
+        "source": "https://www.intel.com/content/www/us/en/products/sku/241652/intel-core-5-processor-210h-12m-cache-up-to-4-80-ghz/specifications.html",
+        "noteZh": "Intel ARK 标注的上市季度；不是某款笔记本的开售时间。",
+        "noteEn": "Launch quarter listed by Intel ARK; not the retail date of a particular laptop."
+      },
+      "maxTurboGHz": 4.8,
+      "frequencySource": "https://www.intel.com/content/www/us/en/products/sku/241652/intel-core-5-processor-210h-12m-cache-up-to-4-80-ghz/specifications.html",
+      "frequencyNoteZh": "最高睿频是条件允许时的单核峰值，不能直接换算为性能差距。",
+      "frequencyNoteEn": "Maximum turbo is a conditional single-core peak, not a direct measure of performance difference.",
+      "perfCoreMaxGHz": 4.8
+    },
+    "intel-250u": {
+      "release": {
+        "date": "2025-Q1",
+        "precision": "quarter",
+        "kind": "launch",
+        "source": "https://www.intel.com/content/www/us/en/products/sku/238771/intel-core-7-processor-250u-12m-cache-up-to-5-40-ghz/specifications.html",
+        "noteZh": "Intel ARK 标注的上市季度；不是某款笔记本的开售时间。",
+        "noteEn": "Launch quarter listed by Intel ARK; not the retail date of a particular laptop."
+      },
+      "maxTurboGHz": 5.4,
+      "frequencySource": "https://www.intel.com/content/www/us/en/products/sku/238771/intel-core-7-processor-250u-12m-cache-up-to-5-40-ghz/specifications.html",
+      "frequencyNoteZh": "最高睿频是条件允许时的单核峰值，不能直接换算为性能差距。",
+      "frequencyNoteEn": "Maximum turbo is a conditional single-core peak, not a direct measure of performance difference.",
+      "perfCoreMaxGHz": 5.4
+    },
+    "intel-220u": {
+      "release": {
+        "date": "2025-Q1",
+        "precision": "quarter",
+        "kind": "launch",
+        "source": "https://www.intel.com/content/www/us/en/products/sku/238776/intel-core-5-processor-220u-12m-cache-up-to-5-00-ghz/specifications.html",
+        "noteZh": "Intel ARK 标注的上市季度；不是某款笔记本的开售时间。",
+        "noteEn": "Launch quarter listed by Intel ARK; not the retail date of a particular laptop."
+      },
+      "maxTurboGHz": 5.0,
+      "frequencySource": "https://www.intel.com/content/www/us/en/products/sku/238776/intel-core-5-processor-220u-12m-cache-up-to-5-00-ghz/specifications.html",
+      "frequencyNoteZh": "最高睿频是条件允许时的单核峰值，不能直接换算为性能差距。",
+      "frequencyNoteEn": "Maximum turbo is a conditional single-core peak, not a direct measure of performance difference.",
+      "perfCoreMaxGHz": 5.0
+    },
+    "intel-150u": {
+      "release": {
+        "date": "2024-Q1",
+        "precision": "quarter",
+        "kind": "launch",
+        "source": "https://www.intel.com/content/www/us/en/products/compare.html?productIds=236776,238762,236796,236795,236848,237330,237507,236850,237328,236847,237327,237508,236851,237329,236849",
+        "noteZh": "Intel ARK 标注的上市季度；不是某款笔记本的开售时间。",
+        "noteEn": "Launch quarter listed by Intel ARK; not the retail date of a particular laptop."
+      },
+      "maxTurboGHz": 5.4,
+      "frequencySource": "https://www.intel.com/content/www/us/en/products/compare.html?productIds=236776,238762,236796,236795,236848,237330,237507,236850,237328,236847,237327,237508,236851,237329,236849",
+      "frequencyNoteZh": "最高睿频是条件允许时的单核峰值，不能直接换算为性能差距。",
+      "frequencyNoteEn": "Maximum turbo is a conditional single-core peak, not a direct measure of performance difference.",
+      "perfCoreMaxGHz": 5.4
+    },
+    "intel-120u": {
+      "release": {
+        "date": "2024-Q1",
+        "precision": "quarter",
+        "kind": "launch",
+        "source": "https://www.intel.com/content/www/us/en/products/compare.html?productIds=236776,238762,236796,236795,236848,237330,237507,236850,237328,236847,237327,237508,236851,237329,236849",
+        "noteZh": "Intel ARK 标注的上市季度；不是某款笔记本的开售时间。",
+        "noteEn": "Launch quarter listed by Intel ARK; not the retail date of a particular laptop."
+      },
+      "maxTurboGHz": 5.0,
+      "frequencySource": "https://www.intel.com/content/www/us/en/products/compare.html?productIds=236776,238762,236796,236795,236848,237330,237507,236850,237328,236847,237327,237508,236851,237329,236849",
+      "frequencyNoteZh": "最高睿频是条件允许时的单核峰值，不能直接换算为性能差距。",
+      "frequencyNoteEn": "Maximum turbo is a conditional single-core peak, not a direct measure of performance difference.",
+      "perfCoreMaxGHz": 5.0
+    },
+    "intel-100u": {
+      "release": {
+        "date": "2024-Q1",
+        "precision": "quarter",
+        "kind": "launch",
+        "source": "https://www.intel.com/content/www/us/en/products/compare.html?productIds=236776,238762,236796,236795,236848,237330,237507,236850,237328,236847,237327,237508,236851,237329,236849",
+        "noteZh": "Intel ARK 标注的上市季度；不是某款笔记本的开售时间。",
+        "noteEn": "Launch quarter listed by Intel ARK; not the retail date of a particular laptop."
+      },
+      "maxTurboGHz": 4.7,
+      "frequencySource": "https://www.intel.com/content/www/us/en/products/compare.html?productIds=236776,238762,236796,236795,236848,237330,237507,236850,237328,236847,237327,237508,236851,237329,236849",
+      "frequencyNoteZh": "最高睿频是条件允许时的单核峰值，不能直接换算为性能差距。",
+      "frequencyNoteEn": "Maximum turbo is a conditional single-core peak, not a direct measure of performance difference.",
+      "perfCoreMaxGHz": 4.7
+    },
+    "intel-i9-14900hx": {
+      "release": {
+        "date": "2024-Q1",
+        "precision": "quarter",
+        "kind": "launch",
+        "source": "https://www.intel.com/content/www/us/en/products/sku/235995/intel-core-i9-processor-14900hx-36m-cache-up-to-5-80-ghz/specifications.html",
+        "noteZh": "Intel ARK 标注的上市季度；不是某款笔记本的开售时间。",
+        "noteEn": "Launch quarter listed by Intel ARK; not the retail date of a particular laptop."
+      },
+      "maxTurboGHz": 5.8,
+      "frequencySource": "https://www.intel.com/content/www/us/en/products/sku/235995/intel-core-i9-processor-14900hx-36m-cache-up-to-5-80-ghz/specifications.html",
+      "frequencyNoteZh": "最高睿频是条件允许时的单核峰值，不能直接换算为性能差距。",
+      "frequencyNoteEn": "Maximum turbo is a conditional single-core peak, not a direct measure of performance difference.",
+      "perfCoreMaxGHz": 5.8
+    },
+    "intel-i7-14700hx": {
+      "release": {
+        "date": "2024-Q1",
+        "precision": "quarter",
+        "kind": "launch",
+        "source": "https://www.intel.com/content/www/us/en/products/compare.html?productIds=235996,235997,235998,235999",
+        "noteZh": "Intel ARK 标注的上市季度；不是某款笔记本的开售时间。",
+        "noteEn": "Launch quarter listed by Intel ARK; not the retail date of a particular laptop."
+      },
+      "maxTurboGHz": 5.5,
+      "frequencySource": "https://www.intel.com/content/www/us/en/products/compare.html?productIds=235996,235997,235998,235999",
+      "frequencyNoteZh": "最高睿频是条件允许时的单核峰值，不能直接换算为性能差距。",
+      "frequencyNoteEn": "Maximum turbo is a conditional single-core peak, not a direct measure of performance difference.",
+      "perfCoreMaxGHz": 5.5
+    },
+    "intel-i7-14650hx": {
+      "release": {
+        "date": "2024-Q1",
+        "precision": "quarter",
+        "kind": "launch",
+        "source": "https://www.intel.com/content/www/us/en/products/compare.html?productIds=235996,235997,235998,235999",
+        "noteZh": "Intel ARK 标注的上市季度；不是某款笔记本的开售时间。",
+        "noteEn": "Launch quarter listed by Intel ARK; not the retail date of a particular laptop."
+      },
+      "maxTurboGHz": 5.2,
+      "frequencySource": "https://www.intel.com/content/www/us/en/products/compare.html?productIds=235996,235997,235998,235999",
+      "frequencyNoteZh": "最高睿频是条件允许时的单核峰值，不能直接换算为性能差距。",
+      "frequencyNoteEn": "Maximum turbo is a conditional single-core peak, not a direct measure of performance difference.",
+      "perfCoreMaxGHz": 5.2
+    },
+    "intel-i5-14500hx": {
+      "release": {
+        "date": "2024-Q1",
+        "precision": "quarter",
+        "kind": "launch",
+        "source": "https://www.intel.com/content/www/us/en/products/compare.html?productIds=235996,235997,235998,235999",
+        "noteZh": "Intel ARK 标注的上市季度；不是某款笔记本的开售时间。",
+        "noteEn": "Launch quarter listed by Intel ARK; not the retail date of a particular laptop."
+      },
+      "maxTurboGHz": 4.9,
+      "frequencySource": "https://www.intel.com/content/www/us/en/products/compare.html?productIds=235996,235997,235998,235999",
+      "frequencyNoteZh": "最高睿频是条件允许时的单核峰值，不能直接换算为性能差距。",
+      "frequencyNoteEn": "Maximum turbo is a conditional single-core peak, not a direct measure of performance difference.",
+      "perfCoreMaxGHz": 4.9
+    },
+    "intel-i5-14450hx": {
+      "release": {
+        "date": "2024-Q1",
+        "precision": "quarter",
+        "kind": "launch",
+        "source": "https://www.intel.com/content/www/us/en/products/compare.html?productIds=235996,235997,235998,235999",
+        "noteZh": "Intel ARK 标注的上市季度；不是某款笔记本的开售时间。",
+        "noteEn": "Launch quarter listed by Intel ARK; not the retail date of a particular laptop."
+      },
+      "maxTurboGHz": 4.8,
+      "frequencySource": "https://www.intel.com/content/www/us/en/products/compare.html?productIds=235996,235997,235998,235999",
+      "frequencyNoteZh": "最高睿频是条件允许时的单核峰值，不能直接换算为性能差距。",
+      "frequencyNoteEn": "Maximum turbo is a conditional single-core peak, not a direct measure of performance difference.",
+      "perfCoreMaxGHz": 4.8
+    },
+    "intel-i9-13905h": {
+      "release": {
+        "date": "2023-Q1",
+        "precision": "quarter",
+        "kind": "launch",
+        "source": "https://www.intel.com/content/www/us/en/ark/products/series/230485/13th-generation-intel-core-i9-processors.html",
+        "noteZh": "Intel ARK 标注的上市季度；不是某款笔记本的开售时间。",
+        "noteEn": "Launch quarter listed by Intel ARK; not the retail date of a particular laptop."
+      },
+      "maxTurboGHz": 5.4,
+      "frequencySource": "https://www.intel.com/content/www/us/en/ark/products/series/230485/13th-generation-intel-core-i9-processors.html",
+      "frequencyNoteZh": "最高睿频是条件允许时的单核峰值，不能直接换算为性能差距。",
+      "frequencyNoteEn": "Maximum turbo is a conditional single-core peak, not a direct measure of performance difference."
+    },
+    "intel-i9-13900hk": {
+      "release": {
+        "date": "2023-Q1",
+        "precision": "quarter",
+        "kind": "launch",
+        "source": "https://www.intel.com/content/www/us/en/ark/products/series/230485/13th-generation-intel-core-i9-processors.html",
+        "noteZh": "Intel ARK 标注的上市季度；不是某款笔记本的开售时间。",
+        "noteEn": "Launch quarter listed by Intel ARK; not the retail date of a particular laptop."
+      },
+      "maxTurboGHz": 5.4,
+      "frequencySource": "https://www.intel.com/content/www/us/en/ark/products/series/230485/13th-generation-intel-core-i9-processors.html",
+      "frequencyNoteZh": "最高睿频是条件允许时的单核峰值，不能直接换算为性能差距。",
+      "frequencyNoteEn": "Maximum turbo is a conditional single-core peak, not a direct measure of performance difference."
+    },
+    "intel-i9-13900h": {
+      "release": {
+        "date": "2023-Q1",
+        "precision": "quarter",
+        "kind": "launch",
+        "source": "https://www.intel.com/content/www/us/en/ark/products/series/230485/13th-generation-intel-core-i9-processors.html",
+        "noteZh": "Intel ARK 标注的上市季度；不是某款笔记本的开售时间。",
+        "noteEn": "Launch quarter listed by Intel ARK; not the retail date of a particular laptop."
+      },
+      "maxTurboGHz": 5.4,
+      "frequencySource": "https://www.intel.com/content/www/us/en/ark/products/series/230485/13th-generation-intel-core-i9-processors.html",
+      "frequencyNoteZh": "最高睿频是条件允许时的单核峰值，不能直接换算为性能差距。",
+      "frequencyNoteEn": "Maximum turbo is a conditional single-core peak, not a direct measure of performance difference."
+    },
+    "intel-i7-13800h": {
+      "release": {
+        "date": "2023-Q1",
+        "precision": "quarter",
+        "kind": "launch",
+        "source": "https://www.intel.com/content/www/us/en/ark/products/series/230486/13th-generation-intel-core-i7-processors.html",
+        "noteZh": "Intel ARK 标注的上市季度；不是某款笔记本的开售时间。",
+        "noteEn": "Launch quarter listed by Intel ARK; not the retail date of a particular laptop."
+      },
+      "maxTurboGHz": 5.2,
+      "frequencySource": "https://www.intel.com/content/www/us/en/ark/products/series/230486/13th-generation-intel-core-i7-processors.html",
+      "frequencyNoteZh": "最高睿频是条件允许时的单核峰值，不能直接换算为性能差距。",
+      "frequencyNoteEn": "Maximum turbo is a conditional single-core peak, not a direct measure of performance difference."
+    },
+    "intel-i7-13705h": {
+      "release": {
+        "date": "2023-Q1",
+        "precision": "quarter",
+        "kind": "launch",
+        "source": "https://www.intel.com/content/www/us/en/ark/products/series/230486/13th-generation-intel-core-i7-processors.html",
+        "noteZh": "Intel ARK 标注的上市季度；不是某款笔记本的开售时间。",
+        "noteEn": "Launch quarter listed by Intel ARK; not the retail date of a particular laptop."
+      },
+      "maxTurboGHz": 5.0,
+      "frequencySource": "https://www.intel.com/content/www/us/en/ark/products/series/230486/13th-generation-intel-core-i7-processors.html",
+      "frequencyNoteZh": "最高睿频是条件允许时的单核峰值，不能直接换算为性能差距。",
+      "frequencyNoteEn": "Maximum turbo is a conditional single-core peak, not a direct measure of performance difference."
+    },
+    "intel-i7-13700h": {
+      "release": {
+        "date": "2023-Q1",
+        "precision": "quarter",
+        "kind": "launch",
+        "source": "https://www.intel.com/content/www/us/en/ark/products/series/230486/13th-generation-intel-core-i7-processors.html",
+        "noteZh": "Intel ARK 标注的上市季度；不是某款笔记本的开售时间。",
+        "noteEn": "Launch quarter listed by Intel ARK; not the retail date of a particular laptop."
+      },
+      "maxTurboGHz": 5.0,
+      "frequencySource": "https://www.intel.com/content/www/us/en/ark/products/series/230486/13th-generation-intel-core-i7-processors.html",
+      "frequencyNoteZh": "最高睿频是条件允许时的单核峰值，不能直接换算为性能差距。",
+      "frequencyNoteEn": "Maximum turbo is a conditional single-core peak, not a direct measure of performance difference."
+    },
+    "intel-i7-13620h": {
+      "release": {
+        "date": "2023-Q1",
+        "precision": "quarter",
+        "kind": "launch",
+        "source": "https://www.intel.com/content/www/us/en/ark/products/series/230486/13th-generation-intel-core-i7-processors.html",
+        "noteZh": "Intel ARK 标注的上市季度；不是某款笔记本的开售时间。",
+        "noteEn": "Launch quarter listed by Intel ARK; not the retail date of a particular laptop."
+      },
+      "maxTurboGHz": 4.9,
+      "frequencySource": "https://www.intel.com/content/www/us/en/ark/products/series/230486/13th-generation-intel-core-i7-processors.html",
+      "frequencyNoteZh": "最高睿频是条件允许时的单核峰值，不能直接换算为性能差距。",
+      "frequencyNoteEn": "Maximum turbo is a conditional single-core peak, not a direct measure of performance difference."
+    },
+    "intel-i5-13600h": {
+      "release": {
+        "date": "2023-Q1",
+        "precision": "quarter",
+        "kind": "launch",
+        "source": "https://www.intel.com/content/www/us/en/ark/products/series/230487/13th-generation-intel-core-i5-processors.html",
+        "noteZh": "Intel ARK 标注的上市季度；不是某款笔记本的开售时间。",
+        "noteEn": "Launch quarter listed by Intel ARK; not the retail date of a particular laptop."
+      },
+      "maxTurboGHz": 4.8,
+      "frequencySource": "https://www.intel.com/content/www/us/en/ark/products/series/230487/13th-generation-intel-core-i5-processors.html",
+      "frequencyNoteZh": "最高睿频是条件允许时的单核峰值，不能直接换算为性能差距。",
+      "frequencyNoteEn": "Maximum turbo is a conditional single-core peak, not a direct measure of performance difference."
+    },
+    "intel-i5-13505h": {
+      "release": {
+        "date": "2023-Q1",
+        "precision": "quarter",
+        "kind": "launch",
+        "source": "https://www.intel.com/content/www/us/en/ark/products/series/230487/13th-generation-intel-core-i5-processors.html",
+        "noteZh": "Intel ARK 标注的上市季度；不是某款笔记本的开售时间。",
+        "noteEn": "Launch quarter listed by Intel ARK; not the retail date of a particular laptop."
+      },
+      "maxTurboGHz": 4.7,
+      "frequencySource": "https://www.intel.com/content/www/us/en/ark/products/series/230487/13th-generation-intel-core-i5-processors.html",
+      "frequencyNoteZh": "最高睿频是条件允许时的单核峰值，不能直接换算为性能差距。",
+      "frequencyNoteEn": "Maximum turbo is a conditional single-core peak, not a direct measure of performance difference."
+    },
+    "intel-i5-13500h": {
+      "release": {
+        "date": "2023-Q1",
+        "precision": "quarter",
+        "kind": "launch",
+        "source": "https://www.intel.com/content/www/us/en/ark/products/series/230487/13th-generation-intel-core-i5-processors.html",
+        "noteZh": "Intel ARK 标注的上市季度；不是某款笔记本的开售时间。",
+        "noteEn": "Launch quarter listed by Intel ARK; not the retail date of a particular laptop."
+      },
+      "maxTurboGHz": 4.7,
+      "frequencySource": "https://www.intel.com/content/www/us/en/ark/products/series/230487/13th-generation-intel-core-i5-processors.html",
+      "frequencyNoteZh": "最高睿频是条件允许时的单核峰值，不能直接换算为性能差距。",
+      "frequencyNoteEn": "Maximum turbo is a conditional single-core peak, not a direct measure of performance difference."
+    },
+    "intel-i5-13420h": {
+      "release": {
+        "date": "2023-Q1",
+        "precision": "quarter",
+        "kind": "launch",
+        "source": "https://www.intel.com/content/www/us/en/ark/products/series/230487/13th-generation-intel-core-i5-processors.html",
+        "noteZh": "Intel ARK 标注的上市季度；不是某款笔记本的开售时间。",
+        "noteEn": "Launch quarter listed by Intel ARK; not the retail date of a particular laptop."
+      },
+      "maxTurboGHz": 4.6,
+      "frequencySource": "https://www.intel.com/content/www/us/en/ark/products/series/230487/13th-generation-intel-core-i5-processors.html",
+      "frequencyNoteZh": "最高睿频是条件允许时的单核峰值，不能直接换算为性能差距。",
+      "frequencyNoteEn": "Maximum turbo is a conditional single-core peak, not a direct measure of performance difference."
+    },
+    "intel-i9-13980hx": {
+      "release": {
+        "date": "2023-Q1",
+        "precision": "quarter",
+        "kind": "launch",
+        "source": "https://www.intel.com/content/www/us/en/ark/products/series/230485/13th-generation-intel-core-i9-processors.html",
+        "noteZh": "Intel ARK 标注的上市季度；不是某款笔记本的开售时间。",
+        "noteEn": "Launch quarter listed by Intel ARK; not the retail date of a particular laptop."
+      },
+      "maxTurboGHz": 5.6,
+      "frequencySource": "https://www.intel.com/content/www/us/en/ark/products/series/230485/13th-generation-intel-core-i9-processors.html",
+      "frequencyNoteZh": "最高睿频是条件允许时的单核峰值，不能直接换算为性能差距。",
+      "frequencyNoteEn": "Maximum turbo is a conditional single-core peak, not a direct measure of performance difference."
+    },
+    "intel-i9-13950hx": {
+      "release": {
+        "date": "2023-Q1",
+        "precision": "quarter",
+        "kind": "launch",
+        "source": "https://www.intel.com/content/www/us/en/ark/products/series/230485/13th-generation-intel-core-i9-processors.html",
+        "noteZh": "Intel ARK 标注的上市季度；不是某款笔记本的开售时间。",
+        "noteEn": "Launch quarter listed by Intel ARK; not the retail date of a particular laptop."
+      },
+      "maxTurboGHz": 5.5,
+      "frequencySource": "https://www.intel.com/content/www/us/en/ark/products/series/230485/13th-generation-intel-core-i9-processors.html",
+      "frequencyNoteZh": "最高睿频是条件允许时的单核峰值，不能直接换算为性能差距。",
+      "frequencyNoteEn": "Maximum turbo is a conditional single-core peak, not a direct measure of performance difference."
+    },
+    "intel-i9-13900hx": {
+      "release": {
+        "date": "2023-Q1",
+        "precision": "quarter",
+        "kind": "launch",
+        "source": "https://www.intel.com/content/www/us/en/ark/products/series/230485/13th-generation-intel-core-i9-processors.html",
+        "noteZh": "Intel ARK 标注的上市季度；不是某款笔记本的开售时间。",
+        "noteEn": "Launch quarter listed by Intel ARK; not the retail date of a particular laptop."
+      },
+      "maxTurboGHz": 5.4,
+      "frequencySource": "https://www.intel.com/content/www/us/en/ark/products/series/230485/13th-generation-intel-core-i9-processors.html",
+      "frequencyNoteZh": "最高睿频是条件允许时的单核峰值，不能直接换算为性能差距。",
+      "frequencyNoteEn": "Maximum turbo is a conditional single-core peak, not a direct measure of performance difference."
+    },
+    "intel-i7-13850hx": {
+      "release": {
+        "date": "2023-Q1",
+        "precision": "quarter",
+        "kind": "launch",
+        "source": "https://www.intel.com/content/www/us/en/ark/products/series/230486/13th-generation-intel-core-i7-processors.html",
+        "noteZh": "Intel ARK 标注的上市季度；不是某款笔记本的开售时间。",
+        "noteEn": "Launch quarter listed by Intel ARK; not the retail date of a particular laptop."
+      },
+      "maxTurboGHz": 5.3,
+      "frequencySource": "https://www.intel.com/content/www/us/en/ark/products/series/230486/13th-generation-intel-core-i7-processors.html",
+      "frequencyNoteZh": "最高睿频是条件允许时的单核峰值，不能直接换算为性能差距。",
+      "frequencyNoteEn": "Maximum turbo is a conditional single-core peak, not a direct measure of performance difference."
+    },
+    "intel-i7-13700hx": {
+      "release": {
+        "date": "2023-Q1",
+        "precision": "quarter",
+        "kind": "launch",
+        "source": "https://www.intel.com/content/www/us/en/ark/products/series/230486/13th-generation-intel-core-i7-processors.html",
+        "noteZh": "Intel ARK 标注的上市季度；不是某款笔记本的开售时间。",
+        "noteEn": "Launch quarter listed by Intel ARK; not the retail date of a particular laptop."
+      },
+      "maxTurboGHz": 5.0,
+      "frequencySource": "https://www.intel.com/content/www/us/en/ark/products/series/230486/13th-generation-intel-core-i7-processors.html",
+      "frequencyNoteZh": "最高睿频是条件允许时的单核峰值，不能直接换算为性能差距。",
+      "frequencyNoteEn": "Maximum turbo is a conditional single-core peak, not a direct measure of performance difference."
+    },
+    "intel-i7-13650hx": {
+      "release": {
+        "date": "2023-Q1",
+        "precision": "quarter",
+        "kind": "launch",
+        "source": "https://www.intel.com/content/www/us/en/ark/products/series/230486/13th-generation-intel-core-i7-processors.html",
+        "noteZh": "Intel ARK 标注的上市季度；不是某款笔记本的开售时间。",
+        "noteEn": "Launch quarter listed by Intel ARK; not the retail date of a particular laptop."
+      },
+      "maxTurboGHz": 4.9,
+      "frequencySource": "https://www.intel.com/content/www/us/en/ark/products/series/230486/13th-generation-intel-core-i7-processors.html",
+      "frequencyNoteZh": "最高睿频是条件允许时的单核峰值，不能直接换算为性能差距。",
+      "frequencyNoteEn": "Maximum turbo is a conditional single-core peak, not a direct measure of performance difference."
+    },
+    "intel-i5-13600hx": {
+      "release": {
+        "date": "2023-Q1",
+        "precision": "quarter",
+        "kind": "launch",
+        "source": "https://www.intel.com/content/www/us/en/ark/products/series/230487/13th-generation-intel-core-i5-processors.html",
+        "noteZh": "Intel ARK 标注的上市季度；不是某款笔记本的开售时间。",
+        "noteEn": "Launch quarter listed by Intel ARK; not the retail date of a particular laptop."
+      },
+      "maxTurboGHz": 4.8,
+      "frequencySource": "https://www.intel.com/content/www/us/en/ark/products/series/230487/13th-generation-intel-core-i5-processors.html",
+      "frequencyNoteZh": "最高睿频是条件允许时的单核峰值，不能直接换算为性能差距。",
+      "frequencyNoteEn": "Maximum turbo is a conditional single-core peak, not a direct measure of performance difference."
+    },
+    "intel-i5-13500hx": {
+      "release": {
+        "date": "2023-Q1",
+        "precision": "quarter",
+        "kind": "launch",
+        "source": "https://www.intel.com/content/www/us/en/ark/products/series/230487/13th-generation-intel-core-i5-processors.html",
+        "noteZh": "Intel ARK 标注的上市季度；不是某款笔记本的开售时间。",
+        "noteEn": "Launch quarter listed by Intel ARK; not the retail date of a particular laptop."
+      },
+      "maxTurboGHz": 4.7,
+      "frequencySource": "https://www.intel.com/content/www/us/en/ark/products/series/230487/13th-generation-intel-core-i5-processors.html",
+      "frequencyNoteZh": "最高睿频是条件允许时的单核峰值，不能直接换算为性能差距。",
+      "frequencyNoteEn": "Maximum turbo is a conditional single-core peak, not a direct measure of performance difference."
+    },
+    "intel-i5-13450hx": {
+      "release": {
+        "date": "2023-Q1",
+        "precision": "quarter",
+        "kind": "launch",
+        "source": "https://www.intel.com/content/www/us/en/ark/products/series/230487/13th-generation-intel-core-i5-processors.html",
+        "noteZh": "Intel ARK 标注的上市季度；不是某款笔记本的开售时间。",
+        "noteEn": "Launch quarter listed by Intel ARK; not the retail date of a particular laptop."
+      },
+      "maxTurboGHz": 4.6,
+      "frequencySource": "https://www.intel.com/content/www/us/en/ark/products/series/230487/13th-generation-intel-core-i5-processors.html",
+      "frequencyNoteZh": "最高睿频是条件允许时的单核峰值，不能直接换算为性能差距。",
+      "frequencyNoteEn": "Maximum turbo is a conditional single-core peak, not a direct measure of performance difference."
+    },
+    "intel-i7-1370p": {
+      "release": {
+        "date": "2023-Q1",
+        "precision": "quarter",
+        "kind": "launch",
+        "source": "https://www.intel.com/content/www/us/en/ark/products/series/230486/13th-generation-intel-core-i7-processors.html",
+        "noteZh": "Intel ARK 标注的上市季度；不是某款笔记本的开售时间。",
+        "noteEn": "Launch quarter listed by Intel ARK; not the retail date of a particular laptop."
+      },
+      "maxTurboGHz": 5.2,
+      "frequencySource": "https://www.intel.com/content/www/us/en/ark/products/series/230486/13th-generation-intel-core-i7-processors.html",
+      "frequencyNoteZh": "最高睿频是条件允许时的单核峰值，不能直接换算为性能差距。",
+      "frequencyNoteEn": "Maximum turbo is a conditional single-core peak, not a direct measure of performance difference."
+    },
+    "intel-i7-1360p": {
+      "release": {
+        "date": "2023-Q1",
+        "precision": "quarter",
+        "kind": "launch",
+        "source": "https://www.intel.com/content/www/us/en/ark/products/series/230486/13th-generation-intel-core-i7-processors.html",
+        "noteZh": "Intel ARK 标注的上市季度；不是某款笔记本的开售时间。",
+        "noteEn": "Launch quarter listed by Intel ARK; not the retail date of a particular laptop."
+      },
+      "maxTurboGHz": 5.0,
+      "frequencySource": "https://www.intel.com/content/www/us/en/ark/products/series/230486/13th-generation-intel-core-i7-processors.html",
+      "frequencyNoteZh": "最高睿频是条件允许时的单核峰值，不能直接换算为性能差距。",
+      "frequencyNoteEn": "Maximum turbo is a conditional single-core peak, not a direct measure of performance difference."
+    },
+    "intel-i5-1350p": {
+      "release": {
+        "date": "2023-Q1",
+        "precision": "quarter",
+        "kind": "launch",
+        "source": "https://www.intel.com/content/www/us/en/ark/products/series/230487/13th-generation-intel-core-i5-processors.html",
+        "noteZh": "Intel ARK 标注的上市季度；不是某款笔记本的开售时间。",
+        "noteEn": "Launch quarter listed by Intel ARK; not the retail date of a particular laptop."
+      },
+      "maxTurboGHz": 4.7,
+      "frequencySource": "https://www.intel.com/content/www/us/en/ark/products/series/230487/13th-generation-intel-core-i5-processors.html",
+      "frequencyNoteZh": "最高睿频是条件允许时的单核峰值，不能直接换算为性能差距。",
+      "frequencyNoteEn": "Maximum turbo is a conditional single-core peak, not a direct measure of performance difference."
+    },
+    "intel-i5-1340p": {
+      "release": {
+        "date": "2023-Q1",
+        "precision": "quarter",
+        "kind": "launch",
+        "source": "https://www.intel.com/content/www/us/en/ark/products/series/230487/13th-generation-intel-core-i5-processors.html",
+        "noteZh": "Intel ARK 标注的上市季度；不是某款笔记本的开售时间。",
+        "noteEn": "Launch quarter listed by Intel ARK; not the retail date of a particular laptop."
+      },
+      "maxTurboGHz": 4.6,
+      "frequencySource": "https://www.intel.com/content/www/us/en/ark/products/series/230487/13th-generation-intel-core-i5-processors.html",
+      "frequencyNoteZh": "最高睿频是条件允许时的单核峰值，不能直接换算为性能差距。",
+      "frequencyNoteEn": "Maximum turbo is a conditional single-core peak, not a direct measure of performance difference."
+    },
+    "intel-i7-1365u": {
+      "release": {
+        "date": "2023-Q1",
+        "precision": "quarter",
+        "kind": "launch",
+        "source": "https://www.intel.com/content/www/us/en/ark/products/series/230486/13th-generation-intel-core-i7-processors.html",
+        "noteZh": "Intel ARK 标注的上市季度；不是某款笔记本的开售时间。",
+        "noteEn": "Launch quarter listed by Intel ARK; not the retail date of a particular laptop."
+      },
+      "maxTurboGHz": 5.2,
+      "frequencySource": "https://www.intel.com/content/www/us/en/ark/products/series/230486/13th-generation-intel-core-i7-processors.html",
+      "frequencyNoteZh": "最高睿频是条件允许时的单核峰值，不能直接换算为性能差距。",
+      "frequencyNoteEn": "Maximum turbo is a conditional single-core peak, not a direct measure of performance difference."
+    },
+    "intel-i7-1355u": {
+      "release": {
+        "date": "2023-Q1",
+        "precision": "quarter",
+        "kind": "launch",
+        "source": "https://www.intel.com/content/www/us/en/ark/products/series/230486/13th-generation-intel-core-i7-processors.html",
+        "noteZh": "Intel ARK 标注的上市季度；不是某款笔记本的开售时间。",
+        "noteEn": "Launch quarter listed by Intel ARK; not the retail date of a particular laptop."
+      },
+      "maxTurboGHz": 5.0,
+      "frequencySource": "https://www.intel.com/content/www/us/en/ark/products/series/230486/13th-generation-intel-core-i7-processors.html",
+      "frequencyNoteZh": "最高睿频是条件允许时的单核峰值，不能直接换算为性能差距。",
+      "frequencyNoteEn": "Maximum turbo is a conditional single-core peak, not a direct measure of performance difference."
+    },
+    "intel-i5-1345u": {
+      "release": {
+        "date": "2023-Q1",
+        "precision": "quarter",
+        "kind": "launch",
+        "source": "https://www.intel.com/content/www/us/en/ark/products/series/230487/13th-generation-intel-core-i5-processors.html",
+        "noteZh": "Intel ARK 标注的上市季度；不是某款笔记本的开售时间。",
+        "noteEn": "Launch quarter listed by Intel ARK; not the retail date of a particular laptop."
+      },
+      "maxTurboGHz": 4.7,
+      "frequencySource": "https://www.intel.com/content/www/us/en/ark/products/series/230487/13th-generation-intel-core-i5-processors.html",
+      "frequencyNoteZh": "最高睿频是条件允许时的单核峰值，不能直接换算为性能差距。",
+      "frequencyNoteEn": "Maximum turbo is a conditional single-core peak, not a direct measure of performance difference."
+    },
+    "intel-i5-1335u": {
+      "release": {
+        "date": "2023-Q1",
+        "precision": "quarter",
+        "kind": "launch",
+        "source": "https://www.intel.com/content/www/us/en/ark/products/series/230487/13th-generation-intel-core-i5-processors.html",
+        "noteZh": "Intel ARK 标注的上市季度；不是某款笔记本的开售时间。",
+        "noteEn": "Launch quarter listed by Intel ARK; not the retail date of a particular laptop."
+      },
+      "maxTurboGHz": 4.6,
+      "frequencySource": "https://www.intel.com/content/www/us/en/ark/products/series/230487/13th-generation-intel-core-i5-processors.html",
+      "frequencyNoteZh": "最高睿频是条件允许时的单核峰值，不能直接换算为性能差距。",
+      "frequencyNoteEn": "Maximum turbo is a conditional single-core peak, not a direct measure of performance difference."
+    },
+    "intel-i5-1334u": {
+      "release": {
+        "date": "2023-Q1",
+        "precision": "quarter",
+        "kind": "launch",
+        "source": "https://www.intel.com/content/www/us/en/ark/products/series/230487/13th-generation-intel-core-i5-processors.html",
+        "noteZh": "Intel ARK 标注的上市季度；不是某款笔记本的开售时间。",
+        "noteEn": "Launch quarter listed by Intel ARK; not the retail date of a particular laptop."
+      },
+      "maxTurboGHz": 4.6,
+      "frequencySource": "https://www.intel.com/content/www/us/en/ark/products/series/230487/13th-generation-intel-core-i5-processors.html",
+      "frequencyNoteZh": "最高睿频是条件允许时的单核峰值，不能直接换算为性能差距。",
+      "frequencyNoteEn": "Maximum turbo is a conditional single-core peak, not a direct measure of performance difference."
+    },
+    "intel-i3-1315u": {
+      "release": {
+        "date": "2023-Q1",
+        "precision": "quarter",
+        "kind": "launch",
+        "source": "https://www.intel.com/content/www/us/en/ark/products/series/230488/13th-generation-intel-core-i3-processors.html",
+        "noteZh": "Intel ARK 标注的上市季度；不是某款笔记本的开售时间。",
+        "noteEn": "Launch quarter listed by Intel ARK; not the retail date of a particular laptop."
+      },
+      "maxTurboGHz": 4.5,
+      "frequencySource": "https://www.intel.com/content/www/us/en/ark/products/series/230488/13th-generation-intel-core-i3-processors.html",
+      "frequencyNoteZh": "最高睿频是条件允许时的单核峰值，不能直接换算为性能差距。",
+      "frequencyNoteEn": "Maximum turbo is a conditional single-core peak, not a direct measure of performance difference."
+    },
+    "intel-i3-1305u": {
+      "release": {
+        "date": "2023-Q1",
+        "precision": "quarter",
+        "kind": "launch",
+        "source": "https://www.intel.com/content/www/us/en/ark/products/series/230488/13th-generation-intel-core-i3-processors.html",
+        "noteZh": "Intel ARK 标注的上市季度；不是某款笔记本的开售时间。",
+        "noteEn": "Launch quarter listed by Intel ARK; not the retail date of a particular laptop."
+      },
+      "maxTurboGHz": 4.5,
+      "frequencySource": "https://www.intel.com/content/www/us/en/ark/products/series/230488/13th-generation-intel-core-i3-processors.html",
+      "frequencyNoteZh": "最高睿频是条件允许时的单核峰值，不能直接换算为性能差距。",
+      "frequencyNoteEn": "Maximum turbo is a conditional single-core peak, not a direct measure of performance difference."
+    },
+    "intel-i9-12900hk": {
+      "release": {
+        "date": "2022-Q1",
+        "precision": "quarter",
+        "kind": "launch",
+        "source": "https://www.intel.com/content/www/us/en/ark/products/series/217839/12th-generation-intel-core-i9-processors.html",
+        "noteZh": "Intel ARK 标注的上市季度；不是某款笔记本的开售时间。",
+        "noteEn": "Launch quarter listed by Intel ARK; not the retail date of a particular laptop."
+      },
+      "maxTurboGHz": 5.0,
+      "frequencySource": "https://www.intel.com/content/www/us/en/ark/products/series/217839/12th-generation-intel-core-i9-processors.html",
+      "frequencyNoteZh": "最高睿频是条件允许时的单核峰值，不能直接换算为性能差距。",
+      "frequencyNoteEn": "Maximum turbo is a conditional single-core peak, not a direct measure of performance difference."
+    },
+    "intel-i9-12900h": {
+      "release": {
+        "date": "2022-Q1",
+        "precision": "quarter",
+        "kind": "launch",
+        "source": "https://www.intel.com/content/www/us/en/ark/products/series/217839/12th-generation-intel-core-i9-processors.html",
+        "noteZh": "Intel ARK 标注的上市季度；不是某款笔记本的开售时间。",
+        "noteEn": "Launch quarter listed by Intel ARK; not the retail date of a particular laptop."
+      },
+      "maxTurboGHz": 5.0,
+      "frequencySource": "https://www.intel.com/content/www/us/en/ark/products/series/217839/12th-generation-intel-core-i9-processors.html",
+      "frequencyNoteZh": "最高睿频是条件允许时的单核峰值，不能直接换算为性能差距。",
+      "frequencyNoteEn": "Maximum turbo is a conditional single-core peak, not a direct measure of performance difference."
+    },
+    "intel-i7-12800h": {
+      "release": {
+        "date": "2022-Q1",
+        "precision": "quarter",
+        "kind": "launch",
+        "source": "https://www.intel.com/content/www/us/en/ark/products/series/217837/12th-generation-intel-core-i7-processors.html",
+        "noteZh": "Intel ARK 标注的上市季度；不是某款笔记本的开售时间。",
+        "noteEn": "Launch quarter listed by Intel ARK; not the retail date of a particular laptop."
+      },
+      "maxTurboGHz": 4.8,
+      "frequencySource": "https://www.intel.com/content/www/us/en/ark/products/series/217837/12th-generation-intel-core-i7-processors.html",
+      "frequencyNoteZh": "最高睿频是条件允许时的单核峰值，不能直接换算为性能差距。",
+      "frequencyNoteEn": "Maximum turbo is a conditional single-core peak, not a direct measure of performance difference."
+    },
+    "intel-i7-12700h": {
+      "release": {
+        "date": "2022-Q1",
+        "precision": "quarter",
+        "kind": "launch",
+        "source": "https://www.intel.com/content/www/us/en/ark/products/series/217837/12th-generation-intel-core-i7-processors.html",
+        "noteZh": "Intel ARK 标注的上市季度；不是某款笔记本的开售时间。",
+        "noteEn": "Launch quarter listed by Intel ARK; not the retail date of a particular laptop."
+      },
+      "maxTurboGHz": 4.7,
+      "frequencySource": "https://www.intel.com/content/www/us/en/ark/products/series/217837/12th-generation-intel-core-i7-processors.html",
+      "frequencyNoteZh": "最高睿频是条件允许时的单核峰值，不能直接换算为性能差距。",
+      "frequencyNoteEn": "Maximum turbo is a conditional single-core peak, not a direct measure of performance difference."
+    },
+    "intel-i7-12650h": {
+      "release": {
+        "date": "2022-Q1",
+        "precision": "quarter",
+        "kind": "launch",
+        "source": "https://www.intel.com/content/www/us/en/ark/products/series/217837/12th-generation-intel-core-i7-processors.html",
+        "noteZh": "Intel ARK 标注的上市季度；不是某款笔记本的开售时间。",
+        "noteEn": "Launch quarter listed by Intel ARK; not the retail date of a particular laptop."
+      },
+      "maxTurboGHz": 4.7,
+      "frequencySource": "https://www.intel.com/content/www/us/en/ark/products/series/217837/12th-generation-intel-core-i7-processors.html",
+      "frequencyNoteZh": "最高睿频是条件允许时的单核峰值，不能直接换算为性能差距。",
+      "frequencyNoteEn": "Maximum turbo is a conditional single-core peak, not a direct measure of performance difference."
+    },
+    "intel-i5-12600h": {
+      "release": {
+        "date": "2022-Q1",
+        "precision": "quarter",
+        "kind": "launch",
+        "source": "https://www.intel.com/content/www/us/en/ark/products/series/217838/12th-generation-intel-core-i5-processors.html",
+        "noteZh": "Intel ARK 标注的上市季度；不是某款笔记本的开售时间。",
+        "noteEn": "Launch quarter listed by Intel ARK; not the retail date of a particular laptop."
+      },
+      "maxTurboGHz": 4.5,
+      "frequencySource": "https://www.intel.com/content/www/us/en/ark/products/series/217838/12th-generation-intel-core-i5-processors.html",
+      "frequencyNoteZh": "最高睿频是条件允许时的单核峰值，不能直接换算为性能差距。",
+      "frequencyNoteEn": "Maximum turbo is a conditional single-core peak, not a direct measure of performance difference."
+    },
+    "intel-i5-12500h": {
+      "release": {
+        "date": "2022-Q1",
+        "precision": "quarter",
+        "kind": "launch",
+        "source": "https://www.intel.com/content/www/us/en/ark/products/series/217838/12th-generation-intel-core-i5-processors.html",
+        "noteZh": "Intel ARK 标注的上市季度；不是某款笔记本的开售时间。",
+        "noteEn": "Launch quarter listed by Intel ARK; not the retail date of a particular laptop."
+      },
+      "maxTurboGHz": 4.5,
+      "frequencySource": "https://www.intel.com/content/www/us/en/ark/products/series/217838/12th-generation-intel-core-i5-processors.html",
+      "frequencyNoteZh": "最高睿频是条件允许时的单核峰值，不能直接换算为性能差距。",
+      "frequencyNoteEn": "Maximum turbo is a conditional single-core peak, not a direct measure of performance difference."
+    },
+    "intel-i5-12450h": {
+      "release": {
+        "date": "2022-Q1",
+        "precision": "quarter",
+        "kind": "launch",
+        "source": "https://www.intel.com/content/www/us/en/ark/products/series/217838/12th-generation-intel-core-i5-processors.html",
+        "noteZh": "Intel ARK 标注的上市季度；不是某款笔记本的开售时间。",
+        "noteEn": "Launch quarter listed by Intel ARK; not the retail date of a particular laptop."
+      },
+      "maxTurboGHz": 4.4,
+      "frequencySource": "https://www.intel.com/content/www/us/en/ark/products/series/217838/12th-generation-intel-core-i5-processors.html",
+      "frequencyNoteZh": "最高睿频是条件允许时的单核峰值，不能直接换算为性能差距。",
+      "frequencyNoteEn": "Maximum turbo is a conditional single-core peak, not a direct measure of performance difference."
+    },
+    "intel-i9-12950hx": {
+      "release": {
+        "date": "2022-Q2",
+        "precision": "quarter",
+        "kind": "launch",
+        "source": "https://www.intel.com/content/www/us/en/ark/products/series/217839/12th-generation-intel-core-i9-processors.html",
+        "noteZh": "Intel ARK 标注的上市季度；不是某款笔记本的开售时间。",
+        "noteEn": "Launch quarter listed by Intel ARK; not the retail date of a particular laptop."
+      },
+      "maxTurboGHz": 5.0,
+      "frequencySource": "https://www.intel.com/content/www/us/en/ark/products/series/217839/12th-generation-intel-core-i9-processors.html",
+      "frequencyNoteZh": "最高睿频是条件允许时的单核峰值，不能直接换算为性能差距。",
+      "frequencyNoteEn": "Maximum turbo is a conditional single-core peak, not a direct measure of performance difference."
+    },
+    "intel-i9-12900hx": {
+      "release": {
+        "date": "2022-Q2",
+        "precision": "quarter",
+        "kind": "launch",
+        "source": "https://www.intel.com/content/www/us/en/ark/products/series/217839/12th-generation-intel-core-i9-processors.html",
+        "noteZh": "Intel ARK 标注的上市季度；不是某款笔记本的开售时间。",
+        "noteEn": "Launch quarter listed by Intel ARK; not the retail date of a particular laptop."
+      },
+      "maxTurboGHz": 5.0,
+      "frequencySource": "https://www.intel.com/content/www/us/en/ark/products/series/217839/12th-generation-intel-core-i9-processors.html",
+      "frequencyNoteZh": "最高睿频是条件允许时的单核峰值，不能直接换算为性能差距。",
+      "frequencyNoteEn": "Maximum turbo is a conditional single-core peak, not a direct measure of performance difference."
+    },
+    "intel-i7-12850hx": {
+      "release": {
+        "date": "2022-Q2",
+        "precision": "quarter",
+        "kind": "launch",
+        "source": "https://www.intel.com/content/www/us/en/ark/products/series/217837/12th-generation-intel-core-i7-processors.html",
+        "noteZh": "Intel ARK 标注的上市季度；不是某款笔记本的开售时间。",
+        "noteEn": "Launch quarter listed by Intel ARK; not the retail date of a particular laptop."
+      },
+      "maxTurboGHz": 4.8,
+      "frequencySource": "https://www.intel.com/content/www/us/en/ark/products/series/217837/12th-generation-intel-core-i7-processors.html",
+      "frequencyNoteZh": "最高睿频是条件允许时的单核峰值，不能直接换算为性能差距。",
+      "frequencyNoteEn": "Maximum turbo is a conditional single-core peak, not a direct measure of performance difference."
+    },
+    "intel-i7-12800hx": {
+      "release": {
+        "date": "2022-Q2",
+        "precision": "quarter",
+        "kind": "launch",
+        "source": "https://www.intel.com/content/www/us/en/ark/products/series/217837/12th-generation-intel-core-i7-processors.html",
+        "noteZh": "Intel ARK 标注的上市季度；不是某款笔记本的开售时间。",
+        "noteEn": "Launch quarter listed by Intel ARK; not the retail date of a particular laptop."
+      },
+      "maxTurboGHz": 4.8,
+      "frequencySource": "https://www.intel.com/content/www/us/en/ark/products/series/217837/12th-generation-intel-core-i7-processors.html",
+      "frequencyNoteZh": "最高睿频是条件允许时的单核峰值，不能直接换算为性能差距。",
+      "frequencyNoteEn": "Maximum turbo is a conditional single-core peak, not a direct measure of performance difference."
+    },
+    "intel-i7-12650hx": {
+      "release": {
+        "date": "2022-Q2",
+        "precision": "quarter",
+        "kind": "launch",
+        "source": "https://www.intel.com/content/www/us/en/ark/products/series/217837/12th-generation-intel-core-i7-processors.html",
+        "noteZh": "Intel ARK 标注的上市季度；不是某款笔记本的开售时间。",
+        "noteEn": "Launch quarter listed by Intel ARK; not the retail date of a particular laptop."
+      },
+      "maxTurboGHz": 4.7,
+      "frequencySource": "https://www.intel.com/content/www/us/en/ark/products/series/217837/12th-generation-intel-core-i7-processors.html",
+      "frequencyNoteZh": "最高睿频是条件允许时的单核峰值，不能直接换算为性能差距。",
+      "frequencyNoteEn": "Maximum turbo is a conditional single-core peak, not a direct measure of performance difference."
+    },
+    "intel-i5-12600hx": {
+      "release": {
+        "date": "2022-Q2",
+        "precision": "quarter",
+        "kind": "launch",
+        "source": "https://www.intel.com/content/www/us/en/ark/products/series/217838/12th-generation-intel-core-i5-processors.html",
+        "noteZh": "Intel ARK 标注的上市季度；不是某款笔记本的开售时间。",
+        "noteEn": "Launch quarter listed by Intel ARK; not the retail date of a particular laptop."
+      },
+      "maxTurboGHz": 4.6,
+      "frequencySource": "https://www.intel.com/content/www/us/en/ark/products/series/217838/12th-generation-intel-core-i5-processors.html",
+      "frequencyNoteZh": "最高睿频是条件允许时的单核峰值，不能直接换算为性能差距。",
+      "frequencyNoteEn": "Maximum turbo is a conditional single-core peak, not a direct measure of performance difference."
+    },
+    "intel-i5-12450hx": {
+      "release": {
+        "date": "2022-Q2",
+        "precision": "quarter",
+        "kind": "launch",
+        "source": "https://www.intel.com/content/www/us/en/ark/products/series/217838/12th-generation-intel-core-i5-processors.html",
+        "noteZh": "Intel ARK 标注的上市季度；不是某款笔记本的开售时间。",
+        "noteEn": "Launch quarter listed by Intel ARK; not the retail date of a particular laptop."
+      },
+      "maxTurboGHz": 4.4,
+      "frequencySource": "https://www.intel.com/content/www/us/en/ark/products/series/217838/12th-generation-intel-core-i5-processors.html",
+      "frequencyNoteZh": "最高睿频是条件允许时的单核峰值，不能直接换算为性能差距。",
+      "frequencyNoteEn": "Maximum turbo is a conditional single-core peak, not a direct measure of performance difference."
+    },
+    "intel-i7-1280p": {
+      "release": {
+        "date": "2022-Q1",
+        "precision": "quarter",
+        "kind": "launch",
+        "source": "https://www.intel.com/content/www/us/en/ark/products/series/217837/12th-generation-intel-core-i7-processors.html",
+        "noteZh": "Intel ARK 标注的上市季度；不是某款笔记本的开售时间。",
+        "noteEn": "Launch quarter listed by Intel ARK; not the retail date of a particular laptop."
+      },
+      "maxTurboGHz": 4.8,
+      "frequencySource": "https://www.intel.com/content/www/us/en/ark/products/series/217837/12th-generation-intel-core-i7-processors.html",
+      "frequencyNoteZh": "最高睿频是条件允许时的单核峰值，不能直接换算为性能差距。",
+      "frequencyNoteEn": "Maximum turbo is a conditional single-core peak, not a direct measure of performance difference."
+    },
+    "intel-i7-1270p": {
+      "release": {
+        "date": "2022-Q1",
+        "precision": "quarter",
+        "kind": "launch",
+        "source": "https://www.intel.com/content/www/us/en/ark/products/series/217837/12th-generation-intel-core-i7-processors.html",
+        "noteZh": "Intel ARK 标注的上市季度；不是某款笔记本的开售时间。",
+        "noteEn": "Launch quarter listed by Intel ARK; not the retail date of a particular laptop."
+      },
+      "maxTurboGHz": 4.8,
+      "frequencySource": "https://www.intel.com/content/www/us/en/ark/products/series/217837/12th-generation-intel-core-i7-processors.html",
+      "frequencyNoteZh": "最高睿频是条件允许时的单核峰值，不能直接换算为性能差距。",
+      "frequencyNoteEn": "Maximum turbo is a conditional single-core peak, not a direct measure of performance difference."
+    },
+    "intel-i7-1260p": {
+      "release": {
+        "date": "2022-Q1",
+        "precision": "quarter",
+        "kind": "launch",
+        "source": "https://www.intel.com/content/www/us/en/ark/products/series/217837/12th-generation-intel-core-i7-processors.html",
+        "noteZh": "Intel ARK 标注的上市季度；不是某款笔记本的开售时间。",
+        "noteEn": "Launch quarter listed by Intel ARK; not the retail date of a particular laptop."
+      },
+      "maxTurboGHz": 4.7,
+      "frequencySource": "https://www.intel.com/content/www/us/en/ark/products/series/217837/12th-generation-intel-core-i7-processors.html",
+      "frequencyNoteZh": "最高睿频是条件允许时的单核峰值，不能直接换算为性能差距。",
+      "frequencyNoteEn": "Maximum turbo is a conditional single-core peak, not a direct measure of performance difference."
+    },
+    "intel-i5-1250p": {
+      "release": {
+        "date": "2022-Q1",
+        "precision": "quarter",
+        "kind": "launch",
+        "source": "https://www.intel.com/content/www/us/en/ark/products/series/217838/12th-generation-intel-core-i5-processors.html",
+        "noteZh": "Intel ARK 标注的上市季度；不是某款笔记本的开售时间。",
+        "noteEn": "Launch quarter listed by Intel ARK; not the retail date of a particular laptop."
+      },
+      "maxTurboGHz": 4.4,
+      "frequencySource": "https://www.intel.com/content/www/us/en/ark/products/series/217838/12th-generation-intel-core-i5-processors.html",
+      "frequencyNoteZh": "最高睿频是条件允许时的单核峰值，不能直接换算为性能差距。",
+      "frequencyNoteEn": "Maximum turbo is a conditional single-core peak, not a direct measure of performance difference."
+    },
+    "intel-i3-1220p": {
+      "release": {
+        "date": "2022-Q1",
+        "precision": "quarter",
+        "kind": "launch",
+        "source": "https://www.intel.com/content/www/us/en/ark/products/series/217840/12th-generation-intel-core-i3-processors.html",
+        "noteZh": "Intel ARK 标注的上市季度；不是某款笔记本的开售时间。",
+        "noteEn": "Launch quarter listed by Intel ARK; not the retail date of a particular laptop."
+      },
+      "maxTurboGHz": 4.4,
+      "frequencySource": "https://www.intel.com/content/www/us/en/ark/products/series/217840/12th-generation-intel-core-i3-processors.html",
+      "frequencyNoteZh": "最高睿频是条件允许时的单核峰值，不能直接换算为性能差距。",
+      "frequencyNoteEn": "Maximum turbo is a conditional single-core peak, not a direct measure of performance difference."
+    },
+    "intel-i7-1265u": {
+      "release": {
+        "date": "2022-Q1",
+        "precision": "quarter",
+        "kind": "launch",
+        "source": "https://www.intel.com/content/www/us/en/ark/products/series/217837/12th-generation-intel-core-i7-processors.html",
+        "noteZh": "Intel ARK 标注的上市季度；不是某款笔记本的开售时间。",
+        "noteEn": "Launch quarter listed by Intel ARK; not the retail date of a particular laptop."
+      },
+      "maxTurboGHz": 4.8,
+      "frequencySource": "https://www.intel.com/content/www/us/en/ark/products/series/217837/12th-generation-intel-core-i7-processors.html",
+      "frequencyNoteZh": "最高睿频是条件允许时的单核峰值，不能直接换算为性能差距。",
+      "frequencyNoteEn": "Maximum turbo is a conditional single-core peak, not a direct measure of performance difference."
+    },
+    "intel-i7-1260u": {
+      "release": {
+        "date": "2022-Q1",
+        "precision": "quarter",
+        "kind": "launch",
+        "source": "https://www.intel.com/content/www/us/en/ark/products/series/217837/12th-generation-intel-core-i7-processors.html",
+        "noteZh": "Intel ARK 标注的上市季度；不是某款笔记本的开售时间。",
+        "noteEn": "Launch quarter listed by Intel ARK; not the retail date of a particular laptop."
+      },
+      "maxTurboGHz": 4.7,
+      "frequencySource": "https://www.intel.com/content/www/us/en/ark/products/series/217837/12th-generation-intel-core-i7-processors.html",
+      "frequencyNoteZh": "最高睿频是条件允许时的单核峰值，不能直接换算为性能差距。",
+      "frequencyNoteEn": "Maximum turbo is a conditional single-core peak, not a direct measure of performance difference."
+    },
+    "intel-i7-1255u": {
+      "release": {
+        "date": "2022-Q1",
+        "precision": "quarter",
+        "kind": "launch",
+        "source": "https://www.intel.com/content/www/us/en/ark/products/series/217837/12th-generation-intel-core-i7-processors.html",
+        "noteZh": "Intel ARK 标注的上市季度；不是某款笔记本的开售时间。",
+        "noteEn": "Launch quarter listed by Intel ARK; not the retail date of a particular laptop."
+      },
+      "maxTurboGHz": 4.7,
+      "frequencySource": "https://www.intel.com/content/www/us/en/ark/products/series/217837/12th-generation-intel-core-i7-processors.html",
+      "frequencyNoteZh": "最高睿频是条件允许时的单核峰值，不能直接换算为性能差距。",
+      "frequencyNoteEn": "Maximum turbo is a conditional single-core peak, not a direct measure of performance difference."
+    },
+    "intel-i7-1250u": {
+      "release": {
+        "date": "2022-Q1",
+        "precision": "quarter",
+        "kind": "launch",
+        "source": "https://www.intel.com/content/www/us/en/ark/products/series/217837/12th-generation-intel-core-i7-processors.html",
+        "noteZh": "Intel ARK 标注的上市季度；不是某款笔记本的开售时间。",
+        "noteEn": "Launch quarter listed by Intel ARK; not the retail date of a particular laptop."
+      },
+      "maxTurboGHz": 4.7,
+      "frequencySource": "https://www.intel.com/content/www/us/en/ark/products/series/217837/12th-generation-intel-core-i7-processors.html",
+      "frequencyNoteZh": "最高睿频是条件允许时的单核峰值，不能直接换算为性能差距。",
+      "frequencyNoteEn": "Maximum turbo is a conditional single-core peak, not a direct measure of performance difference."
+    },
+    "intel-i5-1245u": {
+      "release": {
+        "date": "2022-Q1",
+        "precision": "quarter",
+        "kind": "launch",
+        "source": "https://www.intel.com/content/www/us/en/ark/products/series/217838/12th-generation-intel-core-i5-processors.html",
+        "noteZh": "Intel ARK 标注的上市季度；不是某款笔记本的开售时间。",
+        "noteEn": "Launch quarter listed by Intel ARK; not the retail date of a particular laptop."
+      },
+      "maxTurboGHz": 4.4,
+      "frequencySource": "https://www.intel.com/content/www/us/en/ark/products/series/217838/12th-generation-intel-core-i5-processors.html",
+      "frequencyNoteZh": "最高睿频是条件允许时的单核峰值，不能直接换算为性能差距。",
+      "frequencyNoteEn": "Maximum turbo is a conditional single-core peak, not a direct measure of performance difference."
+    },
+    "intel-i5-1240u": {
+      "release": {
+        "date": "2022-Q1",
+        "precision": "quarter",
+        "kind": "launch",
+        "source": "https://www.intel.com/content/www/us/en/ark/products/series/217838/12th-generation-intel-core-i5-processors.html",
+        "noteZh": "Intel ARK 标注的上市季度；不是某款笔记本的开售时间。",
+        "noteEn": "Launch quarter listed by Intel ARK; not the retail date of a particular laptop."
+      },
+      "maxTurboGHz": 4.4,
+      "frequencySource": "https://www.intel.com/content/www/us/en/ark/products/series/217838/12th-generation-intel-core-i5-processors.html",
+      "frequencyNoteZh": "最高睿频是条件允许时的单核峰值，不能直接换算为性能差距。",
+      "frequencyNoteEn": "Maximum turbo is a conditional single-core peak, not a direct measure of performance difference."
+    },
+    "intel-i5-1235u": {
+      "release": {
+        "date": "2022-Q1",
+        "precision": "quarter",
+        "kind": "launch",
+        "source": "https://www.intel.com/content/www/us/en/ark/products/series/217838/12th-generation-intel-core-i5-processors.html",
+        "noteZh": "Intel ARK 标注的上市季度；不是某款笔记本的开售时间。",
+        "noteEn": "Launch quarter listed by Intel ARK; not the retail date of a particular laptop."
+      },
+      "maxTurboGHz": 4.4,
+      "frequencySource": "https://www.intel.com/content/www/us/en/ark/products/series/217838/12th-generation-intel-core-i5-processors.html",
+      "frequencyNoteZh": "最高睿频是条件允许时的单核峰值，不能直接换算为性能差距。",
+      "frequencyNoteEn": "Maximum turbo is a conditional single-core peak, not a direct measure of performance difference."
+    },
+    "intel-i5-1230u": {
+      "release": {
+        "date": "2022-Q1",
+        "precision": "quarter",
+        "kind": "launch",
+        "source": "https://www.intel.com/content/www/us/en/ark/products/series/217838/12th-generation-intel-core-i5-processors.html",
+        "noteZh": "Intel ARK 标注的上市季度；不是某款笔记本的开售时间。",
+        "noteEn": "Launch quarter listed by Intel ARK; not the retail date of a particular laptop."
+      },
+      "maxTurboGHz": 4.4,
+      "frequencySource": "https://www.intel.com/content/www/us/en/ark/products/series/217838/12th-generation-intel-core-i5-processors.html",
+      "frequencyNoteZh": "最高睿频是条件允许时的单核峰值，不能直接换算为性能差距。",
+      "frequencyNoteEn": "Maximum turbo is a conditional single-core peak, not a direct measure of performance difference."
+    },
+    "intel-i3-1215u": {
+      "release": {
+        "date": "2022-Q1",
+        "precision": "quarter",
+        "kind": "launch",
+        "source": "https://www.intel.com/content/www/us/en/ark/products/series/217840/12th-generation-intel-core-i3-processors.html",
+        "noteZh": "Intel ARK 标注的上市季度；不是某款笔记本的开售时间。",
+        "noteEn": "Launch quarter listed by Intel ARK; not the retail date of a particular laptop."
+      },
+      "maxTurboGHz": 4.4,
+      "frequencySource": "https://www.intel.com/content/www/us/en/ark/products/series/217840/12th-generation-intel-core-i3-processors.html",
+      "frequencyNoteZh": "最高睿频是条件允许时的单核峰值，不能直接换算为性能差距。",
+      "frequencyNoteEn": "Maximum turbo is a conditional single-core peak, not a direct measure of performance difference."
+    },
+    "intel-i3-1210u": {
+      "release": {
+        "date": "2022-Q1",
+        "precision": "quarter",
+        "kind": "launch",
+        "source": "https://www.intel.com/content/www/us/en/ark/products/series/217840/12th-generation-intel-core-i3-processors.html",
+        "noteZh": "Intel ARK 标注的上市季度；不是某款笔记本的开售时间。",
+        "noteEn": "Launch quarter listed by Intel ARK; not the retail date of a particular laptop."
+      },
+      "maxTurboGHz": 4.4,
+      "frequencySource": "https://www.intel.com/content/www/us/en/ark/products/series/217840/12th-generation-intel-core-i3-processors.html",
+      "frequencyNoteZh": "最高睿频是条件允许时的单核峰值，不能直接换算为性能差距。",
+      "frequencyNoteEn": "Maximum turbo is a conditional single-core peak, not a direct measure of performance difference."
+    },
+    "intel-n250": {
+      "release": {
+        "date": "2025-Q1",
+        "precision": "quarter",
+        "kind": "launch",
+        "source": "https://www.intel.com/content/www/us/en/ark/products/series/231726/intel-processor.html",
+        "noteZh": "Intel ARK 标注的上市季度；不是某款笔记本的开售时间。",
+        "noteEn": "Launch quarter listed by Intel ARK; not the retail date of a particular laptop."
+      },
+      "maxTurboGHz": 3.8,
+      "frequencySource": "https://www.intel.com/content/www/us/en/ark/products/series/231726/intel-processor.html",
+      "frequencyNoteZh": "最高睿频是条件允许时的单核峰值，不能直接换算为性能差距。",
+      "frequencyNoteEn": "Maximum turbo is a conditional single-core peak, not a direct measure of performance difference."
+    },
+    "intel-n200": {
+      "release": {
+        "date": "2023-Q1",
+        "precision": "quarter",
+        "kind": "launch",
+        "source": "https://www.intel.com/content/www/us/en/ark/products/series/231726/intel-processor.html",
+        "noteZh": "Intel ARK 标注的上市季度；不是某款笔记本的开售时间。",
+        "noteEn": "Launch quarter listed by Intel ARK; not the retail date of a particular laptop."
+      },
+      "maxTurboGHz": 3.7,
+      "frequencySource": "https://www.intel.com/content/www/us/en/ark/products/series/231726/intel-processor.html",
+      "frequencyNoteZh": "最高睿频是条件允许时的单核峰值，不能直接换算为性能差距。",
+      "frequencyNoteEn": "Maximum turbo is a conditional single-core peak, not a direct measure of performance difference."
+    },
+    "intel-n150": {
+      "release": {
+        "date": "2025-Q1",
+        "precision": "quarter",
+        "kind": "launch",
+        "source": "https://www.intel.com/content/www/us/en/ark/products/series/231726/intel-processor.html",
+        "noteZh": "Intel ARK 标注的上市季度；不是某款笔记本的开售时间。",
+        "noteEn": "Launch quarter listed by Intel ARK; not the retail date of a particular laptop."
+      },
+      "maxTurboGHz": 3.6,
+      "frequencySource": "https://www.intel.com/content/www/us/en/ark/products/series/231726/intel-processor.html",
+      "frequencyNoteZh": "最高睿频是条件允许时的单核峰值，不能直接换算为性能差距。",
+      "frequencyNoteEn": "Maximum turbo is a conditional single-core peak, not a direct measure of performance difference."
+    },
+    "intel-n100": {
+      "release": {
+        "date": "2023-Q1",
+        "precision": "quarter",
+        "kind": "launch",
+        "source": "https://www.intel.com/content/www/us/en/ark/products/series/231726/intel-processor.html",
+        "noteZh": "Intel ARK 标注的上市季度；不是某款笔记本的开售时间。",
+        "noteEn": "Launch quarter listed by Intel ARK; not the retail date of a particular laptop."
+      },
+      "maxTurboGHz": 3.4,
+      "frequencySource": "https://www.intel.com/content/www/us/en/ark/products/series/231726/intel-processor.html",
+      "frequencyNoteZh": "最高睿频是条件允许时的单核峰值，不能直接换算为性能差距。",
+      "frequencyNoteEn": "Maximum turbo is a conditional single-core peak, not a direct measure of performance difference."
+    },
+    "intel-i3-n305": {
+      "release": {
+        "date": "2023-Q1",
+        "precision": "quarter",
+        "kind": "launch",
+        "source": "https://www.intel.com/content/www/us/en/ark/products/series/231807/intel-core-processor-n-series.html",
+        "noteZh": "Intel ARK 标注的上市季度；不是某款笔记本的开售时间。",
+        "noteEn": "Launch quarter listed by Intel ARK; not the retail date of a particular laptop."
+      },
+      "maxTurboGHz": 3.8,
+      "frequencySource": "https://www.intel.com/content/www/us/en/ark/products/series/231807/intel-core-processor-n-series.html",
+      "frequencyNoteZh": "最高睿频是条件允许时的单核峰值，不能直接换算为性能差距。",
+      "frequencyNoteEn": "Maximum turbo is a conditional single-core peak, not a direct measure of performance difference."
+    },
+    "intel-i3-n300": {
+      "release": {
+        "date": "2023-Q1",
+        "precision": "quarter",
+        "kind": "launch",
+        "source": "https://www.intel.com/content/www/us/en/ark/products/series/231807/intel-core-processor-n-series.html",
+        "noteZh": "Intel ARK 标注的上市季度；不是某款笔记本的开售时间。",
+        "noteEn": "Launch quarter listed by Intel ARK; not the retail date of a particular laptop."
+      },
+      "maxTurboGHz": 3.8,
+      "frequencySource": "https://www.intel.com/content/www/us/en/ark/products/series/231807/intel-core-processor-n-series.html",
+      "frequencyNoteZh": "最高睿频是条件允许时的单核峰值，不能直接换算为性能差距。",
+      "frequencyNoteEn": "Maximum turbo is a conditional single-core peak, not a direct measure of performance difference."
+    },
+    "intel-n355": {
+      "release": {
+        "date": "2025-Q1",
+        "precision": "quarter",
+        "kind": "launch",
+        "source": "https://www.intel.com/content/www/us/en/ark/products/series/231807/intel-core-processor-n-series.html",
+        "noteZh": "Intel ARK 标注的上市季度；不是某款笔记本的开售时间。",
+        "noteEn": "Launch quarter listed by Intel ARK; not the retail date of a particular laptop."
+      },
+      "maxTurboGHz": 3.9,
+      "frequencySource": "https://www.intel.com/content/www/us/en/ark/products/series/231807/intel-core-processor-n-series.html",
+      "frequencyNoteZh": "最高睿频是条件允许时的单核峰值，不能直接换算为性能差距。",
+      "frequencyNoteEn": "Maximum turbo is a conditional single-core peak, not a direct measure of performance difference."
+    },
+    "intel-n350": {
+      "release": {
+        "date": "2025-Q1",
+        "precision": "quarter",
+        "kind": "launch",
+        "source": "https://www.intel.com/content/www/us/en/ark/products/series/231807/intel-core-processor-n-series.html",
+        "noteZh": "Intel ARK 标注的上市季度；不是某款笔记本的开售时间。",
+        "noteEn": "Launch quarter listed by Intel ARK; not the retail date of a particular laptop."
+      },
+      "maxTurboGHz": 3.9,
+      "frequencySource": "https://www.intel.com/content/www/us/en/ark/products/series/231807/intel-core-processor-n-series.html",
+      "frequencyNoteZh": "最高睿频是条件允许时的单核峰值，不能直接换算为性能差距。",
+      "frequencyNoteEn": "Maximum turbo is a conditional single-core peak, not a direct measure of performance difference."
+    },
+    "amd-ryzen-ai-max-395": {
+      "release": {
+        "date": "2025-01-06",
+        "precision": "day",
+        "kind": "announcement",
+        "source": "https://ir.amd.com/news-events/press-releases/detail/1232/amd-announces-expanded-consumer-and-commercial-ai-pc-portfolio-at-ces",
+        "noteZh": "厂商公布处理器的时间；不是具体笔记本的开售日期。",
+        "noteEn": "The vendor’s processor announcement, not a particular laptop’s retail date."
+      }
+    },
+    "amd-ryzen-ai-max-392": {
+      "release": {
+        "date": "2026-01-05",
+        "precision": "day",
+        "kind": "announcement",
+        "source": "https://ir.amd.com/news-events/press-releases/detail/1270/amd-expands-ai-leadership-across-client-graphics-and-software-with-new-ryzen-ryzen-ai-and-amd-rocm-announcements-at-ces-2026",
+        "noteZh": "厂商公布处理器的时间；不是具体笔记本的开售日期。",
+        "noteEn": "The vendor’s processor announcement, not a particular laptop’s retail date."
+      }
+    },
+    "amd-ryzen-ai-max-388": {
+      "release": {
+        "date": "2026-01-05",
+        "precision": "day",
+        "kind": "announcement",
+        "source": "https://ir.amd.com/news-events/press-releases/detail/1270/amd-expands-ai-leadership-across-client-graphics-and-software-with-new-ryzen-ryzen-ai-and-amd-rocm-announcements-at-ces-2026",
+        "noteZh": "厂商公布处理器的时间；不是具体笔记本的开售日期。",
+        "noteEn": "The vendor’s processor announcement, not a particular laptop’s retail date."
+      }
+    },
+    "amd-ryzen-ai-max-390": {
+      "release": {
+        "date": "2025-01-06",
+        "precision": "day",
+        "kind": "announcement",
+        "source": "https://ir.amd.com/news-events/press-releases/detail/1232/amd-announces-expanded-consumer-and-commercial-ai-pc-portfolio-at-ces",
+        "noteZh": "厂商公布处理器的时间；不是具体笔记本的开售日期。",
+        "noteEn": "The vendor’s processor announcement, not a particular laptop’s retail date."
+      }
+    },
+    "amd-ryzen-ai-max-385": {
+      "release": {
+        "date": "2025-01-06",
+        "precision": "day",
+        "kind": "announcement",
+        "source": "https://ir.amd.com/news-events/press-releases/detail/1232/amd-announces-expanded-consumer-and-commercial-ai-pc-portfolio-at-ces",
+        "noteZh": "厂商公布处理器的时间；不是具体笔记本的开售日期。",
+        "noteEn": "The vendor’s processor announcement, not a particular laptop’s retail date."
+      }
+    },
+    "amd-ryzen-ai-9-hx-475": {
+      "release": {
+        "date": "2026-01-05",
+        "precision": "day",
+        "kind": "launch",
+        "source": "https://www.amd.com/en/products/processors/laptop/ryzen/ai-400-series/amd-ryzen-ai-9-hx-475.html",
+        "noteZh": "AMD 产品页标注的 Launch Date；可能晚于首次发布公告。",
+        "noteEn": "Launch Date as listed on the AMD product page; it may follow the first announcement."
+      }
+    },
+    "amd-ryzen-ai-9-hx-470": {
+      "release": {
+        "date": "2026-01-05",
+        "precision": "day",
+        "kind": "launch",
+        "source": "https://www.amd.com/en/products/processors/laptop/ryzen/ai-400-series/amd-ryzen-ai-9-hx-470.html",
+        "noteZh": "AMD 产品页标注的 Launch Date；可能晚于首次发布公告。",
+        "noteEn": "Launch Date as listed on the AMD product page; it may follow the first announcement."
+      }
+    },
+    "amd-ryzen-ai-9-465": {
+      "release": {
+        "date": "2026-01-05",
+        "precision": "day",
+        "kind": "launch",
+        "source": "https://www.amd.com/en/products/processors/laptop/ryzen/ai-400-series/amd-ryzen-ai-9-465.html",
+        "noteZh": "AMD 产品页标注的 Launch Date；可能晚于首次发布公告。",
+        "noteEn": "Launch Date as listed on the AMD product page; it may follow the first announcement."
+      }
+    },
+    "450": {
+      "release": {
+        "date": "2026-01-05",
+        "precision": "day",
+        "kind": "launch",
+        "source": "https://www.amd.com/en/products/processors/laptop/ryzen/ai-400-series/amd-ryzen-ai-7-450.html",
+        "noteZh": "AMD 产品页标注的 Launch Date；可能晚于首次发布公告。",
+        "noteEn": "Launch Date as listed on the AMD product page; it may follow the first announcement."
+      }
+    },
+    "amd-ryzen-ai-7-445": {
+      "release": {
+        "date": "2026-01-05",
+        "precision": "day",
+        "kind": "launch",
+        "source": "https://www.amd.com/en/products/processors/laptop/ryzen/ai-400-series/amd-ryzen-ai-7-445.html",
+        "noteZh": "AMD 产品页标注的 Launch Date；可能晚于首次发布公告。",
+        "noteEn": "Launch Date as listed on the AMD product page; it may follow the first announcement."
+      }
+    },
+    "amd-ryzen-ai-5-435": {
+      "release": {
+        "date": "2026-01-05",
+        "precision": "day",
+        "kind": "launch",
+        "source": "https://www.amd.com/en/products/processors/laptop/ryzen/ai-400-series/amd-ryzen-ai-5-435.html",
+        "noteZh": "AMD 产品页标注的 Launch Date；可能晚于首次发布公告。",
+        "noteEn": "Launch Date as listed on the AMD product page; it may follow the first announcement."
+      }
+    },
+    "amd-ryzen-ai-5-430": {
+      "release": {
+        "date": "2026-01-05",
+        "precision": "day",
+        "kind": "launch",
+        "source": "https://www.amd.com/en/products/processors/laptop/ryzen/ai-400-series/amd-ryzen-ai-5-430.html",
+        "noteZh": "AMD 产品页标注的 Launch Date；可能晚于首次发布公告。",
+        "noteEn": "Launch Date as listed on the AMD product page; it may follow the first announcement."
+      }
+    },
+    "amd-ryzen-ai-9-hx-375": {
+      "release": {
+        "date": "2024-06-02",
+        "precision": "day",
+        "kind": "series-announcement",
+        "source": "https://www.amd.com/en/newsroom/press-releases/2024-6-2-amd-unveils-next-gen-zen-5-ryzen-processors-to-p.html",
+        "noteZh": "Ryzen AI 300 系列首次发布；HX 375 是后续扩展型号，此处不冒充它的单独发布日。",
+        "noteEn": "First announcement of the Ryzen AI 300 family. HX 375 is a later addition; this is not presented as its individual launch date."
+      }
+    },
+    "370": {
+      "release": {
+        "date": "2024-06-02",
+        "precision": "day",
+        "kind": "announcement",
+        "source": "https://www.amd.com/en/newsroom/press-releases/2024-6-2-amd-unveils-next-gen-zen-5-ryzen-processors-to-p.html",
+        "noteZh": "厂商公布处理器的时间；不是具体笔记本的开售日期。",
+        "noteEn": "The vendor’s processor announcement, not a particular laptop’s retail date."
+      }
+    },
+    "amd-ryzen-ai-9-365": {
+      "release": {
+        "date": "2024-06-02",
+        "precision": "day",
+        "kind": "announcement",
+        "source": "https://www.amd.com/en/newsroom/press-releases/2024-6-2-amd-unveils-next-gen-zen-5-ryzen-processors-to-p.html",
+        "noteZh": "厂商公布处理器的时间；不是具体笔记本的开售日期。",
+        "noteEn": "The vendor’s processor announcement, not a particular laptop’s retail date."
+      }
+    },
+    "amd-ryzen-ai-7-350": {
+      "release": {
+        "date": "2025-02-18",
+        "precision": "day",
+        "kind": "launch",
+        "source": "https://www.amd.com/en/products/processors/laptop/ryzen/ai-300-series/amd-ryzen-ai-7-350.html",
+        "noteZh": "AMD 产品页标注的 Launch Date；可能晚于首次发布公告。",
+        "noteEn": "Launch Date as listed on the AMD product page; it may follow the first announcement."
+      }
+    },
+    "amd-ryzen-ai-7-345": {
+      "release": {
+        "date": "2025-01-15",
+        "precision": "day",
+        "kind": "launch",
+        "source": "https://www.amd.com/en/products/processors/laptop/ryzen/ai-300-series/amd-ryzen-ai-7-345.html",
+        "noteZh": "AMD 产品页标注的 Launch Date；可能晚于首次发布公告。",
+        "noteEn": "Launch Date as listed on the AMD product page; it may follow the first announcement."
+      }
+    },
+    "amd-ryzen-ai-5-340": {
+      "release": {
+        "date": "2025-02-18",
+        "precision": "day",
+        "kind": "launch",
+        "source": "https://www.amd.com/en/products/processors/laptop/ryzen/ai-300-series/amd-ryzen-ai-5-340.html",
+        "noteZh": "AMD 产品页标注的 Launch Date；可能晚于首次发布公告。",
+        "noteEn": "Launch Date as listed on the AMD product page; it may follow the first announcement."
+      }
+    },
+    "amd-ryzen-ai-5-330": {
+      "release": {
+        "date": "2025-07-30",
+        "precision": "day",
+        "kind": "launch",
+        "source": "https://www.amd.com/en/products/processors/laptop/ryzen/ai-300-series/amd-ryzen-ai-5-330.html",
+        "noteZh": "AMD 产品页标注的 Launch Date；可能晚于首次发布公告。",
+        "noteEn": "Launch Date as listed on the AMD product page; it may follow the first announcement."
+      }
+    },
+    "amd-ryzen-9-9955hx3d": {
+      "release": {
+        "date": "2025-01-06",
+        "precision": "day",
+        "kind": "announcement",
+        "source": "https://newsroom.amd.com/news/amd-announces-new-graphics-and-gaming-products-for/",
+        "noteZh": "厂商公布处理器的时间；不是具体笔记本的开售日期。",
+        "noteEn": "The vendor’s processor announcement, not a particular laptop’s retail date."
+      }
+    },
+    "9955hx": {
+      "release": {
+        "date": "2025-01-06",
+        "precision": "day",
+        "kind": "announcement",
+        "source": "https://newsroom.amd.com/news/amd-announces-new-graphics-and-gaming-products-for/",
+        "noteZh": "厂商公布处理器的时间；不是具体笔记本的开售日期。",
+        "noteEn": "The vendor’s processor announcement, not a particular laptop’s retail date."
+      }
+    },
+    "amd-ryzen-9-9850hx": {
+      "release": {
+        "date": "2025-01-06",
+        "precision": "day",
+        "kind": "announcement",
+        "source": "https://newsroom.amd.com/news/amd-announces-new-graphics-and-gaming-products-for/",
+        "noteZh": "厂商公布处理器的时间；不是具体笔记本的开售日期。",
+        "noteEn": "The vendor’s processor announcement, not a particular laptop’s retail date."
+      }
+    },
+    "amd-ryzen-7-449": {
+      "release": {
+        "date": null,
+        "precision": "unknown",
+        "kind": "not-disclosed",
+        "source": "https://www.amd.com/en/products/processors/laptop/ryzen/400-series/amd-ryzen-7-449.html",
+        "noteZh": "AMD 官方产品页与规格表未公布发布时间；不将 AI 400 系列的日期套用于这两个型号。",
+        "noteEn": "AMD’s product page and specification table do not disclose a release date. The AI 400 family date is not assigned to these separate models."
+      }
+    },
+    "amd-ryzen-5-439": {
+      "release": {
+        "date": null,
+        "precision": "unknown",
+        "kind": "not-disclosed",
+        "source": "https://www.amd.com/en/products/processors/laptop/ryzen/400-series/amd-ryzen-5-439.html",
+        "noteZh": "AMD 官方产品页与规格表未公布发布时间；不将 AI 400 系列的日期套用于这两个型号。",
+        "noteEn": "AMD’s product page and specification table do not disclose a release date. The AI 400 family date is not assigned to these separate models."
+      }
+    },
+    "amd-ryzen-9-270": {
+      "release": {
+        "date": "2025-02-18",
+        "precision": "day",
+        "kind": "launch",
+        "source": "https://www.amd.com/en/products/processors/laptop/ryzen/200-series/amd-ryzen-9-270.html",
+        "noteZh": "AMD 产品页标注的 Launch Date；可能晚于首次发布公告。",
+        "noteEn": "Launch Date as listed on the AMD product page; it may follow the first announcement."
+      }
+    },
+    "amd-ryzen-7-260": {
+      "release": {
+        "date": "2025-02-18",
+        "precision": "day",
+        "kind": "launch",
+        "source": "https://www.amd.com/en/products/processors/laptop/ryzen/200-series/amd-ryzen-7-260.html",
+        "noteZh": "AMD 产品页标注的 Launch Date；可能晚于首次发布公告。",
+        "noteEn": "Launch Date as listed on the AMD product page; it may follow the first announcement."
+      }
+    },
+    "amd-ryzen-7-253": {
+      "release": {
+        "date": "2026-06-02",
+        "precision": "day",
+        "kind": "launch",
+        "source": "https://www.amd.com/en/products/processors/laptop/ryzen/200-series/amd-ryzen-7-253.html",
+        "noteZh": "AMD 产品页标注的 Launch Date；可能晚于首次发布公告。",
+        "noteEn": "Launch Date as listed on the AMD product page; it may follow the first announcement."
+      }
+    },
+    "amd-ryzen-7-250": {
+      "release": {
+        "date": "2025-02-18",
+        "precision": "day",
+        "kind": "launch",
+        "source": "https://www.amd.com/en/products/processors/laptop/ryzen/200-series/amd-ryzen-7-250.html",
+        "noteZh": "AMD 产品页标注的 Launch Date；可能晚于首次发布公告。",
+        "noteEn": "Launch Date as listed on the AMD product page; it may follow the first announcement."
+      }
+    },
+    "amd-ryzen-7-249": {
+      "release": {
+        "date": "2026-06-02",
+        "precision": "day",
+        "kind": "launch",
+        "source": "https://www.amd.com/en/products/processors/laptop/ryzen/200-series/amd-ryzen-7-249.html",
+        "noteZh": "AMD 产品页标注的 Launch Date；可能晚于首次发布公告。",
+        "noteEn": "Launch Date as listed on the AMD product page; it may follow the first announcement."
+      }
+    },
+    "amd-ryzen-7-217": {
+      "release": {
+        "date": "2026-06-02",
+        "precision": "day",
+        "kind": "launch",
+        "source": "https://www.amd.com/en/products/processors/laptop/ryzen/200-series/amd-ryzen-7-217.html",
+        "noteZh": "AMD 产品页标注的 Launch Date；可能晚于首次发布公告。",
+        "noteEn": "Launch Date as listed on the AMD product page; it may follow the first announcement."
+      }
+    },
+    "amd-ryzen-5-240": {
+      "release": {
+        "date": "2025-02-18",
+        "precision": "day",
+        "kind": "launch",
+        "source": "https://www.amd.com/en/products/processors/laptop/ryzen/200-series/amd-ryzen-5-240.html",
+        "noteZh": "AMD 产品页标注的 Launch Date；可能晚于首次发布公告。",
+        "noteEn": "Launch Date as listed on the AMD product page; it may follow the first announcement."
+      }
+    },
+    "amd-ryzen-5-230": {
+      "release": {
+        "date": "2025-02-18",
+        "precision": "day",
+        "kind": "launch",
+        "source": "https://www.amd.com/en/products/processors/laptop/ryzen/200-series/amd-ryzen-5-230.html",
+        "noteZh": "AMD 产品页标注的 Launch Date；可能晚于首次发布公告。",
+        "noteEn": "Launch Date as listed on the AMD product page; it may follow the first announcement."
+      }
+    },
+    "amd-ryzen-5-225": {
+      "release": {
+        "date": "2026-06-02",
+        "precision": "day",
+        "kind": "launch",
+        "source": "https://www.amd.com/en/products/processors/laptop/ryzen/200-series/amd-ryzen-5-225.html",
+        "noteZh": "AMD 产品页标注的 Launch Date；可能晚于首次发布公告。",
+        "noteEn": "Launch Date as listed on the AMD product page; it may follow the first announcement."
+      }
+    },
+    "amd-ryzen-5-224": {
+      "release": {
+        "date": "2026-06-02",
+        "precision": "day",
+        "kind": "launch",
+        "source": "https://www.amd.com/en/products/processors/laptop/ryzen/200-series/amd-ryzen-5-224.html",
+        "noteZh": "AMD 产品页标注的 Launch Date；可能晚于首次发布公告。",
+        "noteEn": "Launch Date as listed on the AMD product page; it may follow the first announcement."
+      }
+    },
+    "amd-ryzen-5-220": {
+      "release": {
+        "date": "2025-02-18",
+        "precision": "day",
+        "kind": "launch",
+        "source": "https://www.amd.com/en/products/processors/laptop/ryzen/200-series/amd-ryzen-5-220.html",
+        "noteZh": "AMD 产品页标注的 Launch Date；可能晚于首次发布公告。",
+        "noteEn": "Launch Date as listed on the AMD product page; it may follow the first announcement."
+      }
+    },
+    "amd-ryzen-5-216": {
+      "release": {
+        "date": "2026-06-02",
+        "precision": "day",
+        "kind": "launch",
+        "source": "https://www.amd.com/en/products/processors/laptop/ryzen/200-series/amd-ryzen-5-216.html",
+        "noteZh": "AMD 产品页标注的 Launch Date；可能晚于首次发布公告。",
+        "noteEn": "Launch Date as listed on the AMD product page; it may follow the first announcement."
+      }
+    },
+    "amd-ryzen-3-210": {
+      "release": {
+        "date": "2025-02-18",
+        "precision": "day",
+        "kind": "launch",
+        "source": "https://www.amd.com/en/products/processors/laptop/ryzen/200-series/amd-ryzen-3-210.html",
+        "noteZh": "AMD 产品页标注的 Launch Date；可能晚于首次发布公告。",
+        "noteEn": "Launch Date as listed on the AMD product page; it may follow the first announcement."
+      }
+    },
+    "amd-ryzen-3-205": {
+      "release": {
+        "date": "2026-06-02",
+        "precision": "day",
+        "kind": "launch",
+        "source": "https://www.amd.com/en/products/processors/laptop/ryzen/200-series/amd-ryzen-3-205.html",
+        "noteZh": "AMD 产品页标注的 Launch Date；可能晚于首次发布公告。",
+        "noteEn": "Launch Date as listed on the AMD product page; it may follow the first announcement."
+      }
+    },
+    "amd-ryzen-9-8945hx": {
+      "release": {
+        "date": "2025-04-23",
+        "precision": "day",
+        "kind": "launch",
+        "source": "https://www.amd.com/en/products/processors/laptop/ryzen/8000-series/amd-ryzen-9-8945hx.html",
+        "noteZh": "厂商公布处理器的时间；不是具体笔记本的开售日期。",
+        "noteEn": "The vendor’s processor announcement, not a particular laptop’s retail date."
+      }
+    },
+    "amd-8945hs": {
+      "release": {
+        "date": "2023-12-06",
+        "precision": "day",
+        "kind": "announcement",
+        "source": "https://www.amd.com/en/newsroom/press-releases/2023-12-6-amd-extends-mobile-pc-leadership-with-amd-ryzen-8.html",
+        "noteZh": "厂商公布处理器的时间；不是具体笔记本的开售日期。",
+        "noteEn": "The vendor’s processor announcement, not a particular laptop’s retail date."
+      }
+    },
+    "amd-ryzen-9-8940hx": {
+      "release": {
+        "date": "2025-04-23",
+        "precision": "day",
+        "kind": "launch",
+        "source": "https://www.amd.com/en/products/processors/laptop/ryzen/8000-series/amd-ryzen-9-8940hx.html",
+        "noteZh": "厂商公布处理器的时间；不是具体笔记本的开售日期。",
+        "noteEn": "The vendor’s processor announcement, not a particular laptop’s retail date."
+      }
+    },
+    "8845hs": {
+      "release": {
+        "date": "2023-12-06",
+        "precision": "day",
+        "kind": "launch",
+        "source": "https://www.amd.com/en/products/processors/laptop/ryzen/8000-series/amd-ryzen-7-8845hs.html",
+        "noteZh": "AMD 产品页标注的 Launch Date；可能晚于首次发布公告。",
+        "noteEn": "Launch Date as listed on the AMD product page; it may follow the first announcement."
+      }
+    },
+    "amd-8840u": {
+      "release": {
+        "date": "2023-12-06",
+        "precision": "day",
+        "kind": "announcement",
+        "source": "https://www.amd.com/en/newsroom/press-releases/2023-12-6-amd-extends-mobile-pc-leadership-with-amd-ryzen-8.html",
+        "noteZh": "厂商公布处理器的时间；不是具体笔记本的开售日期。",
+        "noteEn": "The vendor’s processor announcement, not a particular laptop’s retail date."
+      }
+    },
+    "amd-ryzen-7-8840hx": {
+      "release": {
+        "date": "2025-04-23",
+        "precision": "day",
+        "kind": "launch",
+        "source": "https://www.amd.com/en/products/processors/laptop/ryzen/8000-series/amd-ryzen-7-8840hx.html",
+        "noteZh": "厂商公布处理器的时间；不是具体笔记本的开售日期。",
+        "noteEn": "The vendor’s processor announcement, not a particular laptop’s retail date."
+      }
+    },
+    "amd-8840hs": {
+      "release": {
+        "date": "2023-12-06",
+        "precision": "day",
+        "kind": "announcement",
+        "source": "https://www.amd.com/en/newsroom/press-releases/2023-12-6-amd-extends-mobile-pc-leadership-with-amd-ryzen-8.html",
+        "noteZh": "厂商公布处理器的时间；不是具体笔记本的开售日期。",
+        "noteEn": "The vendor’s processor announcement, not a particular laptop’s retail date."
+      }
+    },
+    "amd-ryzen-7-8745hx": {
+      "release": {
+        "date": "2025-04-23",
+        "precision": "day",
+        "kind": "launch",
+        "source": "https://www.amd.com/en/products/processors/laptop/ryzen/8000-series/amd-ryzen-7-8745hx.html",
+        "noteZh": "厂商公布处理器的时间；不是具体笔记本的开售日期。",
+        "noteEn": "The vendor’s processor announcement, not a particular laptop’s retail date."
+      }
+    },
+    "amd-ryzen-7-8745hs": {
+      "release": {
+        "date": "2024-06-18",
+        "precision": "day",
+        "kind": "launch",
+        "source": "https://www.amd.com/en/products/processors/laptop/ryzen/8000-series/amd-ryzen-7-8745hs.html",
+        "noteZh": "AMD 产品页标注的 Launch Date；可能晚于首次发布公告。",
+        "noteEn": "Launch Date as listed on the AMD product page; it may follow the first announcement."
+      }
+    },
+    "amd-8645hs": {
+      "release": {
+        "date": "2023-12-06",
+        "precision": "day",
+        "kind": "announcement",
+        "source": "https://www.amd.com/en/newsroom/press-releases/2023-12-6-amd-extends-mobile-pc-leadership-with-amd-ryzen-8.html",
+        "noteZh": "厂商公布处理器的时间；不是具体笔记本的开售日期。",
+        "noteEn": "The vendor’s processor announcement, not a particular laptop’s retail date."
+      }
+    },
+    "amd-8640u": {
+      "release": {
+        "date": "2023-12-06",
+        "precision": "day",
+        "kind": "announcement",
+        "source": "https://www.amd.com/en/newsroom/press-releases/2023-12-6-amd-extends-mobile-pc-leadership-with-amd-ryzen-8.html",
+        "noteZh": "厂商公布处理器的时间；不是具体笔记本的开售日期。",
+        "noteEn": "The vendor’s processor announcement, not a particular laptop’s retail date."
+      }
+    },
+    "amd-8640hs": {
+      "release": {
+        "date": "2023-12-06",
+        "precision": "day",
+        "kind": "announcement",
+        "source": "https://www.amd.com/en/newsroom/press-releases/2023-12-6-amd-extends-mobile-pc-leadership-with-amd-ryzen-8.html",
+        "noteZh": "厂商公布处理器的时间；不是具体笔记本的开售日期。",
+        "noteEn": "The vendor’s processor announcement, not a particular laptop’s retail date."
+      }
+    },
+    "amd-8440u": {
+      "release": {
+        "date": "2023-12-06",
+        "precision": "day",
+        "kind": "announcement",
+        "source": "https://www.amd.com/en/newsroom/press-releases/2023-12-6-amd-extends-mobile-pc-leadership-with-amd-ryzen-8.html",
+        "noteZh": "厂商公布处理器的时间；不是具体笔记本的开售日期。",
+        "noteEn": "The vendor’s processor announcement, not a particular laptop’s retail date."
+      }
+    },
+    "amd-7945hx": {
+      "release": {
+        "date": "2023-02-28",
+        "precision": "day",
+        "kind": "launch",
+        "source": "https://www.amd.com/en/products/processors/laptop/ryzen/7000-series/amd-ryzen-9-7945hx.html",
+        "noteZh": "AMD 产品页标注的 Launch Date；可能晚于首次发布公告。",
+        "noteEn": "Launch Date as listed on the AMD product page; it may follow the first announcement."
+      }
+    },
+    "amd-ryzen-9-7940hx": {
+      "release": {
+        "date": "2024-01-17",
+        "precision": "day",
+        "kind": "launch",
+        "source": "https://www.amd.com/en/products/processors/laptop/ryzen/7000-series/amd-ryzen-9-7940hx.html",
+        "noteZh": "AMD 产品页标注的 Launch Date；可能晚于首次发布公告。",
+        "noteEn": "Launch Date as listed on the AMD product page; it may follow the first announcement."
+      }
+    },
+    "amd-7940hs": {
+      "release": {
+        "date": "2023-04-30",
+        "precision": "day",
+        "kind": "launch",
+        "source": "https://www.amd.com/en/products/processors/laptop/ryzen/7000-series/amd-ryzen-9-7940hs.html",
+        "noteZh": "AMD 产品页标注的 Launch Date；可能晚于首次发布公告。",
+        "noteEn": "Launch Date as listed on the AMD product page; it may follow the first announcement."
+      }
+    },
+    "amd-7840u": {
+      "release": {
+        "date": "2023-05-03",
+        "precision": "day",
+        "kind": "launch",
+        "source": "https://www.amd.com/en/products/processors/laptop/ryzen/7000-series/amd-ryzen-7-7840u.html",
+        "noteZh": "AMD 产品页标注的 Launch Date；可能晚于首次发布公告。",
+        "noteEn": "Launch Date as listed on the AMD product page; it may follow the first announcement."
+      }
+    },
+    "amd-ryzen-7-7840hx": {
+      "release": {
+        "date": "2024-01-17",
+        "precision": "day",
+        "kind": "launch",
+        "source": "https://www.amd.com/en/products/processors/laptop/ryzen/7000-series/amd-ryzen-7-7840hx.html",
+        "noteZh": "AMD 产品页标注的 Launch Date；可能晚于首次发布公告。",
+        "noteEn": "Launch Date as listed on the AMD product page; it may follow the first announcement."
+      }
+    },
+    "amd-7840hs": {
+      "release": {
+        "date": "2023-01-04",
+        "precision": "day",
+        "kind": "announcement",
+        "source": "https://www.amd.com/en/newsroom/press-releases/2023-1-4-amd-extends-its-leadership-with-the-introduction-o.html",
+        "noteZh": "厂商公布处理器的时间；不是具体笔记本的开售日期。",
+        "noteEn": "The vendor’s processor announcement, not a particular laptop’s retail date."
+      }
+    },
+    "amd-7745hx": {
+      "release": {
+        "date": "2023-02-28",
+        "precision": "day",
+        "kind": "launch",
+        "source": "https://www.amd.com/en/products/processors/laptop/ryzen/7000-series/amd-ryzen-7-7745hx.html",
+        "noteZh": "AMD 产品页标注的 Launch Date；可能晚于首次发布公告。",
+        "noteEn": "Launch Date as listed on the AMD product page; it may follow the first announcement."
+      }
+    },
+    "amd-7735u": {
+      "release": {
+        "date": "2023-Q1",
+        "precision": "quarter",
+        "kind": "launch",
+        "source": "https://www.amd.com/en/products/processors/laptop/ryzen/7000-series/amd-ryzen-7-7735u.html",
+        "noteZh": "AMD 产品页标注的 Launch Date；可能晚于首次发布公告。",
+        "noteEn": "Launch Date as listed on the AMD product page; it may follow the first announcement."
+      }
+    },
+    "amd-7735hs": {
+      "release": {
+        "date": "2023-Q2",
+        "precision": "quarter",
+        "kind": "launch",
+        "source": "https://www.amd.com/en/products/processors/laptop/ryzen/7000-series/amd-ryzen-7-7735hs.html",
+        "noteZh": "AMD 产品页标注的 Launch Date；可能晚于首次发布公告。",
+        "noteEn": "Launch Date as listed on the AMD product page; it may follow the first announcement."
+      }
+    },
+    "amd-7730u": {
+      "release": {
+        "date": "2023-Q1",
+        "precision": "quarter",
+        "kind": "launch",
+        "source": "https://www.amd.com/en/products/processors/laptop/ryzen/7000-series/amd-ryzen-7-7730u.html",
+        "noteZh": "AMD 产品页标注的 Launch Date；可能晚于首次发布公告。",
+        "noteEn": "Launch Date as listed on the AMD product page; it may follow the first announcement."
+      }
+    },
+    "amd-ryzen-7-7445hs": {
+      "release": {
+        "date": "2023-05-03",
+        "precision": "day",
+        "kind": "launch",
+        "source": "https://www.amd.com/en/products/processors/laptop/ryzen/7000-series/amd-ryzen-7-7445hs.html",
+        "noteZh": "AMD 产品页标注的 Launch Date；可能晚于首次发布公告。",
+        "noteEn": "Launch Date as listed on the AMD product page; it may follow the first announcement."
+      }
+    },
+    "amd-ryzen-7-7435hs": {
+      "release": {
+        "date": "2024",
+        "precision": "year",
+        "kind": "launch",
+        "source": "https://www.amd.com/en/blogs/2024/new-amd-ryzen-notebook-dgpu-paired-offerings-.html",
+        "noteZh": "AMD 在 2024-06-12 官方文章中确认已推出，文章没有给出具体发布日。",
+        "noteEn": "AMD’s June 12, 2024 article confirms these chips had been released, without giving an exact launch day."
+      }
+    },
+    "amd-7645hx": {
+      "release": {
+        "date": "2023-02-28",
+        "precision": "day",
+        "kind": "launch",
+        "source": "https://www.amd.com/en/products/processors/laptop/ryzen/7000-series/amd-ryzen-5-7645hx.html",
+        "noteZh": "AMD 产品页标注的 Launch Date；可能晚于首次发布公告。",
+        "noteEn": "Launch Date as listed on the AMD product page; it may follow the first announcement."
+      }
+    },
+    "amd-7640u": {
+      "release": {
+        "date": "2023-05-03",
+        "precision": "day",
+        "kind": "launch",
+        "source": "https://www.amd.com/en/products/processors/laptop/ryzen/7000-series/amd-ryzen-5-7640u.html",
+        "noteZh": "AMD 产品页标注的 Launch Date；可能晚于首次发布公告。",
+        "noteEn": "Launch Date as listed on the AMD product page; it may follow the first announcement."
+      }
+    },
+    "amd-7640hs": {
+      "release": {
+        "date": "2023-04-30",
+        "precision": "day",
+        "kind": "launch",
+        "source": "https://www.amd.com/en/products/processors/laptop/ryzen/7000-series/amd-ryzen-5-7640hs.html",
+        "noteZh": "AMD 产品页标注的 Launch Date；可能晚于首次发布公告。",
+        "noteEn": "Launch Date as listed on the AMD product page; it may follow the first announcement."
+      }
+    },
+    "amd-7540u": {
+      "release": {
+        "date": "2023-05-03",
+        "precision": "day",
+        "kind": "launch",
+        "source": "https://www.amd.com/en/products/processors/laptop/ryzen/7000-series/amd-ryzen-5-7540u.html",
+        "noteZh": "AMD 产品页标注的 Launch Date；可能晚于首次发布公告。",
+        "noteEn": "Launch Date as listed on the AMD product page; it may follow the first announcement."
+      }
+    },
+    "amd-7535u": {
+      "release": {
+        "date": "2023-Q1",
+        "precision": "quarter",
+        "kind": "launch",
+        "source": "https://www.amd.com/en/products/processors/laptop/ryzen/7000-series/amd-ryzen-5-7535u.html",
+        "noteZh": "AMD 产品页标注的 Launch Date；可能晚于首次发布公告。",
+        "noteEn": "Launch Date as listed on the AMD product page; it may follow the first announcement."
+      }
+    },
+    "amd-7535hs": {
+      "release": {
+        "date": "2023-Q2",
+        "precision": "quarter",
+        "kind": "launch",
+        "source": "https://www.amd.com/en/products/processors/laptop/ryzen/7000-series/amd-ryzen-5-7535hs.html",
+        "noteZh": "AMD 产品页标注的 Launch Date；可能晚于首次发布公告。",
+        "noteEn": "Launch Date as listed on the AMD product page; it may follow the first announcement."
+      }
+    },
+    "amd-7530u": {
+      "release": {
+        "date": "2023-Q1",
+        "precision": "quarter",
+        "kind": "launch",
+        "source": "https://www.amd.com/en/products/processors/laptop/ryzen/7000-series/amd-ryzen-5-7530u.html",
+        "noteZh": "AMD 产品页标注的 Launch Date；可能晚于首次发布公告。",
+        "noteEn": "Launch Date as listed on the AMD product page; it may follow the first announcement."
+      }
+    },
+    "amd-ryzen-5-7525u": {
+      "release": {
+        "date": "2026-Q3",
+        "precision": "quarter",
+        "kind": "launch",
+        "source": "https://www.amd.com/en/products/processors/laptop/ryzen/7000-series/amd-ryzen-5-7525u.html",
+        "noteZh": "AMD 产品页标注的 Launch Date；可能晚于首次发布公告。",
+        "noteEn": "Launch Date as listed on the AMD product page; it may follow the first announcement."
+      }
+    },
+    "amd-7520u": {
+      "release": {
+        "date": "2022-09-20",
+        "precision": "day",
+        "kind": "launch",
+        "source": "https://www.amd.com/en/products/processors/laptop/ryzen/7000-series/amd-ryzen-5-7520u.html",
+        "noteZh": "AMD 产品页标注的 Launch Date；可能晚于首次发布公告。",
+        "noteEn": "Launch Date as listed on the AMD product page; it may follow the first announcement."
+      }
+    },
+    "amd-ryzen-5-7235hs": {
+      "release": {
+        "date": "2024",
+        "precision": "year",
+        "kind": "launch",
+        "source": "https://www.amd.com/en/blogs/2024/new-amd-ryzen-notebook-dgpu-paired-offerings-.html",
+        "noteZh": "AMD 在 2024-06-12 官方文章中确认已推出，文章没有给出具体发布日。",
+        "noteEn": "AMD’s June 12, 2024 article confirms these chips had been released, without giving an exact launch day."
+      }
+    },
+    "amd-7440u": {
+      "release": {
+        "date": "2023-05-03",
+        "precision": "day",
+        "kind": "launch",
+        "source": "https://www.amd.com/en/products/processors/laptop/ryzen/7000-series/amd-ryzen-3-7440u.html",
+        "noteZh": "AMD 产品页标注的 Launch Date；可能晚于首次发布公告。",
+        "noteEn": "Launch Date as listed on the AMD product page; it may follow the first announcement."
+      }
+    },
+    "amd-7330u": {
+      "release": {
+        "date": "2023-Q1",
+        "precision": "quarter",
+        "kind": "launch",
+        "source": "https://www.amd.com/en/products/processors/laptop/ryzen/7000-series/amd-ryzen-3-7330u.html",
+        "noteZh": "AMD 产品页标注的 Launch Date；可能晚于首次发布公告。",
+        "noteEn": "Launch Date as listed on the AMD product page; it may follow the first announcement."
+      }
+    },
+    "amd-7320u": {
+      "release": {
+        "date": "2022-09-20",
+        "precision": "day",
+        "kind": "launch",
+        "source": "https://www.amd.com/en/products/processors/laptop/ryzen/7000-series/amd-ryzen-3-7320u.html",
+        "noteZh": "AMD 产品页标注的 Launch Date；可能晚于首次发布公告。",
+        "noteEn": "Launch Date as listed on the AMD product page; it may follow the first announcement."
+      }
+    },
+    "apple-a18-pro-6-5": {
+      "release": {
+        "date": "2024-09-09",
+        "precision": "day",
+        "kind": "announcement",
+        "source": "https://www.apple.com/newsroom/2024/09/apple-debuts-iphone-16-pro-and-iphone-16-pro-max/",
+        "noteZh": "芯片首次公布时间；相同芯片的不同 CPU / GPU 配置可能在后续机型中推出。",
+        "noteEn": "First chip announcement. Particular CPU/GPU configurations can debut in later devices."
+      },
+      "configurationRelease": {
+        "date": "2026-03-04",
+        "precision": "day",
+        "kind": "announcement",
+        "source": "https://www.apple.com/newsroom/2026/03/say-hello-to-macbook-neo/",
+        "noteZh": "本页 CPU / GPU 核心组合在对应笔记本中的发布日。",
+        "noteEn": "Announcement of this CPU/GPU core configuration in the corresponding laptop."
+      }
+    },
+    "apple-m2-pro-12-19": {
+      "release": {
+        "date": "2023-01-17",
+        "precision": "day",
+        "kind": "announcement",
+        "source": "https://www.apple.com/newsroom/2023/01/apple-unveils-m2-pro-and-m2-max-next-generation-chips-for-next-level-workflows/",
+        "noteZh": "芯片首次公布时间；相同芯片的不同 CPU / GPU 配置可能在后续机型中推出。",
+        "noteEn": "First chip announcement. Particular CPU/GPU configurations can debut in later devices."
+      }
+    },
+    "apple-m2-pro-10-16": {
+      "release": {
+        "date": "2023-01-17",
+        "precision": "day",
+        "kind": "announcement",
+        "source": "https://www.apple.com/newsroom/2023/01/apple-unveils-m2-pro-and-m2-max-next-generation-chips-for-next-level-workflows/",
+        "noteZh": "芯片首次公布时间；相同芯片的不同 CPU / GPU 配置可能在后续机型中推出。",
+        "noteEn": "First chip announcement. Particular CPU/GPU configurations can debut in later devices."
+      }
+    },
+    "apple-m2-max-12-38": {
+      "release": {
+        "date": "2023-01-17",
+        "precision": "day",
+        "kind": "announcement",
+        "source": "https://www.apple.com/newsroom/2023/01/apple-unveils-m2-pro-and-m2-max-next-generation-chips-for-next-level-workflows/",
+        "noteZh": "芯片首次公布时间；相同芯片的不同 CPU / GPU 配置可能在后续机型中推出。",
+        "noteEn": "First chip announcement. Particular CPU/GPU configurations can debut in later devices."
+      }
+    },
+    "apple-m2-max-12-30": {
+      "release": {
+        "date": "2023-01-17",
+        "precision": "day",
+        "kind": "announcement",
+        "source": "https://www.apple.com/newsroom/2023/01/apple-unveils-m2-pro-and-m2-max-next-generation-chips-for-next-level-workflows/",
+        "noteZh": "芯片首次公布时间；相同芯片的不同 CPU / GPU 配置可能在后续机型中推出。",
+        "noteEn": "First chip announcement. Particular CPU/GPU configurations can debut in later devices."
+      }
+    },
+    "apple-m2-8-10": {
+      "release": {
+        "date": "2022-06-06",
+        "precision": "day",
+        "kind": "announcement",
+        "source": "https://www.apple.com/newsroom/2022/06/apple-unveils-m2-with-breakthrough-performance-and-capabilities/",
+        "noteZh": "芯片首次公布时间；相同芯片的不同 CPU / GPU 配置可能在后续机型中推出。",
+        "noteEn": "First chip announcement. Particular CPU/GPU configurations can debut in later devices."
+      }
+    },
+    "apple-m2-8-8": {
+      "release": {
+        "date": "2022-06-06",
+        "precision": "day",
+        "kind": "announcement",
+        "source": "https://www.apple.com/newsroom/2022/06/apple-unveils-m2-with-breakthrough-performance-and-capabilities/",
+        "noteZh": "芯片首次公布时间；相同芯片的不同 CPU / GPU 配置可能在后续机型中推出。",
+        "noteEn": "First chip announcement. Particular CPU/GPU configurations can debut in later devices."
+      }
+    },
+    "apple-m3-pro-12-18": {
+      "release": {
+        "date": "2023-10-30",
+        "precision": "day",
+        "kind": "announcement",
+        "source": "https://www.apple.com/newsroom/2023/10/apple-unveils-m3-m3-pro-and-m3-max-the-most-advanced-chips-for-a-personal-computer/",
+        "noteZh": "芯片首次公布时间；相同芯片的不同 CPU / GPU 配置可能在后续机型中推出。",
+        "noteEn": "First chip announcement. Particular CPU/GPU configurations can debut in later devices."
+      }
+    },
+    "apple-m3-pro-11-14": {
+      "release": {
+        "date": "2023-10-30",
+        "precision": "day",
+        "kind": "announcement",
+        "source": "https://www.apple.com/newsroom/2023/10/apple-unveils-m3-m3-pro-and-m3-max-the-most-advanced-chips-for-a-personal-computer/",
+        "noteZh": "芯片首次公布时间；相同芯片的不同 CPU / GPU 配置可能在后续机型中推出。",
+        "noteEn": "First chip announcement. Particular CPU/GPU configurations can debut in later devices."
+      }
+    },
+    "apple-m3-max-16-40": {
+      "release": {
+        "date": "2023-10-30",
+        "precision": "day",
+        "kind": "announcement",
+        "source": "https://www.apple.com/newsroom/2023/10/apple-unveils-m3-m3-pro-and-m3-max-the-most-advanced-chips-for-a-personal-computer/",
+        "noteZh": "芯片首次公布时间；相同芯片的不同 CPU / GPU 配置可能在后续机型中推出。",
+        "noteEn": "First chip announcement. Particular CPU/GPU configurations can debut in later devices."
+      }
+    },
+    "apple-m3-max-14-30": {
+      "release": {
+        "date": "2023-10-30",
+        "precision": "day",
+        "kind": "announcement",
+        "source": "https://www.apple.com/newsroom/2023/10/apple-unveils-m3-m3-pro-and-m3-max-the-most-advanced-chips-for-a-personal-computer/",
+        "noteZh": "芯片首次公布时间；相同芯片的不同 CPU / GPU 配置可能在后续机型中推出。",
+        "noteEn": "First chip announcement. Particular CPU/GPU configurations can debut in later devices."
+      }
+    },
+    "apple-m3-8-10": {
+      "release": {
+        "date": "2023-10-30",
+        "precision": "day",
+        "kind": "announcement",
+        "source": "https://www.apple.com/newsroom/2023/10/apple-unveils-m3-m3-pro-and-m3-max-the-most-advanced-chips-for-a-personal-computer/",
+        "noteZh": "芯片首次公布时间；相同芯片的不同 CPU / GPU 配置可能在后续机型中推出。",
+        "noteEn": "First chip announcement. Particular CPU/GPU configurations can debut in later devices."
+      }
+    },
+    "apple-m3-8-8": {
+      "release": {
+        "date": "2023-10-30",
+        "precision": "day",
+        "kind": "announcement",
+        "source": "https://www.apple.com/newsroom/2023/10/apple-unveils-m3-m3-pro-and-m3-max-the-most-advanced-chips-for-a-personal-computer/",
+        "noteZh": "芯片首次公布时间；相同芯片的不同 CPU / GPU 配置可能在后续机型中推出。",
+        "noteEn": "First chip announcement. Particular CPU/GPU configurations can debut in later devices."
+      }
+    },
+    "apple-m4-pro-14-20": {
+      "release": {
+        "date": "2024-10-29",
+        "precision": "day",
+        "kind": "announcement",
+        "source": "https://www.apple.com/newsroom/2024/10/apples-new-mac-mini-is-more-mighty-more-mini-and-built-for-apple-intelligence/",
+        "noteZh": "芯片首次公布时间；相同芯片的不同 CPU / GPU 配置可能在后续机型中推出。",
+        "noteEn": "First chip announcement. Particular CPU/GPU configurations can debut in later devices."
+      }
+    },
+    "apple-m4-pro-12-16": {
+      "release": {
+        "date": "2024-10-29",
+        "precision": "day",
+        "kind": "announcement",
+        "source": "https://www.apple.com/newsroom/2024/10/apples-new-mac-mini-is-more-mighty-more-mini-and-built-for-apple-intelligence/",
+        "noteZh": "芯片首次公布时间；相同芯片的不同 CPU / GPU 配置可能在后续机型中推出。",
+        "noteEn": "First chip announcement. Particular CPU/GPU configurations can debut in later devices."
+      }
+    },
+    "apple-m4-max-16-40": {
+      "release": {
+        "date": "2024-10-30",
+        "precision": "day",
+        "kind": "announcement",
+        "source": "https://www.apple.com/newsroom/2024/10/apple-introduces-m4-pro-and-m4-max/",
+        "noteZh": "芯片首次公布时间；相同芯片的不同 CPU / GPU 配置可能在后续机型中推出。",
+        "noteEn": "First chip announcement. Particular CPU/GPU configurations can debut in later devices."
+      }
+    },
+    "apple-m4-max-14-32": {
+      "release": {
+        "date": "2024-10-30",
+        "precision": "day",
+        "kind": "announcement",
+        "source": "https://www.apple.com/newsroom/2024/10/apple-introduces-m4-pro-and-m4-max/",
+        "noteZh": "芯片首次公布时间；相同芯片的不同 CPU / GPU 配置可能在后续机型中推出。",
+        "noteEn": "First chip announcement. Particular CPU/GPU configurations can debut in later devices."
+      }
+    },
+    "apple-m4-10-10": {
+      "release": {
+        "date": "2024-05-07",
+        "precision": "day",
+        "kind": "announcement",
+        "source": "https://www.apple.com/newsroom/2024/05/apple-introduces-m4-chip/",
+        "noteZh": "芯片首次公布时间；相同芯片的不同 CPU / GPU 配置可能在后续机型中推出。",
+        "noteEn": "First chip announcement. Particular CPU/GPU configurations can debut in later devices."
+      }
+    },
+    "apple-m4-10-8": {
+      "release": {
+        "date": "2024-05-07",
+        "precision": "day",
+        "kind": "announcement",
+        "source": "https://www.apple.com/newsroom/2024/05/apple-introduces-m4-chip/",
+        "noteZh": "芯片首次公布时间；相同芯片的不同 CPU / GPU 配置可能在后续机型中推出。",
+        "noteEn": "First chip announcement. Particular CPU/GPU configurations can debut in later devices."
+      },
+      "configurationRelease": {
+        "date": "2025-03-05",
+        "precision": "day",
+        "kind": "announcement",
+        "source": "https://www.apple.com/newsroom/2025/03/apple-introduces-the-new-macbook-air-with-the-m4-chip-and-a-sky-blue-color/",
+        "noteZh": "本页 CPU / GPU 核心组合在对应笔记本中的发布日。",
+        "noteEn": "Announcement of this CPU/GPU core configuration in the corresponding laptop."
+      }
+    },
+    "apple-m5-pro-18-20": {
+      "release": {
+        "date": "2026-03-03",
+        "precision": "day",
+        "kind": "announcement",
+        "source": "https://www.apple.com/newsroom/2026/03/apple-debuts-m5-pro-and-m5-max-to-supercharge-the-most-demanding-pro-workflows/",
+        "noteZh": "芯片首次公布时间；相同芯片的不同 CPU / GPU 配置可能在后续机型中推出。",
+        "noteEn": "First chip announcement. Particular CPU/GPU configurations can debut in later devices."
+      }
+    },
+    "m5pro": {
+      "release": {
+        "date": "2026-03-03",
+        "precision": "day",
+        "kind": "announcement",
+        "source": "https://www.apple.com/newsroom/2026/03/apple-debuts-m5-pro-and-m5-max-to-supercharge-the-most-demanding-pro-workflows/",
+        "noteZh": "芯片首次公布时间；相同芯片的不同 CPU / GPU 配置可能在后续机型中推出。",
+        "noteEn": "First chip announcement. Particular CPU/GPU configurations can debut in later devices."
+      }
+    },
+    "apple-m5-max-18-40": {
+      "release": {
+        "date": "2026-03-03",
+        "precision": "day",
+        "kind": "announcement",
+        "source": "https://www.apple.com/newsroom/2026/03/apple-debuts-m5-pro-and-m5-max-to-supercharge-the-most-demanding-pro-workflows/",
+        "noteZh": "芯片首次公布时间；相同芯片的不同 CPU / GPU 配置可能在后续机型中推出。",
+        "noteEn": "First chip announcement. Particular CPU/GPU configurations can debut in later devices."
+      }
+    },
+    "apple-m5-max-18-32": {
+      "release": {
+        "date": "2026-03-03",
+        "precision": "day",
+        "kind": "announcement",
+        "source": "https://www.apple.com/newsroom/2026/03/apple-debuts-m5-pro-and-m5-max-to-supercharge-the-most-demanding-pro-workflows/",
+        "noteZh": "芯片首次公布时间；相同芯片的不同 CPU / GPU 配置可能在后续机型中推出。",
+        "noteEn": "First chip announcement. Particular CPU/GPU configurations can debut in later devices."
+      }
+    },
+    "apple-m5-10-10": {
+      "release": {
+        "date": "2025-10-15",
+        "precision": "day",
+        "kind": "announcement",
+        "source": "https://www.apple.com/newsroom/2025/10/apple-unleashes-m5-the-next-big-leap-in-ai-performance-for-apple-silicon/",
+        "noteZh": "芯片首次公布时间；相同芯片的不同 CPU / GPU 配置可能在后续机型中推出。",
+        "noteEn": "First chip announcement. Particular CPU/GPU configurations can debut in later devices."
+      }
+    },
+    "m5": {
+      "release": {
+        "date": "2025-10-15",
+        "precision": "day",
+        "kind": "announcement",
+        "source": "https://www.apple.com/newsroom/2025/10/apple-unleashes-m5-the-next-big-leap-in-ai-performance-for-apple-silicon/",
+        "noteZh": "芯片首次公布时间；相同芯片的不同 CPU / GPU 配置可能在后续机型中推出。",
+        "noteEn": "First chip announcement. Particular CPU/GPU configurations can debut in later devices."
+      },
+      "configurationRelease": {
+        "date": "2026-03-03",
+        "precision": "day",
+        "kind": "announcement",
+        "source": "https://www.apple.com/newsroom/2026/03/apple-introduces-the-new-macbook-air-with-m5/",
+        "noteZh": "本页 CPU / GPU 核心组合在对应笔记本中的发布日。",
+        "noteEn": "Announcement of this CPU/GPU core configuration in the corresponding laptop."
+      }
+    },
+    "qualcomm-x1-26-101": {
+      "release": {
+        "date": "2025-01-06",
+        "precision": "day",
+        "kind": "series-announcement",
+        "source": "https://www.qualcomm.com/news/releases/2025/01/snapdragon-x-series-continues-to-redefine-the-pc-category-with-a",
+        "noteZh": "对应系列 / 核心版本的公布时间；厂商没有为每个料号单列发布日，整机上市通常更晚。",
+        "noteEn": "Announcement of this family/core-count version. Not a separately verified announcement for each SKU; laptop availability can be later."
+      }
+    },
+    "qualcomm-x1-26-100": {
+      "release": {
+        "date": "2025-01-06",
+        "precision": "day",
+        "kind": "series-announcement",
+        "source": "https://www.qualcomm.com/news/releases/2025/01/snapdragon-x-series-continues-to-redefine-the-pc-category-with-a",
+        "noteZh": "对应系列 / 核心版本的公布时间；厂商没有为每个料号单列发布日，整机上市通常更晚。",
+        "noteEn": "Announcement of this family/core-count version. Not a separately verified announcement for each SKU; laptop availability can be later."
+      }
+    },
+    "qualcomm-x1e-84-100": {
+      "release": {
+        "date": "2023-10-24",
+        "precision": "day",
+        "kind": "series-announcement",
+        "source": "https://www.qualcomm.com/news/releases/2023/10/qualcomm-unleashes-snapdragon-x-elite--the-ai-super-charged-plat",
+        "noteZh": "对应系列 / 核心版本的公布时间；厂商没有为每个料号单列发布日，整机上市通常更晚。",
+        "noteEn": "Announcement of this family/core-count version. Not a separately verified announcement for each SKU; laptop availability can be later."
+      }
+    },
+    "qualcomm-x1e-80-100": {
+      "release": {
+        "date": "2023-10-24",
+        "precision": "day",
+        "kind": "series-announcement",
+        "source": "https://www.qualcomm.com/news/releases/2023/10/qualcomm-unleashes-snapdragon-x-elite--the-ai-super-charged-plat",
+        "noteZh": "对应系列 / 核心版本的公布时间；厂商没有为每个料号单列发布日，整机上市通常更晚。",
+        "noteEn": "Announcement of this family/core-count version. Not a separately verified announcement for each SKU; laptop availability can be later."
+      }
+    },
+    "qualcomm-x1e-78-100": {
+      "release": {
+        "date": "2023-10-24",
+        "precision": "day",
+        "kind": "series-announcement",
+        "source": "https://www.qualcomm.com/news/releases/2023/10/qualcomm-unleashes-snapdragon-x-elite--the-ai-super-charged-plat",
+        "noteZh": "对应系列 / 核心版本的公布时间；厂商没有为每个料号单列发布日，整机上市通常更晚。",
+        "noteEn": "Announcement of this family/core-count version. Not a separately verified announcement for each SKU; laptop availability can be later."
+      }
+    },
+    "qualcomm-x1p-66-100": {
+      "release": {
+        "date": "2024-04-24",
+        "precision": "day",
+        "kind": "series-announcement",
+        "source": "https://www.qualcomm.com/news/releases/2024/04/qualcomm-continues-to-disrupt-the-pc-industry-with-the-addition-",
+        "noteZh": "对应系列 / 核心版本的公布时间；厂商没有为每个料号单列发布日，整机上市通常更晚。",
+        "noteEn": "Announcement of this family/core-count version. Not a separately verified announcement for each SKU; laptop availability can be later."
+      }
+    },
+    "qualcomm-x1p-64-100": {
+      "release": {
+        "date": "2024-04-24",
+        "precision": "day",
+        "kind": "series-announcement",
+        "source": "https://www.qualcomm.com/news/releases/2024/04/qualcomm-continues-to-disrupt-the-pc-industry-with-the-addition-",
+        "noteZh": "对应系列 / 核心版本的公布时间；厂商没有为每个料号单列发布日，整机上市通常更晚。",
+        "noteEn": "Announcement of this family/core-count version. Not a separately verified announcement for each SKU; laptop availability can be later."
+      }
+    },
+    "qualcomm-x1p-46-100": {
+      "release": {
+        "date": "2024-09-04",
+        "precision": "day",
+        "kind": "series-announcement",
+        "source": "https://www.qualcomm.com/news/releases/2024/09/qualcomm-expands-performance-leadership-to-more-copilot--pc-user",
+        "noteZh": "对应系列 / 核心版本的公布时间；厂商没有为每个料号单列发布日，整机上市通常更晚。",
+        "noteEn": "Announcement of this family/core-count version. Not a separately verified announcement for each SKU; laptop availability can be later."
+      }
+    },
+    "qualcomm-x1p-42-100": {
+      "release": {
+        "date": "2024-09-04",
+        "precision": "day",
+        "kind": "series-announcement",
+        "source": "https://www.qualcomm.com/news/releases/2024/09/qualcomm-expands-performance-leadership-to-more-copilot--pc-user",
+        "noteZh": "对应系列 / 核心版本的公布时间；厂商没有为每个料号单列发布日，整机上市通常更晚。",
+        "noteEn": "Announcement of this family/core-count version. Not a separately verified announcement for each SKU; laptop availability can be later."
+      }
+    },
+    "qualcomm-x2e-90-100": {
+      "release": {
+        "date": "2025-09-24",
+        "precision": "day",
+        "kind": "series-announcement",
+        "source": "https://www.qualcomm.com/news/releases/2025/09/new-snapdragon-x2-elite-extreme-and-snapdragon-x2-elite-are-the-",
+        "noteZh": "对应系列 / 核心版本的公布时间；厂商没有为每个料号单列发布日，整机上市通常更晚。",
+        "noteEn": "Announcement of this family/core-count version. Not a separately verified announcement for each SKU; laptop availability can be later."
+      }
+    },
+    "x2": {
+      "release": {
+        "date": "2025-09-24",
+        "precision": "day",
+        "kind": "series-announcement",
+        "source": "https://www.qualcomm.com/news/releases/2025/09/new-snapdragon-x2-elite-extreme-and-snapdragon-x2-elite-are-the-",
+        "noteZh": "对应系列 / 核心版本的公布时间；厂商没有为每个料号单列发布日，整机上市通常更晚。",
+        "noteEn": "Announcement of this family/core-count version. Not a separately verified announcement for each SKU; laptop availability can be later."
+      }
+    },
+    "qualcomm-x2e-84-100": {
+      "release": {
+        "date": "2025-09-24",
+        "precision": "day",
+        "kind": "series-announcement",
+        "source": "https://www.qualcomm.com/news/releases/2025/09/new-snapdragon-x2-elite-extreme-and-snapdragon-x2-elite-are-the-",
+        "noteZh": "对应系列 / 核心版本的公布时间；厂商没有为每个料号单列发布日，整机上市通常更晚。",
+        "noteEn": "Announcement of this family/core-count version. Not a separately verified announcement for each SKU; laptop availability can be later."
+      }
+    },
+    "qualcomm-x2e-80-100": {
+      "release": {
+        "date": "2025-09-24",
+        "precision": "day",
+        "kind": "series-announcement",
+        "source": "https://www.qualcomm.com/news/releases/2025/09/new-snapdragon-x2-elite-extreme-and-snapdragon-x2-elite-are-the-",
+        "noteZh": "对应系列 / 核心版本的公布时间；厂商没有为每个料号单列发布日，整机上市通常更晚。",
+        "noteEn": "Announcement of this family/core-count version. Not a separately verified announcement for each SKU; laptop availability can be later."
+      }
+    },
+    "qualcomm-x2e-78-100": {
+      "release": {
+        "date": "2025-09-24",
+        "precision": "day",
+        "kind": "series-announcement",
+        "source": "https://www.qualcomm.com/news/releases/2025/09/new-snapdragon-x2-elite-extreme-and-snapdragon-x2-elite-are-the-",
+        "noteZh": "对应系列 / 核心版本的公布时间；厂商没有为每个料号单列发布日，整机上市通常更晚。",
+        "noteEn": "Announcement of this family/core-count version. Not a separately verified announcement for each SKU; laptop availability can be later."
+      }
+    },
+    "qualcomm-x2e-96-100": {
+      "release": {
+        "date": "2025-09-24",
+        "precision": "day",
+        "kind": "series-announcement",
+        "source": "https://www.qualcomm.com/news/releases/2025/09/new-snapdragon-x2-elite-extreme-and-snapdragon-x2-elite-are-the-",
+        "noteZh": "对应系列 / 核心版本的公布时间；厂商没有为每个料号单列发布日，整机上市通常更晚。",
+        "noteEn": "Announcement of this family/core-count version. Not a separately verified announcement for each SKU; laptop availability can be later."
+      }
+    },
+    "qualcomm-x2e-94-100": {
+      "release": {
+        "date": "2025-09-24",
+        "precision": "day",
+        "kind": "series-announcement",
+        "source": "https://www.qualcomm.com/news/releases/2025/09/new-snapdragon-x2-elite-extreme-and-snapdragon-x2-elite-are-the-",
+        "noteZh": "对应系列 / 核心版本的公布时间；厂商没有为每个料号单列发布日，整机上市通常更晚。",
+        "noteEn": "Announcement of this family/core-count version. Not a separately verified announcement for each SKU; laptop availability can be later."
+      }
+    },
+    "qualcomm-x2p-64-100": {
+      "release": {
+        "date": "2026-01-05",
+        "precision": "day",
+        "kind": "series-announcement",
+        "source": "https://www.qualcomm.com/news/releases/2026/01/empowering-professionals-and-aspiring-creators--snapdragon-x2-pl",
+        "noteZh": "对应系列 / 核心版本的公布时间；厂商没有为每个料号单列发布日，整机上市通常更晚。",
+        "noteEn": "Announcement of this family/core-count version. Not a separately verified announcement for each SKU; laptop availability can be later."
+      }
+    },
+    "qualcomm-x2p-42-100": {
+      "release": {
+        "date": "2026-01-05",
+        "precision": "day",
+        "kind": "series-announcement",
+        "source": "https://www.qualcomm.com/news/releases/2026/01/empowering-professionals-and-aspiring-creators--snapdragon-x2-pl",
+        "noteZh": "对应系列 / 核心版本的公布时间；厂商没有为每个料号单列发布日，整机上市通常更晚。",
+        "noteEn": "Announcement of this family/core-count version. Not a separately verified announcement for each SKU; laptop availability can be later."
+      }
+    }
+  }
+}

@@ -1,0 +1,25 @@
+/* Shared controls stay accessible in both themes and at narrow widths. */
+.site-header{height:auto;min-height:94px;display:grid;grid-template-columns:auto minmax(0,1fr) auto;gap:20px;padding:18px 0}
+.site-header nav{justify-content:center;gap:22px}
+.site-header nav a{white-space:nowrap}
+.site-header .header-cta{display:none}
+.header-controls{display:flex;align-items:center;justify-content:flex-end;gap:14px;min-width:0}
+.theme-control{display:flex;align-items:center;gap:8px;flex-shrink:0;font-size:11px;color:var(--muted);white-space:nowrap}
+.theme-control select{width:auto;min-width:99px;min-height:36px;padding:7px 27px 7px 10px;font-size:12px;color:var(--ink);background-color:var(--paper);border:1px solid var(--line);border-radius:7px;cursor:pointer}
+.header-controls .language-switch{margin:0;flex-shrink:0}
+@media(max-width:1250px){
+  .site-header{grid-template-columns:auto auto;gap:14px 20px}
+  .site-header nav{grid-column:1/-1;grid-row:2;justify-content:flex-start;gap:28px;padding-top:3px}
+  .header-controls{grid-column:2;grid-row:1}
+}
+@media(max-width:800px){
+  .site-header{min-height:82px}
+  .site-header nav{display:none}
+}
+@media(max-width:600px){
+  .site-header{grid-template-columns:minmax(0,1fr);gap:14px;padding:18px 0 15px}
+  .header-controls{grid-column:1;grid-row:2;justify-content:space-between;gap:10px}
+  .theme-control{font-size:11px;gap:10px}
+  .theme-control select{min-height:36px;font-size:12px}
+  .header-controls .language-switch button{min-height:30px;padding:5px 12px;font-size:11px}
+}

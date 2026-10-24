@@ -1,10 +1,10 @@
 {
-  "version": "1.2.1",
-  "version_code": 4,
+  "version": "1.2.2",
+  "version_code": 5,
   "application_id": "app.laptopmap.offline",
-  "apk": "Laptop-Performance-Map-1.2.1.apk",
-  "bytes": 185850,
-  "sha256": "f42589c89f237ecabfec7bc4bb4672d188f6e9e6e47b7d113c53a7e99afde559",
+  "apk": "Laptop-Performance-Map-1.2.2.apk",
+  "bytes": 219110,
+  "sha256": "d05e7a44132b14f72c0bfe8e4e2e16c3018a33ef8fc05bd87192aaa29d8acf7c",
   "minimum_android": "8.0 (API 26)",
   "target_sdk": 36,
   "permissions": [],
@@ -17,27 +17,33 @@
     "All bundled website asset SHA256 hashes match source snapshot"
   ],
   "signature": "Verifies\nVerified using v1 scheme (JAR signing): false\nVerified using v2 scheme (APK Signature Scheme v2): true\nVerified using v3 scheme (APK Signature Scheme v3): true\nVerified using v3.1 scheme (APK Signature Scheme v3.1): false\nVerified using v4 scheme (APK Signature Scheme v4): false\nVerified for SourceStamp: false\nNumber of signers: 1\nSigner #1 certificate DN: CN=Laptop Performance Map, O=Offline Application, C=CN\nSigner #1 certificate SHA-256 digest: 2d3f4760633f3cd55497680f19c91a496f4f1f47341faef89d51c64fb1107ad4\nSigner #1 certificate SHA-1 digest: 1acb9222978cb257416a8ac2385a8b3d42f6996c\nSigner #1 certificate MD5 digest: b1842980bf9673486a2a430c3ec7f7bf\nSigner #1 key algorithm: RSA\nSigner #1 key size (bits): 3072\nSigner #1 public key SHA-256 digest: a3bf9a6d2a99c1adb667e0e7beb9b4e0c1749578d73c10ef68977c618a3e6f05\nSigner #1 public key SHA-1 digest: d367737922bb96e75313cfff103ec9931ee2aefc\nSigner #1 public key MD5 digest: fc4b7501ffd3d2e9d0527b5c7e086cd3\n",
-  "same_signing_certificate_as_1_1_0": true,
+  "same_signing_certificate_as_1_2_1": true,
+  "source_provenance": {
+    "sites_version": 11,
+    "sites_source_commit": "96f4d4d4091d77aea49b385b7b202b55f7e6d539",
+    "all_23_assets_match_sites_source": true,
+    "sites_comparison": "Text compared with CRLF normalized to LF; release dist files use LF."
+  },
   "assets": [
     {
       "path": "app.js",
-      "bytes": 12776,
-      "sha256": "15705592b5cbb69e779e8b51ada306054b5894f8943e9524cf317658206270dd"
+      "bytes": 14353,
+      "sha256": "b7a767c0262647b56606fd6fb49cf6279cb0673271ebcb022ce91880b91531d4"
     },
     {
       "path": "benchmarks.js",
-      "bytes": 108797,
-      "sha256": "6b3df6e3811945aae0279a7d19ac48fb2433bc87a056c73f7222ade5eace9e61"
+      "bytes": 108795,
+      "sha256": "bae67d28341801c6ba5c1048920fc875b40f9d0db00be15d7671b7dd3815776a"
     },
     {
       "path": "catalog.js",
-      "bytes": 254814,
-      "sha256": "cae527d35deef30ac5a22e160827ddf962cdfbe864524ec2c299b52ff0ad29ea"
+      "bytes": 258560,
+      "sha256": "89cb581549ea1d3a4970ecef184eb41a2a8eec17313425d06bd0e38c2a26fe50"
     },
     {
       "path": "data.js",
-      "bytes": 15254,
-      "sha256": "f15e6e6e7329b1b0611f4b89eb0e70fc63ac22234d99372f53c4575c1403ede5"
+      "bytes": 15130,
+      "sha256": "9b558c44bfdecb7e59e99c4867c0ebb37341966d9660ebf0e33f464b222412a6"
     },
     {
       "path": "estimates.js",
@@ -46,8 +52,8 @@
     },
     {
       "path": "i18n.js",
-      "bytes": 4705,
-      "sha256": "3d396662d805f6111c090f7ece1bf9bea9e9a04d28046eeb176d4dc603426788"
+      "bytes": 4642,
+      "sha256": "ae5a513730fc2bc18a7952d161ba982742761b0bcc11aadb134ed31ef7b63140"
     },
     {
       "path": "icon.svg",
@@ -56,18 +62,18 @@
     },
     {
       "path": "igpu.js",
-      "bytes": 17477,
-      "sha256": "4eb9b838a104ae9195347c6d9628141212b16e7fb758874c332e4d13e6e9ea28"
+      "bytes": 17371,
+      "sha256": "6fcf3ea8a765d189cdb960a3d0f6159a000716da101e447a330fcab2203fa8c3"
     },
     {
       "path": "index.html",
-      "bytes": 15102,
-      "sha256": "5635814cc5b5f5fd0e52ea59ba530580a4377579db55146bf153b8b7af9f9eca"
+      "bytes": 16675,
+      "sha256": "6330a075d3fba027932fe14669678c8a0065da3cdae2e88abbc38e7a7e48239e"
     },
     {
       "path": "locales/en.js",
-      "bytes": 159924,
-      "sha256": "c4954a402c85e7515529076e4ff946de5076c2fd8a103069690fecd1d6d254cc"
+      "bytes": 161161,
+      "sha256": "e39975200f6ba8e9c3560d61cd66fcdf5242a55383dd9f2fecb7d06caf7162af"
     },
     {
       "path": "naming-data.js",
@@ -76,8 +82,8 @@
     },
     {
       "path": "naming.js",
-      "bytes": 23300,
-      "sha256": "06d857ae9790e557684c9e4b2aefc58a1d5f823deddedef27ae815e27976852c"
+      "bytes": 23162,
+      "sha256": "aaaa4ca5ca51ad9eb9e8a96816131248c6f1f1a99b13db574320415afc4bda17"
     },
     {
       "path": "notebooks-data.js",
@@ -86,139 +92,529 @@
     },
     {
       "path": "notebooks.js",
-      "bytes": 4368,
-      "sha256": "a01afc20206f437c0b4f41697cfaa9d178f2caac34c52696498e4b7dddfe539b"
+      "bytes": 4326,
+      "sha256": "a3b922b582ec6aea77844a1a945f281f3d06ab22e9b46afa382dad0e8a9ba5c2"
+    },
+    {
+      "path": "profiles.css",
+      "bytes": 2142,
+      "sha256": "021561a2cf6b6cd8defbf0466e330fcb937ac767d3dc8e8b0e6e1e1eb9869cb9"
+    },
+    {
+      "path": "profiles.js",
+      "bytes": 307913,
+      "sha256": "3c39f43931b7048ece446a88ffd8c443d040c8bc6056c8c94faecd73191110ad"
+    },
+    {
+      "path": "sections.css",
+      "bytes": 4556,
+      "sha256": "ee1dbed4f22875f453a60862038ba546680403b41baa024691b88153d7e48b78"
+    },
+    {
+      "path": "sections.js",
+      "bytes": 1490,
+      "sha256": "c3fe50a01225a2b7bbf86bddd07ff90b742ec62d2e201d3da7eb9fb1edc6af96"
     },
     {
       "path": "styles.css",
-      "bytes": 58341,
-      "sha256": "7b569293be4e35556f1f81d5fa67b3fb71326943f309ceb725c549f6740f2af3"
+      "bytes": 58110,
+      "sha256": "033e146881abafc9fb27f6647dd03558838978b992bf6c97a9ed32892ccb7052"
     },
     {
       "path": "tasks.js",
-      "bytes": 22089,
-      "sha256": "0ef164e4965cf07780aa9b9ba23a75696ce524d2306f7d90c0e85a63145983e4"
+      "bytes": 21966,
+      "sha256": "749ccf66445262ec857a85b8b5824cad51950b6972dca39f775bcf2f0ea7bb99"
+    },
+    {
+      "path": "theme-controls.css",
+      "bytes": 1529,
+      "sha256": "20cfdd55528474ef6f9484089d90314dd5e84cc27abb0068b353fab829c9ada3"
+    },
+    {
+      "path": "theme-tech.css",
+      "bytes": 27999,
+      "sha256": "9e44f0db5186f49108b12bd9b00e9765cc2eed0ad15356ae983823f19481a463"
+    },
+    {
+      "path": "theme.js",
+      "bytes": 1027,
+      "sha256": "e866b1eacf5449ee438364d70299957807ae0912f68b7504ebd479afc04d292b"
     }
   ],
   "browser_reports": [
     {
-      "scope": "CPU naming and responsive layout",
+      "scope": "Theme selection, persistence and responsive layouts",
       "status": "passed",
-      "checked_at": "2026-10-23T15:36:06.117Z",
+      "checked_at": "2026-10-23T16:29:03.724Z",
       "checks": [
-        "261 current CPUs recognized and rendered in each language; 45 examples and every token tested; key naming exceptions, official links, current-CPU integration, keyboard access, and five widths passed"
-      ],
-      "languages": [
-        {
-          "language": "zh",
-          "models": 261,
-          "examples": 45,
-          "tokens": 220,
-          "untranslated": []
-        },
-        {
-          "language": "en",
-          "models": 261,
-          "examples": 45,
-          "tokens": 220,
-          "untranslated": []
-        }
+        "Original theme by default; instant switching preserves CPU, task, game, filters, name fragment, URL and document state",
+        "Theme survives reload and language switch; invalid and blocked storage handled",
+        "Introduction links, category and task selection, four games, four naming brands, name fragments and keyboard navigation passed in both themes and languages",
+        "No page overflow or header overlap at 1440, 1280, 1024, 768, 375 and 320 pixels; naming references retain at least 14px body text"
       ],
       "viewports": [
         {
+          "theme": "classic",
           "language": "zh",
-          "width": 1440,
-          "rule": 14,
-          "table": 14
-        },
-        {
-          "language": "zh",
-          "width": 1024,
-          "rule": 14,
-          "table": 14
-        },
-        {
-          "language": "zh",
-          "width": 768,
-          "rule": 14,
-          "table": 14
-        },
-        {
-          "language": "zh",
-          "width": 375,
-          "rule": 14,
-          "table": 14
-        },
-        {
-          "language": "zh",
-          "width": 320,
-          "rule": 14,
-          "table": 14
-        },
-        {
-          "language": "en",
-          "width": 1440,
-          "rule": 14,
-          "table": 14
-        },
-        {
-          "language": "en",
-          "width": 1024,
-          "rule": 14,
-          "table": 14
-        },
-        {
-          "language": "en",
-          "width": 768,
-          "rule": 14,
-          "table": 14
-        },
-        {
-          "language": "en",
-          "width": 375,
-          "rule": 14,
-          "table": 14
-        },
-        {
-          "language": "en",
-          "width": 320,
-          "rule": 14,
-          "table": 14
-        }
-      ]
-    },
-    {
-      "scope": "English guide and workload interactions",
-      "status": "passed",
-      "checked_at": "2026-10-23T15:36:07.651Z",
-      "checks": [
-        "783 English CPU/task combinations and all GPU families/games/estimate explanations rendered",
-        "Three English introductory examples, 30 English notebook configurations, and four practical configuration checks",
-        "Language buttons preserve CPU and task in the URL"
-      ],
-      "viewports": [
-        {
           "width": 1440,
           "scrollWidth": 1425
         },
         {
+          "theme": "classic",
+          "language": "zh",
+          "width": 1280,
+          "scrollWidth": 1265
+        },
+        {
+          "theme": "classic",
+          "language": "zh",
           "width": 1024,
           "scrollWidth": 1009
         },
         {
+          "theme": "classic",
+          "language": "zh",
           "width": 768,
           "scrollWidth": 753
         },
         {
+          "theme": "classic",
+          "language": "zh",
           "width": 375,
           "scrollWidth": 375
         },
         {
+          "theme": "classic",
+          "language": "zh",
+          "width": 320,
+          "scrollWidth": 320
+        },
+        {
+          "theme": "classic",
+          "language": "en",
+          "width": 1440,
+          "scrollWidth": 1425
+        },
+        {
+          "theme": "classic",
+          "language": "en",
+          "width": 1280,
+          "scrollWidth": 1265
+        },
+        {
+          "theme": "classic",
+          "language": "en",
+          "width": 1024,
+          "scrollWidth": 1009
+        },
+        {
+          "theme": "classic",
+          "language": "en",
+          "width": 768,
+          "scrollWidth": 753
+        },
+        {
+          "theme": "classic",
+          "language": "en",
+          "width": 375,
+          "scrollWidth": 375
+        },
+        {
+          "theme": "classic",
+          "language": "en",
+          "width": 320,
+          "scrollWidth": 320
+        },
+        {
+          "theme": "tech",
+          "language": "zh",
+          "width": 1440,
+          "scrollWidth": 1425
+        },
+        {
+          "theme": "tech",
+          "language": "zh",
+          "width": 1280,
+          "scrollWidth": 1265
+        },
+        {
+          "theme": "tech",
+          "language": "zh",
+          "width": 1024,
+          "scrollWidth": 1009
+        },
+        {
+          "theme": "tech",
+          "language": "zh",
+          "width": 768,
+          "scrollWidth": 753
+        },
+        {
+          "theme": "tech",
+          "language": "zh",
+          "width": 375,
+          "scrollWidth": 375
+        },
+        {
+          "theme": "tech",
+          "language": "zh",
+          "width": 320,
+          "scrollWidth": 320
+        },
+        {
+          "theme": "tech",
+          "language": "en",
+          "width": 1440,
+          "scrollWidth": 1425
+        },
+        {
+          "theme": "tech",
+          "language": "en",
+          "width": 1280,
+          "scrollWidth": 1265
+        },
+        {
+          "theme": "tech",
+          "language": "en",
+          "width": 1024,
+          "scrollWidth": 1009
+        },
+        {
+          "theme": "tech",
+          "language": "en",
+          "width": 768,
+          "scrollWidth": 753
+        },
+        {
+          "theme": "tech",
+          "language": "en",
+          "width": 375,
+          "scrollWidth": 375
+        },
+        {
+          "theme": "tech",
+          "language": "en",
+          "width": 320,
+          "scrollWidth": 320
+        }
+      ]
+    },
+    {
+      "scope": "All CPU profiles, release timing and nearby-model comparisons",
+      "status": "passed",
+      "checked_at": "2026-10-24T04:24:39.061Z",
+      "checks": [
+        "Original theme by default; instant switching preserves CPU, task, game, filters, name fragment, URL and document state",
+        "Theme survives reload and language switch; invalid and blocked storage handled",
+        "Introduction links, category and task selection, four games, four naming brands, name fragments and keyboard navigation passed in both themes and languages",
+        "No page overflow or header overlap at 1440, 1280, 1024, 768, 375 and 320 pixels; naming references retain at least 14px body text"
+      ],
+      "viewports": [
+        {
+          "theme": "classic",
+          "language": "zh",
+          "width": 1440,
+          "scrollWidth": 1425
+        },
+        {
+          "theme": "classic",
+          "language": "zh",
+          "width": 1280,
+          "scrollWidth": 1265
+        },
+        {
+          "theme": "classic",
+          "language": "zh",
+          "width": 1024,
+          "scrollWidth": 1009
+        },
+        {
+          "theme": "classic",
+          "language": "zh",
+          "width": 768,
+          "scrollWidth": 753
+        },
+        {
+          "theme": "classic",
+          "language": "zh",
+          "width": 375,
+          "scrollWidth": 375
+        },
+        {
+          "theme": "classic",
+          "language": "zh",
+          "width": 320,
+          "scrollWidth": 320
+        },
+        {
+          "theme": "classic",
+          "language": "en",
+          "width": 1440,
+          "scrollWidth": 1425
+        },
+        {
+          "theme": "classic",
+          "language": "en",
+          "width": 1280,
+          "scrollWidth": 1265
+        },
+        {
+          "theme": "classic",
+          "language": "en",
+          "width": 1024,
+          "scrollWidth": 1009
+        },
+        {
+          "theme": "classic",
+          "language": "en",
+          "width": 768,
+          "scrollWidth": 753
+        },
+        {
+          "theme": "classic",
+          "language": "en",
+          "width": 375,
+          "scrollWidth": 375
+        },
+        {
+          "theme": "classic",
+          "language": "en",
+          "width": 320,
+          "scrollWidth": 320
+        },
+        {
+          "theme": "tech",
+          "language": "zh",
+          "width": 1440,
+          "scrollWidth": 1425
+        },
+        {
+          "theme": "tech",
+          "language": "zh",
+          "width": 1280,
+          "scrollWidth": 1265
+        },
+        {
+          "theme": "tech",
+          "language": "zh",
+          "width": 1024,
+          "scrollWidth": 1009
+        },
+        {
+          "theme": "tech",
+          "language": "zh",
+          "width": 768,
+          "scrollWidth": 753
+        },
+        {
+          "theme": "tech",
+          "language": "zh",
+          "width": 375,
+          "scrollWidth": 375
+        },
+        {
+          "theme": "tech",
+          "language": "zh",
+          "width": 320,
+          "scrollWidth": 320
+        },
+        {
+          "theme": "tech",
+          "language": "en",
+          "width": 1440,
+          "scrollWidth": 1425
+        },
+        {
+          "theme": "tech",
+          "language": "en",
+          "width": 1280,
+          "scrollWidth": 1265
+        },
+        {
+          "theme": "tech",
+          "language": "en",
+          "width": 1024,
+          "scrollWidth": 1009
+        },
+        {
+          "theme": "tech",
+          "language": "en",
+          "width": 768,
+          "scrollWidth": 753
+        },
+        {
+          "theme": "tech",
+          "language": "en",
+          "width": 375,
+          "scrollWidth": 375
+        },
+        {
+          "theme": "tech",
+          "language": "en",
           "width": 320,
           "scrollWidth": 320
         }
       ],
-      "untranslatedCount": 0
+      "profile_check_count": 522,
+      "catalog_entry_count": 261
+    },
+    {
+      "scope": "Section navigation, introductory examples and collapse persistence",
+      "status": "passed",
+      "checked_at": "2026-10-24T04:45:00.557Z",
+      "checks": [
+        "Navigation names exactly match their destination headings in Chinese and English",
+        "Examples collapse/reveal without losing CPU, task, game or selected example; visible control retained; Enter key supported",
+        "Collapsed preference survives reload and language changes; navigation reveals examples; storage denial handled",
+        "Both themes and languages checked at 1440, 1280, 1024, 768, 375 and 320 pixels: prominent headings, visible navigation and no page overflow",
+        "Existing CPU, task, game, naming and theme interactions passed"
+      ],
+      "viewports": [
+        {
+          "theme": "classic",
+          "language": "zh",
+          "width": 1440,
+          "scrollWidth": 1425
+        },
+        {
+          "theme": "classic",
+          "language": "zh",
+          "width": 1280,
+          "scrollWidth": 1265
+        },
+        {
+          "theme": "classic",
+          "language": "zh",
+          "width": 1024,
+          "scrollWidth": 1009
+        },
+        {
+          "theme": "classic",
+          "language": "zh",
+          "width": 768,
+          "scrollWidth": 753
+        },
+        {
+          "theme": "classic",
+          "language": "zh",
+          "width": 375,
+          "scrollWidth": 375
+        },
+        {
+          "theme": "classic",
+          "language": "zh",
+          "width": 320,
+          "scrollWidth": 320
+        },
+        {
+          "theme": "classic",
+          "language": "en",
+          "width": 1440,
+          "scrollWidth": 1425
+        },
+        {
+          "theme": "classic",
+          "language": "en",
+          "width": 1280,
+          "scrollWidth": 1265
+        },
+        {
+          "theme": "classic",
+          "language": "en",
+          "width": 1024,
+          "scrollWidth": 1009
+        },
+        {
+          "theme": "classic",
+          "language": "en",
+          "width": 768,
+          "scrollWidth": 753
+        },
+        {
+          "theme": "classic",
+          "language": "en",
+          "width": 375,
+          "scrollWidth": 375
+        },
+        {
+          "theme": "classic",
+          "language": "en",
+          "width": 320,
+          "scrollWidth": 320
+        },
+        {
+          "theme": "tech",
+          "language": "zh",
+          "width": 1440,
+          "scrollWidth": 1425
+        },
+        {
+          "theme": "tech",
+          "language": "zh",
+          "width": 1280,
+          "scrollWidth": 1265
+        },
+        {
+          "theme": "tech",
+          "language": "zh",
+          "width": 1024,
+          "scrollWidth": 1009
+        },
+        {
+          "theme": "tech",
+          "language": "zh",
+          "width": 768,
+          "scrollWidth": 753
+        },
+        {
+          "theme": "tech",
+          "language": "zh",
+          "width": 375,
+          "scrollWidth": 375
+        },
+        {
+          "theme": "tech",
+          "language": "zh",
+          "width": 320,
+          "scrollWidth": 320
+        },
+        {
+          "theme": "tech",
+          "language": "en",
+          "width": 1440,
+          "scrollWidth": 1425
+        },
+        {
+          "theme": "tech",
+          "language": "en",
+          "width": 1280,
+          "scrollWidth": 1265
+        },
+        {
+          "theme": "tech",
+          "language": "en",
+          "width": 1024,
+          "scrollWidth": 1009
+        },
+        {
+          "theme": "tech",
+          "language": "en",
+          "width": 768,
+          "scrollWidth": 753
+        },
+        {
+          "theme": "tech",
+          "language": "en",
+          "width": 375,
+          "scrollWidth": 375
+        },
+        {
+          "theme": "tech",
+          "language": "en",
+          "width": 320,
+          "scrollWidth": 320
+        }
+      ]
     }
   ],
   "android_runtime_verified": false,

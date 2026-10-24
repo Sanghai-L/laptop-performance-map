@@ -2,7 +2,7 @@
 
 English · [简体中文](README.zh-CN.md)
 
-[Changelog: 1.1.0–1.2.1](CHANGELOG.md)
+[Changelog: 1.1.0–1.2.2](CHANGELOG.md)
 
 An interactive, beginner-friendly guide to laptop CPUs and integrated-graphics gaming. Start with the work you want to do, then explore what the hardware contributes.
 
@@ -16,10 +16,16 @@ Use the **中文 / EN** buttons in the header. Switching languages preserves the
 
 The interface, translations, and interactions work offline. Links to vendor specifications and original reviews need an internet connection. To host the guide elsewhere, upload the entire `dist` directory to a static website host.
 
+Use **Theme** in the header to switch between Natural green (the default) and Tech blue. Switching does not reload the page or change CPU, task, or game settings. The browser remembers the theme across reloads and language changes.
+
+The thin-and-light examples can be hidden or shown using a control bar that remains visible. The browser remembers this preference; choosing the examples in the top navigation reveals them. Section navigation scrolls horizontally on narrow screens.
+
 ## Explore
 
 - Three laptop categories: thin-and-light, all-rounder, and gaming.
 - Search and filters for **261 model/configuration entries**: Intel 142, AMD 76, Apple 25, and Qualcomm 18. Apple CPU/GPU configurations and Qualcomm part numbers are listed separately.
+- CPU workload classes, practical summaries and nearby-model comparisons explain differences in CPU resources, power and graphics. Closely matched models are identified as such.
+- Release timing and vendor sources for every entry distinguish chip/family announcements from official launch quarters. Dates, quarters or years are established for 259 entries; AMD does not disclose release dates for Ryzen 7 449 and Ryzen 5 439. Selected Apple entries also show the laptop configuration's later announcement.
 - Workload explanations for programming/compilation, video editing, and CPU rendering, with hardware-specific resources and limits.
 - Integrated-graphics references for **Valorant, Genshin Impact, Cyberpunk 2077, Black Myth: Wukong, Stardew Valley, and the original Hades**.
 - Published measurements in green; explicitly labelled performance estimates in yellow when measurements are missing.
@@ -34,7 +40,7 @@ Measurements are attributed to the linked original reviewers. This project has n
 
 Estimates are broad, editorially calibrated ranges based on the GPU, game, architecture, graphics configuration, laptop power, and memory assumptions. They are not statistical confidence intervals or minimum-FPS guarantees. Real scenes, drivers, memory bandwidth, and cooling can put a laptop outside the range.
 
-Platform incompatibility and CPUs with no integrated GPU are shown as such. The catalog is not a live store inventory. Specifications and sources were checked on **2026-10-23**.
+Platform incompatibility and CPUs with no integrated GPU are shown as such. The catalog is not a live store inventory. Specifications and sources were checked on **2026-10-23**; CPU profiles and release timing were additionally checked on **2026-10-24**.
 
 ## Project files
 
@@ -43,6 +49,10 @@ Platform incompatibility and CPUs with no integrated GPU are shown as such. The 
 | `dist/` | Complete, standalone static website |
 | `locales/en.json` | English translation dictionary |
 | `dist/i18n.js` | Language selection, translated rendering, and number/text formatting |
+| `catalogue/processor-releases.json` | Per-model date precision, announcement/launch scope and vendor sources |
+| `catalogue/processor-profiles.json` | Generated bilingual workload positioning and model comparisons |
+| `scripts/profile-editorial.mjs` | Workload descriptions by architecture, core resources and power segment |
+| `scripts/build-profiles.mjs` | Validates coverage and generates catalog/profile browser data |
 | `scripts/build-locales.mjs` | Generates the browser dictionary from `locales/en.json` |
 | `catalogue/processor-specs.json` | CPU specifications and direct vendor sources |
 | `catalogue/gaming-evidence.json` | Published gaming measurements and conditions |
@@ -64,12 +74,14 @@ The browser does not require Node.js. The maintenance scripts use Node.js.
 
 After editing laptop examples, run `node scripts/build-notebooks.mjs`.
 
+After editing processor specifications, release dates or workload descriptions, run `node scripts/build-profiles.mjs`. The workload classes describe broad CPU use cases, not a cross-brand benchmark ranking. More GPU cores do not automatically change the CPU class.
+
 After editing naming rules, run `node scripts/build-naming.mjs`. Naming validation covers all 261 catalog entries, the 45 examples and their 220 selectable parts, both languages, keyboard navigation, and five viewport widths. Model-name clues are not hardware performance tests.
 
 Validation covers every CPU/task combination, language switching, game/estimate interactions, all 30 laptop examples, introductory links, configuration filtering, and desktop/mobile layouts. Website checks do not validate hardware performance.
 
 ## Android app
 
-[Download Android 1.2.1](https://github.com/Sanghai-L/laptop-performance-map/releases/download/v1.2.1/Laptop-Performance-Map-1.2.1.apk) · [Release and checksums](https://github.com/Sanghai-L/laptop-performance-map/releases/tag/v1.2.1)
+[Download Android 1.2.2](https://github.com/Sanghai-L/laptop-performance-map/releases/download/v1.2.2/Laptop-Performance-Map-1.2.2.apk) · [Release and checksums](https://github.com/Sanghai-L/laptop-performance-map/releases/tag/v1.2.2)
 
 Android 8.0 or later. The Chinese and English guide works offline; source links need a connection. The Android source is in the GitHub repository's `android-app/` directory. Package, signature, and offline webpage checks passed; installation and startup on an Android device or emulator have not been tested.

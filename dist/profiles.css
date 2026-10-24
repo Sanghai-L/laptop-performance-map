@@ -1,0 +1,29 @@
+.profile-overview{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:20px;border-top:1px solid var(--line);margin-top:22px;padding-top:17px}
+.profile-overview>div{min-width:0}
+.profile-overview>div>span{display:block;font-size:11px;color:var(--muted);margin-bottom:5px}
+.profile-overview strong{font-size:16px;line-height:1.6;font-weight:600;display:block;color:var(--ink)}
+.profile-overview .profile-tier{color:var(--green)}
+.profile-release-date{display:inline-block;max-width:100%;text-decoration:none}
+.profile-release-date strong{overflow-wrap:anywhere}
+.profile-release-date small{display:block;font-size:10px;line-height:1.8;color:var(--muted)}
+.profile-release-date:hover strong{text-decoration:underline;text-underline-offset:4px}
+.profile-date-details{margin:12px 0 0;color:var(--muted)}
+.profile-date-details>summary{font-size:11px;display:inline-block;text-decoration:underline;text-underline-offset:3px;list-style:revert}
+.profile-date-details>p{font-size:12px;line-height:1.9;margin-top:10px;max-width:75ch}
+.profile-date-details a{color:var(--green);text-decoration:underline;text-underline-offset:3px}
+.profile-date-details .profile-date-checked{font-size:10px;opacity:.8}
+.profile-comparison{font-size:12px;line-height:1.95;color:var(--muted);border-left:2px solid #b9c9aa;padding-left:12px;margin:12px 0 18px}
+html[data-theme=tech] .profile-overview{border-color:#30415a}
+html[data-theme=tech] .profile-overview>div>span,html[data-theme=tech] .profile-release-date small{color:#99afcd}
+html[data-theme=tech] .profile-overview strong{color:#edf4ff}
+html[data-theme=tech] .profile-overview .profile-tier{color:#a8c8ff}
+html[data-theme=tech] .profile-date-details{color:#9db4d1}
+html[data-theme=tech] .profile-date-details a{color:#a8c8ff}
+html[data-theme=tech] .profile-comparison{color:#adc1dd;border-color:#3f5a80}
+@media(max-width:600px){
+  .profile-overview{gap:14px;margin-top:19px;padding-top:15px}
+  .profile-overview strong{font-size:14px}
+  .profile-overview>div>span{font-size:10px}
+  .profile-date-details>p{font-size:12px}
+  .profile-comparison{font-size:12px;line-height:1.9;margin-bottom:17px}
+}

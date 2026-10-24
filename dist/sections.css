@@ -1,0 +1,62 @@
+/* Section names are shared by the top navigation and each destination heading. */
+.site-header nav{display:flex;gap:17px;min-width:0}
+.site-header nav a{font-size:12px}
+.section-heading{padding:22px 24px;border:1px solid #d5dfcb;border-left:4px solid #5e8050;border-radius:10px;background:#edf2e7;align-items:center}
+.section-heading>div{min-width:0}
+.section-heading .section-title{display:flex;align-items:center;gap:12px;margin:0;font-size:27px;line-height:1.5;letter-spacing:-.6px;color:#284b35;font-weight:700}
+.section-number{font-family:Consolas,"SFMono-Regular",monospace;font-size:23px;font-weight:600;letter-spacing:-.5px;color:#456c3b}
+.section-divider{font-size:21px;font-weight:400;color:#9bad90}
+.section-title-text{min-width:0}
+.section-heading .section-subtitle{margin-top:7px;font-size:13px;color:#66775d;line-height:1.7}
+.section-heading>p{font-size:12px;line-height:1.9;flex-shrink:0;color:#6c7a62}
+.igpu-heading{border-left:3px solid #7e9d67;padding-left:14px}
+.starter{padding-top:28px}
+.starter-visibility-bar{display:flex;align-items:center;justify-content:space-between;gap:18px;border:1px solid #d9e2d1;border-radius:9px;background:#fdfefb;padding:14px 19px;margin-bottom:26px}
+.starter-module-copy{min-width:0}
+.starter-module-title{font-size:16px;font-weight:650;line-height:1.6;color:#2b4832}
+.starter-module-count{font-size:11px;color:#7b886f;line-height:1.7;display:block;margin-top:2px}
+.starter-toggle{display:inline-flex;align-items:center;justify-content:center;gap:12px;border:1px solid #cad8bc;border-radius:6px;background:#edf3e5;color:#3b5a30;padding:9px 13px;min-height:38px;flex-shrink:0;font-size:12px;font-weight:600}
+.starter-toggle[hidden]{display:none}
+.starter-toggle:hover{background:#e3ecd8}
+.starter-toggle svg{transition:transform .16s}
+.starter-toggle[aria-expanded=true] svg{transform:rotate(180deg)}
+#starter-content[hidden],html[data-intro-state=collapsed] #starter-content{display:none!important}
+html[data-intro-state=collapsed] .starter-visibility-bar{margin-bottom:0}
+html[data-intro-state=collapsed] .explore{padding-top:36px}
+html[data-theme=tech] .section-heading{background:#eaf1fc;border-color:#cbdcf3;border-left-color:#3268dc}
+html[data-theme=tech] .section-heading .section-title{color:#214e9b}
+html[data-theme=tech] .section-number{color:#3268dc}
+html[data-theme=tech] .section-divider{color:#91aaca}
+html[data-theme=tech] .section-heading .section-subtitle,html[data-theme=tech] .section-heading>p{color:#657d9f}
+html[data-theme=tech] .igpu-heading{border-left-color:#7ca2e5}
+html[data-theme=tech] .starter-visibility-bar{background:#fff;border-color:#d5dfec}
+html[data-theme=tech] .starter-module-title{color:#27466e}
+html[data-theme=tech] .starter-module-count{color:#7a8da8}
+html[data-theme=tech] .starter-toggle{background:#edf3ff;color:#245bdc;border-color:#b9cff3}
+html[data-theme=tech] .starter-toggle:hover{background:#e1ebff}
+@media(max-width:1250px){.site-header nav{gap:25px}}
+@media(max-width:800px){
+  .site-header nav{display:flex;grid-column:1/-1;grid-row:2;justify-content:flex-start;gap:9px;max-width:100%;overflow-x:auto;overscroll-behavior-x:contain;scrollbar-width:thin;padding:2px 0 8px}
+  .site-header nav a,.site-header nav a:nth-child(n+4){display:block;flex-shrink:0;font-size:11px;padding:7px 10px;border:1px solid var(--line);border-radius:5px;background:var(--paper);line-height:1.6}
+  .site-header nav a:after{display:none}
+  .section-heading{padding:19px 20px;gap:18px}
+  .section-heading .section-title{font-size:24px;gap:10px}
+  .section-number{font-size:21px}
+}
+@media(max-width:600px){
+  .site-header nav{grid-column:1;grid-row:3;gap:7px;padding-top:0}
+  .site-header nav a,.site-header nav a:nth-child(n+4){font-size:11px;padding:7px 9px}
+  .starter{padding-top:20px}
+  .starter-visibility-bar{padding:12px 13px;gap:12px;margin-bottom:22px;border-radius:7px}
+  .starter-module-title{font-size:14px}
+  .starter-module-count{font-size:10px}
+  .starter-toggle{padding:9px 10px;gap:8px;font-size:11px;min-height:40px}
+  .section-heading{padding:17px 16px;border-radius:8px;border-left-width:3px;gap:12px;align-items:flex-start}
+  .section-heading .section-title{font-size:22px;gap:8px;letter-spacing:-.3px;align-items:baseline}
+  .section-number{font-size:19px}
+  .section-divider{font-size:17px}
+  .section-heading .section-subtitle{font-size:12px;margin-top:6px}
+  .section-heading>p{font-size:11px;flex-shrink:1}
+  html[data-intro-state=collapsed] .explore{padding-top:28px}
+}
+@media(prefers-reduced-motion:reduce){.starter-toggle svg{transition:none}}
