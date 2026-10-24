@@ -617,6 +617,18 @@
       ]
     }
   ],
-  "android_runtime_verified": false,
-  "runtime_note": "No Android device or emulator was used. Installation, startup, and upgrade behavior remain untested."
+  "android_runtime_verified": true,
+  "android_runtime_verification_source": "project_author_report",
+  "android_runtime_verification_reported_at": "2026-10-24",
+  "runtime_note": "Android physical-device testing was completed by the project author, as reported on 2026-10-24. Device, Android version and individual test cases were not provided. The automated build and desktop-browser checks above are unchanged.",
+  "licensing_update": {
+    "license": "MIT",
+    "copyright_holder": "Sanghai-L",
+    "copyright_year": 2026,
+    "apk_rebuilt": false,
+    "bundled_web_assets": 23,
+    "current_source_web_assets": 24,
+    "added_source_asset": "dist/LICENSE.txt",
+    "release_license_asset": "LICENSE.txt"
+  }
 }

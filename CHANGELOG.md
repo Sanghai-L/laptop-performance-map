@@ -12,6 +12,8 @@ English · [简体中文](CHANGELOG.zh-CN.md)
 
 Added a remembered Natural green / Tech blue theme choice, clearer numbered headings, and navigation labels matching section titles. Updated both languages, mobile layouts and keyboard support.
 
+Follow-up on October 24, 2026: Adopted the [MIT License](LICENSE), added bilingual licensing notes and a standalone website license, and recorded Android device testing completed by the project author. This update changes licensing, documentation and validation status only; the published 1.2.2 APK and its checksum are unchanged.
+
 ## 1.2.1 · 2026-10-23
 
 Shortened the homepage, CPU descriptions, and naming guidance. Suffix and exception references now open by default, with 14px body text and improved mobile cards. Fixed split labels such as HX, completed English translations, and updated the Android offline app.
@@ -45,4 +47,4 @@ Updated Chinese and English content and the Android offline app.
 
 Requires Android 8.0 or later. Both languages and interactions work offline; external references need a connection. The package name and signing certificate match previous releases.
 
-Browser checks for 1.2.2 include 522 per-entry render checks (261 entries × both languages), theme and example-visibility persistence, and layouts in two themes, both languages and six viewport widths. APK checks cover compilation, resources, DEX, alignment and v2/v3 signatures; all 23 bundled web assets match this website source. Android device/emulator installation, startup and upgrades have not been tested.
+Browser checks for 1.2.2 include 522 per-entry render checks (261 entries × both languages), theme and example-visibility persistence, and layouts in two themes, both languages and six viewport widths. APK checks cover compilation, resources, DEX, alignment and v2/v3 signatures; all 23 bundled web assets match this website source. The project author subsequently completed Android device testing, as reported on October 24, 2026.

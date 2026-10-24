@@ -1,6 +1,6 @@
 # Laptop Performance Map
 
-English · [简体中文](README.zh-CN.md)
+English · [简体中文](README.zh-CN.md) · [MIT](LICENSE)
 
 [Changelog: 1.1.0–1.2.2](CHANGELOG.md)
 
@@ -84,4 +84,10 @@ Validation covers every CPU/task combination, language switching, game/estimate 
 
 [Download Android 1.2.2](https://github.com/Sanghai-L/laptop-performance-map/releases/download/v1.2.2/Laptop-Performance-Map-1.2.2.apk) · [Release and checksums](https://github.com/Sanghai-L/laptop-performance-map/releases/tag/v1.2.2)
 
-Android 8.0 or later. The Chinese and English guide works offline; source links need a connection. The Android source is in the GitHub repository's `android-app/` directory. Package, signature, and offline webpage checks passed; installation and startup on an Android device or emulator have not been tested.
+Android 8.0 or later. The Chinese and English guide works offline; source links need a connection. The Android source is in the GitHub repository's `android-app/` directory. Package, signature, and offline webpage checks passed. Android device testing has been completed by the project author.
+
+## License
+
+Original code and documentation are licensed under the [MIT License](LICENSE), copyright (c) 2026 Sanghai-L. Keep the copyright notice and license when redistributing the project. Standalone website distributions should retain [dist/LICENSE.txt](dist/LICENSE.txt).
+
+Referenced vendor materials, original reviews, trademarks and other third-party material remain subject to their respective owners' rights and terms. This project's license does not relicense them. Sources are linked in the guide and catalog data.

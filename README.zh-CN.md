@@ -1,6 +1,6 @@
 # 笔记本性能地图
 
-[English](README.md) · 简体中文
+[English](README.md) · 简体中文 · [MIT](LICENSE)
 
 [更新说明：1.1.0–1.2.2](CHANGELOG.zh-CN.md)
 
@@ -69,4 +69,10 @@
 
 [下载 Android 1.2.2](https://github.com/Sanghai-L/laptop-performance-map/releases/download/v1.2.2/Laptop-Performance-Map-1.2.2.apk) · [版本与校验文件](https://github.com/Sanghai-L/laptop-performance-map/releases/tag/v1.2.2)
 
-支持 Android 8.0 及以上，中英文指南可离线查看，来源链接需要联网。Android 源码位于 GitHub 仓库的 `android-app/` 目录。包格式、签名和离线网页检查已通过，尚未进行 Android 真机或模拟器安装与启动验证。
+支持 Android 8.0 及以上，中英文指南可离线查看，来源链接需要联网。Android 源码位于 GitHub 仓库的 `android-app/` 目录。包格式、签名和离线网页检查已通过，作者已完成 Android 实机测试。
+
+## 开源协议
+
+项目原创代码与文档采用 [MIT 许可证](LICENSE)，版权声明为 Copyright (c) 2026 Sanghai-L。分发时保留版权声明与许可证；单独分发静态网站时，也请保留 [dist/LICENSE.txt](dist/LICENSE.txt)。
+
+引用的厂商资料、测评原文、商标等第三方内容仍受各自权利及授权条款约束，项目许可证不改变其授权。具体来源保留在页面及目录数据中。

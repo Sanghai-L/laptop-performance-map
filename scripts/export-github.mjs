@@ -16,6 +16,6 @@ async function collect(relative){
   }
 }
 // Export the standalone project. The Site binding and local browser evidence stay local.
-for(const relative of ['README.md','README.zh-CN.md','.gitignore','dist','catalogue','locales','scripts'])await collect(relative);
+for(const relative of ['README.md','README.zh-CN.md','LICENSE','.gitignore','dist','catalogue','locales','scripts'])await collect(relative);
 await writeFile(output,JSON.stringify({repository:'Sanghai-L/laptop-performance-map',files}));
 console.log(JSON.stringify({output,files:files.length,characters:(await readFile(output,'utf8')).length}));

@@ -14,7 +14,7 @@ This release adds clearer CPU profiles, workload classes, nearby-model compariso
 
 ## Validation
 
-See [validation.json](validation.json) for compilation, DEX, resource, alignment, v2/v3 signature, and bundled-file checks. All 23 bundled web assets match this repository's `dist/` files and the current Sites source. Desktop-browser checks include 522 CPU profile renders, both themes and languages, six viewport widths, state persistence and keyboard controls. No Android device or emulator was used: actual installation and Android runtime behavior remain unverified.
+See [validation.json](validation.json) for compilation, DEX, resource, alignment, v2/v3 signature, and bundled-file checks. All 23 bundled web assets match this repository's `dist/` files and the current Sites source. Desktop-browser checks include 522 CPU profile renders, both themes and languages, six viewport widths, state persistence and keyboard controls. The project author subsequently completed Android device testing, as reported on October 24, 2026.
 
 ## Rebuild on Windows x64
 
@@ -32,3 +32,7 @@ The bootstrap downloads the toolchain from the official Google and Microsoft sou
 The first local build generates a new signing key and password under `.signing/`. Keep them private and backed up. A key you generate cannot update an installation signed by the distributed release key; Android requires the same signing key for updates. The release private key and password are deliberately excluded from this repository. To use an existing private key folder, set `LAPTOP_MAP_SIGNING_DIR` locally before building; never commit that directory.
 
 Build outputs, downloaded tools, browser profiles, signing material, and local evidence directories are ignored by Git.
+
+## License
+
+The app's original source code and documentation use the [MIT License](../LICENSE), copyright (c) 2026 Sanghai-L. Referenced third-party material retains its own rights and terms.
