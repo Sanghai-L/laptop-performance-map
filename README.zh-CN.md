@@ -8,6 +8,40 @@
 
 - [中文在线版](https://cpu-field-guide-sanghai.songngao764.chatgpt.site/?lang=zh)
 - [English version](https://cpu-field-guide-sanghai.songngao764.chatgpt.site/?lang=en)
+- [Android 离线版下载](https://github.com/Sanghai-L/laptop-performance-map/releases/download/v1.2.2/Laptop-Performance-Map-1.2.2.apk)
+
+## 界面预览
+
+从三台真实轻薄本入手，再按型号查找处理器。
+
+![自然绿配色下的三台轻薄本配置示例](docs/screenshots/overview-zh.png)
+
+<details>
+<summary>处理器查询：用途定位、发布时间与相近型号差别</summary>
+
+搜索 261 项型号／配置，查看 CPU 适合的工作、发布时间、规格，以及相近型号之间的差别。
+
+![科技蓝配色下的 CPU 查询与 Core Ultra 7 258V 详情](docs/screenshots/cpu-profile-zh.png)
+
+</details>
+
+<details>
+<summary>集显游戏表现：FPS、画质与测试条件</summary>
+
+查看无畏契约、原神、3A 和部分独立游戏的表现。公开测试与性能估算分开标注，附画质条件和来源。
+
+![Radeon 8060S 的赛博朋克 2077 公开测试与画质选项](docs/screenshots/igpu-gaming-zh.png)
+
+</details>
+
+<details>
+<summary>CPU 命名规则：点选数字或后缀，查看含义</summary>
+
+覆盖 Intel、AMD、Apple、高通的新旧命名体系，包含后缀速查与常见例外。
+
+![Core Ultra 7 258V 型号拆解与 V 后缀说明](docs/screenshots/naming-guide-zh.png)
+
+</details>
 
 ## 使用
 
@@ -56,6 +90,8 @@
 - `scripts/build-naming.mjs`：校验命名资料并生成浏览器数据。
 
 修改翻译后，运行 `node scripts/build-locales.mjs`。无需构建即可打开网页。
+
+README 配图保存在 `docs/screenshots/`。源码导出会保留图片，并用 `encoding: "base64"` 标记二进制内容；SHA-256 对应原始图片文件。
 
 修改整机示例后，运行 `node scripts/build-notebooks.mjs`。
 

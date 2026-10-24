@@ -6,7 +6,40 @@ English · [简体中文](README.zh-CN.md) · [MIT](LICENSE)
 
 An interactive, beginner-friendly guide to laptop CPUs and integrated-graphics gaming. Start with the work you want to do, then explore what the hardware contributes.
 
-**[English website](https://cpu-field-guide-sanghai.songngao764.chatgpt.site/?lang=en)** · **[中文在线版](https://cpu-field-guide-sanghai.songngao764.chatgpt.site/?lang=zh)**
+**[English website](https://cpu-field-guide-sanghai.songngao764.chatgpt.site/?lang=en)** · **[中文在线版](https://cpu-field-guide-sanghai.songngao764.chatgpt.site/?lang=zh)** · **[Android APK](https://github.com/Sanghai-L/laptop-performance-map/releases/download/v1.2.2/Laptop-Performance-Map-1.2.2.apk)**
+
+## Screenshots
+
+Start with three real laptops, then look up the CPU you want to understand.
+
+![Introductory laptop examples in the Natural green theme](docs/screenshots/overview-en.png)
+
+<details>
+<summary>CPU profiles: capabilities, release timing and nearby models</summary>
+
+Search 261 model/configuration entries. See what each CPU is suited to, its release timing and how it differs from nearby models.
+
+![CPU search and the Core Ultra 7 258V profile in the Tech blue theme](docs/screenshots/cpu-profile-en.png)
+
+</details>
+
+<details>
+<summary>Integrated graphics: game FPS, settings and test conditions</summary>
+
+Check Valorant, Genshin Impact, AAA titles and selected indie games. Published measurements and performance estimates are labelled separately, with settings and sources.
+
+![Radeon 8060S gaming page showing Cyberpunk 2077 measurements and graphics settings](docs/screenshots/igpu-gaming-en.png)
+
+</details>
+
+<details>
+<summary>CPU naming: select a number or suffix to see its meaning</summary>
+
+Explore Intel, AMD, Apple and Qualcomm naming systems, including suffixes and exceptions.
+
+![Interactive breakdown of Core Ultra 7 258V with the V suffix selected](docs/screenshots/naming-guide-en.png)
+
+</details>
 
 ## Open it
 
@@ -71,6 +104,8 @@ node scripts/build-locales.mjs
 ```
 
 The browser does not require Node.js. The maintenance scripts use Node.js.
+
+README images are stored in `docs/screenshots/`. The source exporter includes them as entries with `encoding: "base64"`; their SHA-256 values refer to the original image bytes.
 
 After editing laptop examples, run `node scripts/build-notebooks.mjs`.
 
